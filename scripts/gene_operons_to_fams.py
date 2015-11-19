@@ -55,8 +55,8 @@ def read_operons(f, gi2uni, uni2fams):
             gi2uni[gi2]
         except KeyError: continue
 
-        fams1 = match(gi1,gi2uni,uni2fams,fam2tclust)
-        fams2 = match(gi2,gi2uni,uni2fams,fam2tclust)
+        fams1 = match(gi1,gi2uni,uni2fams)
+        fams2 = match(gi2,gi2uni,uni2fams)
         if fams1 and fams2:
             print "|".join(fams1),"|".join(fams2)
 
