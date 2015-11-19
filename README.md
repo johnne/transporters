@@ -20,12 +20,13 @@ identified as transporters were then matched and stored:
     trans_fams=`cut -f1 data/COG_regexp_match.tab data/Pfam-A.27.0_regexp_match.tab data/TIGRFAM.15_regexp_match.tab | cut -f1 | tr '\n' '|' | sed 's/|$//g'`
     egrep "$trans_fams" data/uniprot.2015_11.cross_ref.tab > data/uniprot.2015_11.cross_ref.regexp_match.tab
 
-Protein families were then merged based on entries in the Uniprot database:
+Protein families were then merged based on entries in the Uniprot database. By default, outgoing edges from a single protein family are limited to 3.
+Families with more edges than this threshold are saved to [data/transporter.families.filtered](data/transporter.families.filtered):
     
     cogfile="data/COG_regexp_match.tab"
     pfamfile="data/Pfam-A.27.0_regexp_match.tab"
     tigrfile="data/TIGRFAM.15_regexp_match.tab"
-    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.merged.tab 2> data/transporter.families.filtered.tab
+    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.merged.tab 2> data/transporter.families.filtered
 
 Transport clusters, protein families and descriptions were then collated:
 
