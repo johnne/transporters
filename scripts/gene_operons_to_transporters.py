@@ -56,7 +56,7 @@ def read_operons(f, gi2uni, uni2fams, fam2tclust):
         gi2 = row[1]
 
         tc1 = match(gi1,gi2uni,uni2fams,fam2tclust)
-        tc2 = match(gi1,gi2uni,uni2fams,fam2tclust)
+        tc2 = match(gi2,gi2uni,uni2fams,fam2tclust)
         if tc1 and tc2:
             print "|".join(tc1),"|".join(tc2)
 
