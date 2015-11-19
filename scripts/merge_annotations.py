@@ -38,9 +38,10 @@ def readannots(infile, limits = []):
     for key,value in a.iteritems(): a[key] = list(set(value))
     return a
 
-def mergeannots(a):
+def mergeannots(a, edgecount):
     am = {}
     parsed = {}
+    filtered = []
     i = 0
     for fam,famlist in a.iteritems():
         try: 
@@ -53,24 +54,29 @@ def mergeannots(a):
         while True:
             for f in curlist:
                 f_tmp = a[f]
+                edges = len(f_tmp)
+                ## Set limit on outgoing edges
+                if edges > edgecount:
+                    filtered.append(f)
+                    continue 
                 f_diff = set(f_tmp).difference(set(famlist))
                 newfams+=list(f_diff.difference(set(newfams)))
             famlist+=newfams
             if len(newfams)==0: break
             curlist = [x for x in newfams]
             newfams = []
-        am["T"+str(i)] = famlist
-        i+=1
+        filtered_famlist = list(set(famlist).difference(set(filtered)))
+        if len(filtered_famlist)>0:
+            am["T"+str(i)] = filtered_famlist
+            i+=1
         for f in famlist:
             parsed[f] = ""
-        
-    return am
+    return (am,list(set(filtered)))
 
 def write(am):
     hout = sys.stdout
     houtcsv = csv.writer(hout,delimiter = '\t')
     houtcsv.writerow(["TCluster","PFAM","TIGRFAM","COG"])
-
     for tc,fams in am.iteritems():
         cogs = []
         tigrs = []
@@ -90,15 +96,22 @@ def main():
             help="Infile with cross-reference between protein families (required)")
     parser.add_argument("-f", "--famfile", type=str, required=False,
             help="Limit merging to these families (optional)")
+    parser.add_argument("-e", "--edgecount", type=int, default=3,
+            help="Maximum number of outgoing connections from a single protein family. Defaults to 3. \
+                    Choose a lower number to limit the size of merged transporter clusters.")
     args = parser.parse_args()
 
     if not args.infile: sys.exit(parser.print_help())
 
     limits = readlimits(args.famfile)
-
     a = readannots(args.infile, limits)
-    am = mergeannots(a)
+    (am,filtered_fams) = mergeannots(a, args.edgecount)
     write(am)
     
+    ## Write protein families with more outgoing edges than the limit
+    hout = sys.stderr
+    for f in filtered_fams: hout.write(f+"\n")
+    hout.close()
+
 if __name__ == '__main__': 
     main()
