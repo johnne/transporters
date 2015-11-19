@@ -36,19 +36,15 @@ def read_tclust2fam(f):
     hin.close()
     return m
 
-def match(gi, gi2uni, uni2fams, fam2tclust):
+def match(gi, gi2uni, uni2fams):
     try: uni = gi2uni[gi]
     except KeyError: return False
 
     fams = uni2fams[uni]
-    tcs = []
-    for fam in fams:
-        try: tcs.append(fam2tclust[fam])
-        except KeyError: pass
-    tcs = list(set(tcs))
-    return tcs
+    fams = list(set(fams))
+    return fams
 
-def read_operons(f, gi2uni, uni2fams, fam2tclust):
+def read_operons(f, gi2uni, uni2fams):
     hin = open(f)
     hincsv = csv.reader(hin, delimiter = ' ')
     for row in hincsv:
@@ -59,19 +55,17 @@ def read_operons(f, gi2uni, uni2fams, fam2tclust):
             gi2uni[gi2]
         except KeyError: continue
 
-        tc1 = match(gi1,gi2uni,uni2fams,fam2tclust)
-        tc2 = match(gi2,gi2uni,uni2fams,fam2tclust)
-        if tc1 and tc2:
-            print "|".join(tc1),"|".join(tc2)
+        fams1 = match(gi1,gi2uni,uni2fams,fam2tclust)
+        fams2 = match(gi2,gi2uni,uni2fams,fam2tclust)
+        if fams1 and fams2:
+            print "|".join(fams1),"|".join(fams2)
 
 def main():
     parser = ArgumentParser()
     parser.add_argument("-g", "--uniprottogi", type=str, required=True,
             help="Uniprot mapping file of UniprotKB to GI accessions")
     parser.add_argument("-f", "--uniprottofams", type=str, required=True,
-            help="Uniprot to protein family annotations, cross-reference table")
-    parser.add_argument("-t", "--tclusttofam", type=str, required=True,
-            help="Transport cluster to protein family mapping")
+            help="Uniprot to protein family annotations, cross-reference table"))
     parser.add_argument("-o", "--operons", type=str, required=True,
             help="Operon database output file (see http://operondb.cbcb.umd.edu/cgi-bin/operondb/operons.cgi)")
 
@@ -79,8 +73,7 @@ def main():
 
     gi2uni = read_gi2uni(args.uniprottogi)
     uni2fams = read_uni2fam(args.uniprottofams)
-    fam2tclust = read_tclust2fam(args.tclusttofam)
-    read_operons(args.operons, gi2uni, uni2fams, fam2tclust)
+    read_operons(args.operons, gi2uni, uni2fams)
 
 if __name__=='__main__':
     main()
