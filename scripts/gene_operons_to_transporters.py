@@ -76,3 +76,6 @@ def main():
     uni2fams = read_uni2fam(args.uniprottofams)
     fam2tclust = read_tclust2fam(args.tclusttofam)
     read_operons(args.operons, gi2uni, uni2fams, fam2tclust)
+
+if __name__=='__main__':
+    main()
