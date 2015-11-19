@@ -47,6 +47,9 @@ def match(gi, gi2uni, uni2fams):
 def read_operons(f, gi2uni, uni2fams, conf):
     hin = open(f)
     hincsv = csv.reader(hin, delimiter = ' ')
+    hout = sys.stdout
+    houtcsv = csv.writer(hout, delimiter = '\t')
+    i = 0
     for row in hincsv:
         gi1 = row[0]
         gi2 = row[1]
@@ -56,11 +59,19 @@ def read_operons(f, gi2uni, uni2fams, conf):
             gi2uni[gi1]
             gi2uni[gi2]
         except KeyError: continue
-
+        
         fams1 = match(gi1,gi2uni,uni2fams)
         fams2 = match(gi2,gi2uni,uni2fams)
-        if fams1 and fams2:
-            print "|".join(fams1),"|".join(fams2)
+        fams = list(set(fams1).union(set(fams2)))
+        tigrs = []
+        cogs = []
+        pfams = []
+        i+=1
+        for f in fams:
+            if f[0:4]=="TIGR": tigrs.append(f)
+            elif f[0:3] == "COG": cogs.append(f)
+            elif f[0:2] == "PF": pfams.append(f)
+        houtcsv.writerow([i,";".join(pfams),";".join(tigrs),";".join(cogs)])
 
 def main():
     parser = ArgumentParser()
