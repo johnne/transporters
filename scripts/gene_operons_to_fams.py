@@ -44,12 +44,14 @@ def match(gi, gi2uni, uni2fams):
     fams = list(set(fams))
     return fams
 
-def read_operons(f, gi2uni, uni2fams):
+def read_operons(f, gi2uni, uni2fams, conf):
     hin = open(f)
     hincsv = csv.reader(hin, delimiter = ' ')
     for row in hincsv:
         gi1 = row[0]
         gi2 = row[1]
+        c = float(row[2])
+        if c<conf: continue ## Filter operons by confidence
         try:
             gi2uni[gi1]
             gi2uni[gi2]
@@ -68,12 +70,14 @@ def main():
             help="Uniprot to protein family annotations, cross-reference table")
     parser.add_argument("-o", "--operons", type=str, required=True,
             help="Operon database output file (see http://operondb.cbcb.umd.edu/cgi-bin/operondb/operons.cgi)")
+    parser.add_argument("-c", "--confidence", type=float, default=50.0,
+            help="Minimum confidence from operon predictions")
 
     args = parser.parse_args()
 
     gi2uni = read_gi2uni(args.uniprottogi)
     uni2fams = read_uni2fam(args.uniprottofams)
-    read_operons(args.operons, gi2uni, uni2fams)
+    read_operons(args.operons, gi2uni, uni2fams, args.confidence)
 
 if __name__=='__main__':
     main()
