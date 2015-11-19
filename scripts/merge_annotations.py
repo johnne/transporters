@@ -48,7 +48,6 @@ def mergeannots(a):
             continue
         except KeyError: pass
         famlist.append(fam)
-        print "Start:",len(famlist),
         curlist = [x for x in famlist]
         newfams = []
         while True:
@@ -60,7 +59,6 @@ def mergeannots(a):
             if len(newfams)==0: break
             curlist = [x for x in newfams]
             newfams = []
-        print "End:",len(famlist)
         am["T"+str(i)] = famlist
         i+=1
         for f in famlist:
