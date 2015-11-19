@@ -2,7 +2,7 @@
 Analysis of transporters in genomes and metagenomes.
 
 ## Identifying protein families
-[pfam] and [tigrfam] 
+[Pfam v. 27.0](ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/) and [TIGRFAM v. 15.0](ftp://ftp.jcvi.org/pub/data/TIGRFAMs/)
 databases were downloaded and extracted. The COG database was accessed directly. The protein family descriptions were then matched using regular expression:
 
     regexp="[Tt]ransport|[Ee]fflux|[Uu]ptake|[Ss]ymport|[Aa]ntiport|[Ii]mport|[Pp]ermease|[Pp]hosphotransferase|[Ee]xport|[Ss]olute[- ]binding|[Ss]ecretory|[Ss]ecretion|[Tt]on[Bb]|[Ss]u[Dd]"
@@ -12,5 +12,3 @@ databases were downloaded and extracted. The COG database was accessed directly.
 
 ## Merging protein families
 
-[pfam]: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam27.0/   "Pfam v. 27.0"
-[tigrfam]: ftp://ftp.jcvi.org/pub/data/TIGRFAMs/    "TIGRFAM v. 15.0"
