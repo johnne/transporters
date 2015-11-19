@@ -54,6 +54,10 @@ def read_operons(f, gi2uni, uni2fams, fam2tclust):
     for row in hincsv:
         gi1 = row[0]
         gi2 = row[1]
+        try:
+            gi2uni[gi1]
+            gi2uni[gi2]
+        except KeyError: continue
 
         tc1 = match(gi1,gi2uni,uni2fams,fam2tclust)
         tc2 = match(gi2,gi2uni,uni2fams,fam2tclust)
