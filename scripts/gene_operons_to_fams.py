@@ -65,7 +65,7 @@ def main():
     parser.add_argument("-g", "--uniprottogi", type=str, required=True,
             help="Uniprot mapping file of UniprotKB to GI accessions")
     parser.add_argument("-f", "--uniprottofams", type=str, required=True,
-            help="Uniprot to protein family annotations, cross-reference table"))
+            help="Uniprot to protein family annotations, cross-reference table")
     parser.add_argument("-o", "--operons", type=str, required=True,
             help="Operon database output file (see http://operondb.cbcb.umd.edu/cgi-bin/operondb/operons.cgi)")
 
