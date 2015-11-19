@@ -25,7 +25,7 @@ Protein families were then merged based on entries in the Uniprot database:
     cogfile="data/COG_regexp_match.tab"
     pfamfile="data/Pfam-A.27.0_regexp_match.tab"
     tigrfile="data/TIGRFAM.15_regexp_match.tab"
-    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.merged.tab
+    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.merged.tab 2> data/transporter.families.filtered.tab
 
 Transport clusters, protein families and descriptions were then collated:
 
