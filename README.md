@@ -29,4 +29,7 @@ Protein families were then merged based on entries in the Uniprot database:
 
 Transport clusters, protein families and descriptions were then collated:
 
-    python scripts/print_merged_to_multiline.py -i data/transporters.merged.tab -d <(cat $cogfile $pfamfile $tigrfile)
+    python scripts/print_merged_to_multiline.py -i data/transporters.merged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.merged.multiline.tab
+
+### Merging protein families by operon predictions
+**TODO**
