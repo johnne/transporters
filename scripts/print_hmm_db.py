@@ -10,8 +10,11 @@ def print_hmm(hmm):
 def main():
     try: infile = sys.argv[1]
     except IndexError: sys.exit("Usage: print_hmm_db.py <infile.hmm>")
-
-    hin = open(infile)
+    
+    if ".gz" in infile:
+        import gzip as gz
+        hin = gz.open(infile)
+    else: hin = open(infile)
     hmm = {"ACC": "", "DESC": "", "//": ""}
     for line in hin:
         line = line.rstrip()
