@@ -2,7 +2,7 @@
 Analysis of transporters in genomes and metagenomes.
 
 ## Identifying protein families
-Pfam v. 27.0 (ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam28.0/) and TIGRFAM v. 15.0 (ftp://ftp.jcvi.org/pub/data/TIGRFAMs/)
+Pfam v. 28.0 (ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam28.0/) and TIGRFAM v. 15.0 (ftp://ftp.jcvi.org/pub/data/TIGRFAMs/)
 databases were downloaded and extracted. 
 
     wget -O data/Pfam-A.28.0.hmm.gz ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam28.0/Pfam-A.hmm.gz
@@ -49,5 +49,3 @@ and parsed using [gene_operons_to_fams.py](scripts/gene_operons_to_fams.py):
 The merging table from gene operons was combined with the table from Uniprot annotations:
 
     python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/families.merged.operons.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.operons.merged.tab 2> data/transporter.operons.families.filtered
-
-
