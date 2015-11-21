@@ -26,16 +26,6 @@ def read_uni2fam(f):
     hin.close()
     return m            
 
-def read_tclust2fam(f):
-    m = {}
-    hin = open(f)
-    hincsv = csv.reader(hin, delimiter = '\t')
-    for i, row in enumerate(hincsv):
-        if i==0: continue
-        m[row[1]] = row[0]
-    hin.close()
-    return m
-
 def match(gi, gi2uni, uni2fams):
     try: uni = gi2uni[gi]
     except KeyError: return False
