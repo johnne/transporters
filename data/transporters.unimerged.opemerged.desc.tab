@@ -1,0 +1,428 @@
+TCluster	Family	Description
+T152	PF07931	Chloramphenicol phosphotransferase-like protein
+T152	COG3896	Chloramphenicol 3-O-phosphotransferase
+T153	TIGR01948	rnfE: electron transport complex, RnfABCDGE type, E subunit
+T153	TIGR01945	rnfC: electron transport complex, RnfABCDGE type, C subunit
+T153	TIGR01944	rnfB: electron transport complex, RnfABCDGE type, B subunit
+T153	TIGR01947	rnfG: electron transport complex, RnfABCDGE type, G subunit
+T153	TIGR01946	rnfD: electron transport complex, RnfABCDGE type, D subunit
+T153	TIGR01943	rnfA: electron transport complex, RnfABCDGE type, A subunit
+T150	TIGR00949	2A76: homoserine/Threonine efflux protein
+T150	COG1280	Putative threonine efflux protein
+T151	COG4778	ABC-type phosphonate transport system, ATPase component
+T151	COG4107	ABC-type phosphonate transport system, ATPase component
+T156	PF16166	Chloroplast import apparatus Tic20-like
+T156	TIGR00994	3a0901s05TIC20: chloroplast protein import component, Tic20 family
+T157	PF03773	Predicted permease
+T157	COG0701	Predicted permeases
+T154	TIGR04056	OMP_RagA_SusC: TonB-linked outer membrane protein, SusC/RagA family
+T154	TIGR04057	SusC_RagA_signa: TonB-dependent outer membrane receptor, SusC/RagA subfamily, signature region
+T155	TIGR03265	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
+T54	COG4145	Na+/panthothenate symporter
+T158	PF11130	F pilus assembly Type-IV secretion system for plasmid transfer
+T158	TIGR02746	TraC-F-type: type-IV secretion system protein TraC
+T159	PF03812	2-keto-3-deoxygluconate permease
+T159	TIGR00793	kdgT: 2-keto-3-deoxygluconate transporter
+T55	TIGR00833	actII: transport protein
+T55	COG2409	Predicted drug exporters of the RND superfamily
+T72	TIGR01844	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T73	COG0833	Amino acid transporters
+T70	PF03806	AbgT putative transporter family
+T70	TIGR00819	ydaH: AbgT transporter family
+T70	COG2978	Putative p-aminobenzoyl-glutamate transporter
+T71	TIGR03819	heli_sec_ATPase: helicase/secretion neighborhood ATPase
+T71	TIGR03815	CpaE_hom_Actino: helicase/secretion neighborhood CpaE-like protein
+T76	PF01384	Phosphate transporter family
+T76	COG1392	Phosphate transport regulator (distant homolog of PhoU)
+T76	COG0306	Phosphate/sulphate permeases
+T77	TIGR00733	TIGR00733: oligopeptide transporter, OPT family
+T77	TIGR00728	OPT_sfam: oligopeptide transporter, OPT superfamily
+T77	TIGR00727	ISP4_OPT: small oligopeptide transporter, OPT family
+T74	TIGR01272	gluP: glucose/galactose transporter WARNING
+T74	TIGR00885	fucP: L-fucose:H+ symporter permease
+T74	COG0738	Fucose permease
+T75	PF10140	WXG100 protein secretion system (Wss), protein YukC
+T75	TIGR03926	T7_EssB: type VII secretion protein EssB
+T75	TIGR03928	T7_EssCb_Firm: type VII secretion protein EssC
+T78	TIGR00771	DcuC: transporter, anaerobic C4-dicarboxylate uptake C (DcuC) family
+T78	COG3069	C4-dicarboxylate transporter
+T79	TIGR00893	2A0114: D-galactonate transporter
+T79	TIGR00881	2A0104: phosphoglycerate transporter family protein
+T79	TIGR00712	glpT: glycerol-3-phosphate transporter
+T79	COG2271	Sugar phosphate permease
+T45	PF12621	Extracellular tail, of 10TM putative phosphate transporter
+T45	PF14703	Cytosolic domain of 10TM putative phosphate transporter
+T56	PF00909	Ammonium Transporter Family
+T56	TIGR00836	amt: ammonium transporter
+T56	COG0004	Ammonia permease
+T59	PF17001	Type III secretion basal body protein I, YscI, HrpB, PscI
+T149	TIGR00637	ModE_repress: ModE molybdate transport repressor domain
+T149	COG1119	ABC-type molybdenum transport system, ATPase component/photorepair protein PhrA
+T148	COG3127	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component
+T145	PF03364	Polyketide cyclase / dehydrase and lipid transport
+T145	COG2867	Oligoketide cyclase/lipid transport protein
+T144	COG1079	Uncharacterized ABC-type transport system, permease component
+T147	PF10304	Required for nuclear transport of RNA pol II C-terminus 2
+T147	PF10363	Required for nuclear transport of RNA pol II C-terminus 1
+T146	PF05108	Type VII secretion system ESX-1, transport TM domain B
+T146	TIGR03919	T7SS_EccB: type VII secretion protein EccB
+T141	PF02374	Anion-transporting ATPase
+T141	TIGR00345	GET3_arsA_TRC40: transport-energizing ATPase, TRC40/GET3/ArsA family
+T140	TIGR00924	yjdL_sub1_fam: amino acid/peptide transporter (Peptide:H+ symporter)
+T140	TIGR00926	2A1704: oligopeptide transporter, peptide:H+ symporter
+T140	COG3104	Dipeptide/tripeptide permease
+T143	TIGR00954	3a01203: peroxysomal long chain fatty acyl transporter
+T142	TIGR02122	TRAP_TAXI: TRAP transporter solute receptor, TAXI family
+T142	COG2358	TRAP-type uncharacterized transport system, periplasmic component
+T43	TIGR00816	tdt: C4-dicarboxylate transporter/malic acid transport protein
+T43	COG1275	Tellurite resistance protein and related permeases
+T89	PF09483	Type III secretion protein (HpaP)
+T89	TIGR02557	HpaP: type III secretion protein HpaP
+T88	PF11203	Putative type VII ESX secretion system translocon, EccE
+T88	TIGR03923	T7SS_EccE: type VII secretion protein EccE
+T87	PF03605	Anaerobic c4-dicarboxylate membrane transporter
+T87	TIGR00770	Dcu: transporter, anaerobic C4-dicarboxylate uptake (Dcu) family
+T87	COG2704	Anaerobic C4-dicarboxylate transporter
+T86	TIGR01779	TonB-B12: TonB-dependent vitamin B12 receptor
+T85	PF10636	Hemin uptake protein hemP
+T85	COG4256	Hemin uptake protein
+T84	PF03865	Haemolysin secretion/activation protein ShlB/FhaC/HecB
+T84	PF05662	Coiled stalk of trimeric autotransporter adhesin
+T84	PF05658	Head domain of trimeric autotransporter adhesin
+T84	COG2831	Hemolysin activation/secretion protein
+T83	PF00939	Sodium:sulfate symporter transmembrane region
+T83	TIGR00785	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T82	TIGR03925	T7SS_EccC_b: type VII secretion protein EccCb
+T82	TIGR03924	T7SS_EccC_a: type VII secretion protein EccCa
+T81	PF06450	Bacterial Na+/H+ antiporter B (NhaB)
+T81	TIGR00774	NhaB: Na+/H+ antiporter NhaB
+T81	COG3067	Na+/H+ antiporter
+T80	COG0823	Periplasmic component of the Tol biopolymer transport system
+T138	COG3716	Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IID
+T138	COG3715	Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIC
+T138	COG3444	Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIB
+T139	TIGR04518	ECF_S_folT_fam: ECF transporter S component, folate family
+T40	PF01306	LacY proton/sugar symporter
+T40	TIGR00902	2A0127: MFS transporter, phenyl propionate permease (PPP) family
+T40	TIGR00882	2A0105: oligosaccharide:H+ symporter
+T166	PF04281	Mitochondrial import receptor subunit Tom22
+T166	TIGR00986	3a0801s05tom22: mitochondrial import receptor subunit
+T130	TIGR00934	2a38euk: potassium uptake protein, Trk family
+T131	COG1301	Na+/H+-dicarboxylate symporters
+T132	TIGR00886	2A0108: nitrite transporter
+T132	COG2223	Nitrate/nitrite transporter
+T133	TIGR00704	NaPi_cotrn_rel: Na/Pi-cotransporter II-related protein
+T133	TIGR01013	2a58: sodium-dependent inorganic phosphate (Pi) transporter
+T133	COG1283	Na+/phosphate symporter
+T134	PF03821	Golgi 4-transmembrane spanning transporter
+T134	TIGR00799	mtp: Golgi 4-transmembrane spanning transporter
+T135	PF03137	Organic Anion Transporter Polypeptide (OATP) family
+T135	TIGR00805	oat: sodium-independent organic anion transporter
+T136	TIGR01005	eps_transp_fam: exopolysaccharide transport protein family
+T137	PF07662	Na+ dependent nucleoside transporter C-terminus
+T137	PF01773	Na+ dependent nucleoside transporter N-terminus
+T137	COG1972	Nucleoside permease
+T14	PF01733	Nucleoside transporter
+T14	TIGR00939	2a57: nucleoside Transporter
+T15	COG1823	Predicted Na+/dicarboxylate symporter
+T16	TIGR00998	8a0101: efflux pump membrane protein
+T16	COG1566	Multidrug resistance efflux pump
+T17	PF12793	Sugar transport-related sRNA regulator N-term
+T17	COG4533	ABC-type uncharacterized transport system, periplasmic component
+T10	PF02705	K+ potassium transporter
+T10	TIGR00794	kup: potassium uptake protein
+T10	COG3158	K+ transporter
+T11	PF05437	Branched-chain amino acid transport protein (AzlD)
+T11	COG1687	Predicted branched-chain amino acid permeases (azaleucine resistance)
+T11	COG1296	Predicted branched-chain amino acid permease (azaleucine resistance)
+T12	PF03739	Predicted permease YjgP/YjgQ family
+T12	TIGR04408	LptG_lptG: LPS export ABC transporter permease LptG
+T12	COG0795	Predicted permeases
+T13	PF04051	Transport protein particle (TRAPP) component
+T13	COG5128	Transport protein particle (TRAPP) complex subunit
+T44	TIGR03173	pbuX: xanthine permease
+T44	TIGR03616	RutG: pyrimidine utilization transport protein G
+T18	COG4531	ABC-type Zn2+ transport system, periplasmic component/surface adhesin
+T19	COG4137	ABC-type uncharacterized transport system, permease component
+T19	COG4536	Putative Mg2+ and Co2+ transporter CorB
+T8	PF10661	WXG100 protein secretion system (Wss), protein EssA
+T8	TIGR03927	T7SS_EssA_Firm: type VII secretion protein EssA
+T9	TIGR00932	2a37: transporter, monovalent cation:proton antiporter-2 (CPA2) family
+T9	COG4651	Kef-type K+ transport system, predicted NAD-binding component
+T9	COG0475	Kef-type K+ transport systems, membrane components
+T1	PF05975	Bacterial ABC transporter protein EcsB
+T1	TIGR03740	galliderm_ABC: lantibiotic protection ABC transporter, ATP-binding subunit
+T1	TIGR01257	rim_protein: rim ABC transporter
+T1	TIGR00955	3a01204: pigment precursor permease
+T1	COG4473	Predicted ABC-type exoprotein transport system, permease component
+T1	COG1277	ABC-type transport system involved in multi-copper enzyme maturation, permease component
+T98	PF13103	TonB C terminal
+T98	PF03544	Gram-negative bacterial TonB protein C-terminal
+T98	COG0810	Periplasmic protein TonB, links inner and outer membranes
+T99	COG4594	ABC-type Fe3+-citrate transport system, periplasmic component
+T94	TIGR00775	NhaD: Na+/H+ antiporter, NhaD family
+T94	TIGR00935	2a45: arsenite/antimonite efflux pump membrane protein
+T95	COG1668	ABC-type Na+ efflux pump, permease component
+T95	COG4152	ABC-type uncharacterized transport system, ATPase component
+T95	COG4555	ABC-type Na+ transport system, ATPase component
+T96	PF08817	WXG100 protein secretion system (Wss), protein YukD
+T96	TIGR03920	T7SS_EccD: type VII secretion integral membrane protein EccD
+T97	TIGR03648	Na_symport_lg: probable sodium:solute symporter, VC_2705 subfamily
+T90	TIGR02554	PrgH: type III secretion apparatus protein PrgH/EprH
+T91	PF09828	Chromate resistance exported protein
+T91	PF02417	Chromate transporter
+T91	TIGR00937	2A51: chromate efflux transporter
+T91	COG2059	Chromate transport protein ChrA
+T92	PF03401	Tripartite tricarboxylate transporter family receptor
+T92	COG2851	H+/citrate symporter
+T93	PF06379	L-rhamnose-proton symport protein (RhaT)
+T129	COG4619	ABC-type uncharacterized transport system, ATPase component
+T128	PF06738	Putative threonine/serine exporter
+T128	PF12821	Threonine/Serine exporter, ThrE
+T123	PF07672	Mycoplasma MFS transporter
+T122	COG1805	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrB
+T122	COG2871	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrF
+T122	COG2209	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrE
+T122	COG1726	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrA
+T121	PF01636	Phosphotransferase enzyme family
+T121	COG3173	Predicted aminoglycoside phosphotransferase
+T121	COG3231	Aminoglycoside phosphotransferase
+T120	PF09930	Predicted transporter (DUF2162)
+T120	COG2215	ABC-type uncharacterized transport system, permease component
+T120	COG3683	ABC-type uncharacterized transport system, periplasmic component
+T127	PF05638	Type VI secretion system effector, Hcp
+T127	TIGR03344	VI_effect_Hcp1: type VI secretion system effector, Hcp1 family
+T126	COG0396	ABC-type transport system involved in Fe-S cluster assembly, ATPase component
+T126	COG0719	ABC-type transport system involved in Fe-S cluster assembly, permease component
+T125	PF02535	ZIP Zinc transporter
+T125	TIGR00820	zip: ZIP zinc/iron transport family
+T125	COG0428	Predicted divalent heavy-metal cations transporter
+T124	PF03616	Sodium/glutamate symporter
+T124	TIGR00210	gltS: sodium/glutamate symporter
+T124	COG0786	Na+/glutamate symporter
+T29	TIGR00797	matE: MATE efflux family protein
+T29	COG0534	Na+-driven multidrug efflux pump
+T28	PF06826	Predicted Permease Membrane Region
+T28	TIGR03802	Asp_Ala_antiprt: aspartate-alanine antiporter
+T28	TIGR01625	YidE_YbjL_dupl: AspT/YidE/YbjL antiporter duplication domain
+T0	COG5266	ABC-type Co2+ transport system, periplasmic component
+T21	PF01235	Sodium:alanine symporter family
+T21	COG1115	Na+/alanine symporter
+T20	COG4535	Putative Mg2+ and Co2+ transporter CorC
+T23	TIGR00931	antiport_nhaC: Na+/H+ antiporter NhaC
+T23	COG2056	Predicted permease
+T23	COG1757	Na+/H+ antiporter
+T22	TIGR01523	ATPase-IID_K-Na: potassium/sodium efflux P-type ATPase, fungal-type
+T25	PF08389	Exportin 1-like protein
+T25	COG5101	Importin beta-related nuclear transport receptor
+T24	COG3704	Type IV secretory pathway, VirB6 components
+T24	COG3504	Type IV secretory pathway, VirB9 components
+T24	COG3736	Type IV secretory pathway, component VirB8
+T27	PF12409	P5-type ATPase cation transporter
+T26	PF11988	Retrograde transport protein Dsl1 N terminal
+T26	PF11989	Retrograde transport protein Dsl1 C terminal
+T53	COG3833	ABC-type maltose transport systems, permease component
+T38	PF08946	Osmosensory transporter coiled coil
+T38	TIGR00887	2A0109: phosphate:H+ symporter
+T38	TIGR00883	2A0106: MFS transporter, metabolite:H+ symporter (MHS) family protein
+T38	TIGR00898	2A0119: cation transport protein
+T38	TIGR00891	2A0112: MFS transporter, sialate:H+ symporter (SHS) family
+T38	TIGR00879	SP: MFS transporter, sugar porter (SP) family
+T39	PF03239	Iron permease FTR1 family
+T39	COG2822	Predicted periplasmic lipoprotein involved in iron transport
+T39	COG0672	High-affinity Fe2+/Pb2+ permease
+T36	PF04973	Nicotinamide mononucleotide transporter
+T36	TIGR01528	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T36	COG3201	Nicotinamide mononucleotide transporter
+T37	PF01226	Formate/nitrite transporter
+T37	TIGR04060	formate_focA: formate transporter FocA
+T37	TIGR00790	fnt: formate/nitrite transporter
+T34	PF13593	SBF-like CPA transporter family (DUF4137)
+T34	PF01758	Sodium Bile acid symporter family
+T34	TIGR00841	bass: bile acid transporter
+T34	COG0798	Arsenite efflux pump ACR3 and related permeases
+T35	PF08619	Alkali metal cation/H+ antiporter Nha1 C terminus
+T35	TIGR00831	a_cpa1: Na+/H+ antiporter
+T35	TIGR00844	c_cpa1: sodium/hydrogen antiporter
+T32	COG0053	Predicted Co/Zn/Cd cation transporters
+T32	COG1230	Co/Zn/Cd efflux system component
+T33	PF01544	CorA-like Mg2+ transporter protein
+T33	TIGR00383	corA: magnesium and cobalt transport protein CorA
+T33	COG0598	Mg2+ and Co2+ transporters
+T30	PF04142	Nucleotide-sugar transporter
+T31	PF08403	Amino acid permease N-terminal
+T31	PF13906	C-terminus of AA_permease
+T31	TIGR04299	antiport_PotE: putrescine-ornithine antiporter
+T31	TIGR00907	2A0304: amino acid permease
+T31	TIGR00930	2a30: K-Cl cotransporter
+T31	TIGR00906	2A0303: cationic amino acid transport permease
+T31	TIGR03810	arg_ornith_anti: arginine-ornithine antiporter
+T31	TIGR00911	2A0308: L-type amino acid transporter
+T31	TIGR00910	2A0307_GadC: glutamate:gamma-aminobutyrate antiporter
+T202	TIGR00897	2A0118: polyol permease
+T203	COG4586	ABC-type uncharacterized transport system, ATPase component
+T200	TIGR00895	2A0115: MFS transporter, aromatic acid:H+ symporter (AAHS) family
+T201	TIGR00896	CynX: cyanate transporter
+T201	COG2807	Cyanate permease
+T204	COG1744	Uncharacterized ABC-type transport system, periplasmic component/surface lipoprotein
+T68	PF02064	MAS20 protein import receptor
+T68	TIGR00985	3a0801s04tom: mitochondrial import receptor subunit
+T49	PF09604	F subunit of K+-transporting ATPase (Potass_KdpF)
+T49	TIGR02115	potass_kdpF: K+-transporting ATPase, F subunit
+T48	TIGR02473	flagell_FliJ: flagellar export protein FliJ
+T48	TIGR03497	FliI_clade2: flagellar protein export ATPase FliI
+T48	TIGR03496	FliI_clade1: flagellar protein export ATPase FliI
+T48	TIGR03498	FliI_clade3: flagellar protein export ATPase FliI
+T48	COG1766	Flagellar biosynthesis/type III secretory pathway lipoprotein
+T198	PF05977	Transmembrane secretion effector
+T199	COG5656	Importin, protein involved in nuclear import
+T196	COG4663	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component
+T197	COG2962	Predicted permeases
+T194	COG3263	NhaP-type Na+/H+ and K+/H+ antiporters with a unique C-terminal domain
+T195	COG4662	ABC-type tungstate transport system, periplasmic component
+T192	TIGR00892	2A0113: monocarboxylate transporter
+T193	TIGR01773	GABAperm: GABA permease
+T190	PF16929	Accessory Sec system GspB-transporter
+T190	PF15432	Accessory Sec secretory system ASP3
+T191	TIGR00913	2A0310: amino acid permease (yeast)
+T116	PF03977	Na+-transporting oxaloacetate decarboxylase beta subunit
+T116	TIGR03136	malonate_biotin: Na+-transporting malonate decarboxylase, carboxybiotin decarboxylase subunit
+T116	COG1883	Na+-transporting methylmalonyl-CoA/oxaloacetate decarboxylase, beta subunit
+T117	TIGR00983	3a0801s02tim23: mitochondrial import inner membrane translocase subunit
+T117	TIGR00980	3a0801so1tim17: mitochondrial import inner membrane translocase subunit tim17
+T117	COG5596	Mitochondrial import inner membrane translocase, subunit TIM22
+T114	TIGR03657	IsdB: heme uptake protein IsdB
+T114	TIGR03656	IsdC: heme uptake protein IsdC
+T114	TIGR03658	IsdH_HarA: haptoglobin-binding heme uptake protein HarA
+T115	PF01475	Ferric uptake regulator family
+T112	PF01925	Sulfite exporter TauE/SafE
+T112	PF04143	Sulphur transport
+T112	COG0730	Predicted permeases
+T113	COG4134	ABC-type uncharacterized transport system, periplasmic component
+T110	PF09477	Bacterial type II secretion system chaperone protein (type_III_yscG)
+T111	COG4139	ABC-type cobalamin transport system, permease component
+T118	COG3562	Capsule polysaccharide export protein
+T118	COG3563	Capsule polysaccharide export protein
+T119	PF09621	Type III secretion system regulator (LcrR)
+T119	TIGR02572	LcrR: type III secretion system regulator LcrR
+T174	PF09783	Vacuolar import and degradation protein
+T174	COG5073	Vacuolar import and degradation protein
+T175	PF03253	Urea transporter
+T175	COG4413	Urea transporter
+T176	PF03886	ABC-type transport auxiliary lipoprotein component
+T177	TIGR00948	2a75: L-lysine exporter
+T177	COG1279	Lysine efflux permease
+T170	PF00520	Ion transport protein
+T170	PF08412	Ion transport protein N-terminal
+T170	PF06512	Sodium ion transport-associated
+T171	PF07996	Type IV secretion system proteins
+T172	COG4146	Predicted symporter
+T173	PF06646	High affinity transport system protein p37
+T178	PF03547	Membrane transport protein
+T178	TIGR00946	2a69: auxin efflux carrier
+T178	COG0679	Predicted permeases
+T179	TIGR00792	gph: sugar (Glycoside-Pentoside-Hexuronide) transporter
+T42	PF11728	Putative aromatic acid exporter C-terminal domain
+T42	PF06081	Aromatic acid exporter family member 1
+T189	COG5006	Predicted permease, DMT superfamily
+T188	PF08988	Type III secretion system, cytoplasmic E component of needle
+T188	TIGR02501	type_III_yscE: type III secretion system protein, YseE family
+T50	PF02447	GntP family permease
+T50	TIGR00791	gntP: transporter, gluconate:H+ symporter (GntP) family
+T50	COG2610	H+/gluconate symporter and related permeases
+T51	PF06965	Na+/H+ antiporter 1
+T51	TIGR00773	NhaA: Na+/H+ antiporter NhaA
+T51	COG3004	Na+/H+ antiporter
+T52	TIGR00802	nico: transition metal uptake transporter, Ni2+-Co2+ transporter (NiCoT) family
+T52	COG3376	High-affinity nickel permease
+T182	PF02534	Type IV secretory system Conjugative DNA transfer
+T182	COG3505	Type IV secretory pathway, VirD4 components
+T185	COG5215	Karyopherin (importin) beta
+T184	TIGR04281	peripla_PGF_1: putative ABC transporter PGF-CTERM-modified substrate-binding protein
+T187	PF12424	Plasma membrane calcium transporter ATPase C terminal
+T186	PF11700	Vacuole effluxer Atg22 like
+T186	COG2270	Permeases of the major facilitator superfamily
+T101	TIGR02551	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T101	COG1886	Flagellar motor switch/type III secretory pathway protein
+T100	PF02133	Permease for cytosine/purines, uracil, thiamine, allantoin
+T100	TIGR00800	ncs1: NCS1 nucleoside transporter family
+T100	COG1953	Cytosine/uracil/thiamine/allantoin permeases
+T100	COG1457	Purine-cytosine permease and related proteins
+T103	TIGR01713	typeII_sec_gspC: type II secretion system protein C
+T103	COG3031	Type II secretory pathway, component PulC
+T102	PF09515	Thiamine transporter protein (Thia_YuaJ)
+T102	TIGR02357	ECF_ThiT_YuaJ: energy-coupled thiamine transporter ThiT
+T105	PF02028	BCCT, betaine/carnitine/choline family transporter
+T105	TIGR00842	bcct: transporter, betaine/carnitine/choline transporter (BCCT) family
+T105	COG1292	Choline-glycine betaine transporter
+T104	TIGR02121	Na_Pro_sym: sodium/proline symporter
+T107	PF10634	Fe2+ transport protein
+T107	COG3470	Uncharacterized protein probably involved in high-affinity Fe2+ transport
+T106	PF00217	ATP:guanido phosphotransferase, C-terminal catalytic domain
+T106	PF02807	ATP:guanido phosphotransferase, N-terminal domain
+T109	PF01885	RNA 2'-phosphotransferase, Tpt1 / KptA family
+T109	COG1859	RNA:NAD 2'-phosphotransferase
+T108	PF11744	Aluminium activated malate transporter
+T108	PF10337	Putative ER transporter, 6TM, N-terminal
+T108	PF10334	Aromatic acid exporter family member 2
+T41	PF00916	Sulfate permease family
+T41	TIGR00815	sulP: sulfate permease
+T41	COG0659	Sulfate permease and related transporters (MFS superfamily)
+T167	COG2252	Permeases
+T58	PF03349	Outer membrane protein transport protein (OMPP1/FadL/TodX)
+T58	COG2067	Long-chain fatty acid transport protein
+T165	TIGR03929	T7_esaA_Nterm: type VII secretion protein EsaA
+T165	TIGR03930	WXG100_ESAT6: WXG100 family type VII secretion target
+T164	PF13000	Acetyl-coenzyme A transporter 1
+T164	TIGR00901	2A0125: AmpG-like permease
+T163	PF03390	2-hydroxycarboxylate transporter family
+T163	COG3493	Na+/citrate symporter
+T162	TIGR01197	nramp: metal ion transporter, metal ion (Mn2+/Fe2+) transporter (Nramp) family
+T162	COG1914	Mn2+ and Fe2+ transporters of the NRAMP family
+T161	PF03594	Benzoate membrane transport protein
+T161	TIGR00843	benE: benzoate transporter
+T160	TIGR00890	2A0111: oxalate/formate antiporter family transporter
+T160	TIGR04259	oxa_formateAnti: oxalate/formate antiporter
+T6	COG1826	Sec-independent protein secretion pathway components
+T6	COG0805	Sec-independent protein secretion pathway component TatC
+T7	TIGR03022	WbaP_sugtrans: undecaprenyl-phosphate galactose phosphotransferase WbaP
+T7	TIGR03023	WcaJ_sugtrans: undecaprenyl-phosphate glucose phosphotransferase
+T7	TIGR03025	EPS_sugtrans: exopolysaccharide biosynthesis polyprenyl glycosylphosphotransferase
+T4	PF09474	Type III secretion system YscX (type_III_YscX)
+T4	TIGR02503	type_III_SycN: type III secretion chaperone SycN
+T4	TIGR02502	type_III_YscX: type III secretion protein, YscX family
+T5	PF03151	Triose-phosphate Transporter family
+T2	TIGR01192	chvA: glucan exporter ATP-binding protein
+T2	TIGR02203	MsbA_lipidA: lipid A export permease/ATP-binding protein MsbA
+T2	TIGR00958	3a01208: antigen peptide transporter 2
+T3	COG4591	ABC-type transport system, involved in lipoprotein release, permease component
+T169	PF09819	ABC-type cobalt transport system, permease component
+T168	TIGR01647	ATPase-IIIA_H: plasma-membrane proton-efflux P-type ATPase
+T69	COG1447	Phosphotransferase system cellobiose-specific component IIA
+T57	PF01490	Transmembrane amino acid transporter protein
+T57	PF03222	Tryptophan/tyrosine permease family
+T57	TIGR00814	stp: serine transporter
+T57	TIGR00837	araaP: aromatic amino acid transport protein
+T65	PF04392	ABC transporter substrate binding protein
+T65	COG2984	ABC-type uncharacterized transport system, periplasmic component
+T64	PF03491	Serotonin (5-HT) neurotransmitter transporter, N-terminus
+T67	PF01749	Importin beta binding domain
+T67	COG5064	Karyopherin (importin) alpha
+T66	TIGR01194	cyc_pep_trnsptr: cyclic peptide transporter
+T61	PF04888	Secretion system effector C (SseC) like family
+T61	TIGR02101	IpaC_SipC: type III secretion target, IpaC/SipC family
+T61	TIGR02552	LcrH_SycD: type III secretion low calcium response chaperone LcrH/SycD
+T60	TIGR00439	ftsX: putative protein insertion permease FtsX
+T63	COG5571	Autotransporter protein or domain, integral membrane beta-barrel involved in protein secretion
+T62	PF01769	Divalent cation transporter
+T62	TIGR00400	mgtE: magnesium transporter
+T62	COG2239	Mg/Co/Ni transporter MgtE (contains CBS domain)
+T181	PF02667	Short chain fatty acid transporter
+T181	COG2031	Short chain fatty acids transporter
+T180	PF16326	ABC transporter C-terminal domain
+T47	PF02652	L-lactate permease
+T47	TIGR00795	lctP: transporter, lactate permease (LctP) family
+T47	COG1620	L-lactate permease
+T183	PF11262	Transcription factor/nuclear export subunit protein 2
+T183	PF11732	Transcription- and export-related complex subunit
+T46	TIGR00950	2A78: carboxylate/amino acid/amine transporter
