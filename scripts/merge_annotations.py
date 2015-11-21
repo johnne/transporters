@@ -76,8 +76,8 @@ def mergeannots(a, edgecount):
 def write(am):
     hout = sys.stdout
     houtcsv = csv.writer(hout,delimiter = '\t')
-    houtcsv.writerow(["TCluster","PFAM","TIGRFAM","COG"])
-    for tc,fams in am.iteritems():
+    houtcsv.writerow(["TransportGroup","PFAM","TIGRFAM","COG"])
+    for tg,fams in am.iteritems():
         cogs = []
         tigrs = []
         pfams = []
@@ -87,7 +87,7 @@ def write(am):
                 elif f[0:3] == "COG": cogs.append(f)
                 elif f[0:2] == "PF": pfams.append(f)
             except IndexError: continue
-        houtcsv.writerow([tc,"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
+        houtcsv.writerow([tg,"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
     hout.close()
 
 def main():
