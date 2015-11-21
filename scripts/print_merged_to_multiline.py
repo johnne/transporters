@@ -13,7 +13,7 @@ def readdescs(descriptions):
     return d
 
 def readmerged(infile):
-    tclusters = {}
+    tgroups = {}
     hin = open(infile)
     hincsv = csv.reader(hin, delimiter = '\t')
     for i,row in enumerate(hincsv):
@@ -22,15 +22,15 @@ def readmerged(infile):
         for item in row[1:]:
             if item=="": continue
             fams+=item.split("|")
-        tclusters[row[0]] = fams
+        tgroups[row[0]] = fams
     hin.close()
-    return tclusters
+    return tgroups
 
-def write(tclusters, descs):
+def write(tgroups, descs):
     hout = sys.stdout
     houtcsv = csv.writer(hout, delimiter = '\t')
-    houtcsv.writerow(["TCluster","Family","Description"])
-    for t,fams in tclusters.iteritems():
+    houtcsv.writerow(["TransporterGroup","Family","Description"])
+    for t,fams in tgroups.iteritems():
         for fam in fams:
             houtcsv.writerow([t,fam,descs[fam]])
     hout.close()
@@ -46,9 +46,9 @@ def main():
 
     descs = readdescs(args.descriptions)
 
-    tclusters = readmerged(args.infile)
+    tgroups = readmerged(args.infile)
 
-    write(tclusters, descs)
+    write(tgroups, descs)
 
 if __name__ == '__main__':
     main()
