@@ -12,8 +12,8 @@ This first merging of families into "Transport groups" was refined using operon 
 If transporter families were found to occupy the same predicted operon, the were further merged.
 
 The main files of interested are:
-* [transporters.unimerged.tab](data/transporters.unimerged.tab): Transporters merged using the Uniprot cross-reference
-* [transporters.unimerged.opemerged.tab](data/transporters.unimerged.opemerged.tab): Further refinement of groupings by operon predictions
+* [transporters.unimerged.desc.tab](data/transporters.unimerged.desc.tab): Transporters merged using the Uniprot cross-reference
+* [transporters.unimerged.opemerged.desc.tab](data/transporters.unimerged.opemerged.desc.tab): Further refinement of groupings by operon predictions
 * [transporters.tab](data/transporters.tab): Manually curated transporter groups with putative compound categories
 
 The workflow for these steps are detailed below:
@@ -55,7 +55,7 @@ Families with more edges than this threshold are saved to [data/transporter.fami
 
 Transport clusters, protein families and descriptions were then collated:
 
-    python scripts/print_merged_to_multiline.py -i data/transporters.merged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.merged.multiline.tab
+    python scripts/print_merged_to_multiline.py -i data/transporters.unimerged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.desc.tab
 
 #### 2.2 Operon predictions
 Protein family merging was further refined using gene operon predictions downloaded from OperonDB (ftp://ftp.cbcb.umd.edu/pub/data/operondb/).
@@ -74,8 +74,12 @@ it as [data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab](data/uniprot.2
 
 Next, parse the operon predictions.
 
-    python scripts/gene_operons_to_fams.py -g data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab.txt -f data/uniprot.2015_11.cross_ref.regexp_match.tab -o data/operons.gz > data/families.opemerged.tab
+    python scripts/gene_operons_to_fams.py -g data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab -f data/uniprot.2015_11.cross_ref.regexp_match.tab -o data/operons.gz > data/families.operon.cross_ref.tab
 
 The merging table from gene operons was combined with the table from Uniprot annotations:
 
-    python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/families.opemerged.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.tab 2> data/transporter.operons.families.filtered
+    python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/families.operon.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.tab 2> data/transporter.operons.families.filtered
+
+And then transporter groups were printed with descriptions for protein families:
+
+    python scripts/print_merged_to_multiline.py -i data/transporters.unimerged.opemerged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.desc.tab
