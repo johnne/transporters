@@ -41,10 +41,23 @@ Transport clusters, protein families and descriptions were then collated:
     python scripts/print_merged_to_multiline.py -i data/transporters.merged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.merged.multiline.tab
 
 ### Operon predictions
-Protein family merging was further refined using gene operon predictions downloaded from OperonDB (ftp://ftp.cbcb.umd.edu/pub/data/operondb/operon_predictions.tgz). All predictions were concatenated
-and parsed using [gene_operons_to_fams.py](scripts/gene_operons_to_fams.py):
+Protein family merging was further refined using gene operon predictions downloaded from OperonDB (ftp://ftp.cbcb.umd.edu/pub/data/operondb/).
 
-    python scripts/gene_operons_to_fams.py -g data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab.txt -f data/uniprot.2015_11.cross_ref.regexp_match.tab -o data/all.operons > data/families.merged.operons.tab
+    wget -O data/operon_predictions.tgz ftp://ftp.cbcb.umd.edu/pub/data/operondb/operon_predictions.tgz
+    cat prediction/*.operons | gzip -c > data/operons.gz
+    rm -r prediction data/operon_predictions.tgz
+
+Predictions were parsed using [gene_operons_to_fams.py](scripts/gene_operons_to_fams.py). 
+For this, **a mapping table of UniProt accessions to NCBI GI numbers are needed**. Create a file containing the ids to map:
+
+    cut -f1 data/uniprot.2015_11.cross_ref.regexp_match.tab > data/uniprot.2015_11.cross_ref.regexp_match.ids
+
+Then go to http://www.uniprot.org/uploadlists/, upload that list and choose to map From 'UniProktKB AC/ID' To 'GI number'. Download the mapping table and store
+it as [data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab](data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab).
+
+Next, parse the operon predictions.
+
+    python scripts/gene_operons_to_fams.py -g data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab.txt -f data/uniprot.2015_11.cross_ref.regexp_match.tab -o data/operons.gz > data/families.merged.operons.tab
 
 The merging table from gene operons was combined with the table from Uniprot annotations:
 
