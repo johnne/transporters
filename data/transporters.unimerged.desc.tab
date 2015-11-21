@@ -1,4 +1,4 @@
-TCluster	Family	Description
+TransporterGroups	Family	Description
 T152	TIGR01183	ntrB: nitrate ABC transporter, permease protein
 T152	COG0600	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component
 T153	TIGR02789	nickel_nikB: nickel ABC transporter, permease subunit NikB
