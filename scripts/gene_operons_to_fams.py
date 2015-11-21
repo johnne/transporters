@@ -45,7 +45,10 @@ def match(gi, gi2uni, uni2fams):
     return fams
 
 def read_operons(f, gi2uni, uni2fams, conf):
-    hin = open(f)
+    if ".gz" in f:
+        import gzip as gz
+        hin = gz.open(f)
+    else: hin = open(f)
     hincsv = csv.reader(hin, delimiter = ' ')
     hout = sys.stdout
     houtcsv = csv.writer(hout, delimiter = '\t')
@@ -72,6 +75,7 @@ def read_operons(f, gi2uni, uni2fams, conf):
             elif f[0:3] == "COG": cogs.append(f)
             elif f[0:2] == "PF": pfams.append(f)
         houtcsv.writerow([i,";".join(pfams),";".join(tigrs),";".join(cogs)])
+    hin.close()
 
 def main():
     parser = ArgumentParser()
