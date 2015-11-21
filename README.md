@@ -52,7 +52,7 @@ For this, **a mapping table of UniProt accessions to NCBI GI numbers are needed*
 
     cut -f1 data/uniprot.2015_11.cross_ref.regexp_match.tab > data/uniprot.2015_11.cross_ref.regexp_match.ids
 
-Then go to http://www.uniprot.org/uploadlists/, upload that list and choose to map From 'UniProktKB AC/ID' To 'GI number'. Download the mapping table and store
+Then go to http://www.uniprot.org/uploadlists/, upload the [data/uniprot.2015_11.cross_ref.regexp_match.ids](data/uniprot.2015_11.cross_ref.regexp_match.ids) list and choose to map From 'UniProktKB AC/ID' To 'GI number'. Download the mapping table and store
 it as [data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab](data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab).
 
 Next, parse the operon predictions.
