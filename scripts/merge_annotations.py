@@ -26,12 +26,11 @@ def readannots(infile, limits = []):
         fams = list(set(fams))
         try: fams.remove("")
         except ValueError: pass
-        if fams[0] == "PF14524": print fams,"PF14524" in limits
         
         ## Handle case if there is only one family for the row
         if len(fams)==1:
             if len(limits)>0 and not fams[0] in limits: continue ## Don't add if we're filtering
-            a[fam] = []
+            a[fams[0]] = []
             continue
 
         for fam in fams:
