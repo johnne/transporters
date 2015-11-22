@@ -53,7 +53,8 @@ def mergeannots(a, edgecount):
     for fam,famlist in a.iteritems():
         ## If famlist is empty, add the family as its own transporter
         if len(famlist)==0:
-            am["T"+str(i)] = filtered_famlist
+            am["T"+str(i)] = [fam]
+            parsed[fam] = ""
             i+=1
             continue
 
