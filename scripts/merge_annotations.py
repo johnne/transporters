@@ -26,6 +26,7 @@ def readannots(infile, limits = []):
         fams = list(set(fams))
         try: fams.remove("")
         except ValueError: pass
+        if fams[0] == "PF14524": print fams,"PF14524" in limits
         
         ## Handle case if there is only one family for the row
         if len(fams)==1:
@@ -43,7 +44,6 @@ def readannots(infile, limits = []):
     hin.close()
 
     for key,value in a.iteritems(): a[key] = list(set(value))
-    print a["PF14524"]
     return a
 
 def mergeannots(a, edgecount):
