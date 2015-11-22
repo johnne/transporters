@@ -5,6 +5,7 @@ import sys, csv
 from argparse import ArgumentParser
 
 def readlimits(famfile):
+    '''Reads protein families to include (to the exclusion of all others)'''
     if not famfile: return []
     limits = []
     hin = open(famfile)
@@ -39,38 +40,51 @@ def readannots(infile, limits = []):
     return a
 
 def mergeannots(a, edgecount):
-    am = {}
-    parsed = {}
-    filtered = []
+    am = {} ## Holds the merged annotations, keys are transporters, values are lists of families
+    parsed = {} ## Holds all families that have been parsed already as keys
+    filtered = [] ## Holds families with too high edgecount
     i = 0
+    ## Iterate protein family and the list of protein families it matches to
     for fam,famlist in a.iteritems():
-        try: 
-            parsed[fam]
-            continue
-        except KeyError: pass
+        ## If family has been parsed, continue
+        if fam in parsed.keys(): continue
+        ## If this is the first time parsing this family, append it to its own list
         famlist.append(fam)
+        ## Make a copy of the family list
         curlist = [x for x in famlist]
+        ## Initialize the list where we'll save all new families
         newfams = []
         while True:
             for f in curlist:
-                f_tmp = a[f]
-                edges = len(f_tmp)
-                ## Set limit on outgoing edges
+                ## Iterate the current list and get list of matching families
+                fams_tmp = a[f]
+                edges = len(fams_tmp)
+                ## Check outgoing edges from family 'f',
+                ## if greater than the edgecount threshold, add it to the 'filtered' list and continue
                 if edges > edgecount:
                     filtered.append(f)
                     continue 
-                f_diff = set(f_tmp).difference(set(famlist))
+                ## If not, add family 'f' to fams_tmp
+                fams_tmp.append(f)
+                ## Then add the new families detected for 'f' to 'newfams'
+                f_diff = set(fams_tmp).difference(set(famlist))
                 newfams+=list(f_diff.difference(set(newfams)))
+            ## Add all newly found families to 'famlist'
             famlist+=newfams
+            ## If there are no new families, break the loop
             if len(newfams)==0: break
+            ## Update the current list so that we will only loop the new families found
             curlist = [x for x in newfams]
+            ## Reset newfams
             newfams = []
+        ## Remove filtered families from famlist
         filtered_famlist = list(set(famlist).difference(set(filtered)))
+        ## Assign transporters to the am dictionary
         if len(filtered_famlist)>0:
             am["T"+str(i)] = filtered_famlist
             i+=1
-        for f in famlist:
-            parsed[f] = ""
+        ## Add all parsed families to parsed
+        for f in famlist: parsed[f] = ""
     return (am,list(set(filtered)))
 
 def write(am):
