@@ -51,6 +51,12 @@ def mergeannots(a, edgecount):
     i = 0
     ## Iterate protein family and the list of protein families it matches to
     for fam,famlist in a.iteritems():
+        ## If famlist is empty, add the family as its own transporter
+        if len(famlist)==0:
+            am["T"+str(i)] = filtered_famlist
+            i+=1
+            continue
+
         ## If family has been parsed, continue
         if fam in parsed.keys(): continue
         ## If this is the first time parsing this family, append it to its own list
