@@ -43,6 +43,7 @@ def readannots(infile, limits = []):
     hin.close()
 
     for key,value in a.iteritems(): a[key] = list(set(value))
+    print a["PF14524"]
     return a
 
 def mergeannots(a, edgecount):
