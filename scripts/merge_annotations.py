@@ -29,6 +29,7 @@ def readannots(infile, limits = []):
         
         ## Handle case if there is only one family for the row
         if len(fams)==1:
+            if len(limits)>0 and not fams[0] in limits: continue ## Don't add if we're filtering
             a[fam] = []
             continue
 
