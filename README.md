@@ -12,6 +12,7 @@ This first merging of families into "Transport groups" was refined using operon 
 If transporter families were found to occupy the same predicted operon, the were further merged.
 
 **- The first merging step produced 696 transporters**
+
 **- The second merging step reduced the number to 554 transporters**
 
 The main files of interested are:
