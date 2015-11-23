@@ -97,3 +97,9 @@ to allow more connecting edges:
 And then transporter groups were printed with descriptions for protein families:
 
     python scripts/print_merged_to_multiline.py -i data/transporters.unimerged.opemerged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.desc.tab
+#### Optional: Get descriptions of filtered families
+If you want to see which families were filtered, their outgoing edgecount and description, run the following command:
+
+    ls data/*.filtered | while read file; do cat $file | while read line; do f=`echo "$line"|cut -f1`; c=`echo "$line" | cut -f2`; d=`grep -w $f $cogfile $pfamfile $tigrfile| cut -f2`; echo -e "$f\t$c\t$d"; done > $file.desc.tab ; done
+
+Then view the output files data/\*.filtered.tab
