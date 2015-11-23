@@ -115,14 +115,12 @@ def write(am):
                 elif f[0:2] == "PF": pfams.append(f)
             except IndexError: continue
         houtcsv.writerow([tg,"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
-    hout.close()
 
 def write_filtered(filtered_fams, a):
     edgecounts = {}
     for f in filtered_fams: edgecounts[f] = len(a[f])+1
     ## Sort by edgecount
     import operator
-    edgecounts = {}
     sorted_edges = sorted(edgecounts.items(), key=operator.itemgetter(1), reverse=True)
     hout = sys.stderr
     for item in sorted_edges: hout.write(item[0]+"\t"+str(item[1])+"\n")
@@ -140,14 +138,20 @@ def main():
     args = parser.parse_args()
 
     if not args.infile: sys.exit(parser.print_help())
-
+    
+    ## Read family limits
     limits = readlimits(args.famfile)
+    
+    ## Read annotations
     a = readannots(args.infile, limits)
+
+    ## Merge and also returned families filtered by edgecount
     (am,filtered_fams) = mergeannots(a, args.edgecount)
+    
+    ## Write mergings
     write(am)
     
     ## Write protein families with more outgoing edges than the limit
-    print filtered_fams
     write_filtered(filtered_fams, a)
 
 if __name__ == '__main__': 
