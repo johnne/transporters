@@ -138,7 +138,7 @@ def main():
     ## Write protein families with more outgoing edges than the limit
     hout = sys.stderr
     for f in filtered_fams: 
-        hout.write(f+str(len(a[f])+1)+"\n")
+        hout.write(f+"\t"+str(len(a[f])+1)+"\n")
     hout.close()
 
 if __name__ == '__main__': 
