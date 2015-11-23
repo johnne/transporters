@@ -128,7 +128,6 @@ def write_filtered(filtered_fams, a):
     for item in sorted_edges: hout.write(item[0]+"\t"+str(item[1])+"\n")
     hout.close()
 
-
 def main():
     parser = ArgumentParser()
     parser.add_argument("-i", "--infile", type=str, required=True,
@@ -148,6 +147,7 @@ def main():
     write(am)
     
     ## Write protein families with more outgoing edges than the limit
+    print filtered_fams
     write_filtered(filtered_fams, a)
 
 if __name__ == '__main__': 
