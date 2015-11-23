@@ -89,7 +89,8 @@ Merge annotations based on operon predictions:
     python scripts/merge_annotations.py -i data/operons.cross_ref.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.opemerged.tab 2> data/transporters.opemerged.filtered
 
 #### 2.3 Combine Uniprot and operon predictions
-Also combine uniprot and operon cross-refs, and ignore families filtered in the Uniprot mergingThe merging table from gene operons was combined with the table from Uniprot annotations:
+Also combine uniprot and operon cross-refs, and ignore families filtered in the Uniprot merging. Here the edgecounts threshold was increased to 9
+to allow more connecting edges:
 
     python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/operons.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile | egrep -w -v "$filtered") > data/transporters.unimerged.opemerged.tab 2> data/transporters.unimerged.opemerged.filtered
 
