@@ -82,7 +82,7 @@ Next, parse the operon predictions.
 
 The merging table from gene operons was combined with the table from Uniprot annotations:
 
-    python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/families.operon.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.tab 2> data/transporter.operons.families.filtered
+    python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/families.operon.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.tab 2> data/transporters.unimerged.opemerged.filtered
 
 And then transporter groups were printed with descriptions for protein families:
 
