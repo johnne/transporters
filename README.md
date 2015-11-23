@@ -92,7 +92,7 @@ Merge annotations based on operon predictions:
 Also combine uniprot and operon cross-refs, and ignore families filtered in the Uniprot merging. Here the edgecounts threshold was increased to 9
 to allow more connecting edges:
 
-    python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/operons.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile | egrep -w -v "$filtered") > data/transporters.unimerged.opemerged.tab 2> data/transporters.unimerged.opemerged.filtered
+    python scripts/merge_annotations.py -e 9 -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/operons.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile | egrep -w -v "$filtered") > data/transporters.unimerged.opemerged.tab 2> data/transporters.unimerged.opemerged.filtered
 
 And then transporter groups were printed with descriptions for protein families:
 
