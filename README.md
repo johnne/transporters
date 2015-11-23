@@ -46,7 +46,7 @@ A [cross-reference table](http://www.uniprot.org/uniprot/?query=*&fil=reviewed%3
 for 549,832 reviewed proteins and saved as [data/uniprot.2015_11.cross_ref.tab](data/uniprot.2015_11.cross_ref.tab). All entries matching the protein families
 identified as transporters were then matched and stored:
 
-    trans_fams=`cut -f1 data/COG_regexp_match.tab data/Pfam-A.28.0_regexp_match.tab data/TIGRFAM.15_regexp_match.tab | cut -f1 | tr '\n' '|' | sed 's/|$//g'`
+    trans_fams=`cut -f1 data/COG_regexp_match.tab data/Pfam-A.28.0_regexp_match.tab data/TIGRFAM.15_regexp_match.tab | tr '\n' '|' | sed 's/|$//g'`
     egrep "$trans_fams" data/uniprot.2015_11.cross_ref.tab > data/uniprot.2015_11.cross_ref.regexp_match.tab
 
 Protein families were then merged based on entries in the Uniprot database. By default, outgoing edges from a single protein family are limited to 6.
@@ -56,6 +56,10 @@ Families with more edges than this threshold are saved to [data/transporter.fami
     pfamfile="data/Pfam-A.28.0_regexp_match.tab"
     tigrfile="data/TIGRFAM.15_regexp_match.tab"
     python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.tab 2> data/transporters.unimerged.filtered
+
+Store filtered families in variable:
+
+    filtered=`cut -f1 data/transporters.unimerged.filtered | tr '\n' '|' | sed 's/|$//g'`
 
 Transport clusters, protein families and descriptions were then collated:
 
@@ -84,9 +88,10 @@ Merge annotations based on operon predictions:
 
     python scripts/merge_annotations.py -i data/operons.cross_ref.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.opemerged.tab 2> data/transporters.opemerged.filtered
 
-The merging table from gene operons was combined with the table from Uniprot annotations:
+#### 2.3 Combine Uniprot and operon predictions
+Also combine uniprot and operon cross-refs, and ignore families filtered in the Uniprot mergingThe merging table from gene operons was combined with the table from Uniprot annotations:
 
-    python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/operons.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.tab 2> data/transporters.unimerged.opemerged.filtered
+    python scripts/merge_annotations.py -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/operons.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile | egrep -w -v "$filtered") > data/transporters.unimerged.opemerged.tab 2> data/transporters.unimerged.opemerged.filtered
 
 And then transporter groups were printed with descriptions for protein families:
 
