@@ -18,7 +18,6 @@ def readannots(infile, limits = []):
     hin = open(infile, 'r')
     hincsv = csv.reader(hin, delimiter = '\t')
     for i,row in enumerate(hincsv):
-        if i==0: continue
         fams = []
         for item in row[1:]:
             item = item.rstrip(";")
@@ -30,7 +29,7 @@ def readannots(infile, limits = []):
         ## Handle case if there is only one family for the row
         if len(fams)==1:
             if len(limits)>0 and not fams[0] in limits: continue ## Don't add if we're filtering
-            a[fams[0]] = []
+            if not fams[0] in a.keys(): a[fams[0]] = [] ## Only set empty list if first time seen
             continue
 
         for fam in fams:
@@ -39,7 +38,7 @@ def readannots(infile, limits = []):
                 if len(limits)>0 and not fam2 in limits: continue            
                 if fam==fam2: continue
                 try: a[fam].append(fam2)
-                except KeyError: a[fam] = [fam2]
+                except KeyError: a[fam] = [fam2]        
     hin.close()
 
     for key,value in a.iteritems(): a[key] = list(set(value))
