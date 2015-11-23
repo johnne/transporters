@@ -11,9 +11,9 @@ were ignored (see the --edgecount flag for [merge_annotations.py](scripts/merge_
 This first merging of families into "Transport groups" was refined using operon predictions from [OperonDB](http://operondb.cbcb.umd.edu/cgi-bin/operondb/operons.cgi).
 If transporter families were found to occupy the same predicted operon, the were further merged.
 
-**- The first merging step produced 696 transporters**
+**- The first merging step produced  transporters**
 
-**- The second merging step reduced the number to 554 transporters**
+**- The second merging step reduced the number to  transporters**
 
 The main files of interested are:
 * [transporters.unimerged.desc.tab](data/transporters.unimerged.desc.tab): Transporters merged using the Uniprot cross-reference
@@ -49,13 +49,13 @@ identified as transporters were then matched and stored:
     trans_fams=`cut -f1 data/COG_regexp_match.tab data/Pfam-A.28.0_regexp_match.tab data/TIGRFAM.15_regexp_match.tab | cut -f1 | tr '\n' '|' | sed 's/|$//g'`
     egrep "$trans_fams" data/uniprot.2015_11.cross_ref.tab > data/uniprot.2015_11.cross_ref.regexp_match.tab
 
-Protein families were then merged based on entries in the Uniprot database. By default, outgoing edges from a single protein family are limited to 3.
+Protein families were then merged based on entries in the Uniprot database. By default, outgoing edges from a single protein family are limited to 6.
 Families with more edges than this threshold are saved to [data/transporter.families.filtered](data/transporter.families.filtered):
     
     cogfile="data/COG_regexp_match.tab"
     pfamfile="data/Pfam-A.28.0_regexp_match.tab"
     tigrfile="data/TIGRFAM.15_regexp_match.tab"
-    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.tab 2> data/transporter.families.filtered
+    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.tab 2> data/transporters.unimerged.filtered
 
 Transport clusters, protein families and descriptions were then collated:
 
@@ -78,7 +78,7 @@ it as [data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab](data/uniprot.2
 
 Next, parse the operon predictions.
 
-    python scripts/gene_operons_to_fams.py -g data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab -f data/uniprot.2015_11.cross_ref.regexp_match.tab -o data/operons.gz > data/families.operon.cross_ref.tab
+    python scripts/gene_operons_to_fams.py -g data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab -f data/uniprot.2015_11.cross_ref.regexp_match.tab -o data/operons.gz > data/operons.cross_ref.tab
 
 The merging table from gene operons was combined with the table from Uniprot annotations:
 
