@@ -136,9 +136,13 @@ def main():
     write(am)
     
     ## Write protein families with more outgoing edges than the limit
+    ## Sort by edgecount
+    import operator
+    sorted_a = sorted(a.items(), key=operator.itemgetter(1), reverse=True)
     hout = sys.stderr
-    for f in filtered_fams: 
-        hout.write(f+"\t"+str(len(a[f])+1)+"\n")
+    for item in sorted_a:
+        if item[0] in filtered_fams:
+            hout.write(item[0]+"\t"+str(item[1])+"\n")
     hout.close()
 
 if __name__ == '__main__': 
