@@ -1,40 +1,31 @@
-COG0444	30	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
-PF00496	21	Bacterial extracellular solute-binding proteins, family 5 Middle
+COG0444	22	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
+PF00496	20	Bacterial extracellular solute-binding proteins, family 5 Middle
 COG0555	18	ABC-type sulfate transport system, permease component
-PF01032	18	FecCD transport family
+PF01032	17	FecCD transport family
 TIGR01404	17	FlhB_rel_III: type III secretion protein, YscU/HrpY family
 PF12911	16	N-terminal TM domain of oligopeptide transport permease C
-PF00359	16	Phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2
 PF00437	15	Type II/IV secretion system protein
-COG1762	15	Phosphotransferase system mannitol/fructose-specific IIA domain (Ntr-type)
-PF00593	15	TonB dependent receptor
-TIGR01288	14	nodI: nodulation ABC transporter NodI
-TIGR00944	14	2a6301s04: multicomponent K+:H+antiporter
-PF00361	14	Proton-conducting membrane transporter
 COG3842	14	ABC-type spermidine/putrescine transport systems, ATPase components
-COG0651	14	Formate hydrogenlyase subunit 3/Multisubunit Na+/H+ antiporter, MnhD subunit
+COG1762	14	Phosphotransferase system mannitol/fructose-specific IIA domain (Ntr-type)
 COG1173	13	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
 COG0747	13	ABC-type dipeptide transport system, periplasmic component
+TIGR00944	13	2a6301s04: multicomponent K+:H+antiporter
+COG0651	13	Formate hydrogenlyase subunit 3/Multisubunit Na+/H+ antiporter, MnhD subunit
 COG2165	13	Type II secretory pathway, pseudopilin PulG
-PF01514	12	Secretory protein of YscJ/FliF family
 PF01547	12	Bacterial extracellular solute-binding protein
 COG0601	12	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
-COG0609	12	ABC-type Fe3+-siderophore transport system, permease component
 TIGR01730	12	RND_mfp: efflux transporter, RND family, MFP subunit
-COG1009	11	NADH:ubiquinone oxidoreductase subunit 5 (chain L)/Multisubunit Na+/H+ antiporter, MnhA subunit
+PF01514	12	Secretory protein of YscJ/FliF family
 COG4795	11	Type II secretory pathway, component PulJ
-PF01899	11	Na+/H+ ion antiporter subunit
-COG1135	11	ABC-type metal ion transport system, ATPase component
-PF02361	11	Cobalt transport protein
 PF11612	11	Type II secretion system (T2SS), protein J
+PF02361	11	Cobalt transport protein
+COG0609	11	ABC-type Fe3+-siderophore transport system, permease component
 TIGR01711	11	gspJ: type II secretion system protein J
-COG4166	11	ABC-type oligopeptide transport system, periplasmic component
 TIGR02790	11	nickel_nikC: nickel ABC transporter, permease subunit NikC
 TIGR02533	11	type_II_gspE: type II secretion system protein E
-PF07715	11	TonB-dependent Receptor Plug Domain
-PF00324	11	Amino acid permease
+PF00263	11	Bacterial type II and III secretion system protein
 TIGR01399	11	hrcV: type III secretion protein, HrcV family
 COG0619	11	ABC-type cobalt transport system, permease component CbiQ and related transporters
 PF00482	11	Type II secretion system (T2SS), protein F
 COG2804	11	Type II secretory pathway, ATPase PulE/Tfp pilus assembly pathway, ATPase PilB
-PF01061	11	ABC-2 type transporter
+PF03958	11	Bacterial type II/III secretion system short domain

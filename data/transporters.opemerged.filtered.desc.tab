@@ -1,9 +1,11 @@
-PF00005	67	ABC transporter
+PF00005	240	ABC transporter
+PF00528	116	Binding-protein-dependent transport system inner membrane component
 PF00496	24	Bacterial extracellular solute-binding proteins, family 5 Middle
 PF08352	20	Oligopeptide/dipeptide transporter, C-terminal region
 PF12911	20	N-terminal TM domain of oligopeptide transport permease C
 PF01032	20	FecCD transport family
 COG0555	20	ABC-type sulfate transport system, permease component
+PF02653	19	Branched-chain amino acid transport system / permease component
 COG1122	19	ABC-type cobalt transport system, ATPase component
 PF02378	18	Phosphotransferase system, EIIC
 TIGR01727	18	oligo_HPY: oligopeptide/dipeptide ABC transporter, ATP-binding protein, C-terminal domain
@@ -15,8 +17,8 @@ COG0747	17	ABC-type dipeptide transport system, periplasmic component
 COG0601	16	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
 COG1762	16	Phosphotransferase system mannitol/fructose-specific IIA domain (Ntr-type)
 PF00437	15	Type II/IV secretion system protein
-TIGR01726	15	HEQRo_perm_3TM: amino ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine family
 COG3842	15	ABC-type spermidine/putrescine transport systems, ATPase components
+TIGR01726	15	HEQRo_perm_3TM: amino ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine family
 COG0651	14	Formate hydrogenlyase subunit 3/Multisubunit Na+/H+ antiporter, MnhD subunit
 COG4166	14	ABC-type oligopeptide transport system, periplasmic component
 PF00593	14	TonB dependent receptor
@@ -38,11 +40,11 @@ COG1129	12	ABC-type sugar transport system, ATPase component
 TIGR01166	12	cbiO: cobalt ABC transporter, ATP-binding protein
 TIGR02139	12	permease_CysT: sulfate ABC transporter, permease protein CysT
 COG1178	12	ABC-type Fe3+ transport system, permease component
+PF01061	12	ABC-2 type transporter
 COG0834	12	ABC-type amino acid transport/signal transduction systems, periplasmic component/domain
 COG0600	12	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component
 TIGR01730	12	RND_mfp: efflux transporter, RND family, MFP subunit
 PF01514	12	Secretory protein of YscJ/FliF family
-PF01061	12	ABC-2 type transporter
 TIGR00974	12	3a0107s02c: phosphate ABC transporter, permease protein PstA
 COG4795	11	Type II secretory pathway, component PulJ
 PF01899	11	Na+/H+ ion antiporter subunit
@@ -67,8 +69,8 @@ COG4168	11	ABC-type antimicrobial peptide transport system, permease component
 TIGR01165	11	cbiN: cobalt transport protein
 COG0310	11	ABC-type Co2+ transport system, permease component
 COG4171	11	ABC-type antimicrobial peptide transport system, permease component
-COG1117	11	ABC-type phosphate transport system, ATPase component
 TIGR02789	11	nickel_nikB: nickel ABC transporter, permease subunit NikB
+COG1117	11	ABC-type phosphate transport system, ATPase component
 TIGR02533	11	type_II_gspE: type II secretion system protein E
 COG0581	11	ABC-type phosphate transport system, permease component
 TIGR00972	11	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
@@ -113,8 +115,8 @@ PF04039	10	Domain related to MnhB subunit of Na+/H+ antiporter
 COG0614	10	ABC-type Fe3+-hydroxamate transport system, periplasmic component
 TIGR01783	10	TonB-siderophor: TonB-dependent siderophore receptor
 TIGR01190	10	ccmB: heme exporter protein CcmB
-TIGR01191	10	ccmC: heme exporter protein CcmC
 TIGR01186	10	proV: glycine betaine/L-proline transport ATP binding subunit
+TIGR01191	10	ccmC: heme exporter protein CcmC
 COG1459	10	Type II secretory pathway, component PulF
 COG1863	10	Multisubunit Na+/H+ antiporter, MnhE subunit
 TIGR00975	10	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
@@ -151,10 +153,8 @@ TIGR02141	8	modB_ABC: molybdate ABC transporter, permease protein
 TIGR02142	8	modC_ABC: molybdate ABC transporter, ATP-binding protein
 COG4792	8	Type III secretory pathway, component EscU
 TIGR02517	8	type_II_gspD: type II secretion system protein D
-PF02321	8	Outer membrane efflux protein
 TIGR01710	8	typeII_sec_gspG: type II secretion system protein G
 COG1121	8	ABC-type Mn/Zn transport systems, ATPase component
-PF00528	8	Binding-protein-dependent transport system inner membrane component
 PF03480	8	Bacterial extracellular solute-binding protein, family 7
 COG1840	8	ABC-type Fe3+ transport system, periplasmic component
 PF03934	8	Type II secretion system (T2SS), protein K
@@ -185,6 +185,7 @@ COG2216	8	High-affinity K+ transport system, ATPase chain B
 COG3839	8	ABC-type sugar transport systems, ATPase components
 COG1116	8	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component
 COG1113	8	Gamma-aminobutyrate permease and related permeases
+PF02321	8	Outer membrane efflux protein
 COG1653	8	ABC-type sugar transport system, periplasmic component
 TIGR03003	8	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
 TIGR00787	8	dctP: TRAP transporter solute receptor, DctP family
