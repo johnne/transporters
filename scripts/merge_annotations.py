@@ -117,6 +117,18 @@ def write(am):
         houtcsv.writerow([tg,"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
     hout.close()
 
+def write_filtered(filtered_fams, a):
+    edgecounts = {}
+    for f in filtered_fams: edgecounts[f] = len(a[f])+1
+    ## Sort by edgecount
+    import operator
+    edgecounts = {}
+    sorted_edges = sorted(edgecounts.items(), key=operator.itemgetter(1), reverse=True)
+    hout = sys.stderr
+    for item in sorted_edges: hout.write(item[0]+"\t"+str(item[1])+"\n")
+    hout.close()
+
+
 def main():
     parser = ArgumentParser()
     parser.add_argument("-i", "--infile", type=str, required=True,
@@ -136,14 +148,7 @@ def main():
     write(am)
     
     ## Write protein families with more outgoing edges than the limit
-    ## Sort by edgecount
-    import operator
-    sorted_a = sorted(a.items(), key=operator.itemgetter(1), reverse=True)
-    hout = sys.stderr
-    for item in sorted_a:
-        if item[0] in filtered_fams:
-            hout.write(item[0]+"\t"+str(item[1])+"\n")
-    hout.close()
+    write_filtered(filtered_fams, a)
 
 if __name__ == '__main__': 
     main()
