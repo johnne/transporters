@@ -123,8 +123,8 @@ def main():
             help="Infile with cross-reference between protein families (required)")
     parser.add_argument("-f", "--famfile", type=str, required=False,
             help="Limit merging to these families (optional)")
-    parser.add_argument("-e", "--edgecount", type=int, default=3,
-            help="Maximum number of outgoing connections from a single protein family. Defaults to 3. \
+    parser.add_argument("-e", "--edgecount", type=int, default=6,
+            help="Maximum number of outgoing connections from a single protein family. Defaults to 6. \
                     Choose a lower number to limit the size of merged transporter clusters.")
     args = parser.parse_args()
 
@@ -137,7 +137,8 @@ def main():
     
     ## Write protein families with more outgoing edges than the limit
     hout = sys.stderr
-    for f in filtered_fams: hout.write(f+"\n")
+    for f in filtered_fams: 
+        hout.write(f+str(len(a[f])+1)+"\n")
     hout.close()
 
 if __name__ == '__main__': 
