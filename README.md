@@ -11,9 +11,9 @@ were ignored (see the --edgecount flag for [merge_annotations.py](scripts/merge_
 This first merging of families into "Transport groups" was refined using operon predictions from [OperonDB](http://operondb.cbcb.umd.edu/cgi-bin/operondb/operons.cgi).
 If transporter families were found to occupy the same predicted operon, the were further merged.
 
-**- The first merging step, using Uniprot cross-reference, produced 404 transporters (34 filtered)**
+**- The first merging step, using Uniprot cross-reference, produced xx transporters (yy filtered)**
 
-**- The second merging step, with refinement using operon predictions, reduced the number to 279 transporters (an additional 31 filtered)**
+**- The second merging step, with refinement using operon predictions, reduced the number to xx transporters (an additional yy filtered)**
 
 The main files of interested are:
 * [transporters.unimerged.desc.tab](data/transporters.unimerged.desc.tab): Transporters merged using the Uniprot cross-reference
@@ -55,15 +55,15 @@ Families with more edges than this threshold are saved to [data/transporter.fami
     cogfile="data/COG_regexp_match.tab"
     pfamfile="data/Pfam-A.28.0_regexp_match.tab"
     tigrfile="data/TIGRFAM.15_regexp_match.tab"
-    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.tab 2> data/transporters.unimerged.filtered
+    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.merged.tab 2> data/transporters.filtered
 
 Store filtered families in variable:
 
-    filtered=`cut -f1 data/transporters.unimerged.filtered | tr '\n' '|' | sed 's/|$//g'`
+    filtered=`cut -f1 data/transporters.filtered | tr '\n' '|' | sed 's/|$//g'`
 
 Transport clusters, protein families and descriptions were then collated:
 
-    python scripts/print_merged_to_multiline.py -i data/transporters.unimerged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.desc.tab
+    python scripts/print_merged_to_multiline.py -i data/transporters.merged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.merged.desc.tab
 
 #### 2.2 Operon predictions
 Protein family merging was further refined using gene operon predictions downloaded from OperonDB (ftp://ftp.cbcb.umd.edu/pub/data/operondb/).
@@ -84,19 +84,32 @@ Next, parse the operon predictions.
 
     python scripts/gene_operons_to_fams.py -g data/uniprot.2015_11.cross_ref.regexp_match.ids.to.gi.tab -f data/uniprot.2015_11.cross_ref.regexp_match.tab -o data/operons.gz > data/operons.cross_ref.tab
 
-Merge annotations based on operon predictions:
-
-    python scripts/merge_annotations.py -i data/operons.cross_ref.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.opemerged.tab 2> data/transporters.opemerged.filtered
-
 #### 2.3 Combine Uniprot and operon predictions
-Also combine uniprot and operon cross-refs, and ignore families filtered in the Uniprot merging. Here the edgecounts threshold was increased to 9
-to allow more connecting edges:
+Make cross-ref table of transporters based on operon predictions. This simply replaces protein families with the corresponding transporter from step 2.1.
 
-    python scripts/merge_annotations.py -e 9 -i <(cat data/uniprot.2015_11.cross_ref.regexp_match.tab data/operons.cross_ref.tab) -f <(cut -f1 $cogfile $pfamfile $tigrfile | egrep -w -v "$filtered") > data/transporters.unimerged.opemerged.tab 2> data/transporters.unimerged.opemerged.filtered
+    python scripts/fam2trans_crossref.py -t data/transporters.merged.tab -f data/operons.cross_ref.tab > data/operons.cross_ref.transp.tab
 
-And then transporter groups were printed with descriptions for protein families:
+Store transporters within operons and those without operons separately
 
-    python scripts/print_merged_to_multiline.py -i data/transporters.unimerged.opemerged.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.unimerged.opemerged.desc.tab
+    operon_trans=`egrep -o "T[0-9]+" data/operons.cross_ref.transp.tab | sort -u | tr '\n' '|' | sed 's/|$//g'`
+    remain_trans=`cut -f1 data/transporters.merged.tab | egrep -w -v $operon_trans`
+
+Then add remaining transporters to the operon transporter cross ref
+
+    for t in $remain_trans ; do echo -e "1\t$t"; done >> data/operons.cross_ref.transp.tab
+
+Then run the merging as before but now based on operon predictions for transporters
+
+    python scripts/merge_annotations.py -i data/operons.cross_ref.transp.tab | sed 's/^T/Tr/g' > data/operons.cross_ref.transp.merged.tab
+
+Translate merged transporter back to individual families
+    
+    python scripts/trans2fam.py -t data/transporters.merged.tab -r data/operons.cross_ref.transp.merged.tab > data/transporters.merged.refined.tab
+
+And write multiline descriptions
+
+    python scripts/print_merged_to_multiline.py -i data/transporters.merged.refined.tab -d <(cat $cogfile $pfamfile $tigrfile) > data/transporters.merged.refined.desc.tab
+    
 #### Optional: Get descriptions of filtered families
 If you want to see which families were filtered, their outgoing edgecount and description, run the following command:
 
