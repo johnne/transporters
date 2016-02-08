@@ -13,8 +13,9 @@ def readlimits(famfile):
     hin.close()
     return limits
 
-def readannots(infile, limits = []):
+def readannots(infile, frac, limits = []):
     a = {}
+    famcount = {}
     hin = open(infile, 'r')
     hincsv = csv.reader(hin, delimiter = '\t')
     for i,row in enumerate(hincsv):
@@ -25,7 +26,11 @@ def readannots(infile, limits = []):
         fams = list(set(fams))
         try: fams.remove("")
         except ValueError: pass
-        
+
+        for fam in fams:
+            try: famcount[fam]+=1
+            except KeyError: famcount[fam] = 1
+
         ## Handle case if there is only one family for the row
         if len(fams)==1:
             if len(limits)>0 and not fams[0] in limits: continue ## Don't add if we're filtering
@@ -41,7 +46,21 @@ def readannots(infile, limits = []):
                 except KeyError: a[fam] = [fam2]        
     hin.close()
 
-    for key,value in a.iteritems(): a[key] = list(set(value))
+    for key,value in a.iteritems():
+        fc1 = famcount[key] ## Number of occurrences of family key
+        ## Calculate fraction of times this family is seen together with other families in the list
+        u = list(set(value)) ## Create unique list of families
+        keep = []
+        for fam in u:
+            fc2 = famcount[fam] ## Number of occurrences of current family
+            c = value.count(fam) ## Number of times current family is seen with family key
+
+            ## Calculate fraction based on the least abundant family
+            if fc1>fc2: f = c/float(fc2)
+            else: f = c/float(fc1)
+            if f>=frac: keep.append(fam)
+        a[key] = list(set(keep))
+
     return a
 
 def mergeannots(a, edgecount):
@@ -99,21 +118,24 @@ def mergeannots(a, edgecount):
         for f in famlist: parsed[f] = ""
     return (am,list(set(filtered)))
 
-def write(am):
+def write(am, filtered):
     hout = sys.stdout
     houtcsv = csv.writer(hout,delimiter = '\t')
-    houtcsv.writerow(["TransportGroup","PFAM","TIGRFAM","COG"])
+    #houtcsv.writerow(["TransportGroup","PFAM","TIGRFAM","COG"])
     for tg,fams in am.iteritems():
         cogs = []
         tigrs = []
         pfams = []
+        other = []
         for f in fams:
+            if f in filtered: continue
             try:
                 if f[0:4]=="TIGR": tigrs.append(f)
                 elif f[0:3] == "COG": cogs.append(f)
                 elif f[0:2] == "PF": pfams.append(f)
+                else: other.append(f)
             except IndexError: continue
-        houtcsv.writerow([tg,"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
+        houtcsv.writerow([tg,"|".join(other),"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
 
 def write_filtered(filtered_fams, a):
     edgecounts = {}
@@ -134,6 +156,10 @@ def main():
     parser.add_argument("-e", "--edgecount", type=int, default=6,
             help="Maximum number of outgoing connections from a single protein family. Defaults to 6. \
                     Choose a lower number to limit the size of merged transporter clusters.")
+    parser.add_argument("--minfrac", type=float, default = 0.5,
+            help="Minimum fraction of times that a link between two families has to occur. A higher value will decrease the number of transporters merged. Defaults to 0.5 (50%).")
+    parser.add_argument("-r", "--refine", type=str,
+            help="Refine transporter mergers by separate set of cross-reference (e.g. operon predictions)")
     args = parser.parse_args()
 
     if not args.infile: sys.exit(parser.print_help())
@@ -142,13 +168,16 @@ def main():
     limits = readlimits(args.famfile)
     
     ## Read annotations
-    a = readannots(args.infile, limits)
+    a = readannots(args.infile, args.minfrac, limits)
 
     ## Merge and also returned families filtered by edgecount
     (am,filtered_fams) = mergeannots(a, args.edgecount)
+
+    ## Refine mergings if a refine-by-file is given
+    #if args.refine: am = refine(am,args.refine,args.minfrac)
     
     ## Write mergings
-    write(am)
+    write(am, filtered_fams)
     
     ## Write protein families with more outgoing edges than the limit
     write_filtered(filtered_fams, a)
