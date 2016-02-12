@@ -11,9 +11,9 @@ were ignored (see the --edgecount flag for [merge_annotations.py](scripts/merge_
 This first merging of families into "Transport groups" was refined using operon predictions from [OperonDB](http://operondb.cbcb.umd.edu/cgi-bin/operondb/operons.cgi).
 If transporter families were found to occupy the same predicted operon, the were further merged.
 
-**- The first merging step, using Uniprot cross-reference, produced 438 transporters.**
+**- The first merging step, using Uniprot cross-reference, produced xxx transporters.**
 
-**- The second merging step, with refinement using operon predictions, reduced the number to 305 transporters**
+**- The second merging step, with refinement using operon predictions, reduced the number to xxx transporters**
 
 The main files of interested are:
 * [transporters.merged.desc.tab](data/transporters.merged.desc.tab): Transporters merged using the Uniprot cross-reference
@@ -54,7 +54,13 @@ Families with more edges than this threshold are saved to [data/transporter.fami
     cogfile="data/COG_regexp_match.tab"
     pfamfile="data/Pfam-A.28.0_regexp_match.tab"
     tigrfile="data/TIGRFAM.15_regexp_match.tab"
-    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) > data/transporters.merged.tab 2> data/transporters.filtered
+
+A [correlation matrix](data/families.corr.tab) was also produced for all transport-related protein families (COG, PFAM and TIGRFAM) identified in a time-series of 
+37 surface water samples collected from March to December in 2012 at the Linnaeus Microbial Observatory (LMO), 
+10 km east of Öland, in the central Baltic Sea. [ref](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0834-7)
+Run merging step using correlations for families calculated from a time-series of 37 samples
+
+    python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) -c data/families.corr.tab > data/transporters.merged.tab 2> data/transporters.filtered
 
 Store filtered families in variable:
 
@@ -99,7 +105,7 @@ Then add remaining transporters to the operon transporter cross ref
 
 Then run the merging as before but now based on operon predictions for transporters
 
-    python scripts/merge_annotations.py -i data/operons.cross_ref.transp.tab | sed 's/^T/Tr/g' > data/operons.cross_ref.transp.merged.tab
+    python scripts/merge_annotations.py -i data/operons.cross_ref.transp.tab --corrmin 0.9 -c data/LMO2012.transportercov.corr.tab | sed 's/^T/Tr/g' > data/operons.cross_ref.transp.merged.tab
 
 Translate merged transporter back to individual families
     
