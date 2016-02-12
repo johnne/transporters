@@ -11,9 +11,9 @@ were ignored (see the --edgecount flag for [merge_annotations.py](scripts/merge_
 This first merging of families into "Transport groups" was refined using operon predictions from [OperonDB](http://operondb.cbcb.umd.edu/cgi-bin/operondb/operons.cgi).
 If transporter families were found to occupy the same predicted operon, the were further merged.
 
-**- The first merging step, using Uniprot cross-reference, produced xxx transporters.**
+**- The first merging step, using Uniprot cross-reference, produced 489 transporters.**
 
-**- The second merging step, with refinement using operon predictions, reduced the number to xxx transporters**
+**- The second merging step, with refinement using operon predictions, reduced the number to 433 transporters**
 
 The main files of interested are:
 * [transporters.merged.desc.tab](data/transporters.merged.desc.tab): Transporters merged using the Uniprot cross-reference
