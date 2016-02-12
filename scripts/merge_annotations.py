@@ -13,7 +13,12 @@ def readlimits(famfile):
     hin.close()
     return limits
 
-def readannots(infile, frac, limits = []):
+def readcorr(corrfile):
+    import pandas as pd
+    corr =pd.read_csv(corrfile, sep="\t", index_col=0, header=0)
+    return corr.to_dict()
+
+def readannots(infile, frac, limits = [], corr = {}, corrmin=0):
     a = {}
     famcount = {}
     hin = open(infile, 'r')
@@ -52,6 +57,10 @@ def readannots(infile, frac, limits = []):
         u = list(set(value)) ## Create unique list of families
         keep = []
         for fam in u:
+            if corr:
+                try: c = corr[key][fam]
+                except KeyError: c = 1
+                if c<corrmin: continue
             fc2 = famcount[fam] ## Number of occurrences of current family
             c = value.count(fam) ## Number of times current family is seen with family key
 
@@ -158,8 +167,10 @@ def main():
                     Choose a lower number to limit the size of merged transporter clusters.")
     parser.add_argument("--minfrac", type=float, default = 0.5,
             help="Minimum fraction of times that a link between two families has to occur. A higher value will decrease the number of transporters merged. Defaults to 0.5 (50%).")
-    parser.add_argument("-r", "--refine", type=str,
-            help="Refine transporter mergers by separate set of cross-reference (e.g. operon predictions)")
+    parser.add_argument("-c", "--corr", type=str, required=False,
+            help="Read correlation matrix for families")
+    parser.add_argument("--corrmin", type=float, default=0.5,
+            help="Minimum correlation coefficient between families to merge. See the -c flag")
     args = parser.parse_args()
 
     if not args.infile: sys.exit(parser.print_help())
@@ -167,14 +178,15 @@ def main():
     ## Read family limits
     limits = readlimits(args.famfile)
     
+    ## Read correlations if specified
+    if args.corr: corr = readcorr(args.corr)
+    else: corr = False
+
     ## Read annotations
-    a = readannots(args.infile, args.minfrac, limits)
+    a = readannots(args.infile, args.minfrac, limits, corr, args.corrmin)
 
     ## Merge and also returned families filtered by edgecount
     (am,filtered_fams) = mergeannots(a, args.edgecount)
-
-    ## Refine mergings if a refine-by-file is given
-    #if args.refine: am = refine(am,args.refine,args.minfrac)
     
     ## Write mergings
     write(am, filtered_fams)
