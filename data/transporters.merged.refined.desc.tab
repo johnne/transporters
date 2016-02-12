@@ -165,11 +165,13 @@ Tr252	PF04145	Ctr copper transporter family
 Tr308	PF02321	Outer membrane efflux protein
 Tr308	TIGR01844	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
 Tr361m	TIGR02138	phosphate_pstC: phosphate ABC transporter, permease protein PstC
+Tr361m	TIGR00972	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
 Tr361m	TIGR00974	3a0107s02c: phosphate ABC transporter, permease protein PstA
 Tr361m	TIGR00975	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
 Tr361m	COG0573	ABC-type phosphate transport system, permease component
 Tr361m	COG0581	ABC-type phosphate transport system, permease component
 Tr361m	COG0226	ABC-type phosphate transport system, periplasmic component
+Tr361m	COG1117	ABC-type phosphate transport system, ATPase component
 Tr362	PF04515	Plasma-membrane choline transporter
 Tr363	PF05662	Coiled stalk of trimeric autotransporter adhesin
 Tr363	PF05658	Head domain of trimeric autotransporter adhesin
@@ -613,8 +615,6 @@ Tr286	COG3775	Phosphotransferase system, galactitol-specific IIC component
 Tr281	PF02374	Anion-transporting ATPase
 Tr281	TIGR00345	GET3_arsA_TRC40: transport-energizing ATPase, TRC40/GET3/ArsA family
 Tr280	COG4651	Kef-type K+ transport system, predicted NAD-binding component
-Tr283	TIGR00972	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
-Tr283	COG1117	ABC-type phosphate transport system, ATPase component
 Tr282	TIGR01184	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
 Tr282	TIGR01183	ntrB: nitrate ABC transporter, permease protein
 Tr282	COG1116	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component
