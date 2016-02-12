@@ -26,8 +26,6 @@ Tr59	COG3376	High-affinity nickel permease
 Tr58	PF14785	Maltose transport system permease protein MalF P2 domain
 Tr58	COG3833	ABC-type maltose transport systems, permease component
 Tr58	COG1175	ABC-type sugar transport systems, permease components
-Tr51	TIGR00974	3a0107s02c: phosphate ABC transporter, permease protein PstA
-Tr51	COG0581	ABC-type phosphate transport system, permease component
 Tr50	PF02553	Cobalt transport protein component CbiN
 Tr50	PF12558	ATP-binding cassette cobalt transporter
 Tr50	TIGR01165	cbiN: cobalt transport protein
@@ -166,12 +164,16 @@ Tr398	PF10614	Type VIII secretion system (T8SS), CsgF protein
 Tr252	PF04145	Ctr copper transporter family
 Tr308	PF02321	Outer membrane efflux protein
 Tr308	TIGR01844	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+Tr361m	TIGR02138	phosphate_pstC: phosphate ABC transporter, permease protein PstC
+Tr361m	TIGR00974	3a0107s02c: phosphate ABC transporter, permease protein PstA
+Tr361m	TIGR00975	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+Tr361m	COG0573	ABC-type phosphate transport system, permease component
+Tr361m	COG0581	ABC-type phosphate transport system, permease component
+Tr361m	COG0226	ABC-type phosphate transport system, periplasmic component
 Tr362	PF04515	Plasma-membrane choline transporter
 Tr363	PF05662	Coiled stalk of trimeric autotransporter adhesin
 Tr363	PF05658	Head domain of trimeric autotransporter adhesin
 Tr360	COG0577	ABC-type antimicrobial peptide transport system, permease component
-Tr361	TIGR02138	phosphate_pstC: phosphate ABC transporter, permease protein PstC
-Tr361	COG0573	ABC-type phosphate transport system, permease component
 Tr366	PF05742	Transport and Golgi organisation 2
 Tr367	PF03886	ABC-type transport auxiliary lipoprotein component
 Tr364	COG1079	Uncharacterized ABC-type transport system, permease component
@@ -349,7 +351,6 @@ Tr37	PF04995	Heme exporter protein D (CcmD)
 Tr36	TIGR03925	T7SS_EccC_b: type VII secretion protein EccCb
 Tr36	TIGR03924	T7SS_EccC_a: type VII secretion protein EccCa
 Tr35	COG0025	NhaP-type Na+/H+ and K+/H+ antiporters
-Tr34	COG1176	ABC-type spermidine/putrescine transport system, permease component I
 Tr33	COG1120	ABC-type cobalamin/Fe3+-siderophores transport systems, ATPase components
 Tr32	PF03977	Na+-transporting oxaloacetate decarboxylase beta subunit
 Tr32	TIGR03136	malonate_biotin: Na+-transporting malonate decarboxylase, carboxybiotin decarboxylase subunit
@@ -365,7 +366,6 @@ Tr174	COG3822	ABC-type sugar transport system, auxiliary component
 Tr173	TIGR03003	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
 Tr172	PF10766	Multidrug efflux pump-associated protein AcrZ
 Tr171	TIGR02533	type_II_gspE: type II secretion system protein E
-Tr170	COG0226	ABC-type phosphate transport system, periplasmic component
 Tr432	COG1457	Purine-cytosine permease and related proteins
 Tr179	COG2893	Phosphotransferase system, mannose/fructose-specific component IIA
 Tr179	COG3444	Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIB
@@ -389,6 +389,7 @@ Tr383	PF02386	Cation transport protein
 Tr383	TIGR00933	2a38: potassium uptake protein, TrkH family
 Tr383	TIGR00934	2a38euk: potassium uptake protein, Trk family
 Tr383	COG0168	Trk-type K+ transport systems, membrane components
+Tr196m	TIGR03255	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
 Tr429	PF08988	Type III secretion system, cytoplasmic E component of needle
 Tr429	TIGR02501	type_III_yscE: type III secretion system protein, YseE family
 Tr428	PF01749	Importin beta binding domain
@@ -510,8 +511,9 @@ Tr336	TIGR00907	2A0304: amino acid permease
 Tr269	TIGR00792	gph: sugar (Glycoside-Pentoside-Hexuronide) transporter
 Tr269	COG2211	Na+/melibiose symporter and related transporters
 Tr331	PF16954	Haem-transporter, endosomal/lysosomal, haem-responsive gene
-Tr268	PF16326	ABC transporter C-terminal domain
-Tr268	COG0488	ATPase components of ABC transporters with duplicated ATPase domains
+Tr303	PF03806	AbgT putative transporter family
+Tr303	TIGR00819	ydaH: AbgT transporter family
+Tr303	COG2978	Putative p-aminobenzoyl-glutamate transporter
 Tr330	PF08334	Type II secretion system (T2SS), protein G
 Tr330	PF02501	Type II secretion system (T2SS), protein I
 Tr330	TIGR01710	typeII_sec_gspG: type II secretion system protein G
@@ -532,9 +534,8 @@ Tr300	COG4521	ABC-type taurine transport system, periplasmic component
 Tr98	PF03773	Predicted permease
 Tr98	COG0701	Predicted permeases
 Tr302	PF07155	ECF-type riboflavin transporter, S component
-Tr303	PF03806	AbgT putative transporter family
-Tr303	TIGR00819	ydaH: AbgT transporter family
-Tr303	COG2978	Putative p-aminobenzoyl-glutamate transporter
+Tr268	PF16326	ABC transporter C-terminal domain
+Tr268	COG0488	ATPase components of ABC transporters with duplicated ATPase domains
 Tr95	PF16166	Chloroplast import apparatus Tic20-like
 Tr95	TIGR00994	3a0901s05TIC20: chloroplast protein import component, Tic20 family
 Tr266	TIGR04077	expor_sig_YdyF: exported signaling peptide, YydF/SAG_2028 family
@@ -548,8 +549,11 @@ Tr262	COG4473	Predicted ABC-type exoprotein transport system, permease component
 Tr262	COG1131	ABC-type multidrug transport system, ATPase component
 Tr261	PF10392	Golgi transport complex subunit 5
 Tr309	TIGR02803	ExbD_1: TonB system transport protein ExbD
-Tr93	TIGR00975	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
 Tr260	COG0569	K+ transport systems, NAD-binding component
+Tr167mb	COG3842	ABC-type spermidine/putrescine transport systems, ATPase components
+Tr167mb	COG1176	ABC-type spermidine/putrescine transport system, permease component I
+Tr167mb	COG1177	ABC-type spermidine/putrescine transport system, permease component II
+Tr167ma	TIGR03265	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
 Tr460	PF13593	SBF-like CPA transporter family (DUF4137)
 Tr160	PF05977	Transmembrane secretion effector
 Tr161	PF03612	Sorbitol phosphotransferase enzyme II N-terminus
@@ -566,8 +570,6 @@ Tr166	TIGR00680	kdpA: K+-transporting ATPase, A subunit
 Tr166	COG2216	High-affinity K+ transport system, ATPase chain B
 Tr166	COG2156	K+-transporting ATPase, c chain
 Tr166	COG2060	K+-transporting ATPase, A chain
-Tr167	TIGR03265	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
-Tr167	COG3842	ABC-type spermidine/putrescine transport systems, ATPase components
 Tr168	PF07664	Ferrous iron transport protein B C terminus
 Tr169	PF09783	Vacuolar import and degradation protein
 Tr169	COG5073	Vacuolar import and degradation protein
@@ -817,8 +819,6 @@ Tr194	PF06646	High affinity transport system protein p37
 Tr197	PF01297	Zinc-uptake complex component A periplasmic
 Tr197	COG1121	ABC-type Mn/Zn transport systems, ATPase component
 Tr197	COG0803	ABC-type metal ion transport system, periplasmic component/surface adhesin
-Tr196	TIGR03255	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
-Tr196	COG1177	ABC-type spermidine/putrescine transport system, permease component II
 Tr191	PF10140	WXG100 protein secretion system (Wss), protein YukC
 Tr191	PF12538	DNA transporter
 Tr191	TIGR03926	T7_EssB: type VII secretion protein EssB
