@@ -104,9 +104,10 @@ Then add remaining transporters to the operon transporter cross ref
 
     for t in $remain_trans ; do echo -e "1\t$t"; done >> data/operons.cross_ref.transp.tab
 
-Then run the merging as before but now based on operon predictions for transporters
+As for protein families, a [correlation matrix for transporters](data/transporters.corr.tab) in the [LMO time-series](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0834-7)
+was calculated and used together with operon predictions to merge further merge transporters, however using a higher correlation coefficient cutoff of 0.9:
 
-    python scripts/merge_annotations.py -i data/operons.cross_ref.transp.tab --corrmin 0.9 -c data/LMO2012.transportercov.corr.tab | sed 's/^T/Tr/g' > data/operons.cross_ref.transp.merged.tab
+    python scripts/merge_annotations.py -i data/operons.cross_ref.transp.tab --corrmin 0.9 -c data/transporters.corr.tab | sed 's/^T/Tr/g' > data/operons.cross_ref.transp.merged.tab
 
 Translate merged transporter back to individual families
     
