@@ -58,7 +58,8 @@ Families with more edges than this threshold are saved to [data/transporter.fami
 A [correlation matrix](data/families.corr.tab) was also produced for all transport-related protein families (COG, PFAM and TIGRFAM) identified in a time-series of 
 37 surface water samples collected from March to December in 2012 at the Linnaeus Microbial Observatory (LMO), 
 10 km east of Öland, in the central Baltic Sea. [ref](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0834-7)
-Run merging step using correlations for families calculated from a time-series of 37 samples
+
+Run merging step of transporters, with a minimum correlation of 0.5 for protein families:
 
     python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) -c data/families.corr.tab > data/transporters.merged.tab 2> data/transporters.filtered
 
