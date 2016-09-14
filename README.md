@@ -31,7 +31,7 @@ databases were downloaded and extracted.
     cat *.HMM | gzip -c > data/TIGRFAM.15.hmm.gz
     rm *.HMM
 
-The COG database was accessed directly. The protein family descriptions were then matched using regular expression:
+The COG database was accessed directly [using print_cog_db.py](scripts/print_cog_db.py). The protein family descriptions were then matched using regular expression:
 
     regexp="[Tt]ransport|[Ee]fflux|[Uu]ptake|[Ss]ymport|[Aa]ntiport|[Ii]mport|[Pp]ermease|[Pp]hosphotransferase|[Ee]xport|[Ss]olute[- ]binding|[Ss]ecretory|[Ss]ecretion|[Tt]on[Bb]|[Ss]u[Dd]"
     python scripts/print_hmm_db.py data/Pfam-A.28.0.hmm.gz | egrep "$regexp" > data/Pfam-A.28.0_regexp_match.tab
