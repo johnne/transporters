@@ -48,19 +48,15 @@ identified as transporters were then matched and stored:
     trans_fams=`cut -f1 data/COG_regexp_match.tab data/Pfam-A.28.0_regexp_match.tab data/TIGRFAM.15_regexp_match.tab | tr '\n' '|' | sed 's/|$//g'`
     egrep "$trans_fams" data/uniprot.2015_11.cross_ref.tab > data/uniprot.2015_11.cross_ref.regexp_match.tab
 
-Protein families were then merged based on entries in the Uniprot database. By default, outgoing edges from a single protein family are limited to 6.
-Families with more edges than this threshold are saved to [data/transporter.families.filtered](data/transporter.families.filtered):
+A [correlation matrix](data/families.corr.tab) was also produced for all transport-related protein families (COG, PFAM and TIGRFAM) identified in a time-series of 
+37 surface water samples collected from March to December in 2012 at the Linnaeus Microbial Observatory (LMO), 10 km east of Öland, in the central Baltic Sea. [Hugerth et al. 2015](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0834-7)
+
+Protein families were then merged based on entries in the Uniprot database and the correlation matrix from the LMO time-series. A minimum correlation of 0.5 was used to merge protein families. 
+By default, outgoing edges from a single protein family are limited to 6. Families with more edges than this threshold are saved to [data/transporter.families.filtered](data/transporter.families.filtered):
     
     cogfile="data/COG_regexp_match.tab"
     pfamfile="data/Pfam-A.28.0_regexp_match.tab"
     tigrfile="data/TIGRFAM.15_regexp_match.tab"
-
-A [correlation matrix](data/families.corr.tab) was also produced for all transport-related protein families (COG, PFAM and TIGRFAM) identified in a time-series of 
-37 surface water samples collected from March to December in 2012 at the Linnaeus Microbial Observatory (LMO), 
-10 km east of Öland, in the central Baltic Sea. [Hugerth et al. 2015](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0834-7)
-
-Run merging step of transporters, with a minimum correlation of 0.5 for protein families:
-
     python scripts/merge_annotations.py -i data/uniprot.2015_11.cross_ref.regexp_match.tab -f <(cut -f1 $cogfile $pfamfile $tigrfile) -c data/families.corr.tab > data/transporters.merged.tab 2> data/transporters.filtered
 
 Store filtered families in variable:
