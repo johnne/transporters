@@ -130,7 +130,6 @@ def mergeannots(a, edgecount):
 def write(am, filtered):
     hout = sys.stdout
     houtcsv = csv.writer(hout,delimiter = '\t')
-    #houtcsv.writerow(["TransportGroup","PFAM","TIGRFAM","COG"])
     for tg,fams in am.iteritems():
         cogs = []
         tigrs = []
@@ -144,7 +143,7 @@ def write(am, filtered):
                 elif f[0:2] == "PF": pfams.append(f)
                 else: other.append(f)
             except IndexError: continue
-        houtcsv.writerow([tg,"|".join(other),"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
+        houtcsv.writerow([tg,"|".join(pfams),"|".join(tigrs),"|".join(cogs),"|".join(other)])
 
 def write_filtered(filtered_fams, a):
     edgecounts = {}
@@ -185,7 +184,7 @@ def main():
     ## Read annotations
     a = readannots(args.infile, args.minfrac, limits, corr, args.corrmin)
 
-    ## Merge and also returned families filtered by edgecount
+    ## Merge and also return families filtered by edgecount
     (am,filtered_fams) = mergeannots(a, args.edgecount)
     
     ## Write mergings

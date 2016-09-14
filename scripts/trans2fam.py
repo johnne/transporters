@@ -23,7 +23,7 @@ def refine(r, t2fams):
     for row in hincsv:
         t = row[0]
         trans[t] = []
-        transporters = row[1].split("|")
+        transporters = row[-1].split("|")
         for transporter in transporters: trans[t] += t2fams[transporter]
     return trans
 
@@ -42,7 +42,7 @@ def write(trans):
                 elif f[0:2] == "PF": pfams.append(f)
                 else: other.append(f)
             except IndexError: continue
-        houtcsv.writerow([t,"|".join(other),"|".join(pfams),"|".join(tigrs),"|".join(cogs)])
+        houtcsv.writerow([t,"|".join(pfams),"|".join(tigrs),"|".join(cogs),"|".join(other)])
     hout.close()
 
 def main():
