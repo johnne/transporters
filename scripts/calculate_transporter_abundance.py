@@ -61,8 +61,10 @@ def CalculateCoverage(transporters,orfcov,orfann,ordernum,method,logging):
         tcov[t] = t_fam_cov.loc[rep] ## Store coverage
     
         ## Remove ORFs used to calculate coverage here, to avoid using ORFs multiple times
+        ## Also remove ORF from orfann to avoid the same ORF having multiple transporters
         used_orfs=list(orfann[orfann[1].isin(fams)].index)
         orfcov.drop(used_orfs,inplace=True,errors="ignore")
+        orfann.drop(used_orfs,inplace=True,errors="ignore")
     tcov = pd.DataFrame(tcov).T
     sys.stderr.write("\n")
     return [tcov,reps,orf2trans]
@@ -133,7 +135,7 @@ def main():
         tcov.to_csv(sys.stdout, sep = '\t')
         logging.info("Wrote to stdout.")
     if args.orftable:
-        orf2trans.to_csv(args.orftable, sep = '\t', index=False, columns = ["ORF","Transporter","Family"])
+        orf2trans.to_csv(args.orftable, sep = '\t', index=False, columns = ["ORF","Transporter","Family"], header=False)
         logging.info("Wrote ORF->transporter map to "+args.orftable)
 
 if __name__ == '__main__':
