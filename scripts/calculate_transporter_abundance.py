@@ -19,20 +19,33 @@ def ParserOrder(orderstring):
     return ordernum
 
 def CalculateCoverage(transporters,orfcov,orfann,ordernum,method):
+    ## For progressbar
+    part = len(transporters)/10
+    progress = 0
+
     reps = {}
     tcov = {}
-    for t in transporters.index:
+    orf2trans = pd.DataFrame(data=[[],[]],index=["ORF","Transporter"]).T ## Table with ORF->transporter map
+    for i,t in enumerate(transporters.index, start=1):
+        ## Progressbar
+        if i%part == 0: 
+            progress+=10
+            sys.stderr.write(str(progress)+"% ")
+
         fams = False
+        ## Find annotated protein families, in the order specified.
         for i in range(0,len(ordernum)):
             try: 
                 fams = transporters.loc[t,ordernum[i]].split("|")
                 break
             except AttributeError:  continue
-        if not fams: continue
+        if not fams: continue ## If no annotated protein families within this transporter, continue.
     
         ##Sum coverage per family defined for transporter
         t_orfann = orfann[orfann[1].isin(fams)] ## Get ORFs matching families
         if len(t_orfann) == 0: continue ## If no ORFs, skip transporter
+        tmp = pd.DataFrame(data=[t_orfann.index,[t]*len(t_orfann.index),t_orfann[1]],index=["ORF","Transporter","Family"]).T
+        orf2trans = pd.concat([orf2trans,tmp])
     
         ## If error thrown here, no ORFs for this transporter group remain to calculate coverage
         try: t_orfann_cov = pd.concat([t_orfann,orfcov.loc[t_orfann.index]],axis=1)
@@ -51,7 +64,8 @@ def CalculateCoverage(transporters,orfcov,orfann,ordernum,method):
         used_orfs=list(orfann[orfann[1].isin(fams)].index)
         orfcov.drop(used_orfs,inplace=True,errors="ignore")
     tcov = pd.DataFrame(tcov).T
-    return tcov,reps
+    sys.stderr.write("\n")
+    return [tcov,reps,orf2trans]
 
 def AddDescriptions(tcov,descs,reps):
     '''Add description column to transport coverage table'''
@@ -62,15 +76,17 @@ def AddDescriptions(tcov,descs,reps):
     return tcov    
 
 def main():
-    parser = ArgumentParser()
+    parser = ArgumentParser('''Calculates abundance of transporters in datasets using representative protein families as proxies.''')
     parser.add_argument("-t", "--transporters", type=str, required=True,
             help="Transporter definitions, tab separated. Format: <Transporter> <PFAMs> <TIGRFAMs> <COGs> <Other db>")
     parser.add_argument("-c", "--cov", type=str, required=True,
             help="Normalized coverage for ORFs in all samples")
     parser.add_argument("-a", "--annotations", required=True,
             help="Annotations for ORFs, one annotation per line")
-    parser.add_argument("-o", "--outfile", 
+    parser.add_argument("-o", "--outfile", type=str,
             help="Write transporter coverage to outfile")
+    parser.add_argument("--orftable", type=str,
+            help="Write a table with ORF ids and corresponding transporter to specified file.")
     parser.add_argument("--descriptions", type=str,
             help="(Optional) Specify tab-delimited file with descriptions for families. Will be applied to transporters")
     parser.add_argument("--order", type=str, default="TIGR,COG,PF",
@@ -99,7 +115,7 @@ def main():
     logging.info("Read definitions for "+str(len(transporters))+" transporters.")
     
     logging.info("Calculating coverage for transporters...")
-    tcov,reps = CalculateCoverage(transporters,orfcov,orfann,ordernum,args.method)
+    [tcov,reps,orf2trans] = CalculateCoverage(transporters,orfcov,orfann,ordernum,args.method)
     logging.info(str(len(tcov)) + " transporters remaining after calculating coverage")
 
     if args.descriptions:
@@ -116,6 +132,9 @@ def main():
     else:
         tcov.to_csv(sys.stdout, sep = '\t')
         logging.info("Wrote to stdout.")
+    if args.orftable:
+        orf2trans.to_csv(args.orftable, sep = '\t', index=False, columns = ["ORF","Transporter","Family"])
+        logging.info("Wrote ORF->transporter map to "+args.orftable)
 
 if __name__ == '__main__':
     main()
