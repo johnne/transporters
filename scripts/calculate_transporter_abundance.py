@@ -18,7 +18,7 @@ def ParserOrder(orderstring):
         except IndexError: continue
     return ordernum
 
-def CalculateCoverage(transporters,orfcov,orfann,ordernum,method):
+def CalculateCoverage(transporters,orfcov,orfann,ordernum,method,logging):
     ## For progressbar
     part = len(transporters)/10
     progress = 0
@@ -30,7 +30,7 @@ def CalculateCoverage(transporters,orfcov,orfann,ordernum,method):
         ## Progressbar
         if i%part == 0: 
             progress+=10
-            sys.stderr.write(str(progress)+"% ")
+            logging.info(str(progress)+"%")
 
         fams = False
         ## Find annotated protein families, in the order specified.
@@ -99,7 +99,7 @@ def main():
 
     args = parser.parse_args()
     
-    if args.verbose: logging.basicConfig(level=logging.INFO)
+    if args.verbose: logging.basicConfig(format='%(levelname)s:%(message)s',level=logging.INFO)
     
     ordernum = ParserOrder(args.order)
     
@@ -115,7 +115,7 @@ def main():
     logging.info("Read definitions for "+str(len(transporters))+" transporters.")
     
     logging.info("Calculating coverage for transporters...")
-    [tcov,reps,orf2trans] = CalculateCoverage(transporters,orfcov,orfann,ordernum,args.method)
+    [tcov,reps,orf2trans] = CalculateCoverage(transporters,orfcov,orfann,ordernum,args.method,logging)
     logging.info(str(len(tcov)) + " transporters remaining after calculating coverage")
 
     if args.descriptions:
