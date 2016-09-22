@@ -165,7 +165,8 @@ def main():
             help="Maximum number of outgoing connections from a single protein family. Defaults to 6. \
                     Choose a lower number to limit the size of merged transporter clusters.")
     parser.add_argument("--minfrac", type=float, default = 0.5,
-            help="Minimum fraction of times that a link between two families has to occur. A higher value will decrease the number of transporters merged. Defaults to 0.5 (50%).")
+            help="Minimum fraction of times that a link between two families has to occur. \
+                    A higher value will decrease the number of transporters merged. Defaults to 0.5.")
     parser.add_argument("-c", "--corr", type=str, required=False,
             help="Read correlation matrix for families")
     parser.add_argument("--corrmin", type=float, default=0.5,
