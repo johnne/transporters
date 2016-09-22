@@ -95,6 +95,12 @@ def main():
     bed = pd.read_csv(args.bed, sep="\t", header=None, index_col=0, names=["Contig","Start","End","ORF"], usecols=[0,1,2,3])
     logging.info("Read "+str(len(bed))+" ORF definitions on "+str(len(set(bed.index)))+" contigs")
 
+    ## Filter bed file
+    logging.info("Filtering to remove contigs without transporters/with too few ORFs")
+    bed_f = Filter(bed,orf2trans)
+    logging.info(str(len(set(bed_f.index)))+" contigs remaining after filtering")
+    if len(bed_f.index)==0: sys.exit()
+
     ## Read ORF annotations
     orfann = pd.read_csv(args.annotations, index_col=0, sep="\t", header=None, names=["ORF","Family"], usecols=[0,1])
     logging.info("Read annotations for ORFs")
@@ -102,12 +108,7 @@ def main():
     ## Aggregate annotations into a list per ORF
     logging.info("Aggregating annotations...")
     orfann = orfann.groupby(level=0).agg(lambda col: list(col))
-    
-    ## Filter bed file
-    logging.info("Filtering to remove contigs without transporters/with too few ORFs")
-    bed_f = Filter(bed,orf2trans)
-    logging.info(str(len(set(bed_f.index)))+" contigs remaining after filtering")
-    
+        
     ## Merge tables
     merged = Merge(bed_f, orf2trans, orfann)
     
