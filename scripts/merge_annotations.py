@@ -145,13 +145,13 @@ def write(am, filtered):
             except IndexError: continue
         houtcsv.writerow([tg,"|".join(pfams),"|".join(tigrs),"|".join(cogs),"|".join(other)])
 
-def write_filtered(filtered_fams, a):
+def write_filtered(outfile, filtered_fams, a):
     edgecounts = {}
     for f in filtered_fams: edgecounts[f] = len(a[f])+1
     ## Sort by edgecount
     import operator
     sorted_edges = sorted(edgecounts.items(), key=operator.itemgetter(1), reverse=True)
-    hout = sys.stderr
+    hout = open(outfile, 'w')
     for item in sorted_edges: hout.write(item[0]+"\t"+str(item[1])+"\n")
     hout.close()
 
@@ -171,6 +171,8 @@ def main():
             help="Read correlation matrix for families")
     parser.add_argument("--corrmin", type=float, default=0.5,
             help="Minimum correlation coefficient between families to merge. See the -c flag")
+    parser.add_argument("--filterout", type=str,
+            help="Write filtered families, with number of outgoing edges found, to specified outfile")
     args = parser.parse_args()
 
     if not args.infile: sys.exit(parser.print_help())
@@ -192,7 +194,7 @@ def main():
     write(am, filtered_fams)
     
     ## Write protein families with more outgoing edges than the limit
-    write_filtered(filtered_fams, a)
+    if args.filterout: write_filtered(args.filterout, filtered_fams, a)
 
 if __name__ == '__main__': 
     main()
