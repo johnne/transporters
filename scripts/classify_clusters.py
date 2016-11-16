@@ -32,15 +32,11 @@ def count_terms(t,m,fams):
             df = pd.concat([df,tmp])
             try: terms[term]+=1
             except KeyError: terms[term] = 1
-    #df = pd.DataFrame([terms],index=[t]).T
-    #df.sort_values(t,ascending=False, inplace=True)
     s = df.groupby("term").sum()
     term_sum = s.sum(axis=1)
     df = pd.concat([s,term_sum],axis=1)
     df.columns = ["tigr","pf","cog",t]
     return df.sort_values(t,ascending=False)
-    #print(df.groupby("term").sum())
-    #return df
 
 def classify(tdf,godf,m):
     c = {}
@@ -51,7 +47,6 @@ def classify(tdf,godf,m):
         if type(fams)==str: fams = [fams]
         terms = count_terms(t,m,fams)
         terms = pd.merge(terms,godf.loc[terms.index],left_index=True,right_index=True)
-        #continue
         ## Get the count of the term with the highest count
         max_count = terms[t].max()
         ## Get all terms with that count
@@ -84,7 +79,7 @@ def classify(tdf,godf,m):
             c[t][col] = "/".join(col_names)
         if ambig: ambiguous+=1
         else: unambiguous+=1
-        c[t][6] = term_names
+        c[t][8] = term_names
         for col in list(range(1,9)):
             if c[t][col]=="": 
                 if c[t][col-1][:13]=="Unclassified.": c[t][col] = c[t][col-1]
