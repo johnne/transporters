@@ -1,330 +1,351 @@
-COG0004	Ammonia permease
-COG0025	NhaP-type Na+/H+ and K+/H+ antiporters
-COG0053	Predicted Co/Zn/Cd cation transporters
-COG0168	Trk-type K+ transport systems, membrane components
+COG0003	Anion-transporting ATPase, ArsA/GET3 family
+COG0025	NhaP-type Na+/H+ or K+/H+ antiporter
+COG0038	H+/Cl- antiporter ClcA
+COG0053	Divalent metal cation (Fe/Co/Zn/Cd) transporter
+COG0084	Tat protein secretion system quality control protein TatD (DNase activity)
+COG0145	N-methylhydantoinase A/oxoprolinase/acetone carboxylase, beta subunit
+COG0146	N-methylhydantoinase B/oxoprolinase/acetone carboxylase, alpha subunit
+COG0168	Trk-type K+ transport system, membrane component
 COG0226	ABC-type phosphate transport system, periplasmic component
-COG0306	Phosphate/sulphate permeases
+COG0239	Fluoride ion exporter CrcB/FEX, affects chromosome condensation
+COG0306	Phosphate/sulfate permease
 COG0310	ABC-type Co2+ transport system, permease component
+COG0363	6-phosphogluconolactonase/Glucosamine-6-phosphate isomerase/deaminase
 COG0370	Fe2+ transport system protein B
 COG0385	Predicted Na+-dependent transporter
 COG0387	Ca2+/H+ antiporter
-COG0390	ABC-type uncharacterized transport system, permease component
-COG0395	ABC-type sugar transport system, permease component
-COG0396	ABC-type transport system involved in Fe-S cluster assembly, ATPase component
-COG0410	ABC-type branched-chain amino acid transport systems, ATPase component
-COG0411	ABC-type branched-chain amino acid transport systems, ATPase component
-COG0428	Predicted divalent heavy-metal cations transporter
+COG0390	ABC-type iron transport system FetAB, permease component
+COG0395	ABC-type glycerol-3-phosphate transport system, permease component
+COG0410	ABC-type branched-chain amino acid transport system, ATPase component
+COG0411	ABC-type branched-chain amino acid transport system, ATPase component
+COG0412	Dienelactone hydrolase
+COG0428	Zinc transporter ZupT
 COG0444	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
-COG0471	Di- and tricarboxylate transporters
+COG0454	N-acetyltransferase, GNAT superfamily (includes histone acetyltransferase HPA2)
+COG0471	Di- and tricarboxylate transporter
 COG0472	UDP-N-acetylmuramyl pentapeptide phosphotransferase/UDP-N-acetylglucosamine-1-phosphate transferase
-COG0474	Cation transport ATPase
-COG0475	Kef-type K+ transport systems, membrane components
-COG0477	Permeases of the major facilitator superfamily
+COG0474	Magnesium-transporting ATPase (P-type)
+COG0475	Kef-type K+ transport system, membrane component KefB
+COG0477	MFS family permease
 COG0488	ATPase components of ABC transporters with duplicated ATPase domains
+COG0490	K+/H+ antiporter YhaU, regulatory subunit KhtT
 COG0530	Ca2+/Na+ antiporter
-COG0531	Amino acid transporters
+COG0531	Amino acid transporter
 COG0534	Na+-driven multidrug efflux pump
 COG0555	ABC-type sulfate transport system, permease component
-COG0559	Branched-chain amino acid ABC-type transport system, permease components
-COG0569	K+ transport systems, NAD-binding component
+COG0559	Branched-chain amino acid ABC-type transport system, permease component
+COG0569	Trk K+ transport system, NAD-binding component
 COG0573	ABC-type phosphate transport system, permease component
 COG0577	ABC-type antimicrobial peptide transport system, permease component
-COG0580	Glycerol uptake facilitator and related permeases (Major Intrinsic Protein Family)
+COG0580	Glycerol uptake facilitator and related aquaporins (Major Intrinsic Protein Family)
 COG0581	ABC-type phosphate transport system, permease component
 COG0591	Na+/proline symporter
-COG0598	Mg2+ and Co2+ transporters
+COG0598	Mg2+ and Co2+ transporter CorA
+COG0599	Uncharacterized conserved protein YurZ, alkylhydroperoxidase/carboxymuconolactone decarboxylase family
 COG0600	ABC-type nitrate/sulfonate/bicarbonate transport system, permease component
-COG0601	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
+COG0601	ABC-type dipeptide/oligopeptide/nickel transport system, permease component
 COG0609	ABC-type Fe3+-siderophore transport system, permease component
 COG0614	ABC-type Fe3+-hydroxamate transport system, periplasmic component
-COG0619	ABC-type cobalt transport system, permease component CbiQ and related transporters
-COG0628	Predicted permease
-COG0630	Type IV secretory pathway, VirB11 components, and related ATPases involved in archaeal flagella biosynthesis
+COG0619	Energy-coupling factor transporter transmembrane protein EcfT
+COG0628	Predicted PurR-regulated permease PerM
+COG0630	Type IV secretory pathway ATPase VirB11/Archaellum biosynthesis ATPase
 COG0651	Formate hydrogenlyase subunit 3/Multisubunit Na+/H+ antiporter, MnhD subunit
-COG0659	Sulfate permease and related transporters (MFS superfamily)
+COG0659	Sulfate permease or related transporter, MFS superfamily
 COG0672	High-affinity Fe2+/Pb2+ permease
-COG0679	Predicted permeases
-COG0683	ABC-type branched-chain amino acid transport systems, periplasmic component
-COG0697	Permeases of the drug/metabolite transporter (DMT) superfamily
-COG0701	Predicted permeases
+COG0679	Predicted permease
+COG0683	ABC-type branched-chain amino acid transport system, periplasmic component
+COG0697	Permease of the drug/metabolite transporter (DMT) superfamily
 COG0704	Phosphate uptake regulator
-COG0715	ABC-type nitrate/sulfonate/bicarbonate transport systems, periplasmic components
-COG0719	ABC-type transport system involved in Fe-S cluster assembly, permease component
+COG0715	ABC-type nitrate/sulfonate/bicarbonate transport system, periplasmic component
 COG0725	ABC-type molybdate transport system, periplasmic component
-COG0730	Predicted permeases
-COG0733	Na+-dependent transporters of the SNF family
-COG0735	Fe2+/Zn2+ uptake regulation proteins
+COG0733	Na+-dependent transporter, SNF family
+COG0735	Fe2+ or Zn2+ uptake regulation protein
 COG0738	Fucose permease
-COG0747	ABC-type dipeptide transport system, periplasmic component
+COG0747	ABC-type transport system, periplasmic component
 COG0755	ABC-type transport system involved in cytochrome c biogenesis, permease component
-COG0758	Predicted Rossmann fold nucleotide-binding protein involved in DNA uptake
+COG0758	Predicted Rossmann fold nucleotide-binding protein DprA/Smf involved in DNA uptake
 COG0765	ABC-type amino acid transport system, permease component
-COG0767	ABC-type transport system involved in resistance to organic solvents, permease component
+COG0767	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, permease component MlaE
 COG0786	Na+/glutamate symporter
-COG0795	Predicted permeases
-COG0798	Arsenite efflux pump ACR3 and related permeases
-COG0803	ABC-type metal ion transport system, periplasmic component/surface adhesin
+COG0795	Lipopolysaccharide export LptBFGC system, permease protein LptF
+COG0798	Arsenite efflux pump ArsB, ACR3 family
+COG0803	ABC-type Zn uptake system ZnuABC, Zn-binding component ZnuA
 COG0805	Sec-independent protein secretion pathway component TatC
-COG0810	Periplasmic protein TonB, links inner and outer membranes
-COG0811	Biopolymer transport proteins
-COG0814	Amino acid permeases
+COG0811	Biopolymer transport protein ExbB/TolQ
+COG0814	Amino acid permease
 COG0823	Periplasmic component of the Tol biopolymer transport system
-COG0833	Amino acid transporters
-COG0834	ABC-type amino acid transport/signal transduction systems, periplasmic component/domain
-COG0841	Cation/multidrug efflux pump
+COG0833	Amino acid permease
+COG0834	ABC-type amino acid transport/signal transduction system, periplasmic component/domain
+COG0841	Multidrug efflux pump subunit AcrB
 COG0842	ABC-type multidrug transport system, permease component
-COG0848	Biopolymer transport protein
+COG0845	Multidrug efflux pump subunit AcrA (membrane-fusion protein)
+COG0848	Biopolymer transport protein ExbD
 COG1006	Multisubunit Na+/H+ antiporter, MnhC subunit
 COG1009	NADH:ubiquinone oxidoreductase subunit 5 (chain L)/Multisubunit Na+/H+ antiporter, MnhA subunit
-COG1033	Predicted exporters of the RND superfamily
-COG1055	Na+/H+ antiporter NhaD and related arsenite permeases
-COG1079	Uncharacterized ABC-type transport system, permease component
+COG1033	Predicted exporter protein, RND superfamily
+COG1055	Na+/H+ antiporter NhaD or related arsenite permease
+COG1079	ABC-type uncharacterized transport system, permease component
 COG1101	ABC-type uncharacterized transport system, ATPase component
-COG1108	ABC-type Mn2+/Zn2+ transport systems, permease components
-COG1113	Gamma-aminobutyrate permease and related permeases
+COG1108	ABC-type Mn2+/Zn2+ transport system, permease component
+COG1113	L-asparagine transporter and related permeases
 COG1114	Branched-chain amino acid permeases
 COG1115	Na+/alanine symporter
 COG1116	ABC-type nitrate/sulfonate/bicarbonate transport system, ATPase component
 COG1117	ABC-type phosphate transport system, ATPase component
 COG1118	ABC-type sulfate/molybdate transport systems, ATPase component
 COG1119	ABC-type molybdenum transport system, ATPase component/photorepair protein PhrA
-COG1120	ABC-type cobalamin/Fe3+-siderophores transport systems, ATPase components
-COG1121	ABC-type Mn/Zn transport systems, ATPase component
-COG1122	ABC-type cobalt transport system, ATPase component
-COG1123	ATPase components of various ABC-type transport systems, contain duplicated ATPase
+COG1120	ABC-type cobalamin/Fe3+-siderophores transport system, ATPase component
+COG1121	ABC-type Mn2+/Zn2+ transport system, ATPase component
+COG1122	Energy-coupling factor transporter ATP-binding protein EcfA2
+COG1123	ABC-type glutathione transport system ATPase component, contains duplicated ATPase domain
 COG1124	ABC-type dipeptide/oligopeptide/nickel transport system, ATPase component
-COG1125	ABC-type proline/glycine betaine transport systems, ATPase components
+COG1125	ABC-type proline/glycine betaine transport system, ATPase component
 COG1126	ABC-type polar amino acid transport system, ATPase component
-COG1127	ABC-type transport system involved in resistance to organic solvents, ATPase component
+COG1127	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, ATPase component MlaF
 COG1129	ABC-type sugar transport system, ATPase component
 COG1131	ABC-type multidrug transport system, ATPase component
-COG1132	ABC-type multidrug transport system, ATPase and permease components
+COG1132	ABC-type multidrug transport system, ATPase and permease component
 COG1133	ABC-type long-chain fatty acid transport system, fused permease and ATPase components
 COG1134	ABC-type polysaccharide/polyol phosphate transport system, ATPase component
-COG1135	ABC-type metal ion transport system, ATPase component
-COG1136	ABC-type antimicrobial peptide transport system, ATPase component
-COG1137	ABC-type (unclassified) transport system, ATPase component
+COG1135	ABC-type methionine transport system, ATPase component
+COG1136	ABC-type lipoprotein export system, ATPase component
+COG1137	ABC-type lipopolysaccharide export system, ATPase component
 COG1157	Flagellar biosynthesis/type III secretory pathway ATPase
-COG1172	Ribose/xylose/arabinose/galactoside ABC-type transport systems, permease components
-COG1173	ABC-type dipeptide/oligopeptide/nickel transport systems, permease components
-COG1174	ABC-type proline/glycine betaine transport systems, permease component
-COG1175	ABC-type sugar transport systems, permease components
+COG1172	Ribose/xylose/arabinose/galactoside ABC-type transport system, permease component
+COG1173	ABC-type dipeptide/oligopeptide/nickel transport system, permease component
+COG1174	ABC-type proline/glycine betaine transport system, permease component
+COG1175	ABC-type sugar transport system, permease component
 COG1176	ABC-type spermidine/putrescine transport system, permease component I
 COG1177	ABC-type spermidine/putrescine transport system, permease component II
 COG1178	ABC-type Fe3+ transport system, permease component
-COG1226	Kef-type K+ transport systems, predicted NAD-binding component
 COG1230	Co/Zn/Cd efflux system component
-COG1263	Phosphotransferase system IIC components, glucose/maltose/N-acetylglucosamine-specific
-COG1264	Phosphotransferase system IIB components
-COG1275	Tellurite resistance protein and related permeases
+COG1243	Histone acetyltransferase, component of the RNA polymerase elongator complex
+COG1268	Biotin transporter BioY
+COG1275	Tellurite resistance protein TehA and related permeases
 COG1276	Putative copper export protein
 COG1277	ABC-type transport system involved in multi-copper enzyme maturation, permease component
-COG1279	Lysine efflux permease
-COG1280	Putative threonine efflux protein
+COG1279	Arginine exporter protein ArgO
+COG1280	Threonine/homoserine/homoserine lactone efflux protein
 COG1283	Na+/phosphate symporter
+COG1288	Uncharacterized membrane protein YfcC, ion transporter superfamily
 COG1292	Choline-glycine betaine transporter
 COG1296	Predicted branched-chain amino acid permease (azaleucine resistance)
-COG1299	Phosphotransferase system, fructose-specific IIC component
-COG1301	Na+/H+-dicarboxylate symporters
-COG1317	Flagellar biosynthesis/type III secretory pathway protein
+COG1297	Uncharacterized membrane protein, oligopeptide transporter (OPT) family
+COG1301	Na+/H+-dicarboxylate symporter
+COG1317	Flagellar biosynthesis/type III secretory pathway protein FliH
 COG1320	Multisubunit Na+/H+ antiporter, MnhG subunit
 COG1347	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrD
-COG1392	Phosphate transport regulator (distant homolog of PhoU)
 COG1427	Predicted periplasmic solute-binding protein
-COG1440	Phosphotransferase system cellobiose-specific component IIB
-COG1445	Phosphotransferase system fructose-specific component IIB
-COG1447	Phosphotransferase system cellobiose-specific component IIA
-COG1450	Type II secretory pathway, component PulD
-COG1455	Phosphotransferase system cellobiose-specific component IIC
-COG1457	Purine-cytosine permease and related proteins
+COG1450	Type II secretory pathway component GspD/PulD (secretin)
+COG1457	Purine-cytosine permease or related protein
 COG1459	Type II secretory pathway, component PulF
-COG1463	ABC-type transport system involved in resistance to organic solvents, periplasmic component
+COG1461	Predicted kinase related to dihydroxyacetone kinase
+COG1462	Curli biogenesis system outer membrane secretion channel CsgG
+COG1463	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, periplasmic component MlaD
 COG1464	ABC-type metal ion transport system, periplasmic component/surface antigen
-COG1523	Type II secretory pathway, pullulanase PulA and related glycosidases
-COG1555	DNA uptake protein and related DNA-binding proteins
-COG1559	Predicted periplasmic solute-binding protein
-COG1563	Predicted subunit of the Multisubunit Na+/H+ antiporter
+COG1555	DNA uptake protein ComE and related DNA-binding proteins
 COG1566	Multidrug resistance efflux pump
+COG1584	Succinate-acetate transporter protein
 COG1593	TRAP-type C4-dicarboxylate transport system, large permease component
-COG1596	Periplasmic protein involved in polysaccharide export
+COG1596	Periplasmic protein involved in polysaccharide export, contains SLBB domain of the beta-grasp fold
 COG1613	ABC-type sulfate transport system, periplasmic component
 COG1620	L-lactate permease
 COG1629	Outer membrane receptor proteins, mostly Fe transport
 COG1638	TRAP-type C4-dicarboxylate transport system, periplasmic component
-COG1653	ABC-type sugar transport system, periplasmic component
+COG1653	ABC-type glycerol-3-phosphate transport system, periplasmic component
 COG1668	ABC-type Na+ efflux pump, permease component
-COG1682	ABC-type polysaccharide/polyol phosphate export systems, permease component
-COG1687	Predicted branched-chain amino acid permeases (azaleucine resistance)
-COG1696	Predicted membrane protein involved in D-alanine export
+COG1682	ABC-type polysaccharide/polyol phosphate export permease
+COG1687	Branched-chain amino acid transport protein AzlD
 COG1726	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrA
 COG1732	Periplasmic glycine betaine/choline-binding (lipo)protein of an ABC-type transport system (osmoprotectant binding protein)
-COG1744	Uncharacterized ABC-type transport system, periplasmic component/surface lipoprotein
-COG1757	Na+/H+ antiporter
-COG1762	Phosphotransferase system mannitol/fructose-specific IIA domain (Ntr-type)
-COG1766	Flagellar biosynthesis/type III secretory pathway lipoprotein
+COG1742	Uncharacterized inner membrane protein YnfA, drug/metabolite transporter superfamily
+COG1757	Na+/H+ antiporter NhaC
+COG1766	Flagellar biosynthesis/type III secretory pathway M-ring protein FliF/YscJ
+COG1784	TctA family transporter
+COG1791	Acireductone dioxygenase (methionine salvage), cupin superfamily
+COG1804	Crotonobetainyl-CoA:carnitine CoA-transferase CaiB and related acyl-CoA transferases
 COG1805	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrB
-COG1823	Predicted Na+/dicarboxylate symporter
+COG1814	Predicted Fe2+/Mn2+ transporter, VIT1/CCC1 family
+COG1823	L-cystine uptake protein TcyP, sodium:dicarboxylate symporter family
 COG1824	Permease, similar to cation transporters
-COG1826	Sec-independent protein secretion pathway components
 COG1840	ABC-type Fe3+ transport system, periplasmic component
-COG1859	RNA:NAD 2'-phosphotransferase
+COG1859	RNA:NAD 2'-phosphotransferase, TPT1/KptA family
 COG1863	Multisubunit Na+/H+ antiporter, MnhE subunit
-COG1869	ABC-type ribose transport system, auxiliary component
-COG1879	ABC-type sugar transport system, periplasmic component
+COG1879	ABC-type sugar transport system, periplasmic component, contains N-terminal xre family HTH domain
 COG1883	Na+-transporting methylmalonyl-CoA/oxaloacetate decarboxylase, beta subunit
-COG1886	Flagellar motor switch/type III secretory pathway protein
+COG1886	Flagellar motor switch/type III secretory pathway protein FliN
+COG1887	CDP-glycerol glycerophosphotransferase, TagB/SpsB family
 COG1914	Mn2+ and Fe2+ transporters of the NRAMP family
-COG1918	Fe2+ transport system protein A
-COG1925	Phosphotransferase system, HPr-related proteins
+COG1918	Fe2+ transport system protein FeoA
 COG1930	ABC-type cobalt transport system, periplasmic component
-COG1953	Cytosine/uracil/thiamine/allantoin permeases
-COG1965	Protein implicated in iron transport, frataxin homolog
-COG1972	Nucleoside permease
-COG1989	Type II secretory pathway, prepilin signal peptidase PulO and related peptidases
-COG2011	ABC-type metal ion transport system, permease component
+COG1934	Lipopolysaccharide export system protein LptA
+COG1942	Phenylpyruvate tautomerase PptA, 4-oxalocrotonate tautomerase family
+COG1953	Cytosine/uracil/thiamine/allantoin permease
+COG1971	Putative Mn2+ efflux pump MntP
+COG1972	Nucleoside permease NupC
+COG1989	Prepilin signal peptidase PulO (type II secretory pathway) or related peptidase
+COG2011	ABC-type methionine transport system, permease component
 COG2031	Short chain fatty acids transporter
-COG2056	Predicted permease
+COG2036	Archaeal histone H3/H4
+COG2056	Predicted histidine transporter YuiF, NhaC family
 COG2059	Chromate transport protein ChrA
 COG2060	K+-transporting ATPase, A chain
 COG2067	Long-chain fatty acid transport protein
-COG2072	Predicted flavoprotein involved in K+ transport
-COG2076	Membrane transporters of cations and cationic drugs
-COG2095	Multiple antibiotic transporter
+COG2076	Multidrug transporter EmrE and related cation transporters
+COG2095	Small neutral amino acid transporter SnatA, MarC family
 COG2107	Predicted periplasmic solute-binding protein
 COG2111	Multisubunit Na+/H+ antiporter, MnhB subunit
-COG2113	ABC-type proline/glycine betaine transport systems, periplasmic components
-COG2116	Formate/nitrite family of transporters
+COG2113	ABC-type proline/glycine betaine transport system, periplasmic component
+COG2116	Formate/nitrite transporter FocA, FNT family
+COG2119	Putative Ca2+/H+ antiporter, TMEM165/GDT1 family
 COG2156	K+-transporting ATPase, c chain
 COG2165	Type II secretory pathway, pseudopilin PulG
-COG2190	Phosphotransferase system IIA components
+COG2187	Aminoglycoside phosphotransferase family enzyme
 COG2209	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrE
-COG2211	Na+/melibiose symporter and related transporters
+COG2211	Na+/melibiose symporter or related transporter
 COG2212	Multisubunit Na+/H+ antiporter, MnhF subunit
-COG2213	Phosphotransferase system, mannitol-specific IIBC component
-COG2215	ABC-type uncharacterized transport system, permease component
+COG2215	ABC-type nickel/cobalt efflux system, permease component RcnA
 COG2216	High-affinity K+ transport system, ATPase chain B
 COG2217	Cation transport ATPase
-COG2223	Nitrate/nitrite transporter
-COG2233	Xanthine/uracil permeases
+COG2223	Nitrate/nitrite transporter NarK
+COG2233	Xanthine/uracil permease
 COG2239	Mg/Co/Ni transporter MgtE (contains CBS domain)
 COG2244	Membrane protein involved in the export of O-antigen and teichoic acid
-COG2252	Permeases
-COG2270	Permeases of the major facilitator superfamily
+COG2252	Xanthine/uracil/vitamin C permease, AzgA family
+COG2257	Type III secretion system substrate exporter, FlhB-like
+COG2270	MFS-type transporter involved in bile tolerance, Atg22 family
 COG2271	Sugar phosphate permease
 COG2274	ABC-type bacteriocin/lantibiotic exporters, contain an N-terminal double-glycine peptidase domain
 COG2358	TRAP-type uncharacterized transport system, periplasmic component
+COG2366	Acyl-homoserine lactone (AHL) acylase PvdQ
+COG2376	Dihydroxyacetone kinase
 COG2386	ABC-type transport system involved in cytochrome c biogenesis, permease component
-COG2391	Predicted transporter component
-COG2409	Predicted drug exporters of the RND superfamily
-COG2610	H+/gluconate symporter and related permeases
+COG2391	Uncharacterized membrane protein YedE/YeeE, contains two sulfur transport domains
+COG2610	H+/gluconate symporter or related permease
 COG2704	Anaerobic C4-dicarboxylate transporter
-COG2804	Type II secretory pathway, ATPase PulE/Tfp pilus assembly pathway, ATPase PilB
+COG2706	6-phosphogluconolactonase, cycloisomerase 2 family
+COG2804	Type II secretory pathway ATPase GspE/PulE or T4P pilus assembly pathway ATPase PilB
 COG2807	Cyanate permease
-COG2814	Arabinose efflux permease
-COG2822	Predicted periplasmic lipoprotein involved in iron transport
+COG2814	Predicted arabinose efflux permease, MFS family
+COG2822	Iron uptake system EfeUOB, periplasmic (or lipoprotein) component EfeO/EfeM
 COG2831	Hemolysin activation/secretion protein
-COG2851	H+/citrate symporter
-COG2854	ABC-type transport system involved in resistance to organic solvents, auxiliary component
-COG2867	Oligoketide cyclase/lipid transport protein
+COG2836	Sulfite exporter TauE/SafE
+COG2851	Mg2+/citrate symporter
+COG2853	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, lipoprotein component MlaA
+COG2854	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, periplasmic MlaC component
 COG2869	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrC
 COG2871	Na+-transporting NADH:ubiquinone oxidoreductase, subunit NqrF
-COG2893	Phosphotransferase system, mannose/fructose-specific component IIA
+COG2911	Autotransporter translocation and assembly factor TamB
 COG2948	Type IV secretory pathway, VirB10 components
-COG2962	Predicted permeases
 COG2967	Uncharacterized protein affecting Mg2+/Co2+ transport
-COG2978	Putative p-aminobenzoyl-glutamate transporter
+COG2978	p-Aminobenzoyl-glutamate transporter AbgT
 COG2984	ABC-type uncharacterized transport system, periplasmic component
-COG2985	Predicted permease
+COG2985	Uncharacterized membrane protein YbjL, putative transporter
 COG2998	ABC-type tungstate transport system, permease component
-COG3004	Na+/H+ antiporter
+COG3004	Na+/H+ antiporter NhaA
 COG3031	Type II secretory pathway, component PulC
 COG3064	Membrane protein involved in colicin uptake
-COG3067	Na+/H+ antiporter
+COG3067	Na+/H+ antiporter NhaB
 COG3069	C4-dicarboxylate transporter
 COG3090	TRAP-type C4-dicarboxylate transport system, small permease component
 COG3104	Dipeptide/tripeptide permease
-COG3109	Activator of osmoprotectant transporter ProP
+COG3113	ABC-type transporter Mla maintaining outer membrane lipid asymmetry, MlaB component, contains STAS domain
 COG3114	Heme exporter protein D
+COG3117	Lipopolysaccharide export system protein LptC
 COG3127	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, permease component
+COG3135	Predicted benzoate:H+ symporter BenE
 COG3149	Type II secretory pathway, component PulM
 COG3156	Type II secretory pathway, component PulK
+COG3157	Type VI protein secretion system component Hcp (secreted cytotoxin)
 COG3158	K+ transporter
-COG3173	Predicted aminoglycoside phosphotransferase
-COG3178	Predicted phosphotransferase related to Ser/Thr protein kinases
-COG3201	Nicotinamide mononucleotide transporter
+COG3173	Predicted  kinase, aminoglycoside phosphotransferase (APT) family
+COG3178	Predicted phosphotransferase, aminoglycoside/choline kinase (APH/ChoK) family
+COG3181	Tripartite-type tricarboxylate transporter, receptor component TctC
+COG3192	Ethanolamine transporter EutH, required for ethanolamine utilization at low pH
+COG3201	Nicotinamide riboside transporter PnuC
 COG3218	ABC-type uncharacterized transport system, auxiliary component
 COG3221	ABC-type phosphate/phosphonate transport system, periplasmic component
 COG3225	ABC-type uncharacterized transport system involved in gliding motility, auxiliary component
 COG3231	Aminoglycoside phosphotransferase
-COG3263	NhaP-type Na+/H+ and K+/H+ antiporters with a unique C-terminal domain
+COG3263	NhaP-type Na+/H+ and K+/H+ antiporter with C-terminal TrkAC and CorC domains
 COG3267	Type II secretory pathway, component ExeA (predicted ATPase)
 COG3297	Type II secretory pathway, component PulL
-COG3329	Predicted permease
+COG3333	TctA family transporter
 COG3368	Predicted permease
 COG3376	High-affinity nickel permease
-COG3414	Phosphotransferase system, galactitol-specific IIB component
+COG3386	Sugar lactone lactonase YvrE
+COG3412	PTS-EIIA-like component DhaM of the dihydroxyacetone kinase DhaKLM complex
 COG3418	Flagellar biosynthesis/type III secretory pathway chaperone
-COG3444	Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIB
-COG3451	Type IV secretory pathway, VirB4 components
+COG3445	Autonomous glycyl radical cofactor GrcA
+COG3451	Type IV secretory pathway, VirB4 component
+COG3455	Type VI protein secretion system component VasF
+COG3456	Predicted component of the type VI protein secretion system, contains a FHA domain
 COG3468	Type V secretory pathway, adhesin AidA
 COG3470	Uncharacterized protein probably involved in high-affinity Fe2+ transport
-COG3493	Na+/citrate symporter
+COG3493	Na+/citrate or Na+/malate symporter
+COG3501	Uncharacterized conserved protein, implicated in type VI secretion and phage assembly
 COG3504	Type IV secretory pathway, VirB9 components
-COG3505	Type IV secretory pathway, VirD4 components
-COG3524	Capsule polysaccharide export protein
+COG3505	Type IV secretory pathway, VirD4 component, TraG/TraD family ATPase
+COG3515	Predicted component of the type VI protein secretion system
+COG3516	Predicted component of the type VI protein secretion system
+COG3517	Predicted component of the type VI protein secretion system
+COG3518	Predicted component of the type VI protein secretion system
+COG3519	Type VI protein secretion system component VasA
+COG3520	Predicted component of the type VI protein secretion system
+COG3521	Predicted component of the type VI protein secretion system
+COG3522	Predicted component of the type VI protein secretion system
+COG3523	Type VI protein secretion system component VasK
+COG3524	Capsule polysaccharide export protein KpsE/RkpR
+COG3558	Uncharacterized conserved protein, nuclear transport factor 2 (NTF2) superfamily
 COG3559	Putative exporter of polyketide antibiotics
-COG3562	Capsule polysaccharide export protein
-COG3563	Capsule polysaccharide export protein
+COG3563	Capsule polysaccharide export protein KpsC/LpsZ
+COG3586	Predicted transport protein
+COG3601	Riboflavin transporter FmnP
 COG3630	Na+-transporting methylmalonyl-CoA/oxaloacetate decarboxylase, gamma subunit
 COG3633	Na+/serine symporter
 COG3638	ABC-type phosphate/phosphonate transport system, ATPase component
 COG3639	ABC-type phosphate/phosphonate transport system, permease component
 COG3683	ABC-type uncharacterized transport system, periplasmic component
 COG3694	ABC-type uncharacterized transport system, permease component
-COG3696	Putative silver efflux pump
+COG3696	Cu/Ag efflux pump CusA
 COG3701	Type IV secretory pathway, TrbF components
 COG3702	Type IV secretory pathway, VirB3 components
-COG3703	Uncharacterized protein involved in cation transport
+COG3703	Cation transport regulator ChaC
 COG3704	Type IV secretory pathway, VirB6 components
-COG3715	Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IIC
-COG3716	Phosphotransferase system, mannose/fructose/N-acetylgalactosamine-specific component IID
-COG3730	Phosphotransferase system sorbitol-specific component IIC
-COG3731	Phosphotransferase system sorbitol-specific component IIA
-COG3732	Phosphotransferase system sorbitol-specific component IIBC
+COG3712	Periplasmic ferric-dicitrate binding protein FerR, regulates iron transport through sigma-19
+COG3734	2-keto-3-deoxy-galactonokinase
 COG3736	Type IV secretory pathway, component VirB8
-COG3775	Phosphotransferase system, galactitol-specific IIC component
-COG3822	ABC-type sugar transport system, auxiliary component
-COG3833	ABC-type maltose transport systems, permease component
+COG3833	ABC-type maltose transport system, permease component
 COG3838	Type IV secretory pathway, VirB2 components (pilins)
-COG3839	ABC-type sugar transport systems, ATPase components
+COG3839	ABC-type sugar transport system, ATPase component
 COG3840	ABC-type thiamine transport system, ATPase component
-COG3842	ABC-type spermidine/putrescine transport systems, ATPase components
+COG3842	ABC-type Fe3+/spermidine/putrescine transport systems, ATPase components
 COG3843	Type IV secretory pathway, VirD2 components (relaxase)
-COG3845	ABC-type uncharacterized transport systems, ATPase components
+COG3845	ABC-type uncharacterized transport system, ATPase component
 COG3846	Type IV secretory pathway, TrbL components
-COG3889	Predicted solute binding protein
+COG3859	Thiamine transporter ThiT
 COG3896	Chloramphenicol 3-O-phosphotransferase
+COG3916	N-acyl-L-homoserine lactone synthetase
 COG3925	N-terminal domain of the phosphotransferase system fructose-specific component IIB
-COG3926	Putative secretion activating protein
-COG3932	Uncharacterized ABC-type transport system, permease components
 COG3946	Type IV secretory pathway, VirJ component
-COG3965	Predicted Co/Zn/Cd cation transporters
+COG3965	Predicted Co/Zn/Cd cation transporter, cation efflux family
 COG4098	Superfamily II DNA/RNA helicase required for DNA uptake (late competence protein)
-COG4105	DNA uptake lipoprotein
+COG4104	Zn-binding Pro-Ala-Ala-Arg (PAAR) domain, incolved in TypeVI secretion
 COG4107	ABC-type phosphonate transport system, ATPase component
+COG4114	Ferric iron reductase protein FhuF, involved in iron transport
 COG4120	ABC-type uncharacterized transport system, permease component
 COG4132	ABC-type uncharacterized transport system, permease component
 COG4133	ABC-type transport system involved in cytochrome c biogenesis, ATPase component
-COG4134	ABC-type uncharacterized transport system, periplasmic component
-COG4135	ABC-type uncharacterized transport system, permease component
-COG4136	ABC-type uncharacterized transport system, ATPase component
+COG4134	ABC-type uncharacterized transport system YnjBCD, periplasmic component
+COG4135	ABC-type uncharacterized transport system YnjBCD, permease component
+COG4136	ABC-type uncharacterized transport system YnjBCD, ATPase component
 COG4137	ABC-type uncharacterized transport system, permease component
 COG4138	ABC-type cobalamin transport system, ATPase component
 COG4139	ABC-type cobalamin transport system, permease component
 COG4143	ABC-type thiamine transport system, periplasmic component
 COG4145	Na+/panthothenate symporter
-COG4146	Predicted symporter
-COG4147	Predicted symporter
+COG4146	Uncharacterized membrane permease YidK, sodium:solute symporter family
+COG4147	Na+(or H+)/acetate symporter ActP
 COG4148	ABC-type molybdate transport system, ATPase component
 COG4149	ABC-type molybdate transport system, permease component
 COG4150	ABC-type sulfate transport system, periplasmic component
@@ -337,13 +358,14 @@ COG4167	ABC-type antimicrobial peptide transport system, ATPase component
 COG4168	ABC-type antimicrobial peptide transport system, permease component
 COG4170	ABC-type antimicrobial peptide transport system, ATPase component
 COG4171	ABC-type antimicrobial peptide transport system, permease component
-COG4172	ABC-type uncharacterized transport system, duplicated ATPase component
-COG4174	ABC-type uncharacterized transport system, permease component
+COG4172	ABC-type microcin C transport system, duplicated ATPase component YejF
+COG4174	ABC-type microcin C transport system, permease component YejB
 COG4175	ABC-type proline/glycine betaine transport system, ATPase component
 COG4176	ABC-type proline/glycine betaine transport system, permease component
 COG4177	ABC-type branched-chain amino acid transport system, permease component
 COG4178	ABC-type uncharacterized transport system, permease and ATPase components
 COG4181	Predicted ABC-type transport system involved in lysophospholipase L1 biosynthesis, ATPase component
+COG4188	Predicted dienelactone hydrolase
 COG4191	Signal transduction histidine kinase regulating C4-dicarboxylate transport system
 COG4192	Signal transduction histidine kinase regulating phosphoglycerate transport system
 COG4208	ABC-type sulfate transport system, permease component
@@ -352,23 +374,25 @@ COG4211	ABC-type glucose/galactose transport system, permease component
 COG4213	ABC-type xylose transport system, periplasmic component
 COG4214	ABC-type xylose transport system, permease component
 COG4215	ABC-type arginine transport system, permease component
-COG4239	ABC-type uncharacterized transport system, permease component
-COG4256	Hemin uptake protein
+COG4239	ABC-type microcin C transport system, permease component YejE
+COG4256	Hemin uptake protein HemP
 COG4258	Predicted exporter
-COG4300	Predicted permease, cadmium resistance protein
+COG4300	Cadmium resistance protein CadD, predicted permease
+COG4392	Branched-chain amino acid transport protein
+COG4395	Predicted lipid-binding transport protein, Tim44 family
 COG4413	Urea transporter
 COG4455	Protein of avirulence locus involved in temperature-dependent protein secretion
 COG4473	Predicted ABC-type exoprotein transport system, permease component
 COG4521	ABC-type taurine transport system, periplasmic component
 COG4525	ABC-type taurine transport system, ATPase component
 COG4531	ABC-type Zn2+ transport system, periplasmic component/surface adhesin
-COG4533	ABC-type uncharacterized transport system, periplasmic component
-COG4535	Putative Mg2+ and Co2+ transporter CorC
-COG4536	Putative Mg2+ and Co2+ transporter CorB
-COG4555	ABC-type Na+ transport system, ATPase component
+COG4533	DNA-binding transcriptional regulator SgrR  of sgrS sRNA, contains a MarR-type HTH domain and a periplasmic-type solute-binding domain
+COG4535	Mg2+ and Co2+ transporter CorC, contains CBS pair and CorC-HlyC domains
+COG4536	Mg2+ and Co2+ transporter CorB, contains DUF21, CBS pair, and CorC-HlyC domains
+COG4555	ABC-type Na+ transport system, ATPase component NatA
 COG4558	ABC-type hemin transport system, periplasmic component
 COG4559	ABC-type hemin transport system, ATPase component
-COG4572	Putative cation transport regulator
+COG4572	Cation transport regulator ChaB
 COG4586	ABC-type uncharacterized transport system, ATPase component
 COG4587	ABC-type uncharacterized transport system, permease component
 COG4590	ABC-type uncharacterized transport system, permease component
@@ -385,8 +409,9 @@ COG4607	ABC-type enterochelin transport system, periplasmic component
 COG4608	ABC-type oligopeptide transport system, ATPase component
 COG4615	ABC-type siderophore export system, fused ATPase and permease components
 COG4618	ABC-type protease/lipase transport system, ATPase and permease components
-COG4619	ABC-type uncharacterized transport system, ATPase component
-COG4651	Kef-type K+ transport system, predicted NAD-binding component
+COG4619	ABC-type iron transport system FetAB, ATPase component
+COG4647	Acetone carboxylase, gamma subunit
+COG4651	Predicted Kef-type K+ transport protein, K+/H+ antiporter domain
 COG4662	ABC-type tungstate transport system, periplasmic component
 COG4663	TRAP-type mannitol/chloroaromatic compound transport system, periplasmic component
 COG4664	TRAP-type mannitol/chloroaromatic compound transport system, large permease component
@@ -394,9 +419,9 @@ COG4665	TRAP-type mannitol/chloroaromatic compound transport system, small perme
 COG4666	TRAP-type uncharacterized transport system, fused permease components
 COG4668	Mannitol/fructose-specific phosphotransferase system, IIA domain
 COG4669	Type III secretory pathway, lipoprotein EscJ
-COG4674	Uncharacterized ABC-type transport system, ATPase component
+COG4674	ABC-type uncharacterized transport system, ATPase component
+COG4721	ABC-type thiamine/hydroxymethylpyrimidine transport system, permease component
 COG4756	Predicted cation transporter
-COG4778	ABC-type phosphonate transport system, ATPase component
 COG4779	ABC-type enterobactin transport system, permease component
 COG4789	Type III secretory pathway, component EscV
 COG4790	Type III secretory pathway, component EscR
@@ -406,39 +431,21 @@ COG4794	Type III secretory pathway, component EscS
 COG4795	Type II secretory pathway, component PulJ
 COG4796	Type II secretory pathway, component HofQ
 COG4827	Predicted transporter
-COG4946	Uncharacterized protein related to the periplasmic component of the Tol biopolymer transport system
+COG4829	Muconolactone delta-isomerase
 COG4959	Type IV secretory pathway, protease TraF
-COG4975	Putative glucose uptake permease
+COG4975	Glucose uptake protein GlcU
 COG4985	ABC-type phosphate transport system, auxiliary component
 COG4986	ABC-type anion transport system, duplicated permease component
 COG4987	ABC-type transport system involved in cytochrome bd biosynthesis, fused ATPase and permease components
 COG4988	ABC-type transport system involved in cytochrome bd biosynthesis, ATPase and permease components
-COG5006	Predicted permease, DMT superfamily
-COG5037	Gluconate transport-inducing protein
+COG5006	Threonine/homoserine efflux transporter RhtA
 COG5042	Purine nucleoside permease
-COG5058	Protein transporter of the TRAM (translocating chain-associating membrane) superfamily, longevity assurance factor
-COG5064	Karyopherin (importin) alpha
-COG5065	Protein involved in inorganic phosphate transport
-COG5070	Nucleotide-sugar transporter
-COG5073	Vacuolar import and degradation protein
-COG5079	Nuclear protein export factor
-COG5101	Importin beta-related nuclear transport receptor
-COG5102	Membrane protein involved in ER to Golgi transport
-COG5117	Protein involved in the nuclear export of pre-ribosomes
-COG5120	Membrane protein involved in Golgi transport
-COG5122	Transport protein particle (TRAPP) complex subunit
-COG5128	Transport protein particle (TRAPP) complex subunit
-COG5158	Proteins involved in synaptic transmission and general secretion, Sec1 family
-COG5167	Protein involved in vacuole import and degradation
-COG5215	Karyopherin (importin) beta
 COG5238	Ran GTPase-activating protein (RanGAP) involved in mRNA processing and transport
-COG5264	Vacuolar transporter chaperone
 COG5265	ABC-type transport system involved in Fe-S cluster assembly, permease and ATPase components
-COG5266	ABC-type Co2+ transport system, periplasmic component
 COG5268	Type IV secretory pathway, TrbD component
 COG5295	Autotransporter adhesin
-COG5347	GTPase-activating protein that regulates ARFs (ADP-ribosylation factors), involved in ARF-mediated vesicular transport
-COG5491	Conserved protein implicated in secretion
-COG5571	Autotransporter protein or domain, integral membrane beta-barrel involved in protein secretion
-COG5596	Mitochondrial import inner membrane translocase, subunit TIM22
-COG5656	Importin, protein involved in nuclear import
+COG5455	Periplasmic regulator RcnB of Ni and Co efflux
+COG5478	Low affinity Fe/Cu permease
+COG5569	Periplasmic Cu and Ag efflux protein CusF
+COG5571	Uncharacterized protein YhjY, contains autotransporter beta-barrel domain
+COG5602	Histone deacetylase complex, regulatory component SIN3
