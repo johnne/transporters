@@ -1,0 +1,327 @@
+transporter	Category1	Category2	name
+T62	Amino acids, peptides and amines	Amino acid	livcs: branched-chain amino acid transport system II carrier protein
+T863	Amino acids, peptides and amines	Amino acid	2A0307_GadC: glutamate:gamma-aminobutyrate antiporter
+T1008	Amino acids, peptides and amines	Amino acid	2A0309: spore germination protein (amino acid permease)
+T729	Amino acids, peptides and amines	Amino acid	2A0304: amino acid permease
+T20	Amino acids, peptides and amines	Amino acid	2A0310: amino acid permease (yeast)
+T23	Amino acids, peptides and amines	Amino acid	2A0303: cationic amino acid transport permease
+T989	Amino acids, peptides and amines	Amino acid	2A0306: amino acid transporter
+T92	Amino acids, peptides and amines	Amino acid	proV: glycine betaine/L-proline transport ATP binding subunit
+T12	Amino acids, peptides and amines	Amino acid	HEQRo_perm_3TM: amino ABC transporter, permease protein, 3-TM region, His/Glu/Gln/Arg/opine family
+T90	Amino acids, peptides and amines	Amino acid export	2A76: homoserine/Threonine efflux protein
+T751	Amino acids, peptides and amines	Arginine-ornithine	arg_ornith_anti: arginine-ornithine antiporter
+T585	Amino acids, peptides and amines	Basic amino acid	lao: LAO/AO transport system ATPase
+T163	Amino acids, peptides and amines	Choline	ABC_choline_bnd: choline ABC transporter, periplasmic binding protein
+T261	Amino acids, peptides and amines	Choline	ABC_choXWV_ATP: choline ABC transporter, ATP-binding protein
+T841	Amino acids, peptides and amines	Cyclic peptide	cyc_pep_trnsptr: cyclic peptide transporter
+T248	Amino acids, peptides and amines	Cysteine	CydD: thiol reductant ABC exporter, CydD subunit
+T359	Amino acids, peptides and amines	Cysteine	CydC: thiol reductant ABC exporter, CydC subunit
+T492	Amino acids, peptides and amines	Cysteine	2A43: lysosomal Cystine Transporter
+T882	Amino acids, peptides and amines	Ethanolamine	2A0305: ethanolamine permease
+T969	Amino acids, peptides and amines	Gamma-aminobutyric acid	GABAperm: GABA permease
+T501	Amino acids, peptides and amines	Glutamate	gltS: sodium/glutamate symporter
+T88	Amino acids, peptides and amines	L-lysine export	2a75: L-lysine exporter
+T7	Amino acids, peptides and amines	Neutral amino acid	sss: transporter, solute:sodium symporter (SSS) family
+T46	Amino acids, peptides and amines	Oligopeptide	2A1704: oligopeptide transporter, peptide:H+ symporter
+T35	Amino acids, peptides and amines	Oligopeptide	ISP4_OPT: small oligopeptide transporter, OPT family
+T758	Amino acids, peptides and amines	Oligopeptide	TIGR00733: oligopeptide transporter, OPT family
+T4	Amino acids, peptides and amines	Oligopeptide	oligo_HPY: oligopeptide/dipeptide ABC transporter, ATP-binding protein, C-terminal domain
+T34	Amino acids, peptides and amines	Polyamine	potA: polyamine ABC transporter, ATP-binding protein
+T27	Amino acids, peptides and amines	Serine	stp: serine transporter
+T869	Anions	Chromate	2A51: chromate efflux transporter
+T54	Anions	Anion	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T66	Anions	Molybdate	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
+T98	Anions	Molybdate	modC_ABC: molybdate ABC transporter, ATP-binding protein
+T122	Anions	Molybdate	modB_ABC: molybdate ABC transporter, permease protein
+T844	Anions	Organic anion	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
+T191	Anions	Sulfate	3a0106s03: sulfate ABC transporter, sulfate-binding protein
+T128	Anions	Sulfate	3a0106s01: sulfate ABC transporter, ATP-binding protein
+T60	Anions	Sulfate	sulP: sulfate permease
+T21	Anions	Sulfate	3a0106s02: sulfate ABC transporter, permease protein
+T541	Carbohydrates, organic alcohols, and acids	Alcohol	phenyl_ABC_PedC: alcohol ABC transporter, permease protein
+T603	Carbohydrates, organic alcohols, and acids	Aromatic acid	2A0115: MFS transporter, aromatic acid:H+ symporter (AAHS) family
+T364	Carbohydrates, organic alcohols, and acids	Benzoate	benE: benzoate transporter
+T588	Carbohydrates, organic alcohols, and acids	Bicarbonate	2A73: putative bicarbonate transporter, IctB family
+T851	Carbohydrates, organic alcohols, and acids	Carbohydrate	bind_CPR_0540: carbohydrate ABC transporter substrate-binding protein, CPR_0540 family
+T9	Carbohydrates, organic alcohols, and acids	Carbohydrate	PTS_I_fam: phosphoenolpyruvate-protein phosphotransferase
+T56	Carbohydrates, organic alcohols, and acids	Carboxylic acid	lctP: transporter, lactate permease (LctP) family
+T71	Carbohydrates, organic alcohols, and acids	Carboxylic acid	gntP: transporter, gluconate:H+ symporter (GntP) family
+T152	Carbohydrates, organic alcohols, and acids	Carboxylic acid	2A0127: MFS transporter, phenyl propionate permease (PPP) family
+T291	Carbohydrates, organic alcohols, and acids	Carboxylic acid	2A0112: MFS transporter, sialate:H+ symporter (SHS) family
+T29	Carbohydrates, organic alcohols, and acids	Carboxylic acid	ABC_MetN: D-methionine ABC transporter, ATP-binding protein
+T451	Carbohydrates, organic alcohols, and acids	Chitin	chitin_NgcE: carbohydrate ABC transporter, N-acetylglucosamine/diacetylchitobiose-binding protein
+T420	Carbohydrates, organic alcohols, and acids	Citrate	citMHS: citrate transporter
+T430	Carbohydrates, organic alcohols, and acids	D-galactonate	2A0114: D-galactonate transporter
+T148	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	DcuC: transporter, anaerobic C4-dicarboxylate uptake C (DcuC) family
+T850	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	tdt: C4-dicarboxylate transporter/malic acid transport protein
+T58	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	dctM: TRAP transporter, DctM subunit
+T61	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	Dcu: transporter, anaerobic C4-dicarboxylate uptake (Dcu) family
+T799	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
+T380	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
+T727	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuC: ectoine/hydroxyectoine ABC transporter, permease protein EhuC
+T564	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T435	Carbohydrates, organic alcohols, and acids	Fatty acyl	3a01203: peroxysomal long chain fatty acyl transporter
+T151	Carbohydrates, organic alcohols, and acids	Formate	formate_focA: formate transporter FocA
+T937	Carbohydrates, organic alcohols, and acids	Fucose	fucP: L-fucose:H+ symporter permease
+T779	Carbohydrates, organic alcohols, and acids	Glucose/Galactose transporter	gluP: glucose/galactose transporter WARNING
+T368	Carbohydrates, organic alcohols, and acids	Glycerol-3-phosphate	glpT: glycerol-3-phosphate transporter
+T249	Carbohydrates, organic alcohols, and acids	Glycoside	drrA: daunorubicin resistance ABC transporter, ATP-binding protein
+T289	Carbohydrates, organic alcohols, and acids	Glycoside	drrB: daunorubicin resistance ABC transporter membrane protein
+T209	Carbohydrates, organic alcohols, and acids	Malonate	malonate_madL: malonate transporter, MadL subunit
+T373	Carbohydrates, organic alcohols, and acids	Malonate	malonate_madM: malonate transporter, MadM subunit
+T395	Carbohydrates, organic alcohols, and acids	Monocarboxylic acid	2A0113: monocarboxylate transporter
+T32	Carbohydrates, organic alcohols, and acids	Monocarboxylic acid	bass: bile acid transporter
+T81	Carbohydrates, organic alcohols, and acids	Monocarboxylic acid	kdgT: 2-keto-3-deoxygluconate transporter
+T194	Carbohydrates, organic alcohols, and acids	Oligosaccharide	2A0105: oligosaccharide:H+ symporter
+T18	Carbohydrates, organic alcohols, and acids	Organic substance	2A0119: cation transport protein
+T120	Carbohydrates, organic alcohols, and acids	Organic substance	gph: sugar (Glycoside-Pentoside-Hexuronide) transporter
+T900	Carbohydrates, organic alcohols, and acids	Oxalate/formate	2A0111: oxalate/formate antiporter family transporter
+T104	Carbohydrates, organic alcohols, and acids	Phosphoglycerate	2A0104: phosphoglycerate transporter family protein
+T797	Carbohydrates, organic alcohols, and acids	Polyol	2A0118: polyol permease
+T83	Carbohydrates, organic alcohols, and acids	Polysaccharide	BexC_CtrB_KpsE: polysaccharide export inner-membrane protein, BexC/CtrB/KpsE family
+T562	Carbohydrates, organic alcohols, and acids	Polysaccharide	eps_transp_fam: exopolysaccharide transport protein family
+T158	Carbohydrates, organic alcohols, and acids	Polysaccharide export	polys_exp_MPA1: polysaccharide export protein, MPA1 family
+T787	Carbohydrates, organic alcohols, and acids	PQQ-dependent	PQQ_ABC_bind: ABC transporter, substrate binding protein, PQQ-dependent alcohol dehydrogenase system
+T939	Carbohydrates, organic alcohols, and acids	PQQ-dependent	PQQ_ABC_ATP: ABC transporter, ATP-binding subunit, PQQ-dependent alcohol dehydrogenase system
+T559	Carbohydrates, organic alcohols, and acids	Rhamnose	RhaS: rhamnose ABC transporter, rhamnose-binding protein
+T341	Carbohydrates, organic alcohols, and acids	Sugar efflux	2A0120: sugar efflux transporter
+T53	Carbohydrates, organic alcohols, and acids	TRAP	dctP: TRAP transporter solute receptor, DctP family
+T1	Carbohydrates, organic alcohols, and acids	Xylose	xylG: D-xylose ABC transporter, ATP-binding protein
+T830	Carbohydrates, organic alcohols, and acids	Xylose	xylF: D-xylose ABC transporter, D-xylose-binding protein
+T845	Cations and iron carrying compounds	Cation	P2X: cation transporter protein
+T115	Cations and iron carrying compounds	Cation	nramp: metal ion transporter, metal ion (Mn2+/Fe2+) transporter (Nramp) family
+T2	Cations and iron carrying compounds	Cation	2a6301s04: multicomponent K+:H+antiporter
+T974	Cations and iron carrying compounds	Cation	LIC: cation transporter family protein
+T24	Cations and iron carrying compounds	Cation	CDF: cation diffusion facilitator family transporter
+T40	Cations and iron carrying compounds	Cobalt	cbiN: cobalt transport protein
+T581	Cations and iron carrying compounds	Cobalt	cbiO: cobalt ABC transporter, ATP-binding protein
+T42	Cations and iron carrying compounds	Cobalt	ECF_T_CbiQ: cobalt ECF transporter T component CbiQ
+T790	Cations and iron carrying compounds	Copper	CopY_TcrY: copper transport repressor, CopY/TcrY family
+T817	Cations and iron carrying compounds	H+	2A0121: H+ Antiporter protein
+T606	Cations and iron carrying compounds	Iron	sider_RhtX_FptX: siderophore transporter, RhtX/FptX family
+T13	Cations and iron carrying compounds	Iron	ccmB: heme exporter protein CcmB
+T30	Cations and iron carrying compounds	Iron	feoB: ferrous iron transport protein B
+T308	Cations and iron carrying compounds	K+	potass_kdpF: K+-transporting ATPase, F subunit
+T45	Cations and iron carrying compounds	K+	kup: potassium uptake protein
+T8	Cations and iron carrying compounds	K+	kdpA: K+-transporting ATPase, A subunit
+T951	Cations and iron carrying compounds	K+	2a38euk: potassium uptake protein, Trk family
+T49	Cations and iron carrying compounds	K+	2a38: potassium uptake protein, TrkH family
+T351	Cations and iron carrying compounds	Magnesium	mgtE: magnesium transporter
+T458	Cations and iron carrying compounds	Metal ion	nico: transition metal uptake transporter, Ni2+-Co2+ transporter (NiCoT) family
+T57	Cations and iron carrying compounds	Monovalent inorganic cation	NhaB: Na+/H+ antiporter NhaB
+T565	Cations and iron carrying compounds	Monovalent inorganic cation	c_cpa1: sodium/hydrogen antiporter
+T119	Cations and iron carrying compounds	Monovalent inorganic cation	2a37: transporter, monovalent cation:proton antiporter-2 (CPA2) family
+T746	Cations and iron carrying compounds	Na+	malonate_biotin: Na+-transporting malonate decarboxylase, carboxybiotin decarboxylase subunit
+T496	Cations and iron carrying compounds	Na+	ENaC: sodium channel transporter
+T51	Cations and iron carrying compounds	Na+/H+	NhaA: Na+/H+ antiporter NhaA
+T412	Cations and iron carrying compounds	Na+/H+	NhaD: Na+/H+ antiporter, NhaD family
+T891	Cations and iron carrying compounds	Na+/H+	antiport_nhaC: Na+/H+ antiporter NhaC
+T255	Cations and iron carrying compounds	Na+/H+	a_cpa1: Na+/H+ antiporter
+T627	Cations and iron carrying compounds	Nickel	nickel_nikB: nickel ABC transporter, permease subunit NikB
+T69	Cations and iron carrying compounds	Nickel	nickel_nikD: nickel import ATP-binding protein NikD
+T65	Cations and iron carrying compounds	Transition metal ion	corA: magnesium and cobalt transport protein CorA
+T595	Cations and iron carrying compounds	Transition metal ion	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
+T437	Cations and iron carrying compounds	Na/Pi	NaPi_cotrn_rel: Na/Pi-cotransporter II-related protein
+T67	Cations and iron carrying compounds	Zinc/iron	zip: ZIP zinc/iron transport family
+T765	Cell envelope	Surface polysaccharides and lipopolysaccharides	pepcterm_export: putative polysaccharide export protein, PEP-CTERM sytem-associated
+T108	Cell envelope	Surface polysaccharides and lipopolysaccharides	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T116	Cell envelope	Surface polysaccharides and lipopolysaccharides	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
+T70	Cell envelope	Surface polysaccharides and lipopolysaccharides	MsbA_lipidA: lipid A export permease/ATP-binding protein MsbA
+T600	Cell envelope	Surface polysaccharides and lipopolysaccharides	LptG_lptG: LPS export ABC transporter permease LptG
+T257	Cell envelope	Surface polysaccharides and lipopolysaccharides	LptF_YjgP: LPS export ABC transporter permease LptF
+T126	Cell envelope	Surface polysaccharides and lipopolysaccharides	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T810	Cell envelope	Other	fbt: folate/biopterin transporter
+T513	Cellular processes	Adaptations to atypical conditions	2A0125: AmpG-like permease
+T11	Cellular processes	Cell division	ftsX: putative protein insertion permease FtsX
+T798	Cellular processes	Chemotaxis and motility	FliI_clade1: flagellar protein export ATPase FliI
+T340	Cellular processes	Chemotaxis and motility	FliI_clade2: flagellar protein export ATPase FliI
+T794	Cellular processes	Chloroplast protein import	3a0901s05TIC20: chloroplast protein import component, Tic20 family
+T684	Cellular processes	Chloroplast protein import	3a0901s04IAP86: chloroplast protein import component Toc86/159, G and M domains
+T695	Cellular processes	Chloroplast protein import	3a0901s06TIC22: chloroplast protein import component, Tic22 family
+T809	Cellular processes	Detoxification	cad: cadmium resistance transporter family protein
+T688	Cellular processes	Detoxification	2a45: arsenite/antimonite efflux pump membrane protein
+T537	Cellular processes	Detoxification	2A0601: heavy metal efflux pump, CzcA family
+T675	Cellular processes	Detoxification	MerP: mercuric transport protein periplasmic component
+T94	Cellular processes	Detoxification	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
+T612	Cellular processes	Membrane fusion protein	heterocyst_DevB: ABC exporter membrane fusion protein, DevB family
+T998	Cellular processes	Mitochondria protein import	3a0801s02tim23: mitochondrial import inner membrane translocase subunit
+T650	Cellular processes	Mitochondria protein import	3a0801so1tim17: mitochondrial import inner membrane translocase subunit tim17
+T432	Cellular processes	Mitochondria protein import	3a0801s09: mitochondrial precursor proteins import receptor
+T258	Cellular processes	Mitochondria protein import	3a0801s07tom40: mitochondrial import receptor subunit
+T111	Cellular processes	Mitochondria protein import	3a0801s04tom: mitochondrial import receptor subunit
+T220	Cellular processes	Mitochondria protein import	3a0801s03tim44: mitochondrial import inner membrane, translocase subunit
+T846	Cellular processes	Mitochondria protein import	3a0801s05tom22: mitochondrial import receptor subunit
+T1010	Cellular processes	Other	nodI: nodulation ABC transporter NodI
+T479	Cellular processes	Other	nodJ: ABC-2 type transporter, NodJ family
+T227	Cellular processes	Pathogenesis	VI_effect_Hcp1: type VI secretion system effector, Hcp1 family
+T950	Cellular processes	Pathogenesis	type_III_yscE: type III secretion system protein, YseE family
+T767	Cellular processes	Pathogenesis	type_III_yopR: type III secretion effector, YopR family
+T660	Cellular processes	Toxin production and resistance	NHLM_micro_ABC1: NHLM bacteriocin system ABC transporter, peptidase/ATP-binding protein
+T243	Cellular processes	Toxin production and resistance	NHLM_micro_ABC2: NHLM bacteriocin system ABC transporter, ATP-binding protein
+T477	Cellular processes	Toxin production and resistance	NHLM_micro_HlyD: NHLM bacteriocin system secretion protein
+T572	Cellular processes	Toxin production and resistance	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
+T738	Cellular processes	Toxin production and resistance	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T127	Cellular processes	Toxin production and resistance	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+T905	Cellular processes	Toxin production and resistance	bacteriocin_acc: bacteriocin secretion accessory protein
+T107	Nitrogen compounds	Ammonium	amt: ammonium transporter
+T43	Nitrogen compounds	BCCT family	bcct: transporter, betaine/carnitine/choline transporter (BCCT) family
+T252	Nitrogen compounds	Nitrate	ntrB: nitrate ABC transporter, permease protein
+T33	Nitrogen compounds	Nitrate	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T378	Nitrogen compounds	Nitrite	2A0108: nitrite transporter
+T59	Nitrogen compounds	Nitrite	fnt: formate/nitrite transporter
+T731	Nitrogen compounds	Taurine	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
+T651	Nitrogen compounds	Urea	urea_trans_UrtC: urea ABC transporter, permease protein UrtC
+T780	Nitrogen compounds	Urea	urea_ABC_arch: urea ABC transporter, substrate-binding protein
+T711	Nitrogen compounds	Urea	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD
+T740	Nitrogen compounds	Urea	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE
+T802	Nitrogen compounds	Urea	urea_ABC_UrtA: urea ABC transporter, urea binding protein
+T358	Nitrogen compounds	Urea	urea_trans_UrtB: urea ABC transporter, permease protein UrtB
+T426	Nitrogen compounds	Urea	urea_trans_yut: urea transporter
+T84	Nucleosides, purines and pyrimidines	Nucleosides	ncs1: NCS1 nucleoside transporter family
+T285	Nucleosides, purines and pyrimidines	Nucleosides	2A0110: nucleoside transporter
+T840	Nucleosides, purines and pyrimidines	Nucleosides	2a57: nucleoside Transporter
+T38	Nucleosides, purines and pyrimidines	Nucleosides	nupC: nucleoside transporter, NupC family
+T37	Nucleosides, purines and pyrimidines	Nucleosides	ncs2: uracil-xanthine permease
+T381	Nucleosides, purines and pyrimidines	Nucleotide	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T796	Nucleosides, purines and pyrimidines	Purine	rim_protein: rim ABC transporter
+T558	Nucleosides, purines and pyrimidines	Purine	MsbA_rel: ABC transporter, permease/ATP-binding protein
+T324	Nucleosides, purines and pyrimidines	Pyrimidine	thia_cytX: putative hydroxymethylpyrimidine transporter CytX
+T896	Other	Cyanate	CynX: cyanate transporter
+T225	Other	Molybdate transport repressor	ModE_repress: ModE molybdate transport repressor domain
+T17	Other	Other	rnfA: electron transport complex, RnfABCDGE type, A subunit
+T112	Other	Other	matE: MATE efflux family protein
+T837	Other	Other	devC: ABC exporter transmembrane subunit, DevC protein
+T916	Other	Other	3a01208: antigen peptide transporter 2
+T101	Other	Other	8a0101: efflux pump membrane protein
+T643	Other	Other	hepto_Aah_TibC: autotransporter strand-loop-strand O-heptosyltransferase
+T960	Other	Other	efflux_Bcr_CflA: drug resistance transporter, Bcr/CflA subfamily
+T764	Other	Other	PFKA_PPi: diphosphate--fructose-6-phosphate 1-phosphotransferase
+T16	Other	Other	ATPase-IIC_X-K: Na,H/K antiporter P-type ATPase, alpha subunit
+T72	Other	Other	2a69: auxin efflux carrier
+T875	Other	Other	tadE_like_DECH: helicase/secretion neighborhood TadE-like protein
+T832	Other	Pigment precursor	3a01204: pigment precursor permease
+T237	Other	Protein interactions	expor_sig_YdyF: exported signaling peptide, YydF/SAG_2028 family
+T576	Other	Silicon transporter	sit: silicon transporter
+T860	Phosphorus compounds	Phosphate	2A0114euk: Na(+)-dependent inorganic phosphate cotransporter
+T3	Phosphorus compounds	Phosphate	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+T41	Phosphorus compounds	Phosphate	2a58: sodium-dependent inorganic phosphate (Pi) transporter
+T877	Phosphorus compounds	Phosphonate	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
+T452	Phosphorus compounds	Phosphonate	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
+T535	Phosphorus compounds	Phosphonate	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
+T903	Phosphorus compounds	Phosphonate	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
+T177	Phosphorus compounds	Phosphonate	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T267	Phosphorus compounds	Phosphonate	PhnU2: putative 2-aminoethylphosphonate ABC transporter, permease protein
+T672	Phosphorus compounds	Phosphonate	PhnE: phosphonate ABC transporter, permease protein PhnE
+T132	Phosphorus compounds	Phosphonate	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
+T619	Phosphorus compounds	Phosphorus compounds	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
+T273	Phosphorus compounds	Polyphosphate	PPK2_rel_1: polyphosphate:nucleotide phosphotransferase, PPK2 family
+T857	Phosphorus compounds	Polyphosphate	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
+T714	Protein and peptide secretion and trafficking	Peptide	bacteriocin_ABC: ABC-type bacteriocin transporter
+T22	Protein and peptide secretion and trafficking	Protein export	secD: protein-export membrane protein SecD
+T467	Protein and peptide secretion and trafficking	Protein export	secB: protein-export chaperone SecB
+T31	Protein and peptide secretion and trafficking	Protein export	autotrans_barl: outer membrane autotransporter barrel domain
+T382	Protein and peptide secretion and trafficking	Protein export	VI_zyme: type VI secretion system lysozyme-like protein
+T460	Protein and peptide secretion and trafficking	Protein export	pepcterm_ATPase: putative secretion ATPase, PEP-CTERM locus subfamily
+T228	Protein and peptide secretion and trafficking	Protein export	chap_CsaA: export-related chaperone protein CsaA
+T298	Protein and peptide secretion and trafficking	Toxin secretion	holin_tox_secr: toxin secretion/phage lysis holin
+T113	Protein and peptide secretion and trafficking	Type I	type_I_sec_HlyB: type I secretion system ATPase
+T966	Protein and peptide secretion and trafficking	Type I	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T215	Protein and peptide secretion and trafficking	Type I	T1SS_VCA0849: type I secretion C-terminal target domain (VC_A0849 subclass)
+T262	Protein and peptide secretion and trafficking	Type I	type_I_hlyD: type I secretion membrane fusion protein, HlyD family
+T224	Protein and peptide secretion and trafficking	Type I	type_I_sec_PrtD: type I secretion system ATPase
+T140	Protein and peptide secretion and trafficking	Type I	type_I_sec_LssB: type I secretion system ATPase
+T64	Protein and peptide secretion and trafficking	Type II	typeII_sec_gspG: type II secretion system protein G
+T342	Protein and peptide secretion and trafficking	Type II	typeII_sec_gspH: type II secretion system protein H
+T28	Protein and peptide secretion and trafficking	Type II	type_II_gspD: type II secretion system protein D
+T75	Protein and peptide secretion and trafficking	Type II	gspJ: type II secretion system protein J
+T991	Protein and peptide secretion and trafficking	Type II	typeII_sec_gspC: type II secretion system protein C
+T343	Protein and peptide secretion and trafficking	Type II	T2SS_GspN_Lepto: type II secretion system protein N
+T5	Protein and peptide secretion and trafficking	Type II	type_II_gspE: type II secretion system protein E
+T674	Protein and peptide secretion and trafficking	Type III	LcrE: type III secretion regulator YopN/LcrE/InvE/MxiC
+T197	Protein and peptide secretion and trafficking	Type III	type_III_YscX: type III secretion protein, YscX family
+T822	Protein and peptide secretion and trafficking	Type III	gspI: type II secretion system protein I
+T470	Protein and peptide secretion and trafficking	Type III	yscI_hrpB_dom: type III secretion apparatus protein, YscI/HrpB, C-terminal domain
+T286	Protein and peptide secretion and trafficking	Type III	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T95	Protein and peptide secretion and trafficking	Type III	typeII_sec_gspL: type II secretion system protein L
+T471	Protein and peptide secretion and trafficking	Type III	type_III_yscG: type III secretion protein, YscG family
+T652	Protein and peptide secretion and trafficking	Type III	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T174	Protein and peptide secretion and trafficking	Type III	PrgH: type III secretion apparatus protein PrgH/EprH
+T978	Protein and peptide secretion and trafficking	Type III	HrpB2: type III secretion protein HrpB2
+T125	Protein and peptide secretion and trafficking	Type III	hrcV: type III secretion protein, HrcV family
+T522	Protein and peptide secretion and trafficking	Type III	III_needle: type III secretion apparatus needle protein
+T686	Protein and peptide secretion and trafficking	Type III	FlhB_rel_III: type III secretion protein, YscU/HrpY family
+T685	Protein and peptide secretion and trafficking	Type III	type_III_SycN: type III secretion chaperone SycN
+T52	Protein and peptide secretion and trafficking	Type III	III_secr_YscJ: type III secretion apparatus lipoprotein, YscJ/HrcJ family
+T76	Protein and peptide secretion and trafficking	Type III	yscR: type III secretion apparatus protein, YscR/HrcR family
+T14	Protein and peptide secretion and trafficking	Type III	fliQ_rel_III: type III secretion protein, HrpO family
+T498	Protein and peptide secretion and trafficking	Type III	IpaC_SipC: type III secretion target, IpaC/SipC family
+T524	Protein and peptide secretion and trafficking	Type III	HrpE_YscL_not: type III secretion apparatus protein, HrpE/YscL family
+T207	Protein and peptide secretion and trafficking	Type III	OrgA_MxiK: type III secretion apparatus protein OrgA/MxiK
+T858	Protein and peptide secretion and trafficking	Type III	type_III_yscD: type III secretion apparatus protein, YscD/HrpQ family
+T363	Protein and peptide secretion and trafficking	Type III	type_III_ssaH: type III secretion system protein, SsaH family
+T428	Protein and peptide secretion and trafficking	Type III	LcrR: type III secretion system regulator LcrR
+T930	Protein and peptide secretion and trafficking	Type IV	VI_chp_3: type VI secretion lipoprotein, VC_A0113 family
+T136	Protein and peptide secretion and trafficking	Type IV	VI_minor_4: type VI secretion-associated protein, BMA_A0400 family
+T512	Protein and peptide secretion and trafficking	Type IV/VI	IV_VI_DotU: type IV/VI secretion system protein, DotU family
+T238	Protein and peptide secretion and trafficking	Type VI	VI_chp_5: type VI secretion protein, VC_A0107 family
+T718	Protein and peptide secretion and trafficking	Type VI	VI_chp_7: type VI secretion-associated protein, VC_A0119 family
+T912	Protein and peptide secretion and trafficking	Type VI	VI_Rhs_Vgr: type VI secretion system Vgr family protein
+T708	Protein and peptide secretion and trafficking	Type VI	VI_ClpV1: type VI secretion ATPase, ClpV1 family
+T924	Protein and peptide secretion and trafficking	Type VI	VI_chp_4: type VI secretion protein, VC_A0114 family
+T354	Protein and peptide secretion and trafficking	Type VI	VI_chp_6: type VI secretion protein, TIGR03359 family
+T838	Protein and peptide secretion and trafficking	Type VI	VI_chp_1: type VI secretion protein, VC_A0111 family
+T302	Protein and peptide secretion and trafficking	Type VI	VI_IcmF: type VI secretion protein IcmF
+T422	Protein and peptide secretion and trafficking	Type VI	VI_chp_2: type VI secretion protein, EvpB/VC_A0108 family
+T494	Protein and peptide secretion and trafficking	Type VI	VI_FHA: type VI secretion system FHA domain protein
+T608	Protein and peptide secretion and trafficking	Type VI	type_VI_ompA: type VI secretion system peptidoglycan-associated domain
+T279	Protein and peptide secretion and trafficking	Type VII	T7SS_EccA: type VII secretion AAA-ATPase EccA
+T1009	Protein and peptide secretion and trafficking	Type VII	T7SS_EccC_a: type VII secretion protein EccCa
+T87	Protein and peptide secretion and trafficking	Type VII	T7SS_EccB: type VII secretion protein EccB
+T553	Protein and peptide secretion and trafficking	Type VII	T7SS_EccC_b: type VII secretion protein EccCb
+T96	Protein and peptide secretion and trafficking	Type VII	T7_EssCb_Firm: type VII secretion protein EssC
+T73	Protein and peptide secretion and trafficking	Type VII	T7_EssB: type VII secretion protein EssB
+T265	Protein and peptide secretion and trafficking	Type VII	T7SS_EssA_Firm: type VII secretion protein EssA
+T99	Protein and peptide secretion and trafficking	Type VII	T7SS_EccD: type VII secretion integral membrane protein EccD
+T333	Protein and peptide secretion and trafficking	Type VII	T7SS_mycosin: type VII secretion-associated serine protease mycosin
+T216	Protein and peptide secretion and trafficking	Type VII	T7SS_EccE: type VII secretion protein EccE
+T532	Protein and peptide secretion and trafficking	Unknown substrate	autotrns_rpt: autotransporter-associated beta strand repeat
+T834	TonB transport	SusC/RagA	OMP_RagA_SusC: TonB-linked outer membrane protein, SusC/RagA family
+T682	TonB transport	TonB	LP_HExxH_w_tonB: substrate import-associated zinc metallohydrolase lipoprotein
+T945	TonB transport	TonB	TonB-Xanth-Caul: TonB-dependent receptor
+T131	TonB transport	TonB	tonB_Cterm: TonB family C-terminal domain
+T19	TonB transport	TonB-B12	TonB-B12: TonB-dependent vitamin B12 receptor
+T233	TonB transport	TonB-copper	TonB-copper: TonB-dependent copper receptor
+T330	TonB transport	TonB-ExbB	exbB: tonB-system energizer ExbB
+T36	TonB transport	TonB-ExbB	exbB2: tonB-system energizer ExbB
+T377	TonB transport	TonB-ExbD	ExbD_1: TonB system transport protein ExbD
+T807	TonB transport	TonB-ExbD	ExbD_2: TonB system transport protein ExbD
+T887	TonB transport	TonB-hemin	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
+T349	TonB transport	TonB-lactoferrin	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T39	Unknown substrate	ABC transporter	TIGR00056: ABC transport permease subunit
+T339	Unknown substrate	TRAP transporter	TRAP_fused: TRAP transporter, 4TM/12TM fusion protein
+T610	Unknown substrate	Unknown substrate	2A067: efflux transporter, putative, hydrophobe/amphiphile efflux-3 (HAE3) family
+T100	Unknown substrate	Unknown substrate	mtp: Golgi 4-transmembrane spanning transporter
+T551	Unknown substrate	Unknown substrate	SBP_KPN_01854: ABC transporter substrate binding protein, KPN_01854 family
+T671	Unknown substrate	Unknown substrate	ABC_peri_uca: ABC transporter periplasmic binding protein, urea carboxylase region
+T193	Unknown substrate	Unknown substrate	Na_symport_sm: putative solute:sodium symporter small subunit
+T605	Unknown substrate	Unknown substrate	EcfS_MSC_0063: putative energy coupling factor transporter S component
+T169	Unknown substrate	Unknown substrate	anch_rpt_ABC: anchored repeat-type ABC transporter, ATP-binding subunit
+T301	Unknown substrate	Unknown substrate	heterocyst_DevA: ABC exporter ATP-binding subunit, DevA family
+T984	Unknown substrate	Unknown substrate	ADOP: acidobacterial duplicated orphan permease
+T829	Unknown substrate	Unknown substrate	anch_rpt_perm: anchored repeat-type ABC transporter, permease subunit
+T288	Unknown substrate	Unknown substrate	ydaH: AbgT transporter family
+T453	Unknown substrate	Unknown substrate	Mtu_efflux: ABC transporter efflux protein, DrrB family
+T182	Unknown substrate	Unknown substrate	TRAP_TAXI: TRAP transporter solute receptor, TAXI family
+T63	Unknown substrate	Unknown substrate	YidE_YbjL_dupl: AspT/YidE/YbjL antiporter duplication domain
+T323	Unknown substrate	Unknown substrate	actII: transport protein
+T644	Unknown substrate	Unknown substrate	ECF_S_folT_fam: ECF transporter S component, folate family
+T967	Unknown substrate	Unknown substrate	Trep_Strep: putative ECF transporter S component, Trep_Strep family
+T815	Unknown substrate	Unknown substrate	anch_rpt_subst: anchored repeat ABC transporter, substrate-binding protein
+T85	Unknown substrate	Unknown substrate	ECF_ATPase_1: energy-coupling factor transporter ATPase
+T48	Unknown substrate	Unknown substrate	GET3_arsA_TRC40: transport-energizing ATPase, TRC40/GET3/ArsA family
+T275	Vitamines	Pantothenate and coenzyme A	panF: sodium/pantothenate symporter
+T670	Vitamines	Thiamine	thiW: energy coupling factor transporter S component ThiW
+T124	Vitamines	Thiamine	thiQ: thiamine ABC transporter, ATP-binding protein
+T129	Vitamines	Thiamine	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T78	Vitamines	Thiamine	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
+T614	Vitamines	Thiamine	ECF_ThiT_YuaJ: energy-coupled thiamine transporter ThiT
