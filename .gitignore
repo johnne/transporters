@@ -65,3 +65,5 @@ data/transporter_fams
 data/transporters.xls
 
 deprecated/
+
+.ipynb*
