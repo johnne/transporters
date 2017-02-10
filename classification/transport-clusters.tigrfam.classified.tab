@@ -206,9 +206,7 @@ T860	Phosphorus compounds	Phosphate	2A0114euk: Na(+)-dependent inorganic phospha
 T3	Phosphorus compounds	Phosphate	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
 T41	Phosphorus compounds	Phosphate	2a58: sodium-dependent inorganic phosphate (Pi) transporter
 T452	Phosphorus compounds	Phosphonate	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
-T535	Phosphorus compounds	Phosphonate	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
 T177	Phosphorus compounds	Phosphonate	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
-T267	Phosphorus compounds	Phosphonate	PhnU2: putative 2-aminoethylphosphonate ABC transporter, permease protein
 T672	Phosphorus compounds	Phosphonate	PhnE: phosphonate ABC transporter, permease protein PhnE
 T132	Phosphorus compounds	Phosphonate	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
 T619	Phosphorus compounds	Phosphorus compounds	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
