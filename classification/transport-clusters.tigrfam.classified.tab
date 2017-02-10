@@ -31,8 +31,6 @@ T27	Amino acids, peptides and amines	Serine	stp: serine transporter
 T869	Anions	Chromate	2A51: chromate efflux transporter
 T54	Anions	Anion	dass: transporter, divalent anion:Na+ symporter (DASS) family
 T66	Anions	Molybdate	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
-T98	Anions	Molybdate	modC_ABC: molybdate ABC transporter, ATP-binding protein
-T122	Anions	Molybdate	modB_ABC: molybdate ABC transporter, permease protein
 T844	Anions	Organic anion	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
 T191	Anions	Sulfate	3a0106s03: sulfate ABC transporter, sulfate-binding protein
 T128	Anions	Sulfate	3a0106s01: sulfate ABC transporter, ATP-binding protein
