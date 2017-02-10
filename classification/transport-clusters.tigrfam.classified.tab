@@ -205,10 +205,8 @@ T576	Other	Silicon transporter	sit: silicon transporter
 T860	Phosphorus compounds	Phosphate	2A0114euk: Na(+)-dependent inorganic phosphate cotransporter
 T3	Phosphorus compounds	Phosphate	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
 T41	Phosphorus compounds	Phosphate	2a58: sodium-dependent inorganic phosphate (Pi) transporter
-T877	Phosphorus compounds	Phosphonate	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
 T452	Phosphorus compounds	Phosphonate	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
 T535	Phosphorus compounds	Phosphonate	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
-T903	Phosphorus compounds	Phosphonate	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
 T177	Phosphorus compounds	Phosphonate	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
 T267	Phosphorus compounds	Phosphonate	PhnU2: putative 2-aminoethylphosphonate ABC transporter, permease protein
 T672	Phosphorus compounds	Phosphonate	PhnE: phosphonate ABC transporter, permease protein PhnE
