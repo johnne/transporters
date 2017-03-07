@@ -163,7 +163,6 @@ T127	Cellular processes	Toxin production and resistance	2A0602: RND transporter,
 T905	Cellular processes	Toxin production and resistance	bacteriocin_acc: bacteriocin secretion accessory protein
 T107	Nitrogen compounds	Ammonium	amt: ammonium transporter
 T43	Nitrogen compounds	BCCT family	bcct: transporter, betaine/carnitine/choline transporter (BCCT) family
-T252	Nitrogen compounds	Nitrate	ntrB: nitrate ABC transporter, permease protein
 T33	Nitrogen compounds	Nitrate	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
 T378	Nitrogen compounds	Nitrite	2A0108: nitrite transporter
 T59	Nitrogen compounds	Nitrite	fnt: formate/nitrite transporter
