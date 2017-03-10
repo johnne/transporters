@@ -111,11 +111,7 @@ T65	Cations and iron carrying compounds	Transition metal ion	corA: magnesium and
 T437	Cations and iron carrying compounds	Na/Pi	NaPi_cotrn_rel: Na/Pi-cotransporter II-related protein
 T67	Cations and iron carrying compounds	Zinc/iron	zip: ZIP zinc/iron transport family
 T108	Cell envelope	Surface polysaccharides and lipopolysaccharides	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
-T116	Cell envelope	Surface polysaccharides and lipopolysaccharides	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
 T70	Cell envelope	Surface polysaccharides and lipopolysaccharides	MsbA_lipidA: lipid A export permease/ATP-binding protein MsbA
-T600	Cell envelope	Surface polysaccharides and lipopolysaccharides	LptG_lptG: LPS export ABC transporter permease LptG
-T257	Cell envelope	Surface polysaccharides and lipopolysaccharides	LptF_YjgP: LPS export ABC transporter permease LptF
-T126	Cell envelope	Surface polysaccharides and lipopolysaccharides	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
 T810	Cell envelope	Other	fbt: folate/biopterin transporter
 T513	Cellular processes	Adaptations to atypical conditions	2A0125: AmpG-like permease
 T11	Cellular processes	Cell division	ftsX: putative protein insertion permease FtsX
