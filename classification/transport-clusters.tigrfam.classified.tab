@@ -52,7 +52,6 @@ T420	Carbohydrates, organic alcohols, and acids	Citrate	citMHS: citrate transpor
 T430	Carbohydrates, organic alcohols, and acids	D-galactonate	2A0114: D-galactonate transporter
 T148	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	DcuC: transporter, anaerobic C4-dicarboxylate uptake C (DcuC) family
 T850	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	tdt: C4-dicarboxylate transporter/malic acid transport protein
-T58	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	dctM: TRAP transporter, DctM subunit
 T61	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	Dcu: transporter, anaerobic C4-dicarboxylate uptake (Dcu) family
 T799	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
 T380	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
@@ -291,7 +290,6 @@ T807	TonB transport	TonB-ExbD	ExbD_2: TonB system transport protein ExbD
 T887	TonB transport	TonB-hemin	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
 T349	TonB transport	TonB-lactoferrin	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
 T39	Unknown substrate	ABC transporter	TIGR00056: ABC transport permease subunit
-T339	Unknown substrate	TRAP transporter	TRAP_fused: TRAP transporter, 4TM/12TM fusion protein
 T610	Unknown substrate	Unknown substrate	2A067: efflux transporter, putative, hydrophobe/amphiphile efflux-3 (HAE3) family
 T100	Unknown substrate	Unknown substrate	mtp: Golgi 4-transmembrane spanning transporter
 T551	Unknown substrate	Unknown substrate	SBP_KPN_01854: ABC transporter substrate binding protein, KPN_01854 family
@@ -304,7 +302,6 @@ T984	Unknown substrate	Unknown substrate	ADOP: acidobacterial duplicated orphan 
 T829	Unknown substrate	Unknown substrate	anch_rpt_perm: anchored repeat-type ABC transporter, permease subunit
 T288	Unknown substrate	Unknown substrate	ydaH: AbgT transporter family
 T453	Unknown substrate	Unknown substrate	Mtu_efflux: ABC transporter efflux protein, DrrB family
-T182	Unknown substrate	Unknown substrate	TRAP_TAXI: TRAP transporter solute receptor, TAXI family
 T63	Unknown substrate	Unknown substrate	YidE_YbjL_dupl: AspT/YidE/YbjL antiporter duplication domain
 T323	Unknown substrate	Unknown substrate	actII: transport protein
 T644	Unknown substrate	Unknown substrate	ECF_S_folT_fam: ECF transporter S component, folate family
