@@ -113,7 +113,6 @@ T255	Cations and iron carrying compounds	Na+/H+	a_cpa1: Na+/H+ antiporter
 T65	Cations and iron carrying compounds	Transition metal ion	corA: magnesium and cobalt transport protein CorA
 T437	Cations and iron carrying compounds	Na/Pi	NaPi_cotrn_rel: Na/Pi-cotransporter II-related protein
 T67	Cations and iron carrying compounds	Zinc/iron	zip: ZIP zinc/iron transport family
-T765	Cell envelope	Surface polysaccharides and lipopolysaccharides	pepcterm_export: putative polysaccharide export protein, PEP-CTERM sytem-associated
 T108	Cell envelope	Surface polysaccharides and lipopolysaccharides	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
 T116	Cell envelope	Surface polysaccharides and lipopolysaccharides	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
 T70	Cell envelope	Surface polysaccharides and lipopolysaccharides	MsbA_lipidA: lipid A export permease/ATP-binding protein MsbA
