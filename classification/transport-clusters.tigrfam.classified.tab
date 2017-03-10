@@ -72,8 +72,6 @@ T83	Carbohydrates, organic alcohols, and acids	Polysaccharide	BexC_CtrB_KpsE: po
 T562	Carbohydrates, organic alcohols, and acids	Polysaccharide	eps_transp_fam: exopolysaccharide transport protein family
 T560	Carbohydrates, organic alcohols, and acids	Polysaccharide	polysaccharide export protein EpsE
 T158	Carbohydrates, organic alcohols, and acids	Polysaccharide export	polys_exp_MPA1: polysaccharide export protein, MPA1 family
-T787	Carbohydrates, organic alcohols, and acids	PQQ-dependent	PQQ_ABC_bind: ABC transporter, substrate binding protein, PQQ-dependent alcohol dehydrogenase system
-T939	Carbohydrates, organic alcohols, and acids	PQQ-dependent	PQQ_ABC_ATP: ABC transporter, ATP-binding subunit, PQQ-dependent alcohol dehydrogenase system
 T559	Carbohydrates, organic alcohols, and acids	Rhamnose	RhaS: rhamnose ABC transporter, rhamnose-binding protein
 T341	Carbohydrates, organic alcohols, and acids	Sugar efflux	2A0120: sugar efflux transporter
 T53	Carbohydrates, organic alcohols, and acids	TRAP	dctP: TRAP transporter solute receptor, DctP family
