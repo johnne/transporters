@@ -12,7 +12,6 @@ T90	Amino acids, peptides and amines	Amino acid export	2A76: homoserine/Threonin
 T751	Amino acids, peptides and amines	Arginine-ornithine	arg_ornith_anti: arginine-ornithine antiporter
 T585	Amino acids, peptides and amines	Basic amino acid	lao: LAO/AO transport system ATPase
 T163	Amino acids, peptides and amines	Choline	ABC_choline_bnd: choline ABC transporter, periplasmic binding protein
-T261	Amino acids, peptides and amines	Choline	ABC_choXWV_ATP: choline ABC transporter, ATP-binding protein
 T841	Amino acids, peptides and amines	Cyclic peptide	cyc_pep_trnsptr: cyclic peptide transporter
 T248	Amino acids, peptides and amines	Cysteine	CydD: thiol reductant ABC exporter, CydD subunit
 T359	Amino acids, peptides and amines	Cysteine	CydC: thiol reductant ABC exporter, CydC subunit
