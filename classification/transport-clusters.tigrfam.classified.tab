@@ -32,8 +32,6 @@ T869	Anions	Chromate	2A51: chromate efflux transporter
 T54	Anions	Anion	dass: transporter, divalent anion:Na+ symporter (DASS) family
 T66	Anions	Molybdate	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
 T844	Anions	Organic anion	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
-T191	Anions	Sulfate	3a0106s03: sulfate ABC transporter, sulfate-binding protein
-T128	Anions	Sulfate	3a0106s01: sulfate ABC transporter, ATP-binding protein
 T60	Anions	Sulfate	sulP: sulfate permease
 T21	Anions	Sulfate	3a0106s02: sulfate ABC transporter, permease protein
 T541	Carbohydrates, organic alcohols, and acids	Alcohol	phenyl_ABC_PedC: alcohol ABC transporter, permease protein
