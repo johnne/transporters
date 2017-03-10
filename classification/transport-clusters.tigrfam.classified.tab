@@ -72,6 +72,7 @@ T104	Carbohydrates, organic alcohols, and acids	Phosphoglycerate	2A0104: phospho
 T797	Carbohydrates, organic alcohols, and acids	Polyol	2A0118: polyol permease
 T83	Carbohydrates, organic alcohols, and acids	Polysaccharide	BexC_CtrB_KpsE: polysaccharide export inner-membrane protein, BexC/CtrB/KpsE family
 T562	Carbohydrates, organic alcohols, and acids	Polysaccharide	eps_transp_fam: exopolysaccharide transport protein family
+T560	Carbohydrates, organic alcohols, and acids	Polysaccharide	polysaccharide export protein EpsE
 T158	Carbohydrates, organic alcohols, and acids	Polysaccharide export	polys_exp_MPA1: polysaccharide export protein, MPA1 family
 T787	Carbohydrates, organic alcohols, and acids	PQQ-dependent	PQQ_ABC_bind: ABC transporter, substrate binding protein, PQQ-dependent alcohol dehydrogenase system
 T939	Carbohydrates, organic alcohols, and acids	PQQ-dependent	PQQ_ABC_ATP: ABC transporter, ATP-binding subunit, PQQ-dependent alcohol dehydrogenase system
