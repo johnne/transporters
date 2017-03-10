@@ -90,7 +90,6 @@ T974	Cations and iron carrying compounds	Cation	LIC: cation transporter family p
 T24	Cations and iron carrying compounds	Cation	CDF: cation diffusion facilitator family transporter
 T40	Cations and iron carrying compounds	Cobalt	cbiN: cobalt transport protein
 T581	Cations and iron carrying compounds	Cobalt	cbiO: cobalt ABC transporter, ATP-binding protein
-T42	Cations and iron carrying compounds	Cobalt	ECF_T_CbiQ: cobalt ECF transporter T component CbiQ
 T790	Cations and iron carrying compounds	Copper	CopY_TcrY: copper transport repressor, CopY/TcrY family
 T817	Cations and iron carrying compounds	H+	2A0121: H+ Antiporter protein
 T606	Cations and iron carrying compounds	Iron	sider_RhtX_FptX: siderophore transporter, RhtX/FptX family
