@@ -121,7 +121,6 @@ T126	Cell envelope	Surface polysaccharides and lipopolysaccharides	outer_YhbN_Lp
 T810	Cell envelope	Other	fbt: folate/biopterin transporter
 T513	Cellular processes	Adaptations to atypical conditions	2A0125: AmpG-like permease
 T11	Cellular processes	Cell division	ftsX: putative protein insertion permease FtsX
-T798	Cellular processes	Chemotaxis and motility	FliI_clade1: flagellar protein export ATPase FliI
 T340	Cellular processes	Chemotaxis and motility	FliI_clade2: flagellar protein export ATPase FliI
 T794	Cellular processes	Chloroplast protein import	3a0901s05TIC20: chloroplast protein import component, Tic20 family
 T684	Cellular processes	Chloroplast protein import	3a0901s04IAP86: chloroplast protein import component Toc86/159, G and M domains
