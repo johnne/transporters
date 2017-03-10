@@ -51,10 +51,7 @@ T430	Carbohydrates, organic alcohols, and acids	D-galactonate	2A0114: D-galacton
 T148	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	DcuC: transporter, anaerobic C4-dicarboxylate uptake C (DcuC) family
 T850	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	tdt: C4-dicarboxylate transporter/malic acid transport protein
 T61	Carbohydrates, organic alcohols, and acids	Dicarboxylic acid	Dcu: transporter, anaerobic C4-dicarboxylate uptake (Dcu) family
-T799	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
 T380	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
-T727	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuC: ectoine/hydroxyectoine ABC transporter, permease protein EhuC
-T564	Carbohydrates, organic alcohols, and acids	Ectoine	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
 T435	Carbohydrates, organic alcohols, and acids	Fatty acyl	3a01203: peroxysomal long chain fatty acyl transporter
 T151	Carbohydrates, organic alcohols, and acids	Formate	formate_focA: formate transporter FocA
 T937	Carbohydrates, organic alcohols, and acids	Fucose	fucP: L-fucose:H+ symporter permease
