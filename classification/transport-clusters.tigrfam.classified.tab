@@ -188,6 +188,7 @@ T619	Phosphorus compounds	Phosphorus compounds	3A0109s03R: phosphate/phosphite/p
 T273	Phosphorus compounds	Polyphosphate	PPK2_rel_1: polyphosphate:nucleotide phosphotransferase, PPK2 family
 T857	Phosphorus compounds	Polyphosphate	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
 T22	Protein and peptide secretion and trafficking	Protein export	secD: protein-export membrane protein SecD
+T387	Protein and peptide secretion and trafficking	Peptide	bacteriocin_ABC: ABC-type bacteriocin transporter
 T467	Protein and peptide secretion and trafficking	Protein export	secB: protein-export chaperone SecB
 T31	Protein and peptide secretion and trafficking	Protein export	autotrans_barl: outer membrane autotransporter barrel domain
 T382	Protein and peptide secretion and trafficking	Protein export	VI_zyme: type VI secretion system lysozyme-like protein
