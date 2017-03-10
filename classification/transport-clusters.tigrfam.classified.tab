@@ -143,9 +143,7 @@ T479	Cellular processes	Other	nodJ: ABC-2 type transporter, NodJ family
 T227	Cellular processes	Pathogenesis	VI_effect_Hcp1: type VI secretion system effector, Hcp1 family
 T950	Cellular processes	Pathogenesis	type_III_yscE: type III secretion system protein, YseE family
 T767	Cellular processes	Pathogenesis	type_III_yopR: type III secretion effector, YopR family
-T660	Cellular processes	Toxin production and resistance	NHLM_micro_ABC1: NHLM bacteriocin system ABC transporter, peptidase/ATP-binding protein
 T243	Cellular processes	Toxin production and resistance	NHLM_micro_ABC2: NHLM bacteriocin system ABC transporter, ATP-binding protein
-T477	Cellular processes	Toxin production and resistance	NHLM_micro_HlyD: NHLM bacteriocin system secretion protein
 T572	Cellular processes	Toxin production and resistance	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
 T738	Cellular processes	Toxin production and resistance	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
 T127	Cellular processes	Toxin production and resistance	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
