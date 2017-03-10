@@ -113,10 +113,7 @@ T51	Cations and iron carrying compounds	Na+/H+	NhaA: Na+/H+ antiporter NhaA
 T412	Cations and iron carrying compounds	Na+/H+	NhaD: Na+/H+ antiporter, NhaD family
 T891	Cations and iron carrying compounds	Na+/H+	antiport_nhaC: Na+/H+ antiporter NhaC
 T255	Cations and iron carrying compounds	Na+/H+	a_cpa1: Na+/H+ antiporter
-T627	Cations and iron carrying compounds	Nickel	nickel_nikB: nickel ABC transporter, permease subunit NikB
-T69	Cations and iron carrying compounds	Nickel	nickel_nikD: nickel import ATP-binding protein NikD
 T65	Cations and iron carrying compounds	Transition metal ion	corA: magnesium and cobalt transport protein CorA
-T595	Cations and iron carrying compounds	Transition metal ion	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
 T437	Cations and iron carrying compounds	Na/Pi	NaPi_cotrn_rel: Na/Pi-cotransporter II-related protein
 T67	Cations and iron carrying compounds	Zinc/iron	zip: ZIP zinc/iron transport family
 T765	Cell envelope	Surface polysaccharides and lipopolysaccharides	pepcterm_export: putative polysaccharide export protein, PEP-CTERM sytem-associated
