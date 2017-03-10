@@ -309,7 +309,5 @@ T85	Unknown substrate	Unknown substrate	ECF_ATPase_1: energy-coupling factor tra
 T48	Unknown substrate	Unknown substrate	GET3_arsA_TRC40: transport-energizing ATPase, TRC40/GET3/ArsA family
 T275	Vitamines	Pantothenate and coenzyme A	panF: sodium/pantothenate symporter
 T670	Vitamines	Thiamine	thiW: energy coupling factor transporter S component ThiW
-T124	Vitamines	Thiamine	thiQ: thiamine ABC transporter, ATP-binding protein
-T129	Vitamines	Thiamine	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
 T78	Vitamines	Thiamine	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
 T614	Vitamines	Thiamine	ECF_ThiT_YuaJ: energy-coupled thiamine transporter ThiT
