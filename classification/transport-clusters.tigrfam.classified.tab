@@ -136,7 +136,6 @@ T688	Cellular processes	Detoxification	2a45: arsenite/antimonite efflux pump mem
 T537	Cellular processes	Detoxification	2A0601: heavy metal efflux pump, CzcA family
 T675	Cellular processes	Detoxification	MerP: mercuric transport protein periplasmic component
 T94	Cellular processes	Detoxification	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
-T612	Cellular processes	Membrane fusion protein	heterocyst_DevB: ABC exporter membrane fusion protein, DevB family
 T998	Cellular processes	Mitochondria protein import	3a0801s02tim23: mitochondrial import inner membrane translocase subunit
 T650	Cellular processes	Mitochondria protein import	3a0801so1tim17: mitochondrial import inner membrane translocase subunit tim17
 T432	Cellular processes	Mitochondria protein import	3a0801s09: mitochondrial precursor proteins import receptor
@@ -182,7 +181,6 @@ T896	Other	Cyanate	CynX: cyanate transporter
 T225	Other	Molybdate transport repressor	ModE_repress: ModE molybdate transport repressor domain
 T17	Other	Other	rnfA: electron transport complex, RnfABCDGE type, A subunit
 T112	Other	Other	matE: MATE efflux family protein
-T837	Other	Other	devC: ABC exporter transmembrane subunit, DevC protein
 T916	Other	Other	3a01208: antigen peptide transporter 2
 T101	Other	Other	8a0101: efflux pump membrane protein
 T643	Other	Other	hepto_Aah_TibC: autotransporter strand-loop-strand O-heptosyltransferase
@@ -289,7 +287,7 @@ T671	Unknown substrate	Unknown substrate	ABC_peri_uca: ABC transporter periplasm
 T193	Unknown substrate	Unknown substrate	Na_symport_sm: putative solute:sodium symporter small subunit
 T605	Unknown substrate	Unknown substrate	EcfS_MSC_0063: putative energy coupling factor transporter S component
 T169	Unknown substrate	Unknown substrate	anch_rpt_ABC: anchored repeat-type ABC transporter, ATP-binding subunit
-T301	Unknown substrate	Unknown substrate	heterocyst_DevA: ABC exporter ATP-binding subunit, DevA family
+T301	Cellular processes	Membrane fusion protein	heterocyst_DevB: ABC exporter membrane fusion protein, DevB family
 T984	Unknown substrate	Unknown substrate	ADOP: acidobacterial duplicated orphan permease
 T829	Unknown substrate	Unknown substrate	anch_rpt_perm: anchored repeat-type ABC transporter, permease subunit
 T288	Unknown substrate	Unknown substrate	ydaH: AbgT transporter family
