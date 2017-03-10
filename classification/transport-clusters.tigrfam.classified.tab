@@ -82,6 +82,7 @@ T559	Carbohydrates, organic alcohols, and acids	Rhamnose	RhaS: rhamnose ABC tran
 T341	Carbohydrates, organic alcohols, and acids	Sugar efflux	2A0120: sugar efflux transporter
 T53	Carbohydrates, organic alcohols, and acids	TRAP	dctP: TRAP transporter solute receptor, DctP family
 T1	Carbohydrates, organic alcohols, and acids	Xylose	xylG: D-xylose ABC transporter, ATP-binding protein
+T1xyl	Carbohydrates, organic alcohols, and acids	Xylose	xylG: D-xylose ABC transporter, ATP-binding protein
 T1rha	Carbohydrates, organic alcohols, and acids	Rhamnose	RhaT L-rhamnose-proton symporter family protein
 T830	Carbohydrates, organic alcohols, and acids	Xylose	xylF: D-xylose ABC transporter, D-xylose-binding protein
 T845	Cations and iron carrying compounds	Cation	P2X: cation transporter protein
