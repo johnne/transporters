@@ -168,7 +168,7 @@ T17	Other	Other	rnfA: electron transport complex, RnfABCDGE type, A subunit
 T112	Other	Other	matE: MATE efflux family protein
 T916	Other	Other	3a01208: antigen peptide transporter 2
 T101	Other	Other	8a0101: efflux pump membrane protein
-T643	Other	Other	hepto_Aah_TibC: autotransporter strand-loop-strand O-heptosyltransferase
+T157	Other	Other	hepto_Aah_TibC: autotransporter strand-loop-strand O-heptosyltransferase
 T960	Other	Other	efflux_Bcr_CflA: drug resistance transporter, Bcr/CflA subfamily
 T764	Other	Other	PFKA_PPi: diphosphate--fructose-6-phosphate 1-phosphotransferase
 T16	Other	Other	ATPase-IIC_X-K: Na,H/K antiporter P-type ATPase, alpha subunit
