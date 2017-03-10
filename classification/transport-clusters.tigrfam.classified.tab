@@ -149,7 +149,6 @@ T477	Cellular processes	Toxin production and resistance	NHLM_micro_HlyD: NHLM ba
 T572	Cellular processes	Toxin production and resistance	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
 T738	Cellular processes	Toxin production and resistance	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
 T127	Cellular processes	Toxin production and resistance	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
-T905	Cellular processes	Toxin production and resistance	bacteriocin_acc: bacteriocin secretion accessory protein
 T107	Nitrogen compounds	Ammonium	amt: ammonium transporter
 T43	Nitrogen compounds	BCCT family	bcct: transporter, betaine/carnitine/choline transporter (BCCT) family
 T33	Nitrogen compounds	Nitrate	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
@@ -197,7 +196,6 @@ T132	Phosphorus compounds	Phosphonate	ABC_phnC: phosphonate ABC transporter, ATP
 T619	Phosphorus compounds	Phosphorus compounds	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
 T273	Phosphorus compounds	Polyphosphate	PPK2_rel_1: polyphosphate:nucleotide phosphotransferase, PPK2 family
 T857	Phosphorus compounds	Polyphosphate	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
-T714	Protein and peptide secretion and trafficking	Peptide	bacteriocin_ABC: ABC-type bacteriocin transporter
 T22	Protein and peptide secretion and trafficking	Protein export	secD: protein-export membrane protein SecD
 T467	Protein and peptide secretion and trafficking	Protein export	secB: protein-export chaperone SecB
 T31	Protein and peptide secretion and trafficking	Protein export	autotrans_barl: outer membrane autotransporter barrel domain
