@@ -284,4 +284,3 @@ T48	Unknown substrate	Unknown substrate	GET3_arsA_TRC40: transport-energizing AT
 T275	Vitamines	Pantothenate and coenzyme A	panF: sodium/pantothenate symporter
 T605	Vitamines	Thiamine	thiW: energy coupling factor transporter S component ThiW
 T78	Vitamines	Thiamine	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
-T614	Vitamines	Thiamine	ECF_ThiT_YuaJ: energy-coupled thiamine transporter ThiT
