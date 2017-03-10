@@ -282,14 +282,12 @@ T605	Unknown substrate	Unknown substrate	EcfS_MSC_0063: putative energy coupling
 T169	Unknown substrate	Unknown substrate	anch_rpt_ABC: anchored repeat-type ABC transporter, ATP-binding subunit
 T301	Cellular processes	Membrane fusion protein	heterocyst_DevB: ABC exporter membrane fusion protein, DevB family
 T984	Unknown substrate	Unknown substrate	ADOP: acidobacterial duplicated orphan permease
-T829	Unknown substrate	Unknown substrate	anch_rpt_perm: anchored repeat-type ABC transporter, permease subunit
 T288	Unknown substrate	Unknown substrate	ydaH: AbgT transporter family
 T453	Unknown substrate	Unknown substrate	Mtu_efflux: ABC transporter efflux protein, DrrB family
 T63	Unknown substrate	Unknown substrate	YidE_YbjL_dupl: AspT/YidE/YbjL antiporter duplication domain
 T323	Unknown substrate	Unknown substrate	actII: transport protein
 T644	Unknown substrate	Unknown substrate	ECF_S_folT_fam: ECF transporter S component, folate family
 T967	Unknown substrate	Unknown substrate	Trep_Strep: putative ECF transporter S component, Trep_Strep family
-T815	Unknown substrate	Unknown substrate	anch_rpt_subst: anchored repeat ABC transporter, substrate-binding protein
 T85	Unknown substrate	Unknown substrate	ECF_ATPase_1: energy-coupling factor transporter ATPase
 T48	Unknown substrate	Unknown substrate	GET3_arsA_TRC40: transport-energizing ATPase, TRC40/GET3/ArsA family
 T275	Vitamines	Pantothenate and coenzyme A	panF: sodium/pantothenate symporter
