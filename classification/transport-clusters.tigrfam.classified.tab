@@ -60,7 +60,6 @@ T368	Carbohydrates, organic alcohols, and acids	Glycerol-3-phosphate	glpT: glyce
 T249	Carbohydrates, organic alcohols, and acids	Glycoside	drrA: daunorubicin resistance ABC transporter, ATP-binding protein
 T289	Carbohydrates, organic alcohols, and acids	Glycoside	drrB: daunorubicin resistance ABC transporter membrane protein
 T209	Carbohydrates, organic alcohols, and acids	Malonate	malonate_madL: malonate transporter, MadL subunit
-T373	Carbohydrates, organic alcohols, and acids	Malonate	malonate_madM: malonate transporter, MadM subunit
 T395	Carbohydrates, organic alcohols, and acids	Monocarboxylic acid	2A0113: monocarboxylate transporter
 T32	Carbohydrates, organic alcohols, and acids	Monocarboxylic acid	bass: bile acid transporter
 T81	Carbohydrates, organic alcohols, and acids	Monocarboxylic acid	kdgT: 2-keto-3-deoxygluconate transporter
