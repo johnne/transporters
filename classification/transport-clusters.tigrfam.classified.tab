@@ -276,13 +276,9 @@ T532	Protein and peptide secretion and trafficking	Unknown substrate	autotrns_rp
 T834	TonB transport	SusC/RagA	OMP_RagA_SusC: TonB-linked outer membrane protein, SusC/RagA family
 T682	TonB transport	TonB	LP_HExxH_w_tonB: substrate import-associated zinc metallohydrolase lipoprotein
 T945	TonB transport	TonB	TonB-Xanth-Caul: TonB-dependent receptor
-T131	TonB transport	TonB	tonB_Cterm: TonB family C-terminal domain
 T19	TonB transport	TonB-B12	TonB-B12: TonB-dependent vitamin B12 receptor
 T233	TonB transport	TonB-copper	TonB-copper: TonB-dependent copper receptor
-T330	TonB transport	TonB-ExbB	exbB: tonB-system energizer ExbB
 T36	TonB transport	TonB-ExbB	exbB2: tonB-system energizer ExbB
-T377	TonB transport	TonB-ExbD	ExbD_1: TonB system transport protein ExbD
-T807	TonB transport	TonB-ExbD	ExbD_2: TonB system transport protein ExbD
 T887	TonB transport	TonB-hemin	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
 T349	TonB transport	TonB-lactoferrin	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
 T39	Unknown substrate	ABC transporter	TIGR00056: ABC transport permease subunit
