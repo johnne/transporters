@@ -154,12 +154,8 @@ T33	Nitrogen compounds	Nitrate	ntrCD: nitrate ABC transporter, ATP-binding prote
 T378	Nitrogen compounds	Nitrite	2A0108: nitrite transporter
 T59	Nitrogen compounds	Nitrite	fnt: formate/nitrite transporter
 T731	Nitrogen compounds	Taurine	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
-T651	Nitrogen compounds	Urea	urea_trans_UrtC: urea ABC transporter, permease protein UrtC
 T780	Nitrogen compounds	Urea	urea_ABC_arch: urea ABC transporter, substrate-binding protein
-T651	Nitrogen compounds	Urea	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD
-T651	Nitrogen compounds	Urea	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE
-T651	Nitrogen compounds	Urea	urea_ABC_UrtA: urea ABC transporter, urea binding protein
-T651	Nitrogen compounds	Urea	urea_trans_UrtB: urea ABC transporter, permease protein UrtB
+T651	Nitrogen compounds	Urea	UrtABCDE: urea ABC transporter
 T426	Nitrogen compounds	Urea	urea_trans_yut: urea transporter
 T84	Nucleosides, purines and pyrimidines	Nucleosides	ncs1: NCS1 nucleoside transporter family
 T285	Nucleosides, purines and pyrimidines	Nucleosides	2A0110: nucleoside transporter
