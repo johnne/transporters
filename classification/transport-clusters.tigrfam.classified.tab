@@ -21,6 +21,9 @@ T969	Amino acids, peptides and amines	Gamma-aminobutyric acid	GABAperm: GABA per
 T501	Amino acids, peptides and amines	Glutamate	gltS: sodium/glutamate symporter
 T88	Amino acids, peptides and amines	L-lysine export	2a75: L-lysine exporter
 T7	Amino acids, peptides and amines	Neutral amino acid	sss: transporter, solute:sodium symporter (SSS) family
+T7a	Cations and iron carrying compounds	Solute	sss: solute:sodium symporter
+T7b	Amino acids, peptides and amines	Proline	putP: sodium/proline symporter
+T7c	Carbohydrates, organic alcohols, and acids	Acetate	actP: cation/acetate symporter ActP
 T46	Amino acids, peptides and amines	Oligopeptide	2A1704: oligopeptide transporter, peptide:H+ symporter
 T35	Amino acids, peptides and amines	Oligopeptide	ISP4_OPT: small oligopeptide transporter, OPT family
 T758	Amino acids, peptides and amines	Oligopeptide	TIGR00733: oligopeptide transporter, OPT family
@@ -32,7 +35,8 @@ T54	Anions	Anion	dass: transporter, divalent anion:Na+ symporter (DASS) family
 T66	Anions	Molybdate	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
 T844	Anions	Organic anion	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
 T60	Anions	Sulfate	sulP: sulfate permease
-T21	Anions	Sulfate	3a0106s02: sulfate ABC transporter, permease protein
+T21	Anions	Sulfate	cysA: sulfate ABC transporter
+T21a	Anions	Sulfate	sulfate ABC transporter
 T541	Carbohydrates, organic alcohols, and acids	Alcohol	phenyl_ABC_PedC: alcohol ABC transporter, permease protein
 T603	Carbohydrates, organic alcohols, and acids	Aromatic acid	2A0115: MFS transporter, aromatic acid:H+ symporter (AAHS) family
 T364	Carbohydrates, organic alcohols, and acids	Benzoate	benE: benzoate transporter
@@ -89,7 +93,10 @@ T581	Cations and iron carrying compounds	Cobalt	cbiO: cobalt ABC transporter, AT
 T790	Cations and iron carrying compounds	Copper	CopY_TcrY: copper transport repressor, CopY/TcrY family
 T817	Cations and iron carrying compounds	H+	2A0121: H+ Antiporter protein
 T606	Cations and iron carrying compounds	Iron	sider_RhtX_FptX: siderophore transporter, RhtX/FptX family
-T13	Cations and iron carrying compounds	Iron	ccmB: heme exporter protein CcmB
+T13	Cations and iron carrying compounds	Iron	heme exporter protein Ccm
+T13a	Cations and iron carrying compounds	Iron	heme exporter protein CcmA
+T13b	Cations and iron carrying compounds	Iron	heme exporter protein CcmB
+T13c	Cations and iron carrying compounds	Iron	heme exporter protein CcmC
 T30	Cations and iron carrying compounds	Iron	feoB: ferrous iron transport protein B
 T308	Cations and iron carrying compounds	K+	potass_kdpF: K+-transporting ATPase, F subunit
 T45	Cations and iron carrying compounds	K+	kup: potassium uptake protein
@@ -116,6 +123,7 @@ T810	Cell envelope	Other	fbt: folate/biopterin transporter
 T513	Cellular processes	Adaptations to atypical conditions	2A0125: AmpG-like permease
 T11	Cellular processes	Cell division	ftsX: putative protein insertion permease FtsX
 T340	Cellular processes	Chemotaxis and motility	FliI_clade2: flagellar protein export ATPase FliI
+T340b	Cellular processes	Chemotaxis and motility	FliI_clade2: flagellar protein export ATPase FliI
 T794	Cellular processes	Chloroplast protein import	3a0901s05TIC20: chloroplast protein import component, Tic20 family
 T684	Cellular processes	Chloroplast protein import	3a0901s04IAP86: chloroplast protein import component Toc86/159, G and M domains
 T695	Cellular processes	Chloroplast protein import	3a0901s06TIC22: chloroplast protein import component, Tic22 family
@@ -182,8 +190,10 @@ T3	Phosphorus compounds	Phosphate	3a0107s03: phosphate ABC transporter, phosphat
 T3r	Phosphorus compounds	Phosphate	phosphate transport system regulatory protein PhoU
 T41	Phosphorus compounds	Phosphate	2a58: sodium-dependent inorganic phosphate (Pi) transporter
 T452	Phosphorus compounds	Phosphonate	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
-T177	Phosphorus compounds	Phosphonate	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T177a	Phosphorus compounds	Phosphonate	phnS2: putative 2-aminoethylphosphonate transporter
+T177b	Phosphorus compounds	Phosphonate	phnTU2: putative 2-aminoethylphosphonate transporter
 T132	Phosphorus compounds	Phosphonate	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
+T132a	Phosphorus compounds	Phosphonate	phnKL: phosphonate C-P lyase system
 T619	Phosphorus compounds	Phosphorus compounds	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
 T273	Phosphorus compounds	Polyphosphate	PPK2_rel_1: polyphosphate:nucleotide phosphotransferase, PPK2 family
 T857	Phosphorus compounds	Polyphosphate	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
@@ -260,6 +270,8 @@ T834	TonB transport	SusC/RagA	OMP_RagA_SusC: TonB-linked outer membrane protein,
 T682	TonB transport	TonB	LP_HExxH_w_tonB: substrate import-associated zinc metallohydrolase lipoprotein
 T945	TonB transport	TonB	TonB-Xanth-Caul: TonB-dependent receptor
 T19	TonB transport	TonB-B12	TonB-B12: TonB-dependent vitamin B12 receptor
+T19a	TonB transport	TonB-siderophor	TonB-dependent siderophore receptor
+T19b	TonB transport	TonB-B12	TonB-B12: TonB-dependent vitamin B12 receptor
 T233	TonB transport	TonB-copper	TonB-copper: TonB-dependent copper receptor
 T36	TonB transport	TonB-ExbB	exbB2: tonB-system energizer ExbB
 T887	TonB transport	TonB-hemin	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
