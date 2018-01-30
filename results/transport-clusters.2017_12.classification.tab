@@ -1,0 +1,1150 @@
+transporter	TIGRFAM	mainrole	sub1role	go_id	go_name	TIGRFAM_NAME
+T1	TIGR02633	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005524	ATP binding	xylG: D-xylose ABC transporter, ATP-binding protein
+T1	TIGR02633	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0009898	cytoplasmic side of plasma membrane	xylG: D-xylose ABC transporter, ATP-binding protein
+T1	TIGR02633	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	xylG: D-xylose ABC transporter, ATP-binding protein
+T1	TIGR02633	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015614	D-xylose-importing ATPase activity	xylG: D-xylose ABC transporter, ATP-binding protein
+T1	TIGR02633	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015753	D-xylose transport	xylG: D-xylose ABC transporter, ATP-binding protein
+T2	TIGR00998	Transport and binding proteins	Other			8a0101: efflux pump membrane protein
+T2	TIGR01730	Transport and binding proteins	Unknown substrate	GO:0006810	transport	RND_mfp: efflux transporter, RND family, MFP subunit
+T2	TIGR01730	Transport and binding proteins	Unknown substrate	GO:0005215	transporter activity	RND_mfp: efflux transporter, RND family, MFP subunit
+T2	TIGR00915	Cellular processes	Toxin production and resistance	GO:0006810	transport	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+T2	TIGR00915	Cellular processes	Toxin production and resistance	GO:0016021	integral component of membrane	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+T2	TIGR00915	Cellular processes	Toxin production and resistance	GO:0015562	efflux transmembrane transporter activity	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+T2	TIGR00915	Transport and binding proteins	Unknown substrate	GO:0006810	transport	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+T2	TIGR00915	Transport and binding proteins	Unknown substrate	GO:0016021	integral component of membrane	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+T2	TIGR00915	Transport and binding proteins	Unknown substrate	GO:0015562	efflux transmembrane transporter activity	2A0602: RND transporter, hydrophobe/amphiphile efflux-1 (HAE1) family
+T3	TIGR00974	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	3a0107s02c: phosphate ABC transporter, permease protein PstA
+T3	TIGR00974	Transport and binding proteins	Anions	GO:0006817	phosphate ion transport	3a0107s02c: phosphate ABC transporter, permease protein PstA
+T3	TIGR00974	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	3a0107s02c: phosphate ABC transporter, permease protein PstA
+T3	TIGR00974	Transport and binding proteins	Anions	GO:0015415	ATPase-coupled phosphate ion transmembrane transporter activity	3a0107s02c: phosphate ABC transporter, permease protein PstA
+T3	TIGR00972	Transport and binding proteins	Anions	GO:0006817	phosphate ion transport	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
+T3	TIGR00972	Transport and binding proteins	Anions	GO:0005524	ATP binding	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
+T3	TIGR00972	Transport and binding proteins	Anions	GO:0009898	cytoplasmic side of plasma membrane	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
+T3	TIGR00972	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
+T3	TIGR00972	Transport and binding proteins	Anions	GO:0015415	ATPase-coupled phosphate ion transmembrane transporter activity	3a0107s01c2: phosphate ABC transporter, ATP-binding protein
+T3	TIGR02138	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	phosphate_pstC: phosphate ABC transporter, permease protein PstC
+T3	TIGR02138	Transport and binding proteins	Anions	GO:0006817	phosphate ion transport	phosphate_pstC: phosphate ABC transporter, permease protein PstC
+T3	TIGR02138	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	phosphate_pstC: phosphate ABC transporter, permease protein PstC
+T3	TIGR02138	Transport and binding proteins	Anions	GO:0015415	ATPase-coupled phosphate ion transmembrane transporter activity	phosphate_pstC: phosphate ABC transporter, permease protein PstC
+T3	TIGR00975	Transport and binding proteins	Anions	GO:0030288	outer membrane-bounded periplasmic space	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+T3	TIGR00975	Transport and binding proteins	Anions	GO:0006817	phosphate ion transport	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+T3	TIGR00975	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+T3	TIGR00975	Transport and binding proteins	Anions	GO:0031362	anchored component of external side of plasma membrane	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+T3	TIGR00975	Transport and binding proteins	Anions	GO:0015415	ATPase-coupled phosphate ion transmembrane transporter activity	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+T3	TIGR00975	Transport and binding proteins	Anions	GO:0042301	phosphate ion binding	3a0107s03: phosphate ABC transporter, phosphate-binding protein PstS
+T4	TIGR02533	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	type_II_gspE: type II secretion system protein E
+T4	TIGR02533	Protein fate	Protein and peptide secretion and trafficking	GO:0015627	type II protein secretion system complex	type_II_gspE: type II secretion system protein E
+T4	TIGR02533	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	type_II_gspE: type II secretion system protein E
+T4	TIGR02533	Cellular processes	Pathogenesis	GO:0008565	protein transporter activity	type_II_gspE: type II secretion system protein E
+T4	TIGR02533	Cellular processes	Pathogenesis	GO:0015627	type II protein secretion system complex	type_II_gspE: type II secretion system protein E
+T4	TIGR02533	Cellular processes	Pathogenesis	GO:0015628	protein secretion by the type II secretion system	type_II_gspE: type II secretion system protein E
+T4	TIGR02120	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	GspF: type II secretion system protein F
+T4	TIGR02120	Protein fate	Protein and peptide secretion and trafficking	GO:0015627	type II protein secretion system complex	GspF: type II secretion system protein F
+T4	TIGR02120	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	GspF: type II secretion system protein F
+T5	TIGR00786	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	dctM: TRAP transporter, DctM subunit
+T5	TIGR00786	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015556	C4-dicarboxylate transmembrane transporter activity	dctM: TRAP transporter, DctM subunit
+T5	TIGR00786	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015740	C4-dicarboxylate transport	dctM: TRAP transporter, DctM subunit
+T5	TIGR00786	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0031317	tripartite ATP-independent periplasmic transporter complex	dctM: TRAP transporter, DctM subunit
+T5	TIGR00787	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0006810	transport	dctP: TRAP transporter solute receptor, DctP family
+T5	TIGR00787	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0031317	tripartite ATP-independent periplasmic transporter complex	dctP: TRAP transporter solute receptor, DctP family
+T5	TIGR00787	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005215	transporter activity	dctP: TRAP transporter solute receptor, DctP family
+T5	TIGR00787	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005488	binding	dctP: TRAP transporter solute receptor, DctP family
+T5	TIGR00787	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0030288	outer membrane-bounded periplasmic space	dctP: TRAP transporter solute receptor, DctP family
+T7	TIGR02711	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	symport_actP: cation/acetate symporter ActP
+T7	TIGR02711	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0006814	sodium ion transport	symport_actP: cation/acetate symporter ActP
+T7	TIGR02711	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015370	solute:sodium symporter activity	symport_actP: cation/acetate symporter ActP
+T7	TIGR02711	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0031402	sodium ion binding	symport_actP: cation/acetate symporter ActP
+T7	TIGR00813	Transport and binding proteins	Cations and iron carrying compounds	GO:0005887	integral component of plasma membrane	sss: transporter, solute:sodium symporter (SSS) family
+T7	TIGR00813	Transport and binding proteins	Cations and iron carrying compounds	GO:0006810	transport	sss: transporter, solute:sodium symporter (SSS) family
+T7	TIGR00813	Transport and binding proteins	Cations and iron carrying compounds	GO:0015370	solute:sodium symporter activity	sss: transporter, solute:sodium symporter (SSS) family
+T7	TIGR02121	Transport and binding proteins	Amino acids, peptides and amines	GO:0016020	membrane	Na_Pro_sym: sodium/proline symporter
+T7	TIGR02121	Transport and binding proteins	Amino acids, peptides and amines	GO:0005298	proline:sodium symporter activity	Na_Pro_sym: sodium/proline symporter
+T7	TIGR02121	Transport and binding proteins	Amino acids, peptides and amines	GO:0015824	proline transport	Na_Pro_sym: sodium/proline symporter
+T10	TIGR01783	Transport and binding proteins	Cations and iron carrying compounds	GO:0019867	outer membrane	TonB-siderophor: TonB-dependent siderophore receptor
+T10	TIGR01783	Transport and binding proteins	Cations and iron carrying compounds	GO:0015343	siderophore transmembrane transporter activity	TonB-siderophor: TonB-dependent siderophore receptor
+T10	TIGR01783	Transport and binding proteins	Cations and iron carrying compounds	GO:0015892	siderophore transport	TonB-siderophor: TonB-dependent siderophore receptor
+T10	TIGR01783	Transport and binding proteins	Porins	GO:0019867	outer membrane	TonB-siderophor: TonB-dependent siderophore receptor
+T10	TIGR01783	Transport and binding proteins	Porins	GO:0015343	siderophore transmembrane transporter activity	TonB-siderophor: TonB-dependent siderophore receptor
+T10	TIGR01783	Transport and binding proteins	Porins	GO:0015892	siderophore transport	TonB-siderophor: TonB-dependent siderophore receptor
+T10	TIGR01779	Transport and binding proteins	Other	GO:0019867	outer membrane	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01779	Transport and binding proteins	Other	GO:0015235	cobalamin-transporting ATPase activity	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01779	Transport and binding proteins	Other	GO:0015889	cobalamin transport	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01779	Transport and binding proteins	Other	GO:0031419	cobalamin binding	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01779	Transport and binding proteins	Porins	GO:0019867	outer membrane	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01779	Transport and binding proteins	Porins	GO:0015235	cobalamin-transporting ATPase activity	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01779	Transport and binding proteins	Porins	GO:0015889	cobalamin transport	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01779	Transport and binding proteins	Porins	GO:0031419	cobalamin binding	TonB-B12: TonB-dependent vitamin B12 receptor
+T10	TIGR01786	Transport and binding proteins	Cations and iron carrying compounds	GO:0006810	transport	TonB-hemlactrns: TonB-dependent hemoglobin/transferrin/lactoferrin receptor family protein
+T10	TIGR01786	Transport and binding proteins	Cations and iron carrying compounds	GO:0022857	transmembrane transporter activity	TonB-hemlactrns: TonB-dependent hemoglobin/transferrin/lactoferrin receptor family protein
+T10	TIGR01786	Transport and binding proteins	Cations and iron carrying compounds	GO:0019867	outer membrane	TonB-hemlactrns: TonB-dependent hemoglobin/transferrin/lactoferrin receptor family protein
+T10	TIGR01786	Transport and binding proteins	Porins	GO:0006810	transport	TonB-hemlactrns: TonB-dependent hemoglobin/transferrin/lactoferrin receptor family protein
+T10	TIGR01786	Transport and binding proteins	Porins	GO:0022857	transmembrane transporter activity	TonB-hemlactrns: TonB-dependent hemoglobin/transferrin/lactoferrin receptor family protein
+T10	TIGR01786	Transport and binding proteins	Porins	GO:0019867	outer membrane	TonB-hemlactrns: TonB-dependent hemoglobin/transferrin/lactoferrin receptor family protein
+T11	TIGR00950	Transport and binding proteins	Amino acids, peptides and amines			2A78: carboxylate/amino acid/amine transporter
+T12	TIGR00883	Transport and binding proteins	Unknown substrate	GO:0005887	integral component of plasma membrane	2A0106: MFS transporter, metabolite:H+ symporter (MHS) family protein
+T12	TIGR00883	Transport and binding proteins	Unknown substrate	GO:0006810	transport	2A0106: MFS transporter, metabolite:H+ symporter (MHS) family protein
+T12	TIGR00883	Transport and binding proteins	Unknown substrate	GO:0015295	solute:proton symporter activity	2A0106: MFS transporter, metabolite:H+ symporter (MHS) family protein
+T12	TIGR00887	Transport and binding proteins	Anions	GO:0006817	phosphate ion transport	2A0109: phosphate:H+ symporter
+T12	TIGR00887	Transport and binding proteins	Anions	GO:0015114	phosphate ion transmembrane transporter activity	2A0109: phosphate:H+ symporter
+T12	TIGR00879	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	SP: MFS transporter, sugar porter (SP) family
+T12	TIGR00879	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0008643	carbohydrate transport	SP: MFS transporter, sugar porter (SP) family
+T12	TIGR00879	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0051119	sugar transmembrane transporter activity	SP: MFS transporter, sugar porter (SP) family
+T12	TIGR00898	Transport and binding proteins	Cations and iron carrying compounds			2A0119: cation transport protein
+T13	TIGR01191	Protein fate	Protein and peptide secretion and trafficking			ccmC: heme exporter protein CcmC
+T13	TIGR01191	Transport and binding proteins	Other			ccmC: heme exporter protein CcmC
+T13	TIGR01189	Protein fate	Protein and peptide secretion and trafficking	GO:0043190	ATP-binding cassette (ABC) transporter complex	ccmA: heme ABC exporter, ATP-binding protein CcmA
+T13	TIGR01189	Protein fate	Protein and peptide secretion and trafficking	GO:0015439	heme-transporting ATPase activity	ccmA: heme ABC exporter, ATP-binding protein CcmA
+T13	TIGR01189	Protein fate	Protein and peptide secretion and trafficking	GO:0015886	heme transport	ccmA: heme ABC exporter, ATP-binding protein CcmA
+T13	TIGR01189	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	ccmA: heme ABC exporter, ATP-binding protein CcmA
+T13	TIGR01189	Transport and binding proteins	Other	GO:0015439	heme-transporting ATPase activity	ccmA: heme ABC exporter, ATP-binding protein CcmA
+T13	TIGR01189	Transport and binding proteins	Other	GO:0015886	heme transport	ccmA: heme ABC exporter, ATP-binding protein CcmA
+T13	TIGR01190	Protein fate	Protein and peptide secretion and trafficking	GO:0015886	heme transport	ccmB: heme exporter protein CcmB
+T13	TIGR01190	Protein fate	Protein and peptide secretion and trafficking	GO:0015232	heme transporter activity	ccmB: heme exporter protein CcmB
+T13	TIGR01190	Transport and binding proteins	Other	GO:0015886	heme transport	ccmB: heme exporter protein CcmB
+T13	TIGR01190	Transport and binding proteins	Other	GO:0015232	heme transporter activity	ccmB: heme exporter protein CcmB
+T14	TIGR01403	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	fliQ_rel_III: type III secretion protein, HrpO family
+T14	TIGR01403	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	fliQ_rel_III: type III secretion protein, HrpO family
+T14	TIGR01401	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	fliR_like_III: type III secretion apparatus protein SpaR/YscT/HrcT
+T14	TIGR01401	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	fliR_like_III: type III secretion apparatus protein SpaR/YscT/HrcT
+T15	TIGR01943	Energy metabolism	Electron transport	GO:0016020	membrane	rnfA: electron transport complex, RnfABCDGE type, A subunit
+T15	TIGR01943	Energy metabolism	Electron transport	GO:0009055	electron transfer activity	rnfA: electron transport complex, RnfABCDGE type, A subunit
+T15	TIGR01945	Energy metabolism	Electron transport	GO:0016020	membrane	rnfC: electron transport complex, RnfABCDGE type, C subunit
+T15	TIGR01945	Energy metabolism	Electron transport	GO:0009055	electron transfer activity	rnfC: electron transport complex, RnfABCDGE type, C subunit
+T15	TIGR01948	Energy metabolism	Electron transport	GO:0016021	integral component of membrane	rnfE: electron transport complex, RnfABCDGE type, E subunit
+T15	TIGR01948	Energy metabolism	Electron transport	GO:0009055	electron transfer activity	rnfE: electron transport complex, RnfABCDGE type, E subunit
+T15	TIGR01946	Energy metabolism	Electron transport	GO:0016020	membrane	rnfD: electron transport complex, RnfABCDGE type, D subunit
+T15	TIGR01946	Energy metabolism	Electron transport	GO:0009055	electron transfer activity	rnfD: electron transport complex, RnfABCDGE type, D subunit
+T15	TIGR01947	Energy metabolism	Electron transport	GO:0016020	membrane	rnfG: electron transport complex, RnfABCDGE type, G subunit
+T15	TIGR01947	Energy metabolism	Electron transport	GO:0009055	electron transfer activity	rnfG: electron transport complex, RnfABCDGE type, G subunit
+T15	TIGR01944	Energy metabolism	Electron transport	GO:0016020	membrane	rnfB: electron transport complex, RnfABCDGE type, B subunit
+T15	TIGR01944	Energy metabolism	Electron transport	GO:0009055	electron transfer activity	rnfB: electron transport complex, RnfABCDGE type, B subunit
+T16	TIGR01106	Energy metabolism	ATP-proton motive force interconversion			ATPase-IIC_X-K: Na,H/K antiporter P-type ATPase, alpha subunit
+T17	TIGR00966	Protein fate	Protein and peptide secretion and trafficking	GO:0043952	protein transport by the Sec complex	3a0501s07: protein-export membrane protein SecF
+T17	TIGR00966	Protein fate	Protein and peptide secretion and trafficking	GO:0015450	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	3a0501s07: protein-export membrane protein SecF
+T17	TIGR00966	Protein fate	Protein and peptide secretion and trafficking	GO:0031522	cell envelope Sec protein transport complex	3a0501s07: protein-export membrane protein SecF
+T17	TIGR01129	Protein fate	Protein and peptide secretion and trafficking	GO:0043952	protein transport by the Sec complex	secD: protein-export membrane protein SecD
+T17	TIGR01129	Protein fate	Protein and peptide secretion and trafficking	GO:0015450	P-P-bond-hydrolysis-driven protein transmembrane transporter activity	secD: protein-export membrane protein SecD
+T17	TIGR01129	Protein fate	Protein and peptide secretion and trafficking	GO:0031522	cell envelope Sec protein transport complex	secD: protein-export membrane protein SecD
+T17	TIGR00916	Protein fate	Protein and peptide secretion and trafficking			2A0604s01: protein-export membrane protein, SecD/SecF family
+T18	TIGR00969	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	3a0106s02: sulfate ABC transporter, permease protein
+T18	TIGR00969	Transport and binding proteins	Anions	GO:0008272	sulfate transport	3a0106s02: sulfate ABC transporter, permease protein
+T18	TIGR00969	Transport and binding proteins	Anions	GO:0015419	ATPase-coupled sulfate transmembrane transporter activity	3a0106s02: sulfate ABC transporter, permease protein
+T18	TIGR00969	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	3a0106s02: sulfate ABC transporter, permease protein
+T18	TIGR02139	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	permease_CysT: sulfate ABC transporter, permease protein CysT
+T18	TIGR02139	Transport and binding proteins	Anions	GO:0008272	sulfate transport	permease_CysT: sulfate ABC transporter, permease protein CysT
+T18	TIGR02139	Transport and binding proteins	Anions	GO:0015419	ATPase-coupled sulfate transmembrane transporter activity	permease_CysT: sulfate ABC transporter, permease protein CysT
+T18	TIGR02139	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	permease_CysT: sulfate ABC transporter, permease protein CysT
+T18	TIGR02140	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	permease_CysW: sulfate ABC transporter, permease protein CysW
+T18	TIGR02140	Transport and binding proteins	Anions	GO:0008272	sulfate transport	permease_CysW: sulfate ABC transporter, permease protein CysW
+T18	TIGR02140	Transport and binding proteins	Anions	GO:0015419	ATPase-coupled sulfate transmembrane transporter activity	permease_CysW: sulfate ABC transporter, permease protein CysW
+T18	TIGR02140	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	permease_CysW: sulfate ABC transporter, permease protein CysW
+T19	TIGR00942	Transport and binding proteins	Cations and iron carrying compounds	GO:0005451	monovalent cation:proton antiporter activity	2a6301s05: multicomponent Na+:H+ antiporter
+T19	TIGR00942	Transport and binding proteins	Cations and iron carrying compounds	GO:0015992	proton transport	2a6301s05: multicomponent Na+:H+ antiporter
+T19	TIGR00942	Transport and binding proteins	Cations and iron carrying compounds	GO:0015672	monovalent inorganic cation transport	2a6301s05: multicomponent Na+:H+ antiporter
+T19	TIGR01300	Transport and binding proteins	Cations and iron carrying compounds	GO:0005451	monovalent cation:proton antiporter activity	CPA3_mnhG_phaG: monovalent cation/proton antiporter, MnhG/PhaG subunit
+T19	TIGR01300	Transport and binding proteins	Cations and iron carrying compounds	GO:0015992	proton transport	CPA3_mnhG_phaG: monovalent cation/proton antiporter, MnhG/PhaG subunit
+T19	TIGR01300	Transport and binding proteins	Cations and iron carrying compounds	GO:0015672	monovalent inorganic cation transport	CPA3_mnhG_phaG: monovalent cation/proton antiporter, MnhG/PhaG subunit
+T21	TIGR02516	Protein fate	Protein and peptide secretion and trafficking			type_III_yscC: type III secretion outer membrane pore, YscC/HrcC family
+T21	TIGR02516	Cellular processes	Pathogenesis			type_III_yscC: type III secretion outer membrane pore, YscC/HrcC family
+T21	TIGR02517	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	type_II_gspD: type II secretion system protein D
+T21	TIGR02517	Protein fate	Protein and peptide secretion and trafficking	GO:0015627	type II protein secretion system complex	type_II_gspD: type II secretion system protein D
+T21	TIGR02517	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	type_II_gspD: type II secretion system protein D
+T23	TIGR00837	Transport and binding proteins	Amino acids, peptides and amines	GO:0005887	integral component of plasma membrane	araaP: aromatic amino acid transport protein
+T23	TIGR00837	Transport and binding proteins	Amino acids, peptides and amines	GO:0015173	aromatic amino acid transmembrane transporter activity	araaP: aromatic amino acid transport protein
+T23	TIGR00837	Transport and binding proteins	Amino acids, peptides and amines	GO:0015801	aromatic amino acid transport	araaP: aromatic amino acid transport protein
+T23	TIGR00814	Transport and binding proteins	Amino acids, peptides and amines	GO:0005887	integral component of plasma membrane	stp: serine transporter
+T23	TIGR00814	Transport and binding proteins	Amino acids, peptides and amines	GO:0006865	amino acid transport	stp: serine transporter
+T23	TIGR00814	Transport and binding proteins	Amino acids, peptides and amines	GO:0015171	amino acid transmembrane transporter activity	stp: serine transporter
+T24	TIGR02805	Transport and binding proteins	Cations and iron carrying compounds	GO:0006810	transport	exbB2: tonB-system energizer ExbB
+T24	TIGR02805	Transport and binding proteins	Cations and iron carrying compounds	GO:0016020	membrane	exbB2: tonB-system energizer ExbB
+T24	TIGR02805	Transport and binding proteins	Cations and iron carrying compounds	GO:0015570	secondary active transmembrane transporter activity	exbB2: tonB-system energizer ExbB
+T24	TIGR02805	Transport and binding proteins	Cations and iron carrying compounds	GO:0015078	hydrogen ion transmembrane transporter activity	exbB2: tonB-system energizer ExbB
+T25	TIGR00913	Transport and binding proteins	Amino acids, peptides and amines			2A0310: amino acid permease (yeast)
+T25	TIGR00930	Transport and binding proteins	Other			2a30: K-Cl cotransporter
+T26	TIGR00905	Transport and binding proteins	Amino acids, peptides and amines	GO:0005887	integral component of plasma membrane	2A0302: transporter, basic amino acid/polyamine antiporter (APA) family
+T26	TIGR00905	Transport and binding proteins	Amino acids, peptides and amines	GO:0005275	amine transmembrane transporter activity	2A0302: transporter, basic amino acid/polyamine antiporter (APA) family
+T26	TIGR00905	Transport and binding proteins	Amino acids, peptides and amines	GO:0015837	amine transport	2A0302: transporter, basic amino acid/polyamine antiporter (APA) family
+T26	TIGR00911	Transport and binding proteins	Amino acids, peptides and amines			2A0308: L-type amino acid transporter
+T26	TIGR00906	Transport and binding proteins	Amino acids, peptides and amines			2A0303: cationic amino acid transport permease
+T27	TIGR00437	Transport and binding proteins	Cations and iron carrying compounds	GO:0015639	ferrous iron transmembrane transporter activity	feoB: ferrous iron transport protein B
+T27	TIGR00437	Transport and binding proteins	Cations and iron carrying compounds	GO:0015684	ferrous iron transport	feoB: ferrous iron transport protein B
+T28	TIGR00804	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0005887	integral component of plasma membrane	nupC: nucleoside transporter, NupC family
+T28	TIGR00804	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0005337	nucleoside transmembrane transporter activity	nupC: nucleoside transporter, NupC family
+T28	TIGR00804	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0015858	nucleoside transport	nupC: nucleoside transporter, NupC family
+T29	TIGR01414	Protein fate	Protein and peptide secretion and trafficking	GO:0009405	pathogenesis	autotrans_barl: outer membrane autotransporter barrel domain
+T29	TIGR01414	Protein fate	Protein and peptide secretion and trafficking	GO:0015474	autotransporter activity	autotrans_barl: outer membrane autotransporter barrel domain
+T29	TIGR01414	Protein fate	Protein and peptide secretion and trafficking	GO:0045203	integral component of cell outer membrane	autotrans_barl: outer membrane autotransporter barrel domain
+T29	TIGR01414	Protein fate	Protein and peptide secretion and trafficking	GO:0046819	protein secretion by the type V secretion system	autotrans_barl: outer membrane autotransporter barrel domain
+T29	TIGR01414	Cellular processes	Pathogenesis	GO:0009405	pathogenesis	autotrans_barl: outer membrane autotransporter barrel domain
+T29	TIGR01414	Cellular processes	Pathogenesis	GO:0015474	autotransporter activity	autotrans_barl: outer membrane autotransporter barrel domain
+T29	TIGR01414	Cellular processes	Pathogenesis	GO:0045203	integral component of cell outer membrane	autotrans_barl: outer membrane autotransporter barrel domain
+T29	TIGR01414	Cellular processes	Pathogenesis	GO:0046819	protein secretion by the type V secretion system	autotrans_barl: outer membrane autotransporter barrel domain
+T30	TIGR00841	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0008508	bile acid:sodium symporter activity	bass: bile acid transporter
+T30	TIGR00841	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015721	bile acid and bile salt transport	bass: bile acid transporter
+T31	TIGR01184	Transport and binding proteins	Other	GO:0005524	ATP binding	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Other	GO:0009898	cytoplasmic side of plasma membrane	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Other	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Other	GO:0015414	ATPase-coupled nitrate transmembrane transporter activity	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Other	GO:0015706	nitrate transport	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Anions	GO:0005524	ATP binding	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Anions	GO:0009898	cytoplasmic side of plasma membrane	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Anions	GO:0015414	ATPase-coupled nitrate transmembrane transporter activity	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T31	TIGR01184	Transport and binding proteins	Anions	GO:0015706	nitrate transport	ntrCD: nitrate ABC transporter, ATP-binding proteins C and D
+T32	TIGR00727	Transport and binding proteins	Amino acids, peptides and amines	GO:0015198	oligopeptide transmembrane transporter activity	ISP4_OPT: small oligopeptide transporter, OPT family
+T33	TIGR02314			GO:0005524	ATP binding	ABC_MetN: D-methionine ABC transporter, ATP-binding protein
+T33	TIGR02314			GO:0009898	cytoplasmic side of plasma membrane	ABC_MetN: D-methionine ABC transporter, ATP-binding protein
+T33	TIGR02314			GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	ABC_MetN: D-methionine ABC transporter, ATP-binding protein
+T33	TIGR02314			GO:0033232	D-methionine-transporting ATPase activity	ABC_MetN: D-methionine ABC transporter, ATP-binding protein
+T33	TIGR02314			GO:0048473	D-methionine transport	ABC_MetN: D-methionine ABC transporter, ATP-binding protein
+T34	TIGR04406	Transport and binding proteins	Other	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Transport and binding proteins	Other	GO:0009898	cytoplasmic side of plasma membrane	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Transport and binding proteins	Other	GO:0015920	lipopolysaccharide transport	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Transport and binding proteins	Other	GO:0015221	lipopolysaccharide transmembrane transporter activity	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0043190	ATP-binding cassette (ABC) transporter complex	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0009898	cytoplasmic side of plasma membrane	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015920	lipopolysaccharide transport	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T34	TIGR04406	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015221	lipopolysaccharide transmembrane transporter activity	LPS_export_lptB: LPS export ABC transporter ATP-binding protein
+T35	TIGR01297	Transport and binding proteins	Cations and iron carrying compounds	GO:0016020	membrane	CDF: cation diffusion facilitator family transporter
+T35	TIGR01297	Transport and binding proteins	Cations and iron carrying compounds	GO:0006812	cation transport	CDF: cation diffusion facilitator family transporter
+T35	TIGR01297	Transport and binding proteins	Cations and iron carrying compounds	GO:0015562	efflux transmembrane transporter activity	CDF: cation diffusion facilitator family transporter
+T35	TIGR01297	Transport and binding proteins	Cations and iron carrying compounds	GO:0008324	cation transmembrane transporter activity	CDF: cation diffusion facilitator family transporter
+T36	TIGR03928	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7_EssCb_Firm: type VII secretion protein EssC
+T36	TIGR03928	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	T7_EssCb_Firm: type VII secretion protein EssC
+T36	TIGR03926	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7_EssB: type VII secretion protein EssB
+T36	TIGR03926	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	T7_EssB: type VII secretion protein EssB
+T37	TIGR01187	Transport and binding proteins	Amino acids, peptides and amines	GO:0005524	ATP binding	potA: polyamine ABC transporter, ATP-binding protein
+T37	TIGR01187	Transport and binding proteins	Amino acids, peptides and amines	GO:0009898	cytoplasmic side of plasma membrane	potA: polyamine ABC transporter, ATP-binding protein
+T37	TIGR01187	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	potA: polyamine ABC transporter, ATP-binding protein
+T37	TIGR01187	Transport and binding proteins	Amino acids, peptides and amines	GO:0015417	polyamine-transporting ATPase activity	potA: polyamine ABC transporter, ATP-binding protein
+T37	TIGR01187	Transport and binding proteins	Amino acids, peptides and amines	GO:0015846	polyamine transport	potA: polyamine ABC transporter, ATP-binding protein
+T37	TIGR03258			GO:0005524	ATP binding	PhnT: 2-aminoethylphosphonate ABC transport system, ATP-binding component PhnT
+T37	TIGR03258			GO:0009898	cytoplasmic side of plasma membrane	PhnT: 2-aminoethylphosphonate ABC transport system, ATP-binding component PhnT
+T37	TIGR03258			GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	PhnT: 2-aminoethylphosphonate ABC transport system, ATP-binding component PhnT
+T37	TIGR03258			GO:0033223	2-aminoethylphosphonate transport	PhnT: 2-aminoethylphosphonate ABC transport system, ATP-binding component PhnT
+T37	TIGR03258			GO:0033225	2-aminoethylphosphonate-transporting ATPase activity	PhnT: 2-aminoethylphosphonate ABC transport system, ATP-binding component PhnT
+T39	TIGR00681	Transport and binding proteins	Cations and iron carrying compounds	GO:0006813	potassium ion transport	kdpC: K+-transporting ATPase, C subunit
+T39	TIGR00681	Transport and binding proteins	Cations and iron carrying compounds	GO:0008556	potassium-transporting ATPase activity	kdpC: K+-transporting ATPase, C subunit
+T39	TIGR00681	Transport and binding proteins	Cations and iron carrying compounds	GO:0031004	potassium ion-transporting ATPase complex	kdpC: K+-transporting ATPase, C subunit
+T40	TIGR01417			GO:0006808	regulation of nitrogen utilization	PTS_I_fam: phosphoenolpyruvate-protein phosphotransferase
+T40	TIGR01417			GO:0008965	phosphoenolpyruvate-protein phosphotransferase activity	PTS_I_fam: phosphoenolpyruvate-protein phosphotransferase
+T40	TIGR01417			GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system	PTS_I_fam: phosphoenolpyruvate-protein phosphotransferase
+T41	TIGR00946	Transport and binding proteins	Other			2a69: auxin efflux carrier
+T42	TIGR01186	Transport and binding proteins	Amino acids, peptides and amines	GO:0043190	ATP-binding cassette (ABC) transporter complex	proV: glycine betaine/L-proline transport ATP binding subunit
+T42	TIGR01186	Transport and binding proteins	Amino acids, peptides and amines	GO:0015837	amine transport	proV: glycine betaine/L-proline transport ATP binding subunit
+T42	TIGR01186	Transport and binding proteins	Amino acids, peptides and amines	GO:0005524	ATP binding	proV: glycine betaine/L-proline transport ATP binding subunit
+T42	TIGR01186	Transport and binding proteins	Amino acids, peptides and amines	GO:0009898	cytoplasmic side of plasma membrane	proV: glycine betaine/L-proline transport ATP binding subunit
+T42	TIGR01186	Transport and binding proteins	Amino acids, peptides and amines	GO:0031263	amine-transporting ATPase activity	proV: glycine betaine/L-proline transport ATP binding subunit
+T43	TIGR00680	Transport and binding proteins	Cations and iron carrying compounds	GO:0006813	potassium ion transport	kdpA: K+-transporting ATPase, A subunit
+T43	TIGR00680	Transport and binding proteins	Cations and iron carrying compounds	GO:0008556	potassium-transporting ATPase activity	kdpA: K+-transporting ATPase, A subunit
+T43	TIGR00680	Transport and binding proteins	Cations and iron carrying compounds	GO:0031004	potassium ion-transporting ATPase complex	kdpA: K+-transporting ATPase, A subunit
+T44	TIGR00790	Transport and binding proteins	Anions	GO:0006820	anion transport	fnt: formate/nitrite transporter
+T44	TIGR00790	Transport and binding proteins	Anions	GO:0008509	anion transmembrane transporter activity	fnt: formate/nitrite transporter
+T45	TIGR01165	Transport and binding proteins	Cations and iron carrying compounds			cbiN: cobalt transport protein
+T46	TIGR00933	Transport and binding proteins	Cations and iron carrying compounds			2a38: potassium uptake protein, TrkH family
+T47	TIGR00795	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	lctP: transporter, lactate permease (LctP) family
+T47	TIGR00795	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015718	monocarboxylic acid transport	lctP: transporter, lactate permease (LctP) family
+T47	TIGR00795	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0008028	monocarboxylic acid transmembrane transporter activity	lctP: transporter, lactate permease (LctP) family
+T48	TIGR00842	Transport and binding proteins	Other	GO:0015652	quaternary ammonium group:proton symporter activity	bcct: transporter, betaine/carnitine/choline transporter (BCCT) family
+T48	TIGR00842	Transport and binding proteins	Other	GO:0015697	quaternary ammonium group transport	bcct: transporter, betaine/carnitine/choline transporter (BCCT) family
+T49	TIGR00940	Transport and binding proteins	Cations and iron carrying compounds	GO:0005451	monovalent cation:proton antiporter activity	2a6301s01: monovalent cation:proton antiporter
+T49	TIGR00940	Transport and binding proteins	Cations and iron carrying compounds	GO:0015992	proton transport	2a6301s01: monovalent cation:proton antiporter
+T49	TIGR00940	Transport and binding proteins	Cations and iron carrying compounds	GO:0015672	monovalent inorganic cation transport	2a6301s01: monovalent cation:proton antiporter
+T51	TIGR01710	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	typeII_sec_gspG: type II secretion system protein G
+T51	TIGR01710	Protein fate	Protein and peptide secretion and trafficking	GO:0015627	type II protein secretion system complex	typeII_sec_gspG: type II secretion system protein G
+T51	TIGR01710	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	typeII_sec_gspG: type II secretion system protein G
+T51	TIGR01710	Cellular processes	Pathogenesis	GO:0008565	protein transporter activity	typeII_sec_gspG: type II secretion system protein G
+T51	TIGR01710	Cellular processes	Pathogenesis	GO:0015627	type II protein secretion system complex	typeII_sec_gspG: type II secretion system protein G
+T51	TIGR01710	Cellular processes	Pathogenesis	GO:0015628	protein secretion by the type II secretion system	typeII_sec_gspG: type II secretion system protein G
+T52	TIGR00796	Transport and binding proteins	Amino acids, peptides and amines	GO:0015658	branched-chain amino acid transmembrane transporter activity	livcs: branched-chain amino acid transport system II carrier protein
+T52	TIGR00796	Transport and binding proteins	Amino acids, peptides and amines	GO:0015803	branched-chain amino acid transport	livcs: branched-chain amino acid transport system II carrier protein
+T53	TIGR00794	Transport and binding proteins	Cations and iron carrying compounds	GO:0006813	potassium ion transport	kup: potassium uptake protein
+T53	TIGR00794	Transport and binding proteins	Cations and iron carrying compounds	GO:0016020	membrane	kup: potassium uptake protein
+T53	TIGR00794	Transport and binding proteins	Cations and iron carrying compounds	GO:0015079	potassium ion transmembrane transporter activity	kup: potassium uptake protein
+T54	TIGR00815	Transport and binding proteins	Anions	GO:0016020	membrane	sulP: sulfate permease
+T54	TIGR00815	Transport and binding proteins	Anions	GO:0008272	sulfate transport	sulP: sulfate permease
+T54	TIGR00815	Transport and binding proteins	Anions	GO:0015116	sulfate transmembrane transporter activity	sulP: sulfate permease
+T56	TIGR00785	Transport and binding proteins	Cations and iron carrying compounds	GO:0005887	integral component of plasma membrane	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T56	TIGR00785	Transport and binding proteins	Cations and iron carrying compounds	GO:0006820	anion transport	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T56	TIGR00785	Transport and binding proteins	Cations and iron carrying compounds	GO:0008509	anion transmembrane transporter activity	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T56	TIGR00785	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T56	TIGR00785	Transport and binding proteins	Anions	GO:0006820	anion transport	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T56	TIGR00785	Transport and binding proteins	Anions	GO:0008509	anion transmembrane transporter activity	dass: transporter, divalent anion:Na+ symporter (DASS) family
+T58	TIGR00820	Transport and binding proteins	Cations and iron carrying compounds			zip: ZIP zinc/iron transport family
+T59	TIGR01352	Transport and binding proteins	Cations and iron carrying compounds	GO:0006810	transport	tonB_Cterm: TonB family C-terminal domain
+T59	TIGR01352	Transport and binding proteins	Cations and iron carrying compounds	GO:0015570	secondary active transmembrane transporter activity	tonB_Cterm: TonB family C-terminal domain
+T60	TIGR02769	Transport and binding proteins	Cations and iron carrying compounds	GO:0043190	ATP-binding cassette (ABC) transporter complex	nickel_nikE: nickel import ATP-binding protein NikE
+T60	TIGR02769	Transport and binding proteins	Cations and iron carrying compounds	GO:0005524	ATP binding	nickel_nikE: nickel import ATP-binding protein NikE
+T60	TIGR02769	Transport and binding proteins	Cations and iron carrying compounds	GO:0009898	cytoplasmic side of plasma membrane	nickel_nikE: nickel import ATP-binding protein NikE
+T60	TIGR02769	Transport and binding proteins	Cations and iron carrying compounds	GO:0015413	nickel-transporting ATPase activity	nickel_nikE: nickel import ATP-binding protein NikE
+T60	TIGR02769	Transport and binding proteins	Cations and iron carrying compounds	GO:0015675	nickel cation transport	nickel_nikE: nickel import ATP-binding protein NikE
+T60	TIGR02770	Transport and binding proteins	Cations and iron carrying compounds	GO:0043190	ATP-binding cassette (ABC) transporter complex	nickel_nikD: nickel import ATP-binding protein NikD
+T60	TIGR02770	Transport and binding proteins	Cations and iron carrying compounds	GO:0005524	ATP binding	nickel_nikD: nickel import ATP-binding protein NikD
+T60	TIGR02770	Transport and binding proteins	Cations and iron carrying compounds	GO:0009898	cytoplasmic side of plasma membrane	nickel_nikD: nickel import ATP-binding protein NikD
+T60	TIGR02770	Transport and binding proteins	Cations and iron carrying compounds	GO:0015413	nickel-transporting ATPase activity	nickel_nikD: nickel import ATP-binding protein NikD
+T60	TIGR02770	Transport and binding proteins	Cations and iron carrying compounds	GO:0015675	nickel cation transport	nickel_nikD: nickel import ATP-binding protein NikD
+T61	TIGR00791	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	gntP: transporter, gluconate:H+ symporter (GntP) family
+T61	TIGR00791	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015295	solute:proton symporter activity	gntP: transporter, gluconate:H+ symporter (GntP) family
+T61	TIGR00791	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015718	monocarboxylic acid transport	gntP: transporter, gluconate:H+ symporter (GntP) family
+T62	TIGR00770	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	Dcu: transporter, anaerobic C4-dicarboxylate uptake (Dcu) family
+T62	TIGR00770	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015556	C4-dicarboxylate transmembrane transporter activity	Dcu: transporter, anaerobic C4-dicarboxylate uptake (Dcu) family
+T62	TIGR00770	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015740	C4-dicarboxylate transport	Dcu: transporter, anaerobic C4-dicarboxylate uptake (Dcu) family
+T63	TIGR00774	Transport and binding proteins	Cations and iron carrying compounds	GO:0006814	sodium ion transport	NhaB: Na+/H+ antiporter NhaB
+T63	TIGR00774	Transport and binding proteins	Cations and iron carrying compounds	GO:0006818	proton transport	NhaB: Na+/H+ antiporter NhaB
+T63	TIGR00774	Transport and binding proteins	Cations and iron carrying compounds	GO:0015385	sodium:proton antiporter activity	NhaB: Na+/H+ antiporter NhaB
+T65	TIGR01013	Transport and binding proteins	Cations and iron carrying compounds			2a58: sodium-dependent inorganic phosphate (Pi) transporter
+T66	TIGR02454	Transport and binding proteins	Cations and iron carrying compounds	GO:0005887	integral component of plasma membrane	ECF_T_CbiQ: cobalt ECF transporter T component CbiQ
+T66	TIGR02454	Transport and binding proteins	Cations and iron carrying compounds	GO:0043190	ATP-binding cassette (ABC) transporter complex	ECF_T_CbiQ: cobalt ECF transporter T component CbiQ
+T66	TIGR02454	Transport and binding proteins	Cations and iron carrying compounds	GO:0006824	cobalt ion transport	ECF_T_CbiQ: cobalt ECF transporter T component CbiQ
+T66	TIGR02454	Transport and binding proteins	Cations and iron carrying compounds	GO:0032778	cobalt-transporting ATPase activity	ECF_T_CbiQ: cobalt ECF transporter T component CbiQ
+T67	TIGR00773	Transport and binding proteins	Cations and iron carrying compounds	GO:0006814	sodium ion transport	NhaA: Na+/H+ antiporter NhaA
+T67	TIGR00773	Transport and binding proteins	Cations and iron carrying compounds	GO:0006818	proton transport	NhaA: Na+/H+ antiporter NhaA
+T67	TIGR00773	Transport and binding proteins	Cations and iron carrying compounds	GO:0015385	sodium:proton antiporter activity	NhaA: Na+/H+ antiporter NhaA
+T68	TIGR00383	Transport and binding proteins	Cations and iron carrying compounds	GO:0006824	cobalt ion transport	corA: magnesium and cobalt transport protein CorA
+T68	TIGR00383	Transport and binding proteins	Cations and iron carrying compounds	GO:0015087	cobalt ion transmembrane transporter activity	corA: magnesium and cobalt transport protein CorA
+T68	TIGR00383	Transport and binding proteins	Cations and iron carrying compounds	GO:0015095	magnesium ion transmembrane transporter activity	corA: magnesium and cobalt transport protein CorA
+T68	TIGR00383	Transport and binding proteins	Cations and iron carrying compounds	GO:0015693	magnesium ion transport	corA: magnesium and cobalt transport protein CorA
+T69	TIGR00220	Cellular processes	Adaptations to atypical conditions	GO:0006810	transport	mscL: large conductance mechanosensitive channel protein
+T69	TIGR00220	Cellular processes	Adaptations to atypical conditions	GO:0022833	mechanosensitive ion channel activity	mscL: large conductance mechanosensitive channel protein
+T70	TIGR00860	Transport and binding proteins	Cations and iron carrying compounds			LIC: cation transporter family protein
+T71	TIGR00926	Transport and binding proteins	Amino acids, peptides and amines			2A1704: oligopeptide transporter, peptide:H+ symporter
+T71	TIGR00924	Transport and binding proteins	Amino acids, peptides and amines	GO:0016020	membrane	yjdL_sub1_fam: amino acid/peptide transporter (Peptide:H+ symporter)
+T71	TIGR00924	Transport and binding proteins	Amino acids, peptides and amines	GO:0015333	peptide:proton symporter activity	yjdL_sub1_fam: amino acid/peptide transporter (Peptide:H+ symporter)
+T71	TIGR00924	Transport and binding proteins	Amino acids, peptides and amines	GO:0015833	peptide transport	yjdL_sub1_fam: amino acid/peptide transporter (Peptide:H+ symporter)
+T72	TIGR01256	Transport and binding proteins	Anions	GO:0030288	outer membrane-bounded periplasmic space	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
+T72	TIGR01256	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
+T72	TIGR01256	Transport and binding proteins	Anions	GO:0031362	anchored component of external side of plasma membrane	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
+T72	TIGR01256	Transport and binding proteins	Anions	GO:0015412	ATPase-coupled molybdate transmembrane transporter activity	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
+T72	TIGR01256	Transport and binding proteins	Anions	GO:0015689	molybdate ion transport	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
+T72	TIGR01256	Transport and binding proteins	Anions	GO:0030973	molybdate ion binding	modA: molybdate ABC transporter, periplasmic molybdate-binding protein
+T73	TIGR00345	Hypothetical proteins	Conserved	GO:0016887	ATPase activity	GET3_arsA_TRC40: transport-energizing ATPase, TRC40/GET3/ArsA family
+T76	TIGR01846	Protein fate	Protein and peptide secretion and trafficking	GO:0030253	protein secretion by the type I secretion system	type_I_sec_HlyB: type I secretion system ATPase
+T79	TIGR00968	Transport and binding proteins	Anions	GO:0008272	sulfate transport	3a0106s01: sulfate ABC transporter, ATP-binding protein
+T79	TIGR00968	Transport and binding proteins	Anions	GO:0005524	ATP binding	3a0106s01: sulfate ABC transporter, ATP-binding protein
+T79	TIGR00968	Transport and binding proteins	Anions	GO:0009898	cytoplasmic side of plasma membrane	3a0106s01: sulfate ABC transporter, ATP-binding protein
+T79	TIGR00968	Transport and binding proteins	Anions	GO:0015419	ATPase-coupled sulfate transmembrane transporter activity	3a0106s01: sulfate ABC transporter, ATP-binding protein
+T79	TIGR00968	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	3a0106s01: sulfate ABC transporter, ATP-binding protein
+T82	TIGR03923	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_EccE: type VII secretion protein EccE
+T83	TIGR03920	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_EccD: type VII secretion integral membrane protein EccD
+T83	TIGR03920	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	T7SS_EccD: type VII secretion integral membrane protein EccD
+T84	TIGR00932	Transport and binding proteins	Cations and iron carrying compounds	GO:0006812	cation transport	2a37: transporter, monovalent cation:proton antiporter-2 (CPA2) family
+T84	TIGR00932	Transport and binding proteins	Cations and iron carrying compounds	GO:0016021	integral component of membrane	2a37: transporter, monovalent cation:proton antiporter-2 (CPA2) family
+T84	TIGR00932	Transport and binding proteins	Cations and iron carrying compounds	GO:0005451	monovalent cation:proton antiporter activity	2a37: transporter, monovalent cation:proton antiporter-2 (CPA2) family
+T84	TIGR00932	Transport and binding proteins	Cations and iron carrying compounds	GO:0015992	proton transport	2a37: transporter, monovalent cation:proton antiporter-2 (CPA2) family
+T85	TIGR00797	Transport and binding proteins	Other	GO:0015238	drug transmembrane transporter activity	matE: MATE efflux family protein
+T85	TIGR00797	Transport and binding proteins	Other	GO:0006855	drug transmembrane transport	matE: MATE efflux family protein
+T85	TIGR00797	Transport and binding proteins	Other	GO:0042493	response to drug	matE: MATE efflux family protein
+T85	TIGR00797	Transport and binding proteins	Other	GO:0016020	membrane	matE: MATE efflux family protein
+T86	TIGR03919	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_EccB: type VII secretion protein EccB
+T86	TIGR03919	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	T7SS_EccB: type VII secretion protein EccB
+T90	TIGR02141	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	modB_ABC: molybdate ABC transporter, permease protein
+T90	TIGR02141	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	modB_ABC: molybdate ABC transporter, permease protein
+T90	TIGR02141	Transport and binding proteins	Anions	GO:0015412	ATPase-coupled molybdate transmembrane transporter activity	modB_ABC: molybdate ABC transporter, permease protein
+T90	TIGR02141	Transport and binding proteins	Anions	GO:0015689	molybdate ion transport	modB_ABC: molybdate ABC transporter, permease protein
+T94	TIGR00801	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0016021	integral component of membrane	ncs2: uracil-xanthine permease
+T94	TIGR00801	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0015205	nucleobase transmembrane transporter activity	ncs2: uracil-xanthine permease
+T94	TIGR00801	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0015851	nucleobase transport	ncs2: uracil-xanthine permease
+T97	TIGR00949	Transport and binding proteins	Amino acids, peptides and amines			2A76: homoserine/Threonine efflux protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0030288	outer membrane-bounded periplasmic space	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0015619	thiamine pyrophosphate-transporting ATPase activity	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0015888	thiamine transport	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0030974	thiamine pyrophosphate transmembrane transport	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0048502	thiamine-transporting ATPase activity	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0009897	external side of plasma membrane	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0030975	thiamine binding	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01276	Transport and binding proteins	Other	GO:0030976	thiamine pyrophosphate binding	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin pyrophospate-binding protein
+T100	TIGR01254	Transport and binding proteins	Other	GO:0030288	outer membrane-bounded periplasmic space	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0015619	thiamine pyrophosphate-transporting ATPase activity	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0015888	thiamine transport	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0030974	thiamine pyrophosphate transmembrane transport	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0048502	thiamine-transporting ATPase activity	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0009897	external side of plasma membrane	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0030975	thiamine binding	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T100	TIGR01254	Transport and binding proteins	Other	GO:0030976	thiamine pyrophosphate binding	sfuA: ABC transporter periplasmic binding protein, thiB subfamily
+T101	TIGR01277	Transport and binding proteins	Other	GO:0005524	ATP binding	thiQ: thiamine ABC transporter, ATP-binding protein
+T101	TIGR01277	Transport and binding proteins	Other	GO:0009898	cytoplasmic side of plasma membrane	thiQ: thiamine ABC transporter, ATP-binding protein
+T101	TIGR01277	Transport and binding proteins	Other	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	thiQ: thiamine ABC transporter, ATP-binding protein
+T101	TIGR01277	Transport and binding proteins	Other	GO:0015619	thiamine pyrophosphate-transporting ATPase activity	thiQ: thiamine ABC transporter, ATP-binding protein
+T101	TIGR01277	Transport and binding proteins	Other	GO:0015888	thiamine transport	thiQ: thiamine ABC transporter, ATP-binding protein
+T101	TIGR01277	Transport and binding proteins	Other	GO:0030974	thiamine pyrophosphate transmembrane transport	thiQ: thiamine ABC transporter, ATP-binding protein
+T101	TIGR01277	Transport and binding proteins	Other	GO:0048502	thiamine-transporting ATPase activity	thiQ: thiamine ABC transporter, ATP-binding protein
+T102	TIGR00985	Transport and binding proteins	Amino acids, peptides and amines			3a0801s04tom: mitochondrial import receptor subunit
+T103	TIGR00870	Transport and binding proteins	Cations and iron carrying compounds			trp: transient-receptor-potential calcium channel protein
+T104	TIGR01625	Transport and binding proteins	Unknown substrate			YidE_YbjL_dupl: AspT/YidE/YbjL antiporter duplication domain
+T106	TIGR02142	Transport and binding proteins	Anions	GO:0005524	ATP binding	modC_ABC: molybdate ABC transporter, ATP-binding protein
+T106	TIGR02142	Transport and binding proteins	Anions	GO:0009898	cytoplasmic side of plasma membrane	modC_ABC: molybdate ABC transporter, ATP-binding protein
+T106	TIGR02142	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	modC_ABC: molybdate ABC transporter, ATP-binding protein
+T106	TIGR02142	Transport and binding proteins	Anions	GO:0015412	ATPase-coupled molybdate transmembrane transporter activity	modC_ABC: molybdate ABC transporter, ATP-binding protein
+T106	TIGR02142	Transport and binding proteins	Anions	GO:0015689	molybdate ion transport	modC_ABC: molybdate ABC transporter, ATP-binding protein
+T107	TIGR01197	Transport and binding proteins	Cations and iron carrying compounds	GO:0005887	integral component of plasma membrane	nramp: metal ion transporter, metal ion (Mn2+/Fe2+) transporter (Nramp) family
+T107	TIGR01197	Transport and binding proteins	Cations and iron carrying compounds	GO:0030001	metal ion transport	nramp: metal ion transporter, metal ion (Mn2+/Fe2+) transporter (Nramp) family
+T107	TIGR01197	Transport and binding proteins	Cations and iron carrying compounds	GO:0046873	metal ion transmembrane transporter activity	nramp: metal ion transporter, metal ion (Mn2+/Fe2+) transporter (Nramp) family
+T109	TIGR00056	Hypothetical proteins	Conserved			TIGR00056: ABC transport permease subunit
+T110	TIGR01711			GO:0008565	protein transporter activity	gspJ: type II secretion system protein J
+T110	TIGR01711			GO:0015627	type II protein secretion system complex	gspJ: type II secretion system protein J
+T110	TIGR01711			GO:0015628	protein secretion by the type II secretion system	gspJ: type II secretion system protein J
+T111	TIGR01709	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	typeII_sec_gspL: type II secretion system protein L
+T111	TIGR01709	Protein fate	Protein and peptide secretion and trafficking	GO:0015627	type II protein secretion system complex	typeII_sec_gspL: type II secretion system protein L
+T111	TIGR01709	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	typeII_sec_gspL: type II secretion system protein L
+T112	TIGR00792	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0006812	cation transport	gph: sugar (Glycoside-Pentoside-Hexuronide) transporter
+T112	TIGR00792	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0008643	carbohydrate transport	gph: sugar (Glycoside-Pentoside-Hexuronide) transporter
+T112	TIGR00792	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015486	glycoside-pentoside-hexuronide:cation symporter activity	gph: sugar (Glycoside-Pentoside-Hexuronide) transporter
+T112	TIGR00792	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0016021	integral component of membrane	gph: sugar (Glycoside-Pentoside-Hexuronide) transporter
+T113	TIGR01065			GO:0015267	channel activity	hlyIII: channel protein, hemolysin III family
+T113	TIGR01065			GO:0019835	cytolysis	hlyIII: channel protein, hemolysin III family
+T115	TIGR02315	Transport and binding proteins	Anions	GO:0005524	ATP binding	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
+T115	TIGR02315	Transport and binding proteins	Anions	GO:0009898	cytoplasmic side of plasma membrane	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
+T115	TIGR02315	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
+T115	TIGR02315	Transport and binding proteins	Anions	GO:0015416	ATPase-coupled organic phosphonate transmembrane transporter activity	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
+T115	TIGR02315	Transport and binding proteins	Anions	GO:0015716	organic phosphonate transport	ABC_phnC: phosphonate ABC transporter, ATP-binding protein
+T116	TIGR01102	Protein fate	Protein and peptide secretion and trafficking	GO:0009405	pathogenesis	yscR: type III secretion apparatus protein, YscR/HrcR family
+T116	TIGR01102	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	yscR: type III secretion apparatus protein, YscR/HrcR family
+T116	TIGR01102	Protein fate	Protein and peptide secretion and trafficking	GO:0030257	type III protein secretion system complex	yscR: type III secretion apparatus protein, YscR/HrcR family
+T116	TIGR01102	Cellular processes	Pathogenesis	GO:0009405	pathogenesis	yscR: type III secretion apparatus protein, YscR/HrcR family
+T116	TIGR01102	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	yscR: type III secretion apparatus protein, YscR/HrcR family
+T116	TIGR01102	Cellular processes	Pathogenesis	GO:0030257	type III protein secretion system complex	yscR: type III secretion apparatus protein, YscR/HrcR family
+T117	TIGR01399	Protein fate	Protein and peptide secretion and trafficking			hrcV: type III secretion protein, HrcV family
+T117	TIGR01399	Cellular processes	Pathogenesis			hrcV: type III secretion protein, HrcV family
+T120	TIGR00793	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015649	2-keto-3-deoxygluconate:proton symporter activity	kdgT: 2-keto-3-deoxygluconate transporter
+T120	TIGR00793	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0046411	2-keto-3-deoxygluconate transport	kdgT: 2-keto-3-deoxygluconate transporter
+T122	TIGR04409	Transport and binding proteins	Other	GO:0015920	lipopolysaccharide transport	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
+T122	TIGR04409	Transport and binding proteins	Other	GO:0015221	lipopolysaccharide transmembrane transporter activity	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
+T122	TIGR04409	Transport and binding proteins	Other	GO:0005886	plasma membrane	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
+T122	TIGR04409	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015920	lipopolysaccharide transport	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
+T122	TIGR04409	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015221	lipopolysaccharide transmembrane transporter activity	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
+T122	TIGR04409	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0005886	plasma membrane	LptC_YrbK: LPS export ABC transporter periplasmic protein LptC
+T123	TIGR03002	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T123	TIGR03002	Transport and binding proteins	Other	GO:0030288	outer membrane-bounded periplasmic space	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T123	TIGR03002	Transport and binding proteins	Other	GO:0001530	lipopolysaccharide binding	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T123	TIGR03002	Transport and binding proteins	Other	GO:0015920	lipopolysaccharide transport	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T123	TIGR03002	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0043190	ATP-binding cassette (ABC) transporter complex	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T123	TIGR03002	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0030288	outer membrane-bounded periplasmic space	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T123	TIGR03002	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0001530	lipopolysaccharide binding	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T123	TIGR03002	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015920	lipopolysaccharide transport	outer_YhbN_LptA: lipopolysaccharide transport periplasmic protein LptA
+T124	TIGR00799	Transport and binding proteins	Unknown substrate			mtp: Golgi 4-transmembrane spanning transporter
+T125	TIGR01010	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015161	capsular polysaccharide transmembrane transporter activity	BexC_CtrB_KpsE: polysaccharide export inner-membrane protein, BexC/CtrB/KpsE family
+T125	TIGR01010	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015776	capsular polysaccharide transport	BexC_CtrB_KpsE: polysaccharide export inner-membrane protein, BexC/CtrB/KpsE family
+T128	TIGR01845	Cellular processes	Detoxification	GO:0006810	transport	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
+T128	TIGR01845	Cellular processes	Detoxification	GO:0009279	cell outer membrane	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
+T128	TIGR01845	Cellular processes	Detoxification	GO:0015288	porin activity	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
+T128	TIGR01845	Transport and binding proteins	Porins	GO:0006810	transport	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
+T128	TIGR01845	Transport and binding proteins	Porins	GO:0009279	cell outer membrane	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
+T128	TIGR01845	Transport and binding proteins	Porins	GO:0015288	porin activity	outer_NodT: efflux transporter, outer membrane factor (OMF) lipoprotein, NodT family
+T129	TIGR01192	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			chvA: glucan exporter ATP-binding protein
+T131	TIGR01253	Transport and binding proteins	Other	GO:0005887	integral component of plasma membrane	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
+T131	TIGR01253	Transport and binding proteins	Other	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
+T131	TIGR01253	Transport and binding proteins	Other	GO:0015619	thiamine pyrophosphate-transporting ATPase activity	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
+T131	TIGR01253	Transport and binding proteins	Other	GO:0015888	thiamine transport	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
+T131	TIGR01253	Transport and binding proteins	Other	GO:0030974	thiamine pyrophosphate transmembrane transport	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
+T131	TIGR01253	Transport and binding proteins	Other	GO:0048502	thiamine-transporting ATPase activity	thiP: thiamine/thiamine pyrophosphate ABC transporter, permease protein
+T133	TIGR00836	Transport and binding proteins	Cations and iron carrying compounds	GO:0008519	ammonium transmembrane transporter activity	amt: ammonium transporter
+T133	TIGR00836	Transport and binding proteins	Cations and iron carrying compounds	GO:0015696	ammonium transport	amt: ammonium transporter
+T135	TIGR00859	Transport and binding proteins	Cations and iron carrying compounds			ENaC: sodium channel transporter
+T139	TIGR00948	Transport and binding proteins	Amino acids, peptides and amines			2a75: L-lysine exporter
+T140	TIGR00861	Transport and binding proteins	Unknown substrate			MIP: MIP family channel proteins
+T141	TIGR00868	Transport and binding proteins	Anions			hCaCC: calcium-activated chloride channel protein 1
+T143	TIGR04520	Transport and binding proteins	Unknown substrate	GO:0006810	transport	ECF_ATPase_1: energy-coupling factor transporter ATPase
+T143	TIGR04520	Transport and binding proteins	Unknown substrate	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	ECF_ATPase_1: energy-coupling factor transporter ATPase
+T143	TIGR04520	Transport and binding proteins	Unknown substrate	GO:0005524	ATP binding	ECF_ATPase_1: energy-coupling factor transporter ATPase
+T143	TIGR04520	Transport and binding proteins	Unknown substrate	GO:0009898	cytoplasmic side of plasma membrane	ECF_ATPase_1: energy-coupling factor transporter ATPase
+T143	TIGR04521	Transport and binding proteins	Unknown substrate	GO:0006810	transport	ECF_ATPase_2: energy-coupling factor transporter ATPase
+T143	TIGR04521	Transport and binding proteins	Unknown substrate	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	ECF_ATPase_2: energy-coupling factor transporter ATPase
+T143	TIGR04521	Transport and binding proteins	Unknown substrate	GO:0005524	ATP binding	ECF_ATPase_2: energy-coupling factor transporter ATPase
+T143	TIGR04521	Transport and binding proteins	Unknown substrate	GO:0009898	cytoplasmic side of plasma membrane	ECF_ATPase_2: energy-coupling factor transporter ATPase
+T147	TIGR04077	Regulatory functions	Protein interactions			expor_sig_YdyF: exported signaling peptide, YydF/SAG_2028 family
+T154	TIGR00788	Cell envelope	Other			fbt: folate/biopterin transporter
+T158	TIGR03850	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0008643	carbohydrate transport	bind_CPR_0540: carbohydrate ABC transporter substrate-binding protein, CPR_0540 family
+T158	TIGR03850	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0048030	disaccharide binding	bind_CPR_0540: carbohydrate ABC transporter substrate-binding protein, CPR_0540 family
+T169	TIGR00809	Protein fate	Protein and peptide secretion and trafficking	GO:0005737	cytoplasm	secB: protein-export chaperone SecB
+T169	TIGR00809	Protein fate	Protein and peptide secretion and trafficking	GO:0043952	protein transport by the Sec complex	secB: protein-export chaperone SecB
+T169	TIGR00809	Protein fate	Protein and peptide secretion and trafficking	GO:0050821	protein stabilization	secB: protein-export chaperone SecB
+T169	TIGR00809	Protein fate	Protein and peptide secretion and trafficking	GO:0051082	unfolded protein binding	secB: protein-export chaperone SecB
+T172	TIGR00881	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			2A0104: phosphoglycerate transporter family protein
+T175	TIGR02500	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	type_III_yscD: type III secretion apparatus protein, YscD/HrpQ family
+T175	TIGR02500	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	type_III_yscD: type III secretion apparatus protein, YscD/HrpQ family
+T177	TIGR01006	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			polys_exp_MPA1: polysaccharide export protein, MPA1 family
+T187	TIGR03797	Transport and binding proteins	Amino acids, peptides and amines	GO:0043213	bacteriocin transport	NHLM_micro_ABC2: NHLM bacteriocin system ABC transporter, ATP-binding protein
+T187	TIGR03797	Transport and binding proteins	Amino acids, peptides and amines	GO:0015440	peptide-transporting ATPase activity	NHLM_micro_ABC2: NHLM bacteriocin system ABC transporter, ATP-binding protein
+T187	TIGR03797	Cellular processes	Biosynthesis of natural products	GO:0043213	bacteriocin transport	NHLM_micro_ABC2: NHLM bacteriocin system ABC transporter, ATP-binding protein
+T187	TIGR03797	Cellular processes	Biosynthesis of natural products	GO:0015440	peptide-transporting ATPase activity	NHLM_micro_ABC2: NHLM bacteriocin system ABC transporter, ATP-binding protein
+T188	TIGR03921	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_mycosin: type VII secretion-associated serine protease mycosin
+T188	TIGR03921	Protein fate	Protein and peptide secretion and trafficking	GO:0008236	serine-type peptidase activity	T7SS_mycosin: type VII secretion-associated serine protease mycosin
+T188	TIGR03921	Protein fate	Protein modification and repair	GO:0009306	protein secretion	T7SS_mycosin: type VII secretion-associated serine protease mycosin
+T188	TIGR03921	Protein fate	Protein modification and repair	GO:0008236	serine-type peptidase activity	T7SS_mycosin: type VII secretion-associated serine protease mycosin
+T194	TIGR03441	Transport and binding proteins	Other	GO:0016021	integral component of membrane	urea_trans_yut: urea transporter
+T194	TIGR03441	Transport and binding proteins	Other	GO:0015840	urea transport	urea_trans_yut: urea transporter
+T194	TIGR03441	Transport and binding proteins	Other	GO:0015204	urea transmembrane transporter activity	urea_trans_yut: urea transporter
+T197	TIGR03414	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	ABC_choline_bnd: choline ABC transporter, periplasmic binding protein
+T197	TIGR03414	Transport and binding proteins	Amino acids, peptides and amines	GO:0015220	choline transmembrane transporter activity	ABC_choline_bnd: choline ABC transporter, periplasmic binding protein
+T197	TIGR03414	Transport and binding proteins	Amino acids, peptides and amines	GO:0015871	choline transport	ABC_choline_bnd: choline ABC transporter, periplasmic binding protein
+T201	TIGR03353	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	VI_chp_4: type VI secretion protein, VC_A0114 family
+T201	TIGR03353	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	VI_chp_4: type VI secretion protein, VC_A0114 family
+T201	TIGR03353	Cellular processes	Pathogenesis	GO:0003674	molecular_function	VI_chp_4: type VI secretion protein, VC_A0114 family
+T201	TIGR03353	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_chp_4: type VI secretion protein, VC_A0114 family
+T203	TIGR03931	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_Rv3446c: type VII secretion-associated protein, Rv3446c family
+T203	TIGR03931	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	T7SS_Rv3446c: type VII secretion-associated protein, Rv3446c family
+T206	TIGR00912	Transport and binding proteins	Amino acids, peptides and amines			2A0309: spore germination protein (amino acid permease)
+T213	TIGR02358	Transport and binding proteins	Nucleosides, purines and pyrimidines			thia_cytX: putative hydroxymethylpyrimidine transporter CytX
+T213	TIGR02358	Biosynthesis of cofactors, prosthetic groups, and carriers	Thiamine			thia_cytX: putative hydroxymethylpyrimidine transporter CytX
+T215	TIGR03816	Unknown function	General			tadE_like_DECH: helicase/secretion neighborhood TadE-like protein
+T225	TIGR02052	Cellular processes	Detoxification	GO:0015694	mercury ion transport	MerP: mercuric transport protein periplasmic component
+T225	TIGR02052	Cellular processes	Detoxification	GO:0045340	mercury ion binding	MerP: mercuric transport protein periplasmic component
+T230	TIGR03355	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	VI_chp_2: type VI secretion protein, EvpB/VC_A0108 family
+T230	TIGR03355	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	VI_chp_2: type VI secretion protein, EvpB/VC_A0108 family
+T230	TIGR03355	Protein fate	Protein and peptide secretion and trafficking	GO:0033104	type VI protein secretion system complex	VI_chp_2: type VI secretion protein, EvpB/VC_A0108 family
+T230	TIGR03355	Cellular processes	Pathogenesis	GO:0003674	molecular_function	VI_chp_2: type VI secretion protein, EvpB/VC_A0108 family
+T230	TIGR03355	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_chp_2: type VI secretion protein, EvpB/VC_A0108 family
+T230	TIGR03355	Cellular processes	Pathogenesis	GO:0033104	type VI protein secretion system complex	VI_chp_2: type VI secretion protein, EvpB/VC_A0108 family
+T243	TIGR02971			GO:0006810	transport	heterocyst_DevB: ABC exporter membrane fusion protein, DevB family
+T243	TIGR02971			GO:0042626	ATPase activity, coupled to transmembrane movement of substances	heterocyst_DevB: ABC exporter membrane fusion protein, DevB family
+T243	TIGR02971			GO:0043190	ATP-binding cassette (ABC) transporter complex	heterocyst_DevB: ABC exporter membrane fusion protein, DevB family
+T245	TIGR00947	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			2A73: putative bicarbonate transporter, IctB family
+T246	TIGR03345	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	VI_ClpV1: type VI secretion ATPase, ClpV1 family
+T246	TIGR03345	Protein fate	Protein and peptide secretion and trafficking	GO:0033104	type VI protein secretion system complex	VI_ClpV1: type VI secretion ATPase, ClpV1 family
+T246	TIGR03345	Protein fate	Protein and peptide secretion and trafficking	GO:0042623	ATPase activity, coupled	VI_ClpV1: type VI secretion ATPase, ClpV1 family
+T246	TIGR03345	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_ClpV1: type VI secretion ATPase, ClpV1 family
+T246	TIGR03345	Cellular processes	Pathogenesis	GO:0033104	type VI protein secretion system complex	VI_ClpV1: type VI secretion ATPase, ClpV1 family
+T246	TIGR03345	Cellular processes	Pathogenesis	GO:0042623	ATPase activity, coupled	VI_ClpV1: type VI secretion ATPase, ClpV1 family
+T248	TIGR03407	Transport and binding proteins	Amino acids, peptides and amines	GO:0030288	outer membrane-bounded periplasmic space	urea_ABC_UrtA: urea ABC transporter, urea binding protein
+T248	TIGR03407	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	urea_ABC_UrtA: urea ABC transporter, urea binding protein
+T248	TIGR03407	Transport and binding proteins	Amino acids, peptides and amines	GO:0015840	urea transport	urea_ABC_UrtA: urea ABC transporter, urea binding protein
+T248	TIGR03407	Transport and binding proteins	Amino acids, peptides and amines	GO:0033219	urea binding	urea_ABC_UrtA: urea ABC transporter, urea binding protein
+T248	TIGR03407	Transport and binding proteins	Amino acids, peptides and amines	GO:0033221	urea-transporting ATPase activity	urea_ABC_UrtA: urea ABC transporter, urea binding protein
+T251	TIGR03350	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	type_VI_ompA: type VI secretion system peptidoglycan-associated domain
+T251	TIGR03350	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	type_VI_ompA: type VI secretion system peptidoglycan-associated domain
+T251	TIGR03350	Protein fate	Protein and peptide secretion and trafficking	GO:0033104	type VI protein secretion system complex	type_VI_ompA: type VI secretion system peptidoglycan-associated domain
+T251	TIGR03350	Cellular processes	Pathogenesis	GO:0003674	molecular_function	type_VI_ompA: type VI secretion system peptidoglycan-associated domain
+T251	TIGR03350	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	type_VI_ompA: type VI secretion system peptidoglycan-associated domain
+T251	TIGR03350	Cellular processes	Pathogenesis	GO:0033104	type VI protein secretion system complex	type_VI_ompA: type VI secretion system peptidoglycan-associated domain
+T264	TIGR03352	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	VI_chp_3: type VI secretion lipoprotein, VC_A0113 family
+T264	TIGR03352	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	VI_chp_3: type VI secretion lipoprotein, VC_A0113 family
+T264	TIGR03352	Cellular processes	Pathogenesis	GO:0003674	molecular_function	VI_chp_3: type VI secretion lipoprotein, VC_A0113 family
+T264	TIGR03352	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_chp_3: type VI secretion lipoprotein, VC_A0113 family
+T265	TIGR00984	Transport and binding proteins	Amino acids, peptides and amines			3a0801s03tim44: mitochondrial import inner membrane, translocase subunit
+T266	TIGR03375	Protein fate	Protein and peptide secretion and trafficking			type_I_sec_LssB: type I secretion system ATPase
+T266	TIGR03375	Cellular processes	Pathogenesis			type_I_sec_LssB: type I secretion system ATPase
+T271	TIGR03817			GO:0006139	nucleobase-containing compound metabolic process	DECH_helic: helicase/secretion neighborhood putative DEAH-box helicase
+T271	TIGR03817			GO:0008026	ATP-dependent helicase activity	DECH_helic: helicase/secretion neighborhood putative DEAH-box helicase
+T282	TIGR02558			GO:0030254	protein secretion by the type III secretion system	HrpB2: type III secretion protein HrpB2
+T282	TIGR02558			GO:0030257	type III protein secretion system complex	HrpB2: type III secretion protein HrpB2
+T282	TIGR02558			GO:0003824	catalytic activity	HrpB2: type III secretion protein HrpB2
+T283	TIGR03796	Transport and binding proteins	Amino acids, peptides and amines			NHLM_micro_ABC1: NHLM bacteriocin system ABC transporter, peptidase/ATP-binding protein
+T283	TIGR03796	Cellular processes	Biosynthesis of natural products			NHLM_micro_ABC1: NHLM bacteriocin system ABC transporter, peptidase/ATP-binding protein
+T287	TIGR03408	Transport and binding proteins	Amino acids, peptides and amines	GO:0005887	integral component of plasma membrane	urea_trans_UrtC: urea ABC transporter, permease protein UrtC
+T287	TIGR03408	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	urea_trans_UrtC: urea ABC transporter, permease protein UrtC
+T287	TIGR03408	Transport and binding proteins	Amino acids, peptides and amines	GO:0015840	urea transport	urea_trans_UrtC: urea ABC transporter, permease protein UrtC
+T287	TIGR03408	Transport and binding proteins	Amino acids, peptides and amines	GO:0033221	urea-transporting ATPase activity	urea_trans_UrtC: urea ABC transporter, permease protein UrtC
+T288	TIGR03362	Protein fate	Protein and peptide secretion and trafficking			VI_chp_7: type VI secretion-associated protein, VC_A0119 family
+T288	TIGR03362	Cellular processes	Pathogenesis			VI_chp_7: type VI secretion-associated protein, VC_A0119 family
+T289	TIGR03661	Cellular processes	Pathogenesis			T1SS_VCA0849: type I secretion C-terminal target domain (VC_A0849 subclass)
+T290	TIGR03015	Protein fate	Protein and peptide secretion and trafficking	GO:0016887	ATPase activity	pepcterm_ATPase: putative secretion ATPase, PEP-CTERM locus subfamily
+T290	TIGR03015	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	pepcterm_ATPase: putative secretion ATPase, PEP-CTERM locus subfamily
+T312	TIGR03261	Transport and binding proteins	Amino acids, peptides and amines	GO:0030288	outer membrane-bounded periplasmic space	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T312	TIGR03261	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T312	TIGR03261	Transport and binding proteins	Amino acids, peptides and amines	GO:0031362	anchored component of external side of plasma membrane	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T312	TIGR03261	Transport and binding proteins	Amino acids, peptides and amines	GO:0033223	2-aminoethylphosphonate transport	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T312	TIGR03261	Transport and binding proteins	Amino acids, peptides and amines	GO:0033225	2-aminoethylphosphonate-transporting ATPase activity	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T312	TIGR03261	Transport and binding proteins	Amino acids, peptides and amines	GO:0033226	2-aminoethylphosphonate binding	phnS2: putative 2-aminoethylphosphonate ABC transporter, periplasmic 2-aminoethylphosphonate-binding protein
+T314	TIGR02477	Energy metabolism	Glycolysis/gluconeogenesis	GO:0006096	glycolytic process	PFKA_PPi: diphosphate--fructose-6-phosphate 1-phosphotransferase
+T314	TIGR02477	Energy metabolism	Glycolysis/gluconeogenesis	GO:0047334	diphosphate-fructose-6-phosphate 1-phosphotransferase activity	PFKA_PPi: diphosphate--fructose-6-phosphate 1-phosphotransferase
+T317	TIGR01782	Transport and binding proteins	Porins	GO:0006810	transport	TonB-Xanth-Caul: TonB-dependent receptor
+T317	TIGR01782	Transport and binding proteins	Porins	GO:0022857	transmembrane transporter activity	TonB-Xanth-Caul: TonB-dependent receptor
+T317	TIGR01782	Transport and binding proteins	Porins	GO:0019867	outer membrane	TonB-Xanth-Caul: TonB-dependent receptor
+T319	TIGR02718	Transport and binding proteins	Cations and iron carrying compounds	GO:0015891	siderophore transport	sider_RhtX_FptX: siderophore transporter, RhtX/FptX family
+T319	TIGR02718	Transport and binding proteins	Cations and iron carrying compounds	GO:0042927	siderophore transmembrane transporter activity	sider_RhtX_FptX: siderophore transporter, RhtX/FptX family
+T320	TIGR00807	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005342	organic acid transmembrane transporter activity	malonate_madL: malonate transporter, MadL subunit
+T320	TIGR00807	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015849	organic acid transport	malonate_madL: malonate transporter, MadL subunit
+T325	TIGR03262	Transport and binding proteins	Amino acids, peptides and amines	GO:0005887	integral component of plasma membrane	PhnU2: putative 2-aminoethylphosphonate ABC transporter, permease protein
+T325	TIGR03262	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	PhnU2: putative 2-aminoethylphosphonate ABC transporter, permease protein
+T325	TIGR03262	Transport and binding proteins	Amino acids, peptides and amines	GO:0033223	2-aminoethylphosphonate transport	PhnU2: putative 2-aminoethylphosphonate ABC transporter, permease protein
+T325	TIGR03262	Transport and binding proteins	Amino acids, peptides and amines	GO:0033225	2-aminoethylphosphonate-transporting ATPase activity	PhnU2: putative 2-aminoethylphosphonate ABC transporter, permease protein
+T326	TIGR03708	Central intermediary metabolism	Phosphorus compounds	GO:0005575	cellular_component	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
+T326	TIGR03708	Central intermediary metabolism	Phosphorus compounds	GO:0006797	polyphosphate metabolic process	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
+T326	TIGR03708	Central intermediary metabolism	Phosphorus compounds	GO:0043751	polyphosphate:AMP phosphotransferase activity	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
+T333	TIGR00983	Transport and binding proteins	Amino acids, peptides and amines			3a0801s02tim23: mitochondrial import inner membrane translocase subunit
+T334	TIGR02509	Cellular processes	Pathogenesis			type_III_yopR: type III secretion effector, YopR family
+T336	TIGR00894	Transport and binding proteins	Anions			2A0114euk: Na(+)-dependent inorganic phosphate cotransporter
+T337	TIGR03922	Protein fate	Protein and peptide secretion and trafficking	GO:0016887	ATPase activity	T7SS_EccA: type VII secretion AAA-ATPase EccA
+T337	TIGR03922	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_EccA: type VII secretion AAA-ATPase EccA
+T359	TIGR00921	Transport and binding proteins	Unknown substrate			2A067: efflux transporter, putative, hydrophobe/amphiphile efflux-3 (HAE3) family
+T362	TIGR03434			GO:0005887	integral component of plasma membrane	ADOP: acidobacterial duplicated orphan permease
+T362	TIGR03434			GO:0006810	transport	ADOP: acidobacterial duplicated orphan permease
+T362	TIGR03434			GO:0003674	molecular_function	ADOP: acidobacterial duplicated orphan permease
+T364	TIGR02359	Transport and binding proteins	Other	GO:0006810	transport	thiW: energy coupling factor transporter S component ThiW
+T364	TIGR02359	Transport and binding proteins	Other	GO:0005215	transporter activity	thiW: energy coupling factor transporter S component ThiW
+T364	TIGR02359	Transport and binding proteins	Other	GO:0009228	thiamine biosynthetic process	thiW: energy coupling factor transporter S component ThiW
+T364	TIGR02359	Biosynthesis of cofactors, prosthetic groups, and carriers	Thiamine	GO:0006810	transport	thiW: energy coupling factor transporter S component ThiW
+T364	TIGR02359	Biosynthesis of cofactors, prosthetic groups, and carriers	Thiamine	GO:0005215	transporter activity	thiW: energy coupling factor transporter S component ThiW
+T364	TIGR02359	Biosynthesis of cofactors, prosthetic groups, and carriers	Thiamine	GO:0009228	thiamine biosynthetic process	thiW: energy coupling factor transporter S component ThiW
+T372	TIGR00808	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005342	organic acid transmembrane transporter activity	malonate_madM: malonate transporter, MadM subunit
+T372	TIGR00808	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015849	organic acid transport	malonate_madM: malonate transporter, MadM subunit
+T374	TIGR00990	Transport and binding proteins	Amino acids, peptides and amines			3a0801s09: mitochondrial precursor proteins import receptor
+T379	TIGR04522	Transport and binding proteins	Unknown substrate	GO:0006810	transport	EcfS_MSC_0063: putative energy coupling factor transporter S component
+T379	TIGR04522	Transport and binding proteins	Unknown substrate	GO:0005215	transporter activity	EcfS_MSC_0063: putative energy coupling factor transporter S component
+T382	TIGR00908	Transport and binding proteins	Amino acids, peptides and amines	GO:0016021	integral component of membrane	2A0305: ethanolamine permease
+T382	TIGR00908	Transport and binding proteins	Amino acids, peptides and amines	GO:0006865	amino acid transport	2A0305: ethanolamine permease
+T382	TIGR00908	Transport and binding proteins	Amino acids, peptides and amines	GO:0015171	amino acid transmembrane transporter activity	2A0305: ethanolamine permease
+T383	TIGR03608	Cellular processes	Toxin production and resistance	GO:0006810	transport	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
+T383	TIGR03608	Cellular processes	Toxin production and resistance	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
+T383	TIGR03608	Cellular processes	Toxin production and resistance	GO:0005524	ATP binding	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
+T383	TIGR03608	Transport and binding proteins	Unknown substrate	GO:0006810	transport	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
+T383	TIGR03608	Transport and binding proteins	Unknown substrate	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
+T383	TIGR03608	Transport and binding proteins	Unknown substrate	GO:0005524	ATP binding	L_ocin_972_ABC: putative bacteriocin export ABC transporter, lactococcin 972 group
+T386	TIGR03415	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	ABC_choXWV_ATP: choline ABC transporter, ATP-binding protein
+T386	TIGR03415	Transport and binding proteins	Amino acids, peptides and amines	GO:0015220	choline transmembrane transporter activity	ABC_choXWV_ATP: choline ABC transporter, ATP-binding protein
+T386	TIGR03415	Transport and binding proteins	Amino acids, peptides and amines	GO:0015871	choline transport	ABC_choXWV_ATP: choline ABC transporter, ATP-binding protein
+T388	TIGR02123	Transport and binding proteins	Unknown substrate	GO:0016020	membrane	TRAP_fused: TRAP transporter, 4TM/12TM fusion protein
+T415	TIGR03373	Protein fate	Protein and peptide secretion and trafficking			VI_minor_4: type VI secretion-associated protein, BMA_A0400 family
+T415	TIGR03373	Cellular processes	Pathogenesis			VI_minor_4: type VI secretion-associated protein, BMA_A0400 family
+T416	TIGR04028	Transport and binding proteins	Unknown substrate			SBP_KPN_01854: ABC transporter substrate binding protein, KPN_01854 family
+T421	TIGR01593	Protein fate	Protein and peptide secretion and trafficking	GO:0019835	cytolysis	holin_tox_secr: toxin secretion/phage lysis holin
+T421	TIGR01593	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	holin_tox_secr: toxin secretion/phage lysis holin
+T421	TIGR01593	Mobile and extrachromosomal element functions	Prophage functions	GO:0019835	cytolysis	holin_tox_secr: toxin secretion/phage lysis holin
+T421	TIGR01593	Mobile and extrachromosomal element functions	Prophage functions	GO:0008565	protein transporter activity	holin_tox_secr: toxin secretion/phage lysis holin
+T429	TIGR02637			GO:0030288	outer membrane-bounded periplasmic space	RhaS: rhamnose ABC transporter, rhamnose-binding protein
+T429	TIGR02637			GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	RhaS: rhamnose ABC transporter, rhamnose-binding protein
+T429	TIGR02637			GO:0031362	anchored component of external side of plasma membrane	RhaS: rhamnose ABC transporter, rhamnose-binding protein
+T429	TIGR02637			GO:0015762	rhamnose transport	RhaS: rhamnose ABC transporter, rhamnose-binding protein
+T429	TIGR02637			GO:0033296	rhamnose binding	RhaS: rhamnose ABC transporter, rhamnose-binding protein
+T429	TIGR02637			GO:0033297	rhamnose-transporting ATPase activity	RhaS: rhamnose ABC transporter, rhamnose-binding protein
+T432	TIGR00980	Transport and binding proteins	Amino acids, peptides and amines			3a0801so1tim17: mitochondrial import inner membrane translocase subunit tim17
+T433	TIGR02185	Transport and binding proteins	Unknown substrate	GO:0006810	transport	Trep_Strep: putative ECF transporter S component, Trep_Strep family
+T433	TIGR02185	Transport and binding proteins	Unknown substrate	GO:0005215	transporter activity	Trep_Strep: putative ECF transporter S component, Trep_Strep family
+T435	TIGR04411	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	T2SS_GspN_Lepto: type II secretion system protein N
+T445	TIGR00710			GO:0015238	drug transmembrane transporter activity	efflux_Bcr_CflA: drug resistance transporter, Bcr/CflA subfamily
+T445	TIGR00710			GO:0015893	drug transport	efflux_Bcr_CflA: drug resistance transporter, Bcr/CflA subfamily
+T447	TIGR02982			GO:0006810	transport	heterocyst_DevA: ABC exporter ATP-binding subunit, DevA family
+T447	TIGR02982			GO:0042626	ATPase activity, coupled to transmembrane movement of substances	heterocyst_DevA: ABC exporter ATP-binding subunit, DevA family
+T447	TIGR02982			GO:0043190	ATP-binding cassette (ABC) transporter complex	heterocyst_DevA: ABC exporter ATP-binding subunit, DevA family
+T447	TIGR02982			GO:0005524	ATP binding	heterocyst_DevA: ABC exporter ATP-binding subunit, DevA family
+T449	TIGR03358	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	VI_chp_5: type VI secretion protein, VC_A0107 family
+T449	TIGR03358	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	VI_chp_5: type VI secretion protein, VC_A0107 family
+T449	TIGR03358	Cellular processes	Pathogenesis	GO:0003674	molecular_function	VI_chp_5: type VI secretion protein, VC_A0107 family
+T449	TIGR03358	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_chp_5: type VI secretion protein, VC_A0107 family
+T451	TIGR04549	Unknown function	Enzymes of unknown specificity	GO:0071702	organic substance transport	LP_HExxH_w_tonB: substrate import-associated zinc metallohydrolase lipoprotein
+T451	TIGR04549	Unknown function	Enzymes of unknown specificity	GO:0016787	hydrolase activity	LP_HExxH_w_tonB: substrate import-associated zinc metallohydrolase lipoprotein
+T457	TIGR03669	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	urea_ABC_arch: urea ABC transporter, substrate-binding protein
+T457	TIGR03669	Transport and binding proteins	Amino acids, peptides and amines	GO:0015840	urea transport	urea_ABC_arch: urea ABC transporter, substrate-binding protein
+T457	TIGR03669	Transport and binding proteins	Amino acids, peptides and amines	GO:0033219	urea binding	urea_ABC_arch: urea ABC transporter, substrate-binding protein
+T457	TIGR03669	Transport and binding proteins	Amino acids, peptides and amines	GO:0033221	urea-transporting ATPase activity	urea_ABC_arch: urea ABC transporter, substrate-binding protein
+T459	TIGR03770	Transport and binding proteins	Unknown substrate			anch_rpt_perm: anchored repeat-type ABC transporter, permease subunit
+T462	TIGR03658			GO:0020037	heme binding	IsdH_HarA: haptoglobin-binding heme uptake protein HarA
+T465	TIGR03409	Transport and binding proteins	Amino acids, peptides and amines	GO:0005887	integral component of plasma membrane	urea_trans_UrtB: urea ABC transporter, permease protein UrtB
+T465	TIGR03409	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	urea_trans_UrtB: urea ABC transporter, permease protein UrtB
+T465	TIGR03409	Transport and binding proteins	Amino acids, peptides and amines	GO:0015840	urea transport	urea_trans_UrtB: urea ABC transporter, permease protein UrtB
+T465	TIGR03409	Transport and binding proteins	Amino acids, peptides and amines	GO:0033221	urea-transporting ATPase activity	urea_trans_UrtB: urea ABC transporter, permease protein UrtB
+T468	TIGR02101	Cellular processes	Pathogenesis			IpaC_SipC: type III secretion target, IpaC/SipC family
+T473	TIGR03771	Transport and binding proteins	Unknown substrate			anch_rpt_ABC: anchored repeat-type ABC transporter, ATP-binding subunit
+T474	TIGR00862	Transport and binding proteins	Anions			O-ClC: intracellular chloride channel protein
+T481	TIGR03427	Transport and binding proteins	Unknown substrate			ABC_peri_uca: ABC transporter periplasmic binding protein, urea carboxylase region
+T482	TIGR03647	Transport and binding proteins	Unknown substrate			Na_symport_sm: putative solute:sodium symporter small subunit
+T490	TIGR00863	Transport and binding proteins	Cations and iron carrying compounds			P2X: cation transporter protein
+T491	TIGR03354	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	VI_FHA: type VI secretion system FHA domain protein
+T491	TIGR03354	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	VI_FHA: type VI secretion system FHA domain protein
+T491	TIGR03354	Cellular processes	Pathogenesis	GO:0003674	molecular_function	VI_FHA: type VI secretion system FHA domain protein
+T491	TIGR03354	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_FHA: type VI secretion system FHA domain protein
+T500	TIGR02698	Transport and binding proteins	Cations and iron carrying compounds	GO:0006825	copper ion transport	CopY_TcrY: copper transport repressor, CopY/TcrY family
+T500	TIGR02698	Transport and binding proteins	Cations and iron carrying compounds	GO:0006355	regulation of transcription, DNA-templated	CopY_TcrY: copper transport repressor, CopY/TcrY family
+T500	TIGR02698	Regulatory functions	DNA interactions	GO:0006825	copper ion transport	CopY_TcrY: copper transport repressor, CopY/TcrY family
+T500	TIGR02698	Regulatory functions	DNA interactions	GO:0006355	regulation of transcription, DNA-templated	CopY_TcrY: copper transport repressor, CopY/TcrY family
+T501	TIGR03357			GO:0003674	molecular_function	VI_zyme: type VI secretion system lysozyme-like protein
+T501	TIGR03357			GO:0033103	protein secretion by the type VI secretion system	VI_zyme: type VI secretion system lysozyme-like protein
+T511	TIGR03794	Transport and binding proteins	Amino acids, peptides and amines			NHLM_micro_HlyD: NHLM bacteriocin system secretion protein
+T511	TIGR03794	Cellular processes	Biosynthesis of natural products			NHLM_micro_HlyD: NHLM bacteriocin system secretion protein
+T512	TIGR03863	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			PQQ_ABC_bind: ABC transporter, substrate binding protein, PQQ-dependent alcohol dehydrogenase system
+T515	TIGR03348	Cellular processes	Pathogenesis	GO:0003674	molecular_function	VI_IcmF: type VI secretion protein IcmF
+T515	TIGR03348	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_IcmF: type VI secretion protein IcmF
+T519	TIGR00889	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0016021	integral component of membrane	2A0110: nucleoside transporter
+T519	TIGR00889	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0005337	nucleoside transmembrane transporter activity	2A0110: nucleoside transporter
+T519	TIGR00889	Transport and binding proteins	Nucleosides, purines and pyrimidines	GO:0015858	nucleoside transport	2A0110: nucleoside transporter
+T523	TIGR02498	Cellular processes	Pathogenesis			type_III_ssaH: type III secretion system protein, SsaH family
+T529	TIGR03347	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	VI_chp_1: type VI secretion protein, VC_A0111 family
+T529	TIGR03347	Protein fate	Protein and peptide secretion and trafficking	GO:0033103	protein secretion by the type VI secretion system	VI_chp_1: type VI secretion protein, VC_A0111 family
+T529	TIGR03347	Cellular processes	Pathogenesis	GO:0008565	protein transporter activity	VI_chp_1: type VI secretion protein, VC_A0111 family
+T529	TIGR03347	Cellular processes	Pathogenesis	GO:0033103	protein secretion by the type VI secretion system	VI_chp_1: type VI secretion protein, VC_A0111 family
+T530	TIGR00811	Transport and binding proteins	Other			sit: silicon transporter
+T534	TIGR00750	Transport and binding proteins	Amino acids, peptides and amines	GO:0015809	arginine transport	lao: LAO/AO transport system ATPase
+T534	TIGR00750	Transport and binding proteins	Amino acids, peptides and amines	GO:0015819	lysine transport	lao: LAO/AO transport system ATPase
+T534	TIGR00750	Transport and binding proteins	Amino acids, peptides and amines	GO:0015822	ornithine transport	lao: LAO/AO transport system ATPase
+T534	TIGR00750	Transport and binding proteins	Amino acids, peptides and amines	GO:0016772	transferase activity, transferring phosphorus-containing groups	lao: LAO/AO transport system ATPase
+T534	TIGR00750	Regulatory functions	Protein interactions	GO:0015809	arginine transport	lao: LAO/AO transport system ATPase
+T534	TIGR00750	Regulatory functions	Protein interactions	GO:0015819	lysine transport	lao: LAO/AO transport system ATPase
+T534	TIGR00750	Regulatory functions	Protein interactions	GO:0015822	ornithine transport	lao: LAO/AO transport system ATPase
+T534	TIGR00750	Regulatory functions	Protein interactions	GO:0016772	transferase activity, transferring phosphorus-containing groups	lao: LAO/AO transport system ATPase
+T540	TIGR03657			GO:0020037	heme binding	IsdB: heme uptake protein IsdB
+T543	TIGR03027	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides			pepcterm_export: putative polysaccharide export protein, PEP-CTERM sytem-associated
+T546	TIGR03359			GO:0003674	molecular_function	VI_chp_6: type VI secretion protein, TIGR03359 family
+T546	TIGR03359			GO:0033103	protein secretion by the type VI secretion system	VI_chp_6: type VI secretion protein, TIGR03359 family
+T551	TIGR03939			GO:0005215	transporter activity	PGA_TPR_OMP: poly-beta-1,6 N-acetyl-D-glucosamine export porin PgaA
+T551	TIGR03939			GO:0045203	integral component of cell outer membrane	PGA_TPR_OMP: poly-beta-1,6 N-acetyl-D-glucosamine export porin PgaA
+T551	TIGR03939			GO:0015774	polysaccharide transport	PGA_TPR_OMP: poly-beta-1,6 N-acetyl-D-glucosamine export porin PgaA
+T551	TIGR03939			GO:0042710	biofilm formation	PGA_TPR_OMP: poly-beta-1,6 N-acetyl-D-glucosamine export porin PgaA
+T555	TIGR00776	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			RhaT: RhaT L-rhamnose-proton symporter family protein
+T558	TIGR01247	Transport and binding proteins	Other	GO:0005887	integral component of plasma membrane	drrB: daunorubicin resistance ABC transporter membrane protein
+T558	TIGR01247	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	drrB: daunorubicin resistance ABC transporter membrane protein
+T558	TIGR01247	Transport and binding proteins	Other	GO:0043215	daunorubicin transport	drrB: daunorubicin resistance ABC transporter membrane protein
+T558	TIGR01247	Transport and binding proteins	Other	GO:0043216	daunorubicin-transporting ATPase activity	drrB: daunorubicin resistance ABC transporter membrane protein
+T568	TIGR01185	Transport and binding proteins	Other	GO:0006810	transport	devC: ABC exporter transmembrane subunit, DevC protein
+T568	TIGR01185	Transport and binding proteins	Other	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	devC: ABC exporter transmembrane subunit, DevC protein
+T568	TIGR01185	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	devC: ABC exporter transmembrane subunit, DevC protein
+T568	TIGR01185	Transport and binding proteins	Other	GO:0016021	integral component of membrane	devC: ABC exporter transmembrane subunit, DevC protein
+T571	TIGR03656			GO:0020037	heme binding	IsdC: heme uptake protein IsdC
+T575	TIGR00899	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0008643	carbohydrate transport	2A0120: sugar efflux transporter
+T575	TIGR00899	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015542	sugar efflux transmembrane transporter activity	2A0120: sugar efflux transporter
+T576	TIGR03864	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			PQQ_ABC_ATP: ABC transporter, ATP-binding subunit, PQQ-dependent alcohol dehydrogenase system
+T578	TIGR00993	Transport and binding proteins	Amino acids, peptides and amines			3a0901s04IAP86: chloroplast protein import component Toc86/159, G and M domains
+T581	TIGR03411	Transport and binding proteins	Amino acids, peptides and amines	GO:0005524	ATP binding	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD
+T581	TIGR03411	Transport and binding proteins	Amino acids, peptides and amines	GO:0009898	cytoplasmic side of plasma membrane	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD
+T581	TIGR03411	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD
+T581	TIGR03411	Transport and binding proteins	Amino acids, peptides and amines	GO:0015840	urea transport	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD
+T581	TIGR03411	Transport and binding proteins	Amino acids, peptides and amines	GO:0033221	urea-transporting ATPase activity	urea_trans_UrtD: urea ABC transporter, ATP-binding protein UrtD
+T584	TIGR00779	Transport and binding proteins	Amino acids, peptides and amines			cad: cadmium resistance transporter family protein
+T589	TIGR03772	Transport and binding proteins	Unknown substrate			anch_rpt_subst: anchored repeat ABC transporter, substrate-binding protein
+T591	TIGR03349	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	IV_VI_DotU: type IV/VI secretion system protein, DotU family
+T591	TIGR03349	Protein fate	Protein and peptide secretion and trafficking	GO:0052048	interaction with host via secreted substance involved in symbiotic interaction	IV_VI_DotU: type IV/VI secretion system protein, DotU family
+T591	TIGR03349	Cellular processes	Pathogenesis	GO:0003674	molecular_function	IV_VI_DotU: type IV/VI secretion system protein, DotU family
+T591	TIGR03349	Cellular processes	Pathogenesis	GO:0052048	interaction with host via secreted substance involved in symbiotic interaction	IV_VI_DotU: type IV/VI secretion system protein, DotU family
+T596	TIGR03861	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			phenyl_ABC_PedC: alcohol ABC transporter, permease protein
+T605	TIGR00902	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	2A0127: MFS transporter, phenyl propionate permease (PPP) family
+T605	TIGR00902	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015544	phenyl propionate uniporter activity	2A0127: MFS transporter, phenyl propionate permease (PPP) family
+T605	TIGR00902	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0042889	3-phenylpropionic acid transport	2A0127: MFS transporter, phenyl propionate permease (PPP) family
+T612	TIGR01002	Cellular processes	Toxin production and resistance			hlyII: beta-channel forming cytolysin
+T613	TIGR00893	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			2A0114: D-galactonate transporter
+T617	TIGR01778	Transport and binding proteins	Cations and iron carrying compounds	GO:0019867	outer membrane	TonB-copper: TonB-dependent copper receptor
+T617	TIGR01778	Transport and binding proteins	Cations and iron carrying compounds	GO:0005375	copper ion transmembrane transporter activity	TonB-copper: TonB-dependent copper receptor
+T617	TIGR01778	Transport and binding proteins	Cations and iron carrying compounds	GO:0005507	copper ion binding	TonB-copper: TonB-dependent copper receptor
+T617	TIGR01778	Transport and binding proteins	Cations and iron carrying compounds	GO:0006825	copper ion transport	TonB-copper: TonB-dependent copper receptor
+T617	TIGR01778	Transport and binding proteins	Porins	GO:0019867	outer membrane	TonB-copper: TonB-dependent copper receptor
+T617	TIGR01778	Transport and binding proteins	Porins	GO:0005375	copper ion transmembrane transporter activity	TonB-copper: TonB-dependent copper receptor
+T617	TIGR01778	Transport and binding proteins	Porins	GO:0005507	copper ion binding	TonB-copper: TonB-dependent copper receptor
+T617	TIGR01778	Transport and binding proteins	Porins	GO:0006825	copper ion transport	TonB-copper: TonB-dependent copper receptor
+T620	TIGR00210	Transport and binding proteins	Amino acids, peptides and amines	GO:0015501	glutamate:sodium symporter activity	gltS: sodium/glutamate symporter
+T620	TIGR00210	Transport and binding proteins	Amino acids, peptides and amines	GO:0015813	L-glutamate transport	gltS: sodium/glutamate symporter
+T624	TIGR03344	Cellular processes	Pathogenesis	GO:0009405	pathogenesis	VI_effect_Hcp1: type VI secretion system effector, Hcp1 family
+T624	TIGR03344	Cellular processes	Pathogenesis	GO:0003674	molecular_function	VI_effect_Hcp1: type VI secretion system effector, Hcp1 family
+T624	TIGR03344	Cellular processes	Pathogenesis	GO:0052048	interaction with host via secreted substance involved in symbiotic interaction	VI_effect_Hcp1: type VI secretion system effector, Hcp1 family
+T627	TIGR01785	Transport and binding proteins	Cations and iron carrying compounds	GO:0006810	transport	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
+T627	TIGR01785	Transport and binding proteins	Cations and iron carrying compounds	GO:0022857	transmembrane transporter activity	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
+T627	TIGR01785	Transport and binding proteins	Cations and iron carrying compounds	GO:0019867	outer membrane	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
+T627	TIGR01785	Transport and binding proteins	Porins	GO:0006810	transport	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
+T627	TIGR01785	Transport and binding proteins	Porins	GO:0022857	transmembrane transporter activity	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
+T627	TIGR01785	Transport and binding proteins	Porins	GO:0019867	outer membrane	TonB-hemin: TonB-dependent heme/hemoglobin receptor family protein
+T630	TIGR00802	Transport and binding proteins	Cations and iron carrying compounds	GO:0005887	integral component of plasma membrane	nico: transition metal uptake transporter, Ni2+-Co2+ transporter (NiCoT) family
+T630	TIGR00802	Transport and binding proteins	Cations and iron carrying compounds	GO:0000041	transition metal ion transport	nico: transition metal uptake transporter, Ni2+-Co2+ transporter (NiCoT) family
+T630	TIGR00802	Transport and binding proteins	Cations and iron carrying compounds	GO:0046915	transition metal ion transmembrane transporter activity	nico: transition metal uptake transporter, Ni2+-Co2+ transporter (NiCoT) family
+T634	TIGR02568	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	LcrE: type III secretion regulator YopN/LcrE/InvE/MxiC
+T634	TIGR02568	Protein fate	Protein and peptide secretion and trafficking	GO:0009986	cell surface	LcrE: type III secretion regulator YopN/LcrE/InvE/MxiC
+T634	TIGR02568	Protein fate	Protein and peptide secretion and trafficking	GO:0050709	negative regulation of protein secretion	LcrE: type III secretion regulator YopN/LcrE/InvE/MxiC
+T634	TIGR02568	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	LcrE: type III secretion regulator YopN/LcrE/InvE/MxiC
+T634	TIGR02568	Cellular processes	Pathogenesis	GO:0009986	cell surface	LcrE: type III secretion regulator YopN/LcrE/InvE/MxiC
+T634	TIGR02568	Cellular processes	Pathogenesis	GO:0050709	negative regulation of protein secretion	LcrE: type III secretion regulator YopN/LcrE/InvE/MxiC
+T635	TIGR01097	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	PhnE: phosphonate ABC transporter, permease protein PhnE
+T635	TIGR01097	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	PhnE: phosphonate ABC transporter, permease protein PhnE
+T635	TIGR01097	Transport and binding proteins	Anions	GO:0015416	ATPase-coupled organic phosphonate transmembrane transporter activity	PhnE: phosphonate ABC transporter, permease protein PhnE
+T635	TIGR01097	Transport and binding proteins	Anions	GO:0015716	organic phosphonate transport	PhnE: phosphonate ABC transporter, permease protein PhnE
+T638	TIGR02546	Protein fate	Protein and peptide secretion and trafficking	GO:0009405	pathogenesis	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T638	TIGR02546	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T638	TIGR02546	Protein fate	Protein and peptide secretion and trafficking	GO:0030257	type III protein secretion system complex	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T638	TIGR02546	Protein fate	Protein and peptide secretion and trafficking	GO:0046961	proton-transporting ATPase activity, rotational mechanism	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T638	TIGR02546	Cellular processes	Pathogenesis	GO:0009405	pathogenesis	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T638	TIGR02546	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T638	TIGR02546	Cellular processes	Pathogenesis	GO:0030257	type III protein secretion system complex	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T638	TIGR02546	Cellular processes	Pathogenesis	GO:0046961	proton-transporting ATPase activity, rotational mechanism	III_secr_ATP: type III secretion apparatus H+-transporting two-sector ATPase
+T640	TIGR00934	Transport and binding proteins	Cations and iron carrying compounds			2a38euk: potassium uptake protein, Trk family
+T641	TIGR02544	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	III_secr_YscJ: type III secretion apparatus lipoprotein, YscJ/HrcJ family
+T641	TIGR02544	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	III_secr_YscJ: type III secretion apparatus lipoprotein, YscJ/HrcJ family
+T649	TIGR04518	Transport and binding proteins	Unknown substrate	GO:0006810	transport	ECF_S_folT_fam: ECF transporter S component, folate family
+T649	TIGR04518	Transport and binding proteins	Unknown substrate	GO:0005215	transporter activity	ECF_S_folT_fam: ECF transporter S component, folate family
+T652	TIGR00885	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	fucP: L-fucose:H+ symporter permease
+T652	TIGR00885	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015535	fucose:proton symporter activity	fucP: L-fucose:H+ symporter permease
+T652	TIGR00885	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015756	fucose transport	fucP: L-fucose:H+ symporter permease
+T654	TIGR00439	Cellular processes	Cell division	GO:0000910	cytokinesis	ftsX: putative protein insertion permease FtsX
+T654	TIGR00439	Protein fate	Protein and peptide secretion and trafficking	GO:0000910	cytokinesis	ftsX: putative protein insertion permease FtsX
+T657	TIGR00910	Transport and binding proteins	Amino acids, peptides and amines	GO:0006865	amino acid transport	2A0307_GadC: glutamate:gamma-aminobutyrate antiporter
+T657	TIGR00910	Transport and binding proteins	Amino acids, peptides and amines	GO:0015300	antiporter activity	2A0307_GadC: glutamate:gamma-aminobutyrate antiporter
+T659	TIGR00712	Transport and binding proteins	Other	GO:0015169	glycerol-3-phosphate transmembrane transporter activity	glpT: glycerol-3-phosphate transporter
+T659	TIGR00712	Transport and binding proteins	Other	GO:0015794	glycerol-3-phosphate transport	glpT: glycerol-3-phosphate transporter
+T660	TIGR01272	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			gluP: glucose/galactose transporter WARNING
+T665	TIGR01713	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	typeII_sec_gspC: type II secretion system protein C
+T665	TIGR01713	Protein fate	Protein and peptide secretion and trafficking	GO:0015627	type II protein secretion system complex	typeII_sec_gspC: type II secretion system protein C
+T665	TIGR01713	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	typeII_sec_gspC: type II secretion system protein C
+T668	TIGR01708	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	typeII_sec_gspH: type II secretion system protein H
+T668	TIGR01708	Protein fate	Protein and peptide secretion and trafficking	GO:0015627	type II protein secretion system complex	typeII_sec_gspH: type II secretion system protein H
+T668	TIGR01708	Protein fate	Protein and peptide secretion and trafficking	GO:0015628	protein secretion by the type II secretion system	typeII_sec_gspH: type II secretion system protein H
+T668	TIGR01708	Cellular processes	Pathogenesis	GO:0008565	protein transporter activity	typeII_sec_gspH: type II secretion system protein H
+T668	TIGR01708	Cellular processes	Pathogenesis	GO:0015627	type II protein secretion system complex	typeII_sec_gspH: type II secretion system protein H
+T668	TIGR01708	Cellular processes	Pathogenesis	GO:0015628	protein secretion by the type II secretion system	typeII_sec_gspH: type II secretion system protein H
+T670	TIGR01707			GO:0008565	protein transporter activity	gspI: type II secretion system protein I
+T670	TIGR01707			GO:0015627	type II protein secretion system complex	gspI: type II secretion system protein I
+T670	TIGR01707			GO:0015628	protein secretion by the type II secretion system	gspI: type II secretion system protein I
+T675	TIGR00891	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	2A0112: MFS transporter, sialate:H+ symporter (SHS) family
+T675	TIGR00891	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015718	monocarboxylic acid transport	2A0112: MFS transporter, sialate:H+ symporter (SHS) family
+T675	TIGR00891	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0008028	monocarboxylic acid transmembrane transporter activity	2A0112: MFS transporter, sialate:H+ symporter (SHS) family
+T677	TIGR00831	Transport and binding proteins	Cations and iron carrying compounds	GO:0006814	sodium ion transport	a_cpa1: Na+/H+ antiporter
+T677	TIGR00831	Transport and binding proteins	Cations and iron carrying compounds	GO:0006818	proton transport	a_cpa1: Na+/H+ antiporter
+T677	TIGR00831	Transport and binding proteins	Cations and iron carrying compounds	GO:0015385	sodium:proton antiporter activity	a_cpa1: Na+/H+ antiporter
+T677	TIGR00831	Transport and binding proteins	Cations and iron carrying compounds	GO:0006885	regulation of pH	a_cpa1: Na+/H+ antiporter
+T687	TIGR01288	Transport and binding proteins	Other	GO:0005524	ATP binding	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Transport and binding proteins	Other	GO:0009898	cytoplasmic side of plasma membrane	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Transport and binding proteins	Other	GO:0033231	carbohydrate export	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Transport and binding proteins	Other	GO:0043212	carbohydrate-exporting ATPase activity	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Transport and binding proteins	Other	GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Cellular processes	Other	GO:0005524	ATP binding	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Cellular processes	Other	GO:0009898	cytoplasmic side of plasma membrane	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Cellular processes	Other	GO:0033231	carbohydrate export	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Cellular processes	Other	GO:0043212	carbohydrate-exporting ATPase activity	nodI: nodulation ABC transporter NodI
+T687	TIGR01288	Cellular processes	Other	GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding	nodI: nodulation ABC transporter NodI
+T688	TIGR01291	Transport and binding proteins	Other	GO:0005887	integral component of plasma membrane	nodJ: ABC-2 type transporter, NodJ family
+T688	TIGR01291	Transport and binding proteins	Other	GO:0033231	carbohydrate export	nodJ: ABC-2 type transporter, NodJ family
+T688	TIGR01291	Transport and binding proteins	Other	GO:0043212	carbohydrate-exporting ATPase activity	nodJ: ABC-2 type transporter, NodJ family
+T688	TIGR01291	Transport and binding proteins	Other	GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding	nodJ: ABC-2 type transporter, NodJ family
+T688	TIGR01291	Cellular processes	Other	GO:0005887	integral component of plasma membrane	nodJ: ABC-2 type transporter, NodJ family
+T688	TIGR01291	Cellular processes	Other	GO:0033231	carbohydrate export	nodJ: ABC-2 type transporter, NodJ family
+T688	TIGR01291	Cellular processes	Other	GO:0043212	carbohydrate-exporting ATPase activity	nodJ: ABC-2 type transporter, NodJ family
+T688	TIGR01291	Cellular processes	Other	GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding	nodJ: ABC-2 type transporter, NodJ family
+T690	TIGR02294	Transport and binding proteins	Cations and iron carrying compounds	GO:0030288	outer membrane-bounded periplasmic space	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
+T690	TIGR02294	Transport and binding proteins	Cations and iron carrying compounds	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
+T690	TIGR02294	Transport and binding proteins	Cations and iron carrying compounds	GO:0031362	anchored component of external side of plasma membrane	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
+T690	TIGR02294	Transport and binding proteins	Cations and iron carrying compounds	GO:0015413	nickel-transporting ATPase activity	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
+T690	TIGR02294	Transport and binding proteins	Cations and iron carrying compounds	GO:0015675	nickel cation transport	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
+T690	TIGR02294	Transport and binding proteins	Cations and iron carrying compounds	GO:0016151	nickel cation binding	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
+T692	TIGR02789	Transport and binding proteins	Cations and iron carrying compounds	GO:0005887	integral component of plasma membrane	nickel_nikB: nickel ABC transporter, permease subunit NikB
+T692	TIGR02789	Transport and binding proteins	Cations and iron carrying compounds	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	nickel_nikB: nickel ABC transporter, permease subunit NikB
+T692	TIGR02789	Transport and binding proteins	Cations and iron carrying compounds	GO:0015413	nickel-transporting ATPase activity	nickel_nikB: nickel ABC transporter, permease subunit NikB
+T692	TIGR02789	Transport and binding proteins	Cations and iron carrying compounds	GO:0015675	nickel cation transport	nickel_nikB: nickel ABC transporter, permease subunit NikB
+T695	TIGR02790	Transport and binding proteins	Cations and iron carrying compounds	GO:0005887	integral component of plasma membrane	nickel_nikC: nickel ABC transporter, permease subunit NikC
+T695	TIGR02790	Transport and binding proteins	Cations and iron carrying compounds	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	nickel_nikC: nickel ABC transporter, permease subunit NikC
+T695	TIGR02790	Transport and binding proteins	Cations and iron carrying compounds	GO:0015413	nickel-transporting ATPase activity	nickel_nikC: nickel ABC transporter, permease subunit NikC
+T695	TIGR02790	Transport and binding proteins	Cations and iron carrying compounds	GO:0015675	nickel cation transport	nickel_nikC: nickel ABC transporter, permease subunit NikC
+T696	TIGR00775	Transport and binding proteins	Cations and iron carrying compounds	GO:0006814	sodium ion transport	NhaD: Na+/H+ antiporter, NhaD family
+T696	TIGR00775	Transport and binding proteins	Cations and iron carrying compounds	GO:0006818	proton transport	NhaD: Na+/H+ antiporter, NhaD family
+T696	TIGR00775	Transport and binding proteins	Cations and iron carrying compounds	GO:0015385	sodium:proton antiporter activity	NhaD: Na+/H+ antiporter, NhaD family
+T704	TIGR02555			GO:0009405	pathogenesis	OrgA_MxiK: type III secretion apparatus protein OrgA/MxiK
+T704	TIGR02555			GO:0030254	protein secretion by the type III secretion system	OrgA_MxiK: type III secretion apparatus protein OrgA/MxiK
+T704	TIGR02555			GO:0030257	type III protein secretion system complex	OrgA_MxiK: type III secretion apparatus protein OrgA/MxiK
+T706	TIGR02105	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	III_needle: type III secretion apparatus needle protein
+T706	TIGR02105	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	III_needle: type III secretion apparatus needle protein
+T709	TIGR04407	Transport and binding proteins	Other	GO:0015920	lipopolysaccharide transport	LptF_YjgP: LPS export ABC transporter permease LptF
+T709	TIGR04407	Transport and binding proteins	Other	GO:0015221	lipopolysaccharide transmembrane transporter activity	LptF_YjgP: LPS export ABC transporter permease LptF
+T709	TIGR04407	Transport and binding proteins	Other	GO:0005886	plasma membrane	LptF_YjgP: LPS export ABC transporter permease LptF
+T709	TIGR04407	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015920	lipopolysaccharide transport	LptF_YjgP: LPS export ABC transporter permease LptF
+T709	TIGR04407	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015221	lipopolysaccharide transmembrane transporter activity	LptF_YjgP: LPS export ABC transporter permease LptF
+T709	TIGR04407	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0005886	plasma membrane	LptF_YjgP: LPS export ABC transporter permease LptF
+T710	TIGR04408	Transport and binding proteins	Other	GO:0015920	lipopolysaccharide transport	LptG_lptG: LPS export ABC transporter permease LptG
+T710	TIGR04408	Transport and binding proteins	Other	GO:0015221	lipopolysaccharide transmembrane transporter activity	LptG_lptG: LPS export ABC transporter permease LptG
+T710	TIGR04408	Transport and binding proteins	Other	GO:0005886	plasma membrane	LptG_lptG: LPS export ABC transporter permease LptG
+T710	TIGR04408	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015920	lipopolysaccharide transport	LptG_lptG: LPS export ABC transporter permease LptG
+T710	TIGR04408	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0015221	lipopolysaccharide transmembrane transporter activity	LptG_lptG: LPS export ABC transporter permease LptG
+T710	TIGR04408	Cell envelope	Biosynthesis and degradation of surface polysaccharides and lipopolysaccharides	GO:0005886	plasma membrane	LptG_lptG: LPS export ABC transporter permease LptG
+T711	TIGR02572	Protein fate	Protein and peptide secretion and trafficking	GO:0072321	chaperone-mediated protein transport	LcrR: type III secretion system regulator LcrR
+T714	TIGR01776	Transport and binding proteins	Cations and iron carrying compounds	GO:0006810	transport	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T714	TIGR01776	Transport and binding proteins	Cations and iron carrying compounds	GO:0022857	transmembrane transporter activity	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T714	TIGR01776	Transport and binding proteins	Cations and iron carrying compounds	GO:0004872	receptor activity	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T714	TIGR01776	Transport and binding proteins	Cations and iron carrying compounds	GO:0019867	outer membrane	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T714	TIGR01776	Transport and binding proteins	Porins	GO:0006810	transport	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T714	TIGR01776	Transport and binding proteins	Porins	GO:0022857	transmembrane transporter activity	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T714	TIGR01776	Transport and binding proteins	Porins	GO:0004872	receptor activity	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T714	TIGR01776	Transport and binding proteins	Porins	GO:0019867	outer membrane	TonB-tbp-lbp: TonB-dependent lactoferrin and transferrin receptors
+T716	TIGR02115	Transport and binding proteins	Cations and iron carrying compounds	GO:0006813	potassium ion transport	potass_kdpF: K+-transporting ATPase, F subunit
+T716	TIGR02115	Transport and binding proteins	Cations and iron carrying compounds	GO:0008556	potassium-transporting ATPase activity	potass_kdpF: K+-transporting ATPase, F subunit
+T716	TIGR02115	Transport and binding proteins	Cations and iron carrying compounds	GO:0031004	potassium ion-transporting ATPase complex	potass_kdpF: K+-transporting ATPase, F subunit
+T717	TIGR00958	Transport and binding proteins	Other			3a01208: antigen peptide transporter 2
+T719	TIGR00816	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			tdt: C4-dicarboxylate transporter/malic acid transport protein
+T721	TIGR03136	Transport and binding proteins	Cations and iron carrying compounds			malonate_biotin: Na+-transporting malonate decarboxylase, carboxybiotin decarboxylase subunit
+T723	TIGR00892	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			2A0113: monocarboxylate transporter
+T724	TIGR00400	Transport and binding proteins	Cations and iron carrying compounds	GO:0015095	magnesium ion transmembrane transporter activity	mgtE: magnesium transporter
+T724	TIGR00400	Transport and binding proteins	Cations and iron carrying compounds	GO:0015693	magnesium ion transport	mgtE: magnesium transporter
+T727	TIGR00711	Cellular processes	Toxin production and resistance	GO:0005887	integral component of plasma membrane	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T727	TIGR00711	Cellular processes	Toxin production and resistance	GO:0006855	drug transmembrane transport	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T727	TIGR00711	Cellular processes	Toxin production and resistance	GO:0015307	drug:proton antiporter activity	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T727	TIGR00711	Cellular processes	Toxin production and resistance	GO:0042493	response to drug	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T727	TIGR00711	Transport and binding proteins	Other	GO:0005887	integral component of plasma membrane	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T727	TIGR00711	Transport and binding proteins	Other	GO:0006855	drug transmembrane transport	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T727	TIGR00711	Transport and binding proteins	Other	GO:0015307	drug:proton antiporter activity	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T727	TIGR00711	Transport and binding proteins	Other	GO:0042493	response to drug	efflux_EmrB: drug resistance MFS transporter, drug:H+ antiporter-2 (14 Spanner) (DHA2) family
+T728	TIGR00931	Transport and binding proteins	Cations and iron carrying compounds	GO:0006814	sodium ion transport	antiport_nhaC: Na+/H+ antiporter NhaC
+T728	TIGR00931	Transport and binding proteins	Cations and iron carrying compounds	GO:0006818	proton transport	antiport_nhaC: Na+/H+ antiporter NhaC
+T728	TIGR00931	Transport and binding proteins	Cations and iron carrying compounds	GO:0015385	sodium:proton antiporter activity	antiport_nhaC: Na+/H+ antiporter NhaC
+T731	TIGR00844	Transport and binding proteins	Cations and iron carrying compounds	GO:0006814	sodium ion transport	c_cpa1: sodium/hydrogen antiporter
+T731	TIGR00844	Transport and binding proteins	Cations and iron carrying compounds	GO:0006818	proton transport	c_cpa1: sodium/hydrogen antiporter
+T731	TIGR00844	Transport and binding proteins	Cations and iron carrying compounds	GO:0015385	sodium:proton antiporter activity	c_cpa1: sodium/hydrogen antiporter
+T732	TIGR00886	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	2A0108: nitrite transporter
+T732	TIGR00886	Transport and binding proteins	Anions	GO:0015514	nitrite efflux transmembrane transporter activity	2A0108: nitrite transporter
+T732	TIGR00886	Transport and binding proteins	Anions	GO:0015707	nitrite transport	2A0108: nitrite transporter
+T733	TIGR04060	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	formate_focA: formate transporter FocA
+T733	TIGR04060	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015499	formate transmembrane transporter activity	formate_focA: formate transporter FocA
+T733	TIGR04060	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015724	formate transport	formate_focA: formate transporter FocA
+T737	TIGR00935	Transport and binding proteins	Other	GO:0015105	arsenite transmembrane transporter activity	2a45: arsenite/antimonite efflux pump membrane protein
+T737	TIGR00935	Transport and binding proteins	Other	GO:0046685	response to arsenic-containing substance	2a45: arsenite/antimonite efflux pump membrane protein
+T737	TIGR00935	Cellular processes	Detoxification	GO:0015105	arsenite transmembrane transporter activity	2a45: arsenite/antimonite efflux pump membrane protein
+T737	TIGR00935	Cellular processes	Detoxification	GO:0046685	response to arsenic-containing substance	2a45: arsenite/antimonite efflux pump membrane protein
+T738	TIGR00800	Transport and binding proteins	Nucleosides, purines and pyrimidines			ncs1: NCS1 nucleoside transporter family
+T740	TIGR01843	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	type_I_hlyD: type I secretion membrane fusion protein, HlyD family
+T740	TIGR01843	Protein fate	Protein and peptide secretion and trafficking	GO:0030253	protein secretion by the type I secretion system	type_I_hlyD: type I secretion membrane fusion protein, HlyD family
+T749	TIGR00895	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	2A0115: MFS transporter, aromatic acid:H+ symporter (AAHS) family
+T749	TIGR00895	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0042908	xenobiotic transport	2A0115: MFS transporter, aromatic acid:H+ symporter (AAHS) family
+T749	TIGR00895	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0042910	xenobiotic transmembrane transporter activity	2A0115: MFS transporter, aromatic acid:H+ symporter (AAHS) family
+T750	TIGR00843	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			benE: benzoate transporter
+T755	TIGR01773	Transport and binding proteins	Amino acids, peptides and amines	GO:0006810	transport	GABAperm: GABA permease
+T755	TIGR01773	Transport and binding proteins	Amino acids, peptides and amines	GO:0009450	gamma-aminobutyric acid catabolic process	GABAperm: GABA permease
+T755	TIGR01773	Transport and binding proteins	Amino acids, peptides and amines	GO:0015495	gamma-aminobutyric acid:proton symporter activity	GABAperm: GABA permease
+T756	TIGR02601	Protein fate	Protein and peptide secretion and trafficking			autotrns_rpt: autotransporter-associated beta strand repeat
+T756	TIGR02601	Cellular processes	Pathogenesis			autotrns_rpt: autotransporter-associated beta strand repeat
+T758	TIGR01166	Transport and binding proteins	Cations and iron carrying compounds	GO:0043190	ATP-binding cassette (ABC) transporter complex	cbiO: cobalt ABC transporter, ATP-binding protein
+T758	TIGR01166	Transport and binding proteins	Cations and iron carrying compounds	GO:0006824	cobalt ion transport	cbiO: cobalt ABC transporter, ATP-binding protein
+T758	TIGR01166	Transport and binding proteins	Cations and iron carrying compounds	GO:0005524	ATP binding	cbiO: cobalt ABC transporter, ATP-binding protein
+T758	TIGR01166	Transport and binding proteins	Cations and iron carrying compounds	GO:0009898	cytoplasmic side of plasma membrane	cbiO: cobalt ABC transporter, ATP-binding protein
+T758	TIGR01166	Transport and binding proteins	Cations and iron carrying compounds	GO:0032778	cobalt-transporting ATPase activity	cbiO: cobalt ABC transporter, ATP-binding protein
+T761	TIGR02122	Transport and binding proteins	Unknown substrate	GO:0006810	transport	TRAP_TAXI: TRAP transporter solute receptor, TAXI family
+T761	TIGR02122	Transport and binding proteins	Unknown substrate	GO:0005215	transporter activity	TRAP_TAXI: TRAP transporter solute receptor, TAXI family
+T763	TIGR03810	Transport and binding proteins	Amino acids, peptides and amines	GO:0005887	integral component of plasma membrane	arg_ornith_anti: arginine-ornithine antiporter
+T763	TIGR03810	Transport and binding proteins	Amino acids, peptides and amines	GO:0006527	arginine catabolic process	arg_ornith_anti: arginine-ornithine antiporter
+T763	TIGR03810	Transport and binding proteins	Amino acids, peptides and amines	GO:0043858	arginine:ornithine antiporter activity	arg_ornith_anti: arginine-ornithine antiporter
+T764	TIGR01844	Protein fate	Protein and peptide secretion and trafficking	GO:0006810	transport	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T764	TIGR01844	Protein fate	Protein and peptide secretion and trafficking	GO:0009279	cell outer membrane	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T764	TIGR01844	Protein fate	Protein and peptide secretion and trafficking	GO:0015288	porin activity	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T764	TIGR01844	Transport and binding proteins	Porins	GO:0006810	transport	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T764	TIGR01844	Transport and binding proteins	Porins	GO:0009279	cell outer membrane	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T764	TIGR01844	Transport and binding proteins	Porins	GO:0015288	porin activity	type_I_sec_TolC: type I secretion outer membrane protein, TolC family
+T766	TIGR01842	Protein fate	Protein and peptide secretion and trafficking	GO:0008565	protein transporter activity	type_I_sec_PrtD: type I secretion system ATPase
+T766	TIGR01842	Protein fate	Protein and peptide secretion and trafficking	GO:0030253	protein secretion by the type I secretion system	type_I_sec_PrtD: type I secretion system ATPase
+T767	TIGR00907	Transport and binding proteins	Amino acids, peptides and amines			2A0304: amino acid permease
+T770	TIGR00955	Transport and binding proteins	Other			3a01204: pigment precursor permease
+T773	TIGR00954	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			3a01203: peroxysomal long chain fatty acyl transporter
+T775	TIGR00901	Cellular processes	Adaptations to atypical conditions	GO:0006810	transport	2A0125: AmpG-like permease
+T775	TIGR00901	Cellular processes	Adaptations to atypical conditions	GO:0022857	transmembrane transporter activity	2A0125: AmpG-like permease
+T776	TIGR02857			GO:0005887	integral component of plasma membrane	CydD: thiol reductant ABC exporter, CydD subunit
+T776	TIGR02857			GO:0005524	ATP binding	CydD: thiol reductant ABC exporter, CydD subunit
+T776	TIGR02857			GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding	CydD: thiol reductant ABC exporter, CydD subunit
+T776	TIGR02857			GO:0033228	cysteine export	CydD: thiol reductant ABC exporter, CydD subunit
+T776	TIGR02857			GO:0033230	cysteine-transporting ATPase activity	CydD: thiol reductant ABC exporter, CydD subunit
+T778	TIGR01257	Transport and binding proteins	Other	GO:0006810	transport	rim_protein: rim ABC transporter
+T778	TIGR01257	Transport and binding proteins	Other	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	rim_protein: rim ABC transporter
+T778	TIGR01257	Transport and binding proteins	Other	GO:0016021	integral component of membrane	rim_protein: rim ABC transporter
+T778	TIGR01257	Transport and binding proteins	Other	GO:0005524	ATP binding	rim_protein: rim ABC transporter
+T778	TIGR01257	Transport and binding proteins	Other	GO:0007601	visual perception	rim_protein: rim ABC transporter
+T788	TIGR00819	Hypothetical proteins	Conserved			ydaH: AbgT transporter family
+T796	TIGR00771	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0005887	integral component of plasma membrane	DcuC: transporter, anaerobic C4-dicarboxylate uptake C (DcuC) family
+T796	TIGR00771	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015556	C4-dicarboxylate transmembrane transporter activity	DcuC: transporter, anaerobic C4-dicarboxylate uptake C (DcuC) family
+T796	TIGR00771	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015740	C4-dicarboxylate transport	DcuC: transporter, anaerobic C4-dicarboxylate uptake C (DcuC) family
+T798	TIGR01188	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	drrA: daunorubicin resistance ABC transporter, ATP-binding protein
+T798	TIGR01188	Transport and binding proteins	Other	GO:0005524	ATP binding	drrA: daunorubicin resistance ABC transporter, ATP-binding protein
+T798	TIGR01188	Transport and binding proteins	Other	GO:0043215	daunorubicin transport	drrA: daunorubicin resistance ABC transporter, ATP-binding protein
+T798	TIGR01188	Transport and binding proteins	Other	GO:0043216	daunorubicin-transporting ATPase activity	drrA: daunorubicin resistance ABC transporter, ATP-binding protein
+T799	TIGR00025			GO:0005887	integral component of plasma membrane	Mtu_efflux: ABC transporter efflux protein, DrrB family
+T799	TIGR00025			GO:0006810	transport	Mtu_efflux: ABC transporter efflux protein, DrrB family
+T799	TIGR00025			GO:0042626	ATPase activity, coupled to transmembrane movement of substances	Mtu_efflux: ABC transporter efflux protein, DrrB family
+T799	TIGR00025			GO:0043190	ATP-binding cassette (ABC) transporter complex	Mtu_efflux: ABC transporter efflux protein, DrrB family
+T800	TIGR03925	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_EccC_b: type VII secretion protein EccCb
+T801	TIGR03924	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_EccC_a: type VII secretion protein EccCa
+T801	TIGR03924	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	T7SS_EccC_a: type VII secretion protein EccCa
+T810	TIGR03927	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	T7SS_EssA_Firm: type VII secretion protein EssA
+T810	TIGR03927	Protein fate	Protein and peptide secretion and trafficking	GO:0003674	molecular_function	T7SS_EssA_Firm: type VII secretion protein EssA
+T812	TIGR02797	Transport and binding proteins	Cations and iron carrying compounds	GO:0016020	membrane	exbB: tonB-system energizer ExbB
+T812	TIGR02797	Transport and binding proteins	Cations and iron carrying compounds	GO:0015570	secondary active transmembrane transporter activity	exbB: tonB-system energizer ExbB
+T812	TIGR02797	Transport and binding proteins	Cations and iron carrying compounds	GO:0015078	hydrogen ion transmembrane transporter activity	exbB: tonB-system energizer ExbB
+T813	TIGR02804			GO:0006810	transport	ExbD_2: TonB system transport protein ExbD
+T813	TIGR02804			GO:0015570	secondary active transmembrane transporter activity	ExbD_2: TonB system transport protein ExbD
+T816	TIGR02803			GO:0015570	secondary active transmembrane transporter activity	ExbD_1: TonB system transport protein ExbD
+T821	TIGR03496	Cellular processes	Chemotaxis and motility	GO:0016887	ATPase activity	FliI_clade1: flagellar protein export ATPase FliI
+T821	TIGR03496	Cellular processes	Chemotaxis and motility	GO:0001539	cilium or flagellum-dependent cell motility	FliI_clade1: flagellar protein export ATPase FliI
+T821	TIGR03496	Cellular processes	Chemotaxis and motility	GO:0009288	bacterial-type flagellum	FliI_clade1: flagellar protein export ATPase FliI
+T823	TIGR00882	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			2A0105: oligosaccharide:H+ symporter
+T824	TIGR00897	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			2A0118: polyol permease
+T825	TIGR00896	Transport and binding proteins	Other			CynX: cyanate transporter
+T830	TIGR00937	Transport and binding proteins	Anions	GO:0015109	chromate transmembrane transporter activity	2A51: chromate efflux transporter
+T830	TIGR00937	Transport and binding proteins	Anions	GO:0015703	chromate transport	2A51: chromate efflux transporter
+T833	TIGR00784	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			citMHS: citrate transporter
+T836	TIGR01183	Transport and binding proteins	Anions	GO:0005887	integral component of plasma membrane	ntrB: nitrate ABC transporter, permease protein
+T836	TIGR01183	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	ntrB: nitrate ABC transporter, permease protein
+T836	TIGR01183	Transport and binding proteins	Anions	GO:0015414	ATPase-coupled nitrate transmembrane transporter activity	ntrB: nitrate ABC transporter, permease protein
+T836	TIGR01183	Transport and binding proteins	Anions	GO:0015706	nitrate transport	ntrB: nitrate ABC transporter, permease protein
+T838	TIGR01193	Protein fate	Protein and peptide secretion and trafficking	GO:0043190	ATP-binding cassette (ABC) transporter complex	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Protein fate	Protein and peptide secretion and trafficking	GO:0043213	bacteriocin transport	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Protein fate	Protein and peptide secretion and trafficking	GO:0043214	bacteriocin-transporting ATPase activity	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Transport and binding proteins	Other	GO:0043213	bacteriocin transport	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Transport and binding proteins	Other	GO:0043214	bacteriocin-transporting ATPase activity	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Protein fate	Protein modification and repair	GO:0043190	ATP-binding cassette (ABC) transporter complex	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Protein fate	Protein modification and repair	GO:0043213	bacteriocin transport	bacteriocin_ABC: ABC-type bacteriocin transporter
+T838	TIGR01193	Protein fate	Protein modification and repair	GO:0043214	bacteriocin-transporting ATPase activity	bacteriocin_ABC: ABC-type bacteriocin transporter
+T840	TIGR00914	Transport and binding proteins	Cations and iron carrying compounds	GO:0016021	integral component of membrane	2A0601: heavy metal efflux pump, CzcA family
+T840	TIGR00914	Transport and binding proteins	Cations and iron carrying compounds	GO:0030001	metal ion transport	2A0601: heavy metal efflux pump, CzcA family
+T840	TIGR00914	Transport and binding proteins	Cations and iron carrying compounds	GO:0051139	metal ion:proton antiporter activity	2A0601: heavy metal efflux pump, CzcA family
+T840	TIGR00914	Cellular processes	Detoxification	GO:0016021	integral component of membrane	2A0601: heavy metal efflux pump, CzcA family
+T840	TIGR00914	Cellular processes	Detoxification	GO:0030001	metal ion transport	2A0601: heavy metal efflux pump, CzcA family
+T840	TIGR00914	Cellular processes	Detoxification	GO:0051139	metal ion:proton antiporter activity	2A0601: heavy metal efflux pump, CzcA family
+T843	TIGR00971	Transport and binding proteins	Anions	GO:0030288	outer membrane-bounded periplasmic space	3a0106s03: sulfate ABC transporter, sulfate-binding protein
+T843	TIGR00971	Transport and binding proteins	Anions	GO:0008272	sulfate transport	3a0106s03: sulfate ABC transporter, sulfate-binding protein
+T843	TIGR00971	Transport and binding proteins	Anions	GO:0015419	ATPase-coupled sulfate transmembrane transporter activity	3a0106s03: sulfate ABC transporter, sulfate-binding protein
+T843	TIGR00971	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	3a0106s03: sulfate ABC transporter, sulfate-binding protein
+T843	TIGR00971	Transport and binding proteins	Anions	GO:0031362	anchored component of external side of plasma membrane	3a0106s03: sulfate ABC transporter, sulfate-binding protein
+T843	TIGR00971	Transport and binding proteins	Anions	GO:0043199	sulfate binding	3a0106s03: sulfate ABC transporter, sulfate-binding protein
+T847	TIGR03265	Transport and binding proteins	Amino acids, peptides and amines	GO:0005524	ATP binding	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
+T847	TIGR03265	Transport and binding proteins	Amino acids, peptides and amines	GO:0009898	cytoplasmic side of plasma membrane	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
+T847	TIGR03265	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
+T847	TIGR03265	Transport and binding proteins	Amino acids, peptides and amines	GO:0033223	2-aminoethylphosphonate transport	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
+T847	TIGR03265	Transport and binding proteins	Amino acids, peptides and amines	GO:0033225	2-aminoethylphosphonate-transporting ATPase activity	PhnT2: putative 2-aminoethylphosphonate ABC transporter, ATP-binding protein
+T849	TIGR02868			GO:0005887	integral component of plasma membrane	CydC: thiol reductant ABC exporter, CydC subunit
+T849	TIGR02868			GO:0005524	ATP binding	CydC: thiol reductant ABC exporter, CydC subunit
+T849	TIGR02868			GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding	CydC: thiol reductant ABC exporter, CydC subunit
+T849	TIGR02868			GO:0033228	cysteine export	CydC: thiol reductant ABC exporter, CydC subunit
+T849	TIGR02868			GO:0033230	cysteine-transporting ATPase activity	CydC: thiol reductant ABC exporter, CydC subunit
+T853	TIGR04259			GO:0015297	antiporter activity	oxa_formateAnti: oxalate/formate antiporter
+T854	TIGR03497	Cellular processes	Chemotaxis and motility	GO:0016887	ATPase activity	FliI_clade2: flagellar protein export ATPase FliI
+T854	TIGR03497	Cellular processes	Chemotaxis and motility	GO:0001539	cilium or flagellum-dependent cell motility	FliI_clade2: flagellar protein export ATPase FliI
+T854	TIGR03497	Cellular processes	Chemotaxis and motility	GO:0009288	bacterial-type flagellum	FliI_clade2: flagellar protein export ATPase FliI
+T856	TIGR00909	Transport and binding proteins	Amino acids, peptides and amines			2A0306: amino acid transporter
+T893	TIGR00733	Transport and binding proteins	Amino acids, peptides and amines	GO:0015198	oligopeptide transmembrane transporter activity	TIGR00733: oligopeptide transporter, OPT family
+T893	TIGR00733	Transport and binding proteins	Amino acids, peptides and amines	GO:0006857	oligopeptide transport	TIGR00733: oligopeptide transporter, OPT family
+T893	TIGR00733	Transport and binding proteins	Amino acids, peptides and amines	GO:0016020	membrane	TIGR00733: oligopeptide transporter, OPT family
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0030288	outer membrane-bounded periplasmic space	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0031362	anchored component of external side of plasma membrane	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0033286	ectoine-transporting ATPase activity	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0033288	hydroxyectoine-transporting ATPase activity	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0033294	ectoine binding	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0033295	hydroxyectoine binding	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0033308	hydroxyectoine transport	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T895	TIGR02995	Transport and binding proteins	Amino acids, peptides and amines	GO:0051470	ectoine transport	ectoine_ehuB: ectoine/hydroxyectoine ABC transporter solute-binding protein EhuB
+T896	TIGR03003			GO:0005887	integral component of plasma membrane	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
+T896	TIGR03003			GO:0033286	ectoine-transporting ATPase activity	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
+T896	TIGR03003			GO:0033288	hydroxyectoine-transporting ATPase activity	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
+T896	TIGR03003			GO:0033308	hydroxyectoine transport	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
+T896	TIGR03003			GO:0051470	ectoine transport	ectoine_ehuD: ectoine/hydroxyectoine ABC transporter, permease protein EhuD
+T897	TIGR03005			GO:0005524	ATP binding	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
+T897	TIGR03005			GO:0009898	cytoplasmic side of plasma membrane	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
+T897	TIGR03005			GO:0033286	ectoine-transporting ATPase activity	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
+T897	TIGR03005			GO:0033288	hydroxyectoine-transporting ATPase activity	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
+T897	TIGR03005			GO:0033308	hydroxyectoine transport	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
+T897	TIGR03005			GO:0051470	ectoine transport	ectoine_ehuA: ectoine/hydroxyectoine ABC transporter, ATP-binding protein EhuA
+T901	TIGR00704	Transport and binding proteins	Cations and iron carrying compounds			NaPi_cotrn_rel: Na/Pi-cotransporter II-related protein
+T907	TIGR02497	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	yscI_hrpB_dom: type III secretion apparatus protein, YscI/HrpB, C-terminal domain
+T907	TIGR02497	Protein fate	Protein and peptide secretion and trafficking	GO:0030257	type III protein secretion system complex	yscI_hrpB_dom: type III secretion apparatus protein, YscI/HrpB, C-terminal domain
+T907	TIGR02497	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	yscI_hrpB_dom: type III secretion apparatus protein, YscI/HrpB, C-terminal domain
+T907	TIGR02497	Cellular processes	Pathogenesis	GO:0030257	type III protein secretion system complex	yscI_hrpB_dom: type III secretion apparatus protein, YscI/HrpB, C-terminal domain
+T908	TIGR02502	Protein fate	Protein and peptide secretion and trafficking			type_III_YscX: type III secretion protein, YscX family
+T908	TIGR02502	Cellular processes	Pathogenesis			type_III_YscX: type III secretion protein, YscX family
+T912	TIGR00890	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			2A0111: oxalate/formate antiporter family transporter
+T913	TIGR04414	Protein fate	Protein modification and repair	GO:0006493	protein O-linked glycosylation	hepto_Aah_TibC: autotransporter strand-loop-strand O-heptosyltransferase
+T913	TIGR04414	Protein fate	Protein modification and repair	GO:0016757	transferase activity, transferring glycosyl groups	hepto_Aah_TibC: autotransporter strand-loop-strand O-heptosyltransferase
+T916	TIGR02222	Protein fate	Protein and peptide secretion and trafficking	GO:0050821	protein stabilization	chap_CsaA: export-related chaperone protein CsaA
+T916	TIGR02222	Protein fate	Protein and peptide secretion and trafficking	GO:0005515	protein binding	chap_CsaA: export-related chaperone protein CsaA
+T916	TIGR02222	Protein fate	Protein and peptide secretion and trafficking	GO:0009306	protein secretion	chap_CsaA: export-related chaperone protein CsaA
+T916	TIGR02222	Protein fate	Protein folding and stabilization	GO:0050821	protein stabilization	chap_CsaA: export-related chaperone protein CsaA
+T916	TIGR02222	Protein fate	Protein folding and stabilization	GO:0005515	protein binding	chap_CsaA: export-related chaperone protein CsaA
+T916	TIGR02222	Protein fate	Protein folding and stabilization	GO:0009306	protein secretion	chap_CsaA: export-related chaperone protein CsaA
+T920	TIGR03851	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0048030	disaccharide binding	chitin_NgcE: carbohydrate ABC transporter, N-acetylglucosamine/diacetylchitobiose-binding protein
+T920	TIGR03851	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0006032	chitin catabolic process	chitin_NgcE: carbohydrate ABC transporter, N-acetylglucosamine/diacetylchitobiose-binding protein
+T920	TIGR03851	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015764	N-acetylglucosamine transport	chitin_NgcE: carbohydrate ABC transporter, N-acetylglucosamine/diacetylchitobiose-binding protein
+T920	TIGR03851	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0048029	monosaccharide binding	chitin_NgcE: carbohydrate ABC transporter, N-acetylglucosamine/diacetylchitobiose-binding protein
+T925	TIGR03410	Transport and binding proteins	Amino acids, peptides and amines	GO:0005524	ATP binding	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE
+T925	TIGR03410	Transport and binding proteins	Amino acids, peptides and amines	GO:0009898	cytoplasmic side of plasma membrane	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE
+T925	TIGR03410	Transport and binding proteins	Amino acids, peptides and amines	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE
+T925	TIGR03410	Transport and binding proteins	Amino acids, peptides and amines	GO:0015840	urea transport	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE
+T925	TIGR03410	Transport and binding proteins	Amino acids, peptides and amines	GO:0033221	urea-transporting ATPase activity	urea_trans_UrtE: urea ABC transporter, ATP-binding protein UrtE
+T939	TIGR00833	Transport and binding proteins	Unknown substrate			actII: transport protein
+T942	TIGR00995	Transport and binding proteins	Amino acids, peptides and amines			3a0901s06TIC22: chloroplast protein import component, Tic22 family
+T946	TIGR00637	Regulatory functions	Other			ModE_repress: ModE molybdate transport repressor domain
+T952	TIGR01005	Transport and binding proteins	Carbohydrates, organic alcohols, and acids			eps_transp_fam: exopolysaccharide transport protein family
+T954	TIGR02499	Protein fate	Protein and peptide secretion and trafficking	GO:0009405	pathogenesis	HrpE_YscL_not: type III secretion apparatus protein, HrpE/YscL family
+T954	TIGR02499	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	HrpE_YscL_not: type III secretion apparatus protein, HrpE/YscL family
+T954	TIGR02499	Protein fate	Protein and peptide secretion and trafficking	GO:0030257	type III protein secretion system complex	HrpE_YscL_not: type III secretion apparatus protein, HrpE/YscL family
+T954	TIGR02499	Cellular processes	Pathogenesis	GO:0009405	pathogenesis	HrpE_YscL_not: type III secretion apparatus protein, HrpE/YscL family
+T954	TIGR02499	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	HrpE_YscL_not: type III secretion apparatus protein, HrpE/YscL family
+T954	TIGR02499	Cellular processes	Pathogenesis	GO:0030257	type III protein secretion system complex	HrpE_YscL_not: type III secretion apparatus protein, HrpE/YscL family
+T956	TIGR03930			GO:0003674	molecular_function	WXG100_ESAT6: WXG100 family type VII secretion target
+T956	TIGR03930			GO:0005576	extracellular region	WXG100_ESAT6: WXG100 family type VII secretion target
+T956	TIGR03930			GO:0008150	biological_process	WXG100_ESAT6: WXG100 family type VII secretion target
+T960	TIGR01000	Transport and binding proteins	Other			bacteriocin_acc: bacteriocin secretion accessory protein
+T963	TIGR02503	Cellular processes	Pathogenesis			type_III_SycN: type III secretion chaperone SycN
+T963	TIGR02503	Protein fate	Protein folding and stabilization			type_III_SycN: type III secretion chaperone SycN
+T976	TIGR02508	Protein fate	Protein and peptide secretion and trafficking			type_III_yscG: type III secretion protein, YscG family
+T976	TIGR02508	Cellular processes	Pathogenesis			type_III_yscG: type III secretion protein, YscG family
+T976	TIGR02508	Protein fate	Protein folding and stabilization			type_III_yscG: type III secretion protein, YscG family
+T978	TIGR02501	Cellular processes	Pathogenesis			type_III_yscE: type III secretion system protein, YseE family
+T986	TIGR03004			GO:0005887	integral component of plasma membrane	ectoine_ehuC: ectoine/hydroxyectoine ABC transporter, permease protein EhuC
+T986	TIGR03004			GO:0033286	ectoine-transporting ATPase activity	ectoine_ehuC: ectoine/hydroxyectoine ABC transporter, permease protein EhuC
+T986	TIGR03004			GO:0033288	hydroxyectoine-transporting ATPase activity	ectoine_ehuC: ectoine/hydroxyectoine ABC transporter, permease protein EhuC
+T986	TIGR03004			GO:0033308	hydroxyectoine transport	ectoine_ehuC: ectoine/hydroxyectoine ABC transporter, permease protein EhuC
+T986	TIGR03004			GO:0051470	ectoine transport	ectoine_ehuC: ectoine/hydroxyectoine ABC transporter, permease protein EhuC
+T995	TIGR02551	Protein fate	Protein and peptide secretion and trafficking	GO:0009405	pathogenesis	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T995	TIGR02551	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T995	TIGR02551	Protein fate	Protein and peptide secretion and trafficking	GO:0030257	type III protein secretion system complex	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T995	TIGR02551	Cellular processes	Pathogenesis	GO:0009405	pathogenesis	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T995	TIGR02551	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T995	TIGR02551	Cellular processes	Pathogenesis	GO:0030257	type III protein secretion system complex	SpaO_YscQ: type III secretion apparatus protein, YscQ/HrcQ family
+T997	TIGR01404	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	FlhB_rel_III: type III secretion protein, YscU/HrpY family
+T997	TIGR01404	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	FlhB_rel_III: type III secretion protein, YscU/HrpY family
+T1004	TIGR02119	Transport and binding proteins	Other	GO:0015498	pantothenate:sodium symporter activity	panF: sodium/pantothenate symporter
+T1004	TIGR02119	Transport and binding proteins	Other	GO:0015887	pantothenate transmembrane transport	panF: sodium/pantothenate symporter
+T1004	TIGR02119	Transport and binding proteins	Other	GO:0015937	coenzyme A biosynthetic process	panF: sodium/pantothenate symporter
+T1004	TIGR02119	Biosynthesis of cofactors, prosthetic groups, and carriers	Pantothenate and coenzyme A	GO:0015498	pantothenate:sodium symporter activity	panF: sodium/pantothenate symporter
+T1004	TIGR02119	Biosynthesis of cofactors, prosthetic groups, and carriers	Pantothenate and coenzyme A	GO:0015887	pantothenate transmembrane transport	panF: sodium/pantothenate symporter
+T1004	TIGR02119	Biosynthesis of cofactors, prosthetic groups, and carriers	Pantothenate and coenzyme A	GO:0015937	coenzyme A biosynthetic process	panF: sodium/pantothenate symporter
+T1006	TIGR03173			GO:0016021	integral component of membrane	pbuX: xanthine permease
+T1006	TIGR03173			GO:0042906	xanthine transport	pbuX: xanthine permease
+T1006	TIGR03173			GO:0042907	xanthine transmembrane transporter activity	pbuX: xanthine permease
+T1008	TIGR03227			GO:0030288	outer membrane-bounded periplasmic space	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
+T1008	TIGR03227			GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
+T1008	TIGR03227			GO:0031362	anchored component of external side of plasma membrane	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
+T1008	TIGR03227			GO:0033223	2-aminoethylphosphonate transport	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
+T1008	TIGR03227			GO:0033225	2-aminoethylphosphonate-transporting ATPase activity	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
+T1008	TIGR03227			GO:0033226	2-aminoethylphosphonate binding	PhnS: 2-aminoethylphosphonate ABC transporter, 2-aminoethylphosphonate binding protein
+T1009	TIGR03226			GO:0005887	integral component of plasma membrane	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
+T1009	TIGR03226			GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
+T1009	TIGR03226			GO:0033223	2-aminoethylphosphonate transport	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
+T1009	TIGR03226			GO:0033225	2-aminoethylphosphonate-transporting ATPase activity	PhnU: 2-aminoethylphosphonate ABC transporter, permease protein
+T1010	TIGR03255			GO:0005887	integral component of plasma membrane	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
+T1010	TIGR03255			GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
+T1010	TIGR03255			GO:0033223	2-aminoethylphosphonate transport	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
+T1010	TIGR03255			GO:0033225	2-aminoethylphosphonate-transporting ATPase activity	PhnV: 2-aminoethylphosphonate ABC transport system, membrane component PhnV
+T1013	TIGR01098	Transport and binding proteins	Anions	GO:0030288	outer membrane-bounded periplasmic space	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
+T1013	TIGR01098	Transport and binding proteins	Anions	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
+T1013	TIGR01098	Transport and binding proteins	Anions	GO:0031362	anchored component of external side of plasma membrane	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
+T1013	TIGR01098	Transport and binding proteins	Anions	GO:0043168	anion binding	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
+T1013	TIGR01098	Transport and binding proteins	Anions	GO:0043225	ATPase-coupled anion transmembrane transporter activity	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
+T1020	TIGR01528	Transport and binding proteins	Other	GO:0016021	integral component of membrane	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T1020	TIGR01528	Transport and binding proteins	Other	GO:0015663	nicotinamide mononucleotide transmembrane transporter activity	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T1020	TIGR01528	Transport and binding proteins	Other	GO:0015890	nicotinamide mononucleotide transport	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T1020	TIGR01528	Biosynthesis of cofactors, prosthetic groups, and carriers	Pyridine nucleotides	GO:0016021	integral component of membrane	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T1020	TIGR01528	Biosynthesis of cofactors, prosthetic groups, and carriers	Pyridine nucleotides	GO:0015663	nicotinamide mononucleotide transmembrane transporter activity	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T1020	TIGR01528	Biosynthesis of cofactors, prosthetic groups, and carriers	Pyridine nucleotides	GO:0015890	nicotinamide mononucleotide transport	NMN_trans_PnuC: nicotinamide mononucleotide transporter PnuC
+T1025	TIGR02554	Protein fate	Protein and peptide secretion and trafficking	GO:0030254	protein secretion by the type III secretion system	PrgH: type III secretion apparatus protein PrgH/EprH
+T1025	TIGR02554	Protein fate	Protein and peptide secretion and trafficking	GO:0030257	type III protein secretion system complex	PrgH: type III secretion apparatus protein PrgH/EprH
+T1025	TIGR02554	Cellular processes	Pathogenesis	GO:0030254	protein secretion by the type III secretion system	PrgH: type III secretion apparatus protein PrgH/EprH
+T1025	TIGR02554	Cellular processes	Pathogenesis	GO:0030257	type III protein secretion system complex	PrgH: type III secretion apparatus protein PrgH/EprH
+T1028	TIGR01728	Transport and binding proteins	Other	GO:0042626	ATPase activity, coupled to transmembrane movement of substances	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
+T1028	TIGR01728	Transport and binding proteins	Other	GO:0043190	ATP-binding cassette (ABC) transporter complex	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
+T1028	TIGR01728	Transport and binding proteins	Other	GO:0005488	binding	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
+T1028	TIGR01728	Transport and binding proteins	Other	GO:0030288	outer membrane-bounded periplasmic space	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
+T1028	TIGR01728	Transport and binding proteins	Other	GO:0009897	external side of plasma membrane	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
+T1028	TIGR01728	Transport and binding proteins	Other	GO:0042918	alkanesulfonate transport	SsuA_fam: ABC transporter, substrate-binding protein, aliphatic sulfonates family
+T1032	TIGR03361			GO:0003674	molecular_function	VI_Rhs_Vgr: type VI secretion system Vgr family protein
+T1032	TIGR03361			GO:0033103	protein secretion by the type VI secretion system	VI_Rhs_Vgr: type VI secretion system Vgr family protein
+T1036	TIGR03802			GO:0015300	antiporter activity	Asp_Ala_antiprt: aspartate-alanine antiporter
+T1038	TIGR02634	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0030288	outer membrane-bounded periplasmic space	xylF: D-xylose ABC transporter, D-xylose-binding protein
+T1038	TIGR02634	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	xylF: D-xylose ABC transporter, D-xylose-binding protein
+T1038	TIGR02634	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0031362	anchored component of external side of plasma membrane	xylF: D-xylose ABC transporter, D-xylose-binding protein
+T1038	TIGR02634	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015614	D-xylose-importing ATPase activity	xylF: D-xylose ABC transporter, D-xylose-binding protein
+T1038	TIGR02634	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0015753	D-xylose transport	xylF: D-xylose ABC transporter, D-xylose-binding protein
+T1038	TIGR02634	Transport and binding proteins	Carbohydrates, organic alcohols, and acids	GO:0033222	xylose binding	xylF: D-xylose ABC transporter, D-xylose-binding protein
+T1059	TIGR04056	Transport and binding proteins	Unknown substrate	GO:0045203	integral component of cell outer membrane	OMP_RagA_SusC: TonB-linked outer membrane protein, SusC/RagA family
+T1059	TIGR04056	Transport and binding proteins	Unknown substrate	GO:0015563	transmembrane transporter activity	OMP_RagA_SusC: TonB-linked outer membrane protein, SusC/RagA family
+T1059	TIGR04056	Transport and binding proteins	Unknown substrate	GO:0071702	organic substance transport	OMP_RagA_SusC: TonB-linked outer membrane protein, SusC/RagA family
+T1068	TIGR01194	Transport and binding proteins	Amino acids, peptides and amines			cyc_pep_trnsptr: cyclic peptide transporter
+T1068	TIGR01194	Transport and binding proteins	Other			cyc_pep_trnsptr: cyclic peptide transporter
+T1074	TIGR01729			GO:0030288	outer membrane-bounded periplasmic space	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
+T1074	TIGR01729			GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
+T1074	TIGR01729			GO:0031362	anchored component of external side of plasma membrane	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
+T1074	TIGR01729			GO:0015411	taurine-transporting ATPase activity	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
+T1074	TIGR01729			GO:0015734	taurine transport	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
+T1074	TIGR01729			GO:0030977	taurine binding	taurine_ABC_bnd: taurine ABC transporter, periplasmic binding protein
+T1077	TIGR02357	Transport and binding proteins	Other	GO:0015888	thiamine transport	ECF_ThiT_YuaJ: energy-coupled thiamine transporter ThiT
+T1077	TIGR02357	Transport and binding proteins	Other	GO:0015234	thiamine transmembrane transporter activity	ECF_ThiT_YuaJ: energy-coupled thiamine transporter ThiT
+T1079	TIGR00994	Transport and binding proteins	Amino acids, peptides and amines			3a0901s05TIC20: chloroplast protein import component, Tic20 family
+T1081	TIGR00989	Transport and binding proteins	Amino acids, peptides and amines			3a0801s07tom40: mitochondrial import receptor subunit
+T1083	TIGR00986	Transport and binding proteins	Amino acids, peptides and amines			3a0801s05tom22: mitochondrial import receptor subunit
