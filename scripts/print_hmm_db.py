@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 
 
@@ -15,8 +16,8 @@ def main():
     
     if ".gz" in infile:
         import gzip as gz
-        hin = gz.open(infile)
-    else: hin = open(infile)
+        hin = gz.open(infile, 'rt')
+    else: hin = open(infile, 'r')
     hmm = {"ACC": "", "DESC": "", "//": ""}
     for line in hin:
         line = line.rstrip()

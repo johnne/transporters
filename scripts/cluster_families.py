@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import networkx as nx, pandas as pd, sys, csv, logging
+import networkx as nx, pandas as pd, sys, logging
 from argparse import ArgumentParser
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.INFO)
@@ -15,10 +15,9 @@ def trim_graph(g,maxlink,minoc,oc):
 
     for n in g.nodes():
         edges = g[n].keys()
-        if len(edges)>maxlink: 
-            g.remove_node(n) 
+        if len(edges)>maxlink:
             trimmed_nodes.append(n)
-    g.remove_edges_from(trimmed_edges)
+    g.remove_nodes_from(trimmed_nodes)
     if "" in trimmed_nodes: trimmed_nodes.remove("")
     return [g,list(set(trimmed_nodes)),list(set(trimmed_edges))]
 

@@ -37,7 +37,7 @@ def match(gi, gi2uni, uni2fams):
 def read_operons(f, gi2uni, uni2fams, conf):
     if ".gz" in f:
         import gzip as gz
-        hin = gz.open(f)
+        hin = gz.open(f, 'rt')
     else: hin = open(f)
     hincsv = csv.reader(hin, delimiter = ' ')
     hout = sys.stdout
