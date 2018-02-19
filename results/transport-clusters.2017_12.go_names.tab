@@ -1,0 +1,283 @@
+load obo file data/go-basic.obo
+data/go-basic.obo: fmt(1.2) rel(2018-01-26) 47,109 GO Terms
+GO:0000041	transition metal ion transport
+GO:0000910	cytokinesis
+GO:0001530	lipopolysaccharide binding
+GO:0001539	cilium or flagellum-dependent cell motility
+GO:0003674	molecular_function
+GO:0003824	catalytic activity
+GO:0004872	receptor activity
+GO:0005215	transporter activity
+GO:0005275	amine transmembrane transporter activity
+GO:0005298	proline:sodium symporter activity
+GO:0005337	nucleoside transmembrane transporter activity
+GO:0005342	organic acid transmembrane transporter activity
+GO:0005375	copper ion transmembrane transporter activity
+GO:0005451	monovalent cation:proton antiporter activity
+GO:0005488	binding
+GO:0005507	copper ion binding
+GO:0005515	protein binding
+GO:0005524	ATP binding
+GO:0005575	cellular_component
+GO:0005576	extracellular region
+GO:0005737	cytoplasm
+GO:0005886	plasma membrane
+GO:0005887	integral component of plasma membrane
+GO:0006032	chitin catabolic process
+GO:0006096	glycolytic process
+GO:0006139	nucleobase-containing compound metabolic process
+GO:0006355	regulation of transcription, DNA-templated
+GO:0006493	protein O-linked glycosylation
+GO:0006527	arginine catabolic process
+GO:0006797	polyphosphate metabolic process
+GO:0006808	regulation of nitrogen utilization
+GO:0006810	transport
+GO:0006812	cation transport
+GO:0006813	potassium ion transport
+GO:0006814	sodium ion transport
+GO:0006817	phosphate ion transport
+GO:0006818	proton transport
+GO:0006820	anion transport
+GO:0006824	cobalt ion transport
+GO:0006825	copper ion transport
+GO:0006855	drug transmembrane transport
+GO:0006857	oligopeptide transport
+GO:0006865	amino acid transport
+GO:0006885	regulation of pH
+GO:0007601	visual perception
+GO:0008026	ATP-dependent helicase activity
+GO:0008028	monocarboxylic acid transmembrane transporter activity
+GO:0008150	biological_process
+GO:0008236	serine-type peptidase activity
+GO:0008272	sulfate transport
+GO:0008324	cation transmembrane transporter activity
+GO:0008508	bile acid:sodium symporter activity
+GO:0008509	anion transmembrane transporter activity
+GO:0008519	ammonium transmembrane transporter activity
+GO:0008556	potassium-transporting ATPase activity
+GO:0008565	protein transporter activity
+GO:0008643	carbohydrate transport
+GO:0008965	phosphoenolpyruvate-protein phosphotransferase activity
+GO:0009055	electron transfer activity
+GO:0009228	thiamine biosynthetic process
+GO:0009279	cell outer membrane
+GO:0009288	bacterial-type flagellum
+GO:0009306	protein secretion
+GO:0009401	phosphoenolpyruvate-dependent sugar phosphotransferase system
+GO:0009405	pathogenesis
+GO:0009450	gamma-aminobutyric acid catabolic process
+GO:0009897	external side of plasma membrane
+GO:0009898	cytoplasmic side of plasma membrane
+GO:0009986	cell surface
+GO:0015078	hydrogen ion transmembrane transporter activity
+GO:0015079	potassium ion transmembrane transporter activity
+GO:0015087	cobalt ion transmembrane transporter activity
+GO:0015095	magnesium ion transmembrane transporter activity
+GO:0015105	arsenite transmembrane transporter activity
+GO:0015109	chromate transmembrane transporter activity
+GO:0015114	phosphate ion transmembrane transporter activity
+GO:0015116	sulfate transmembrane transporter activity
+GO:0015161	capsular polysaccharide transmembrane transporter activity
+GO:0015169	glycerol-3-phosphate transmembrane transporter activity
+GO:0015171	amino acid transmembrane transporter activity
+GO:0015173	aromatic amino acid transmembrane transporter activity
+GO:0015198	oligopeptide transmembrane transporter activity
+GO:0015204	urea transmembrane transporter activity
+GO:0015205	nucleobase transmembrane transporter activity
+GO:0015220	choline transmembrane transporter activity
+GO:0015221	lipopolysaccharide transmembrane transporter activity
+GO:0015232	heme transporter activity
+GO:0015234	thiamine transmembrane transporter activity
+GO:0015235	cobalamin-transporting ATPase activity
+GO:0015238	drug transmembrane transporter activity
+GO:0015267	channel activity
+GO:0015288	porin activity
+GO:0015295	solute:proton symporter activity
+GO:0015297	antiporter activity
+GO:0015300	antiporter activity
+GO:0015307	drug:proton antiporter activity
+GO:0015333	peptide:proton symporter activity
+GO:0015343	siderophore transmembrane transporter activity
+GO:0015370	solute:sodium symporter activity
+GO:0015385	sodium:proton antiporter activity
+GO:0015411	taurine-transporting ATPase activity
+GO:0015412	ATPase-coupled molybdate transmembrane transporter activity
+GO:0015413	nickel-transporting ATPase activity
+GO:0015414	ATPase-coupled nitrate transmembrane transporter activity
+GO:0015415	ATPase-coupled phosphate ion transmembrane transporter activity
+GO:0015416	ATPase-coupled organic phosphonate transmembrane transporter activity
+GO:0015417	polyamine-transporting ATPase activity
+GO:0015419	ATPase-coupled sulfate transmembrane transporter activity
+GO:0015439	heme-transporting ATPase activity
+GO:0015440	peptide-transporting ATPase activity
+GO:0015450	P-P-bond-hydrolysis-driven protein transmembrane transporter activity
+GO:0015474	autotransporter activity
+GO:0015486	glycoside-pentoside-hexuronide:cation symporter activity
+GO:0015495	gamma-aminobutyric acid:proton symporter activity
+GO:0015498	pantothenate:sodium symporter activity
+GO:0015499	formate transmembrane transporter activity
+GO:0015501	glutamate:sodium symporter activity
+GO:0015514	nitrite efflux transmembrane transporter activity
+GO:0015535	fucose:proton symporter activity
+GO:0015542	sugar efflux transmembrane transporter activity
+GO:0015544	phenyl propionate uniporter activity
+GO:0015556	C4-dicarboxylate transmembrane transporter activity
+GO:0015562	efflux transmembrane transporter activity
+GO:0015563	transmembrane transporter activity
+GO:0015570	secondary active transmembrane transporter activity
+GO:0015614	D-xylose-importing ATPase activity
+GO:0015619	thiamine pyrophosphate-transporting ATPase activity
+GO:0015627	type II protein secretion system complex
+GO:0015628	protein secretion by the type II secretion system
+GO:0015639	ferrous iron transmembrane transporter activity
+GO:0015649	2-keto-3-deoxygluconate:proton symporter activity
+GO:0015652	quaternary ammonium group:proton symporter activity
+GO:0015658	branched-chain amino acid transmembrane transporter activity
+GO:0015663	nicotinamide mononucleotide transmembrane transporter activity
+GO:0015672	monovalent inorganic cation transport
+GO:0015675	nickel cation transport
+GO:0015684	ferrous iron transport
+GO:0015689	molybdate ion transport
+GO:0015693	magnesium ion transport
+GO:0015694	mercury ion transport
+GO:0015696	ammonium transport
+GO:0015697	quaternary ammonium group transport
+GO:0015703	chromate transport
+GO:0015706	nitrate transport
+GO:0015707	nitrite transport
+GO:0015716	organic phosphonate transport
+GO:0015718	monocarboxylic acid transport
+GO:0015721	bile acid and bile salt transport
+GO:0015724	formate transport
+GO:0015734	taurine transport
+GO:0015740	C4-dicarboxylate transport
+GO:0015753	D-xylose transport
+GO:0015756	fucose transport
+GO:0015762	rhamnose transport
+GO:0015764	N-acetylglucosamine transport
+GO:0015774	polysaccharide transport
+GO:0015776	capsular polysaccharide transport
+GO:0015794	glycerol-3-phosphate transport
+GO:0015801	aromatic amino acid transport
+GO:0015803	branched-chain amino acid transport
+GO:0015809	arginine transport
+GO:0015813	L-glutamate transport
+GO:0015819	lysine transport
+GO:0015822	ornithine transport
+GO:0015824	proline transport
+GO:0015833	peptide transport
+GO:0015837	amine transport
+GO:0015840	urea transport
+GO:0015846	polyamine transport
+GO:0015849	organic acid transport
+GO:0015851	nucleobase transport
+GO:0015858	nucleoside transport
+GO:0015871	choline transport
+GO:0015886	heme transport
+GO:0015887	pantothenate transmembrane transport
+GO:0015888	thiamine transport
+GO:0015889	cobalamin transport
+GO:0015890	nicotinamide mononucleotide transport
+GO:0015891	siderophore transport
+GO:0015892	siderophore transport
+GO:0015893	drug transport
+GO:0015920	lipopolysaccharide transport
+GO:0015937	coenzyme A biosynthetic process
+GO:0015992	proton transport
+GO:0016020	membrane
+GO:0016021	integral component of membrane
+GO:0016151	nickel cation binding
+GO:0016757	transferase activity, transferring glycosyl groups
+GO:0016772	transferase activity, transferring phosphorus-containing groups
+GO:0016787	hydrolase activity
+GO:0016887	ATPase activity
+GO:0019835	cytolysis
+GO:0019867	outer membrane
+GO:0020037	heme binding
+GO:0022833	mechanosensitive ion channel activity
+GO:0022857	transmembrane transporter activity
+GO:0030001	metal ion transport
+GO:0030253	protein secretion by the type I secretion system
+GO:0030254	protein secretion by the type III secretion system
+GO:0030257	type III protein secretion system complex
+GO:0030288	outer membrane-bounded periplasmic space
+GO:0030973	molybdate ion binding
+GO:0030974	thiamine pyrophosphate transmembrane transport
+GO:0030975	thiamine binding
+GO:0030976	thiamine pyrophosphate binding
+GO:0030977	taurine binding
+GO:0031004	potassium ion-transporting ATPase complex
+GO:0031263	amine-transporting ATPase activity
+GO:0031317	tripartite ATP-independent periplasmic transporter complex
+GO:0031362	anchored component of external side of plasma membrane
+GO:0031402	sodium ion binding
+GO:0031419	cobalamin binding
+GO:0031522	cell envelope Sec protein transport complex
+GO:0032778	cobalt-transporting ATPase activity
+GO:0033103	protein secretion by the type VI secretion system
+GO:0033104	type VI protein secretion system complex
+GO:0033219	urea binding
+GO:0033221	urea-transporting ATPase activity
+GO:0033222	xylose binding
+GO:0033223	2-aminoethylphosphonate transport
+GO:0033225	2-aminoethylphosphonate-transporting ATPase activity
+GO:0033226	2-aminoethylphosphonate binding
+GO:0033228	cysteine export
+GO:0033230	cysteine-transporting ATPase activity
+GO:0033231	carbohydrate export
+GO:0033232	D-methionine-transporting ATPase activity
+GO:0033286	ectoine-transporting ATPase activity
+GO:0033288	hydroxyectoine-transporting ATPase activity
+GO:0033294	ectoine binding
+GO:0033295	hydroxyectoine binding
+GO:0033296	rhamnose binding
+GO:0033297	rhamnose-transporting ATPase activity
+GO:0033308	hydroxyectoine transport
+GO:0042301	phosphate ion binding
+GO:0042493	response to drug
+GO:0042623	ATPase activity, coupled
+GO:0042626	ATPase activity, coupled to transmembrane movement of substances
+GO:0042710	biofilm formation
+GO:0042889	3-phenylpropionic acid transport
+GO:0042906	xanthine transport
+GO:0042907	xanthine transmembrane transporter activity
+GO:0042908	xenobiotic transport
+GO:0042910	xenobiotic transmembrane transporter activity
+GO:0042918	alkanesulfonate transport
+GO:0042927	siderophore transmembrane transporter activity
+GO:0043168	anion binding
+GO:0043190	ATP-binding cassette (ABC) transporter complex
+GO:0043199	sulfate binding
+GO:0043212	carbohydrate-exporting ATPase activity
+GO:0043213	bacteriocin transport
+GO:0043214	bacteriocin-transporting ATPase activity
+GO:0043215	daunorubicin transport
+GO:0043216	daunorubicin-transporting ATPase activity
+GO:0043225	ATPase-coupled anion transmembrane transporter activity
+GO:0043751	polyphosphate:AMP phosphotransferase activity
+GO:0043858	arginine:ornithine antiporter activity
+GO:0043952	protein transport by the Sec complex
+GO:0045203	integral component of cell outer membrane
+GO:0045340	mercury ion binding
+GO:0046411	2-keto-3-deoxygluconate transport
+GO:0046685	response to arsenic-containing substance
+GO:0046819	protein secretion by the type V secretion system
+GO:0046873	metal ion transmembrane transporter activity
+GO:0046915	transition metal ion transmembrane transporter activity
+GO:0046961	proton-transporting ATPase activity, rotational mechanism
+GO:0047334	diphosphate-fructose-6-phosphate 1-phosphotransferase activity
+GO:0048029	monosaccharide binding
+GO:0048030	disaccharide binding
+GO:0048473	D-methionine transport
+GO:0048502	thiamine-transporting ATPase activity
+GO:0050709	negative regulation of protein secretion
+GO:0050821	protein stabilization
+GO:0051082	unfolded protein binding
+GO:0051119	sugar transmembrane transporter activity
+GO:0051139	metal ion:proton antiporter activity
+GO:0051470	ectoine transport
+GO:0052048	interaction with host via secreted substance involved in symbiotic interaction
+GO:0055051	ATP-binding cassette (ABC) transporter complex, integrated substrate binding
+GO:0055052	ATP-binding cassette (ABC) transporter complex, substrate-binding subunit-containing
+GO:0071702	organic substance transport
+GO:0072321	chaperone-mediated protein transport
