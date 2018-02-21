@@ -1,0 +1,59 @@
+transporter	substrate_category	type	name	abbreviation
+T1068	AA peptide	2a	cyclic peptide transporter	AA-PEP
+T534	AA peptide	2a	lao: LAO/AO transport	AA-PEP
+T52	AA peptide	2a	livcs: branched-chain amino acid transport	AA-PEP
+T37	AA peptide	2a	potA: polyamine ABC transporter	AA-PEP
+T42	AA peptide	3a	proV: glycine betaine/L-proline	AA-PEP
+T32	AA peptide	2a	small oligopeptide transporter	AA-PEP
+T7	AA peptide	2a	sodium/proline symporter	AA-PEP
+T71	AA peptide	2a	yjdL_sub1_fam: amino acid/peptide transporter	AA-PEP
+T56	Anions	2a	dass: divalent anion:Na+ symporter	ANI
+T72	Anions	3a	mod: molybdate ABC transporter	ANI
+T18	Anions	3a	sulfate ABC transporter	ANI
+T54	Anions	2a	sulP: sulfate permease	ANI
+T5	carbohydrate	2a	dctM: TRAP transporter	CARB
+T652	carbohydrate	2a	fucP: L-fucose:H+ symporter	CARB
+T660	carbohydrate	2a	gluP: glucose/galactose transporter	CARB
+T61	carbohydrate	2a	gntP: transporter, gluconate:H+ symporter	CARB
+T112	carbohydrate	2a	gph: sugar transporter	CARB
+T320	carbohydrate	2a	malonate_mad: malonate transporter	CARB
+T67	carbohydrate	2a	NhaA: Na+/H+ antiporter	CARB
+T40	carbohydrate	4a	PEP-protein phosphotransferase	CARB
+T388	carbohydrate	2a	TRAP_fused: TRAP transporter	CARB
+T761	carbohydrate	2a	TRAP_TAXI: TRAP transporter	CARB
+T12	Cations	2a	cation transport protein	CAT
+T84	Cations	2a	cation:proton antiporter-2	CAT
+T758	Cations	3a	cbiO: cobalt ABC transporter	CAT
+T35	Cations	2a	CDF: cation transporter	CAT
+T66	Cations	3a	cobalt ECF transporter	CAT
+T68	Cations	1a	corA: magnesium and cobalt transport	CAT
+T27	Cations	9a	feoB: ferrous iron transport	CAT
+T724	Cations	1a	mgtE: magnesium transporter	CAT
+T19	Cations	2a	multicomponent Na+:H+ antiporter	CAT
+T901	Cations	2a	Na/Pi-cotransporter	CAT
+T728	Cations	2a	NhaC: Na+/H+ antiporter	CAT
+T60	Cations	3a	nickel_nikE: nickel import	CAT
+T107	Cations	2a	nramp: metal ion transporter	CAT
+T1059	Cations	1b	OMP_RagA_SusC: TonB-linked SusC/RagA	CAT
+T46	Cations	2a	potassium uptake	CAT
+T59	Cations	2c	TonB family	CAT
+T58	Cations	2a	ZIP zinc/iron transport	CAT
+T245	CO3	2a	putative bicarbonate transporter, IctB family	OT
+T15	N-FIX	3d	rnf: electron transport complex	N-FIX
+T133	NH3 Nitrate	1a	amt: ammonium transporter	NI
+T48	NH3 Nitrate	2a	bcct: betaine/carnitine/choline transporter	NI
+T31	NH3 Nitrate	3a	ntr: nitrate ABC transporter	NI
+T843	NH3 Nitrate	3a	sulfate ABC transporter	NI
+T738	nucleoside	2a	ncs1: nucleoside transporter	NUC
+T94	nucleoside	2a	ncs2: uracil-xanthine permease	NUC
+T1020	nucleoside	4b	nicotinamide mononucleotide transporter PnuC	NUC
+T28	nucleoside	2a	nupC: nucleoside transporter	NUC
+T154	Other	2a	fbt: folate/biopterin transporter	OT
+T109	Other	3a	TIGR00056: ABC transport	OT
+T3	phosphate	3a	pst: phosphate ABC transporter	PI
+T115	phosphonate	3a	phn: phosphonate ABC transporter	PO
+T312	phosphonate	3a	phn2: phosphonate ABC transporter	PO
+T1013	phosphonate	3a	phosphate/phosphite/phosphonate transporter	PO
+T317	Rare nutr	1b	TonB-Xanth-Caul: TonB-dependent receptor	RN
+T457	Urea	3a	urea_arch: urea ABC transporter	NO
+T248	Urea	3a	urea_urt: urea ABC transporter	NO
