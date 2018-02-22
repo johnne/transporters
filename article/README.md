@@ -79,3 +79,4 @@ All tables, figures and results presented in the article were obtained using
 the notebooks in this repository. They were executed in the following order:
 
 1. [process_data.ipynb](process_data.ipynb)
+2. [transporter_stats_taxprofiles.ipynb](transporter_stats_taxprofiles.ipynb)
