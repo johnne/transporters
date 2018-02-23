@@ -81,3 +81,4 @@ the notebooks in this repository. They were executed in the following order:
 1. [process_data.ipynb](process_data.ipynb)
 2. [transporter_stats_taxprofiles.ipynb](transporter_stats_taxprofiles.ipynb)
 3. [environmental_plot.ipynb](environmental_plot.ipynb)
+4. [cluster_samples.ipynb](cluster_samples.ipynb)
