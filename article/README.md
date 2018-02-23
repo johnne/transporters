@@ -83,3 +83,4 @@ the notebooks in this repository. They were executed in the following order:
 3. [environmental_plot.ipynb](environmental_plot.ipynb)
 4. [cluster_samples.ipynb](cluster_samples.ipynb)
 5. [process_for_deseq2.ipynb](process_for_deseq2.ipynb)
+6. [run_deseq2.ipynb](run_deseq2.ipynb)
