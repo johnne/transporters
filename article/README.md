@@ -86,3 +86,4 @@ the notebooks in this repository. They were executed in the following order:
 6. [run_deseq2.ipynb](run_deseq2.ipynb)
 7. [plot_deseq2.ipynb](plot_deseq2.ipynb)
 8. [environmental_correlations.ipynb](environmental_correlations.ipynb)
+9. [diversity_and_example_categories.ipynb](diversity_and_example_categories.ipynb)
