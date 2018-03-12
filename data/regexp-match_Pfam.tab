@@ -28,13 +28,14 @@ PF12848	ABC transporter
 PF03806	AbgT putative transporter family
 PF13000	Acetyl-coenzyme A transporter 1
 PF10766	Multidrug efflux pump-associated protein AcrZ
+PF01594	AI-2E family transporter
 PF16168	Adhesin of bacterial autotransporter system, probable stalk
 PF06610	L-alanine exporter
 PF13372	Alginate export
 PF11744	Aluminium activated malate transporter
 PF02293	AmiS/UreI family transporter
-PF00909	Ammonium Transporter Family
-PF01636	Phosphotransferase enzyme family
+PF04547	Calcium-activated chloride channel
+PF16178	Dimerisation domain of Ca+-activated chloride-channel, anoctamin
 PF06081	Aromatic acid exporter family member 1
 PF11728	Putative aromatic acid exporter C-terminal domain
 PF10334	Aromatic acid exporter family member 2
@@ -42,7 +43,7 @@ PF10337	Putative ER transporter, 6TM, N-terminal
 PF02374	Anion-transporting ATPase
 PF03773	Predicted permease
 PF11449	Putative, 10TM heavy-metal exporter
-PF06826	Predicted Permease Membrane Region
+PF00858	Amiloride-sensitive sodium channel
 PF16929	Accessory Sec system GspB-transporter
 PF16996	Accessory secretory protein Sec Asp4
 PF17000	Accessory secretory protein Sec, Asp5
@@ -53,38 +54,53 @@ PF12156	Putative metal-binding domain of cation transport ATPase
 PF09527	Putative F0F1-ATPase subunit Ca2+/Mg2+ transporter
 PF12424	Plasma membrane calcium transporter ATPase C terminal
 PF03797	Autotransporter beta-domain
-PF12951	Autotransporter-associated beta strand repeat
-PF09794	Transport protein Avl9
 PF05437	Branched-chain amino acid transport protein (AzlD)
 PF01311	Bacterial export proteins, family 1
 PF01313	Bacterial export proteins, family 3
+PF07642	Putative beta-barrel porin-2, OmpL-like. bbp2
+PF10082	Putative beta-barrel porin 2
+PF07585	Putative beta barrel porin-7 (BBP7)
 PF12399	Branched-chain amino acid ATP-binding cassette transporter
 PF02028	BCCT, betaine/carnitine/choline family transporter
 PF03594	Benzoate membrane transport protein
+PF01062	Bestrophin, RFP-TM, chloride channel
+PF03493	Calcium-activated BK potassium channel alpha subunit
+PF02608	ABC transporter substrate-binding protein PnrA-like
 PF00528	Binding-protein-dependent transport system inner membrane component
 PF02653	Branched-chain amino acid transport system / permease component
 PF05525	Branched-chain amino acid transport protein
 PF10104	Di-sulfide bridge nucleocytoplasmic transport domain
 PF05232	Chlorhexidine efflux transporter
+PF16885	Voltage-gated calcium channel subunit alpha, C-term
 PF03596	Cadmium resistance transporter
 PF03135	CagE, TrbE, VirB family, component of type IV transporter system
+PF03185	Calcium-activated potassium channel, beta subunit
 PF00188	Cysteine-rich secretory protein family
+PF06241	Castor and Pollux, part of voltage-gated ion channel
 PF13246	Cation transport ATPase (P-type)
 PF00689	Cation transporting ATPase, C-terminus
 PF00690	Cation transporter/ATPase, N-terminus
 PF01545	Cation efflux family
+PF15149	Cation channel sperm-associated protein subunit beta protein family
+PF15020	Cation channel sperm-associated protein subunit delta
+PF15064	Cation channel sperm-associated protein subunit gamma
+PF08763	Voltage gated calcium channel IQ domain
 PF01891	Cobalt uptake substrate-specific transmembrane region
 PF02553	Cobalt transport protein component CbiN
 PF02361	Cobalt transport protein
 PF09490	Probable cobalt transporter subunit (CbtA)
 PF09489	Probable cobalt transporter subunit (CbtB)
 PF04995	Heme exporter protein D (CcmD)
+PF03502	Nucleoside-specific channel-forming protein, Tsx
 PF07824	Type III secretion chaperone domain
 PF04515	Plasma-membrane choline transporter
 PF02417	Chromate transporter
 PF09828	Chromate resistance exported protein
 PF03600	Citrate transporter
 PF16980	Putative citrate transport
+PF08434	Calcium-activated chloride channel N terminal
+PF16526	C-terminal leucine zipper domain of cyclic nucleotide-gated channels
+PF04989	Cephalosporin hydroxylase
 PF04187	Haem-binding uptake, Tiki superfamily, ChaN
 PF08318	COG4 transport protein
 PF10392	Golgi transport complex subunit 5
@@ -92,7 +108,6 @@ PF16959	Renal amino acid transporter
 PF16732	Type IV minor pilin ComP, DNA uptake sequence receptor
 PF07970	Endoplasmic reticulum vesicle transporter
 PF01544	CorA-like Mg2+ transporter protein
-PF03471	Transporter associated domain
 PF07931	Chloramphenicol phosphotransferase-like protein
 PF08627	CRT-like, chloroquine-resistance transporter-like
 PF10614	Type VIII secretion system (T8SS), CsgF protein
@@ -100,11 +115,13 @@ PF03783	Curli production assembly/transport component CsgG
 PF13722	5TM C-terminal transporter carbon starvation CstA
 PF04145	Ctr copper transporter family
 PF16860	CHCH-CHCH-like Cx9C, IMS import disulfide relay-system,
+PF16941	Putative cyclodextrin porin
 PF11739	Dicarboxylate transport
 PF06808	Tripartite ATP-independent periplasmic transporter, DctM component
 PF03480	Bacterial extracellular solute-binding protein, family 7
 PF04290	Tripartite ATP-independent periplasmic transporters, DctQ component
 PF03605	Anaerobic c4-dicarboxylate membrane transporter
+PF07936	Potassium-channel blocking toxin
 PF04657	Putative inner membrane exporter, YdcZ
 PF09850	Type VI secretion system protein DotU
 PF09475	Dot/Icm secretion system protein (dot_icm_IcmQ)
@@ -114,16 +131,18 @@ PF09930	Predicted transporter (DUF2162)
 PF10988	Putative auto-transporter adhesin, head GIN domain
 PF12501	Phosphate ATP-binding cassette transporter
 PF12558	ATP-binding cassette cobalt transporter
+PF15283	Domain of unknown function (DUF4595) with porin-like fold
 PF00892	EamA-like transporter family
 PF11203	Putative type VII ESX secretion system translocon, EccE
 PF07155	ECF-type riboflavin transporter, S component
+PF12822	ECF transporter, substrate-specific component
 PF05975	Bacterial ABC transporter protein EcsB
 PF04518	Effector from type III secretion system
 PF07663	Sorbitol phosphotransferase enzyme II C-terminus
 PF03612	Sorbitol phosphotransferase enzyme II N-terminus
 PF03611	PTS system sugar-specific permease component
+PF16687	beta-propeller of ELYS nucleoporin
 PF13536	Putative multidrug resistance efflux transporter
-PF07268	Exported protein precursor (EppA/BapA)
 PF13018	Extended Signal Peptide of Type V secretion system
 PF10661	WXG100 protein secretion system (Wss), protein EssA
 PF02472	Biopolymer transport protein ExbD/TolR
@@ -139,10 +158,12 @@ PF12538	DNA transporter
 PF02687	FtsX-like permease family
 PF01475	Ferric uptake regulator family
 PF00844	Geminivirus coat protein/nuclear export factor BR1 family
+PF17331	GFD1 mRNA transport factor
 PF13856	ATP-binding sugar transporter from pro-phage
 PF03616	Sodium/glutamate symporter
 PF04464	CDP-Glycerol:Poly(glycerophosphate) glycerophosphotransferase
 PF02447	GntP family permease
+PF16905	Voltage-dependent L-type calcium channel, IQ-associated
 PF12019	Type II transport protein GspH
 PF00955	HCO3- transporter family
 PF10636	Hemin uptake protein hemP
@@ -151,15 +172,14 @@ PF12700	HlyD family secretion protein
 PF13437	HlyD family secretion protein
 PF16572	Long alpha hairpin domain of cation efflux system protein, CusB
 PF09483	Type III secretion protein (HpaP)
-PF10090	Histidine phosphotransferase
+PF10090	Histidine phosphotransferase C-terminal domain
 PF16960	Haemoglobin-haptoglobin utilisation, porphyrin transporter
 PF16954	Haem-transporter, endosomal/lysosomal, haem-responsive gene
 PF09613	Bacterial type III secretion protein (HrpB1_HrpK)
 PF09487	Bacterial type III secretion protein (HrpB2)
 PF09502	Bacterial type III secretion protein (HrpB4)
 PF09486	Bacterial type III secretion protein (HrpB7)
-PF01749	Importin beta binding domain
-PF03810	Importin-beta N-terminal domain
+PF11924	Inverse autotransporter, beta-domain
 PF06744	Type VI secretion protein IcmF C-terminal
 PF14931	Intraflagellar transport complex B, subunit 20
 PF15305	Intraflagellar transport protein 43
@@ -167,18 +187,32 @@ PF12317	Intraflagellar transport complex B protein 46 C terminal
 PF10498	Intra-flagellar transport protein 57
 PF06812	ImpA, N-terminal, type VI secretion system
 PF00520	Ion transport protein
+PF07885	Ion channel
 PF08412	Ion transport protein N-terminal
+PF01007	Inward rectifier potassium channel
+PF08466	Inward rectifier potassium channel N-terminal
 PF04120	Low affinity iron permease
 PF10634	Fe2+ transport protein
+PF02060	Slow voltage-gated potassium channel
+PF16944	Fungal potassium channel
+PF16642	Unstructured region on Potassium channel subunit alpha KvLQT2
+PF03520	KCNQ voltage-gated potassium channel
+PF06178	Oligogalacturonate-specific porin protein (KdgM)
 PF03812	2-keto-3-deoxygluconate permease
 PF03814	Potassium-transporting ATPase A subunit
 PF02669	K+-transporting ATPase, c chain
+PF02702	Osmosensitive K+ channel His kinase sensor domain
+PF11834	KHA, dimerisation domain of potassium ion channel
+PF03521	Kv2 voltage-gated K+ channel
+PF07941	Potassium channel Kv1.4 tandem inactivation domain
 PF02705	K+ potassium transporter
 PF02652	L-lactate permease
 PF01306	LacY proton/sugar symporter
+PF02264	LamB porin
 PF09621	Type III secretion system regulator (LcrR)
-PF03583	Secretory lipase
-PF01298	Transferrin binding protein-like solute binding protein
+PF00060	Ligand-gated ion channel
+PF10613	Ligated ion channel L-glutamate- and glycine-binding site
+PF03956	Lysine exporter LysO
 PF16951	Putative methionine and alanine importer, small subunit
 PF03817	Malonate transporter MadL subunit
 PF03818	Malonate/sodium symporter MadM subunit
@@ -187,6 +221,7 @@ PF14785	Maltose transport system permease protein MalF P2 domain
 PF16957	Malonate decarboxylase, alpha subunit, transporter
 PF02064	MAS20 protein import receptor
 PF11887	Cholesterol uptake porter CUP1 of Mce4, putative
+PF05934	Mid-1-related chloride channel (MCLC)
 PF11382	Copper transport outer membrane protein, MctB
 PF03547	Membrane transport protein
 PF02411	MerT mercuric transport protein
@@ -197,17 +232,25 @@ PF16983	Molybdate transporter of MFS superfamily
 PF07672	Mycoplasma MFS transporter
 PF01769	Divalent cation transporter
 PF05653	Magnesium transporter NIPA
+PF12929	Stretch-activated Ca2+-permeable channel component
 PF06664	Wnt-binding factor required for Wnt secretion
 PF04212	MIT (microtubule interacting and transport) domain
 PF11093	Mitochondrial export protein Som1
-PF02405	Permease MlaE
 PF10270	Membrane magnesium transporter
 PF04039	Domain related to MnhB subunit of Na+/H+ antiporter
 PF01899	Na+/H+ ion antiporter subunit
 PF02659	Putative manganese efflux pump
+PF01618	MotA/TolQ/ExbB proton channel family
+PF13677	Membrane MotB of proton-channel complex MotA/MotB
+PF17523	MinK-related peptide, potassium channel accessory sub-unit protein 4
+PF01741	Large-conductance mechanosensitive channel, MscL
+PF12795	Mechanosensitive ion channel porin domain
+PF12794	Mechanosensitive ion channel inner membrane domain 1
+PF00924	Mechanosensitive ion channel
 PF16185	Mitochondrial ABC-transporter N-terminal five TM region
 PF03083	Sugar efflux transporter for intercellular exchange
 PF03821	Golgi 4-transmembrane spanning transporter
+PF11854	Putative outer membrane beta-barrel porin, MtrB/PioB
 PF06646	High affinity transport system protein p37
 PF16974	High-affinity nitrate transporter accessory
 PF01235	Sodium:alanine symporter family
@@ -218,7 +261,11 @@ PF07399	Putative Na+/H+ antiporter
 PF02690	Na+/Pi-cotransporter
 PF00939	Sodium:sulfate symporter transmembrane region
 PF06512	Sodium ion transport-associated
-PF05031	Iron Transport-associated domain
+PF11933	Cytoplasmic domain of voltage-gated Na+ ion channel
+PF11654	Non-classical export protein 1
+PF09531	Nucleoporin protein Ndc1-Nup
+PF02931	Neurotransmitter-gated ion-channel ligand binding domain
+PF02932	Neurotransmitter-gated ion-channel transmembrane region
 PF08619	Alkali metal cation/H+ antiporter Nha1 C terminus
 PF06450	Bacterial Na+/H+ antiporter B (NhaB)
 PF03824	High-affinity nickel-transport protein
@@ -226,32 +273,51 @@ PF04973	Nicotinamide mononucleotide transporter
 PF06218	Nitrogen permease regulator 2
 PF03666	Nitrogen Permease regulator of amino acid transport activity 3
 PF02136	Nuclear transport factor 2 (NTF2) domain
+PF04096	Nucleoporin autopeptidase
+PF03177	Non-repetitive/WGA-negative nucleoporin C-terminal
+PF13634	Nucleoporin FG repeat region
+PF15967	Nucleoporin FG repeated region
+PF07575	Nup85 Nucleoporin
 PF01733	Nucleoside transporter
 PF07662	Na+ dependent nucleoside transporter C-terminus
 PF01773	Na+ dependent nucleoside transporter N-terminus
 PF03825	Nucleoside H+ symporter
 PF04142	Nucleotide-sugar transporter
 PF06516	Purine nucleoside permease (NUP)
+PF08604	Nucleoporin Nup153-like
+PF11715	Nucleoporin Nup120/160
+PF10487	Nucleoporin subcomplex protein binding to Pom34
+PF11894	Nuclear pore complex scaffold, nucleoporins 186/192/205
+PF16755	Nucleoporin or Nuclear pore complex subunit NUP214=Nup159
+PF08911	NUP50 (Nucleoporin 50 kDa)
+PF13874	Nucleoporin complex subunit 54
+PF16768	Nucleoporin homology of Germinal-centre associated nuclear protein
 PF10599	Retro-transposon transporting motif
 PF03977	Na+-transporting oxaloacetate decarboxylase beta subunit
-PF03137	Organic Anion Transporter Polypeptide (OATP) family
 PF02321	Outer membrane efflux protein
 PF16955	Ferrous iron uptake permease, iron-lead transporter
 PF08352	Oligopeptide/dipeptide transporter, C-terminal region
+PF16961	Putative OmpA-OmpF-like porin family
 PF11557	Solitary outer membrane autotransporter beta-barrel domain
+PF03532	OMS28 porin
+PF02462	Opacity family porin protein
 PF12911	N-terminal TM domain of oligopeptide transport permease C
+PF04966	Carbohydrate-selective porin, OprB family
+PF03573	outer membrane porin, OprD family
 PF03169	OPT oligopeptide transporter protein
 PF04069	Substrate binding domain of ABC-type glycine betaine transport system
+PF07856	Mediator of CRAC channel activity
 PF09482	Bacterial type III secretion apparatus protein (OrgA_MxiK)
 PF10188	Organic solute transport protein 1
 PF08946	Osmosensory transporter coiled coil
+PF04756	OST3 / OST6 family, transporter family
 PF15048	Organic solute transporter subunit beta protein
 PF12409	P5-type ATPase cation transporter
 PF14738	Solute carrier (proton/amino acid symporter), TRAMD3 or PAT1
 PF08566	Mitochondrial import protein Pam17
+PF12951	Passenger-associated-transport-repeat
 PF08370	Plant PDR ABC transporter associated
 PF06422	CDR ABC transporter
-PF16933	Putative exopolysaccharide Exporter (EPS-E)
 PF04717	Type VI secretion system, phage-baseplate injector
 PF03334	Na+/H+ antiporter subunit
 PF14703	Cytosolic domain of 10TM putative phosphate transporter
@@ -260,11 +326,26 @@ PF01384	Phosphate transporter family
 PF11124	Inorganic phosphate transporter Pho86
 PF10032	Phosphate transport (Pho88)
 PF12974	ABC transporter, phosphonate, periplasmic substrate-binding protein
+PF12166	Piezo non-specific cation channel, R-Ras-binding domain
+PF08016	Polycystin cation channel
 PF06951	Group XII secretory phospholipase A2 precursor (PLA2G12)
 PF07715	TonB-dependent Receptor Plug Domain
 PF03364	Polyketide cyclase / dehydrase and lipid transport
 PF10604	Polyketide cyclase / dehydrase and lipid transport
 PF02563	Polysaccharide biosynthesis/export protein
+PF00267	Gram-negative porin
+PF14121	Putative porin
+PF01459	Eukaryotic porin
+PF13609	Gram-negative porin
+PF16930	Putative porin
+PF16939	Putative porin
+PF16956	Putative general bacterial porin
+PF16966	Porin-like glycoporin RafY
+PF16946	OMPG-porin 1 family
+PF11389	Leptospira porin protein OmpL1
+PF07396	Phosphate-selective porin O and P
+PF11751	Type IX secretion system membrane protein PorP/SprF
+PF11404	Potassium voltage-gated channel
 PF09604	F subunit of K+-transporting ATPase (Potass_KdpF)
 PF09480	Type III secretion system protein PrgH-EprH (PrgH)
 PF00361	Proton-conducting membrane transporter
@@ -273,15 +354,15 @@ PF01885	RNA 2'-phosphotransferase, Tpt1 / KptA family
 PF00358	phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 1
 PF00359	Phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2
 PF00367	phosphotransferase system, EIIB
-PF02378	Phosphotransferase system, EIIC
-PF13303	Phosphotransferase system, EIIC
 PF11773	Type II secretory pathway pseudopilin
 PF16913	Purine nucleobase transmembrane transport
 PF06177	QueT transporter
 PF12560	RAG1 importin binding
 PF05025	RbsD / FucU transport protein family
 PF11776	Nickel/cobalt transporter regulator
+PF15968	Membrane-anchored ion channel, Abi component
 PF06379	L-rhamnose-proton symport protein (RhaT)
+PF02714	Calcium-dependent channel, 7TM region, putative phosphate
 PF13967	Late exocytosis, associated with Golgi transport
 PF10363	Required for nuclear transport of RNA pol II C-terminus 1
 PF10304	Required for nuclear transport of RNA pol II C-terminus 2
@@ -296,38 +377,42 @@ PF13343	Bacterial extracellular solute-binding protein
 PF13416	Bacterial extracellular solute-binding protein
 PF05982	Na+-dependent bicarbonate transporter superfamily
 PF02667	Short chain fatty acid transporter
+PF15805	Acidic C-terminal region of sodium channel modifier 1 SCNM1
 PF00375	Sodium:dicarboxylate symporter family
 PF15432	Accessory Sec secretory system ASP3
 PF11549	Protein transport protein SEC31
-PF08314	Secretory pathway protein Sec39
 PF12783	Guanine nucleotide exchange factor in Golgi transport N-terminal
 PF13721	SecD export protein N-terminal TM region
 PF02355	Protein export membrane protein
 PF05364	Salmonella type III secretion SopE effector N-terminus
-PF06558	Secretion monitor precursor protein (SecM)
 PF00263	Bacterial type II and III secretion system protein
 PF03958	Bacterial type II/III secretion system short domain
 PF17080	Multidrug Resistance efflux pump
 PF12793	Sugar transport-related sRNA regulator N-term
 PF15894	Inhibitor of glucose uptake transporter SgrT
+PF11601	Shal-type voltage-gated potassium channels, N-terminal
 PF03865	Haemolysin secretion/activation protein ShlB/FhaC/HecB
+PF13965	dsRNA-gated channel SID-1
 PF03842	Silicon transporter
+PF03530	Calcium-activated SK potassium channel
+PF03595	Voltage-dependent anion channel
 PF06695	Putative small multi-drug export protein
 PF00209	Sodium:neurotransmitter symporter family
 PF16848	Substrate of the Dot/Icm secretion system, putative
 PF03619	Organic solute transporter Ostalpha
 PF15171	Neuropeptide secretory protein family, NPQ, spexin
 PF14349	Motility related/secretion protein
-PF04888	Secretion system effector C (SseC) like family
 PF00474	Sodium:solute symporter family
 PF09075	Heat-stable enterotoxin B, secretory
 PF07660	Secretin and TonB N terminus short domain
+PF11471	Maltoporin periplasmic N-terminal extension
 PF00083	Sugar (and other) transporter
 PF06800	Sugar transport protein
 PF00916	Sulfate permease family
 PF04143	Sulphur transport
+PF17381	Seminal vesicle secretory protein 4/5/6
 PF16537	Type II secretion system protein B
-PF12528	Type II secretion prepilin peptidase dependent protein C
+PF11356	Type II secretion system protein C
 PF00437	Type II/IV secretion system protein
 PF05157	Type II secretion system (T2SS), protein E, N-terminal domain
 PF00482	Type II secretion system (T2SS), protein F
@@ -339,6 +424,7 @@ PF05134	Type II secretion system (T2SS), protein L
 PF04612	Type II secretion system (T2SS), protein M
 PF10741	Type II secretion system (T2SS), protein M subtype b
 PF01203	Type II secretion system (T2SS), protein N
+PF12528	Type II secretion prepilin peptidase dependent protein C
 PF16549	Type II secretion system (T2SS) pilotin, S protein
 PF09691	Type II secretion system pilotin lipoprotein (PulS_OutS)
 PF11439	Type III secretion system filament chaperone CesA
@@ -348,6 +434,7 @@ PF13327	Type III secretion system subunit
 PF08988	Type III secretion system, cytoplasmic E component of needle
 PF09392	Type III secretion needle MxiH, YscF, SsaG, EprI, PscF, EscF
 PF12293	Putative outer membrane core complex of type IVb secretion
+PF11393	Type-IV b secretion system, inner-membrane complex component
 PF12608	Type IVb secretion, IcmS, effector-recruitment
 PF07996	Type IV secretion system proteins
 PF02534	Type IV secretory system Conjugative DNA transfer
@@ -355,17 +442,16 @@ PF16943	Cag pathogenicity island, type IV secretory system
 PF16932	Type IV secretory system, conjugal DNA-protein transfer
 PF12790	Type VI secretion lipoprotein, VasD, EvfM, TssJ, VC_A0113
 PF05638	Type VI secretion system effector, Hcp
-PF06996	Type VI secretion, VasB, ImpH, VC_A0111
+PF05947	Type VI secretion system, TssF
+PF06996	Type VI secretion, TssG
 PF05936	Bacterial Type VI secretion, VC_A0110, EvfL, ImpJ, VasE
 PF16989	Type VI secretion, EvfE, EvfF, ImpA, BimE, VC_A0119, VasJ
 PF13296	Putative type VI secretion system Rhs element Vgr
 PF05591	Type VI secretion system, VipA, VC_A0107 or Hcp2
-PF05947	Type VI secretion system, ImpG, VasA, VC_A0110
 PF05108	Type VII secretion system ESX-1, transport TM domain B
 PF15401	Tryptophan-ring motif of head of Trimeric autotransporter adhesin
 PF14113	Type VI secretion system (T6SS), amidase effector protein 4
 PF16695	Type VI secretion system (T6SS), amidase immunity protein
-PF05742	Transport and Golgi organisation 2
 PF16811	TRAP transporter T-component
 PF01925	Sulfite exporter TauE/SafE
 PF01970	Tripartite tricarboxylate transporter TctA family
@@ -380,8 +466,10 @@ PF12821	Threonine/Serine exporter, ThrE
 PF16940	Chloroplast envelope transporter
 PF16166	Chloroplast import apparatus Tic20-like
 PF11711	Inner membrane protein import complex subunit Tim54
+PF16972	Na+ channel auxiliary subunit TipE
 PF03219	TLC ATP/ADP transporter
 PF07857	Transmembrane family, TMEM144 of transporters
+PF15108	Voltage-dependent calcium channel gamma-like subunit protein family
 PF06979	Assembly, mitochondrial proton-transport ATP synth complex
 PF16296	N-terminal of TM subunit in PBP-dependent ABC transporters
 PF03349	Outer membrane protein transport protein (OMPP1/FadL/TodX)
@@ -396,40 +484,45 @@ PF13103	TonB C terminal
 PF03544	Gram-negative bacterial TonB protein C-terminal
 PF00593	TonB dependent receptor
 PF16031	TonB N-terminal region
-PF03151	Triose-phosphate Transporter family
+PF07740	Ion channel inhibitory toxin
+PF14866	Potassium channel toxin
 PF11130	F pilus assembly Type-IV secretion system for plasmid transfer
 PF11431	Membrane transport protein MerF
-PF02133	Permease for cytosine/purines, uracil, thiamine, allantoin
-PF04051	Transport protein particle (TRAPP) component
-PF08626	Transport protein Trs120 or TRAPPC9, TRAPP II complex subunit
 PF06609	Fungal trichothecene efflux pump (TRI12)
+PF05197	TRIC channel
 PF02386	Cation transport protein
+PF06011	Transient receptor potential (TRP) ion channel
 PF17099	Tryptophan transporter TrpP
+PF08344	Transient receptor ion channel II
 PF03222	Tryptophan/tyrosine permease family
 PF10412	Type IV secretion-system coupling protein DNA-binding domain
 PF12468	Type III secretion system leucine rich repeat protein
 PF09477	Bacterial type II secretion system chaperone protein (type_III_yscG)
 PF09474	Type III secretion system YscX (type_III_YscX)
 PF08449	UAA transporter family
+PF14776	Cation-channel complex subunit UNC-79
+PF05978	Ion channel regulatory protein UNC-93
+PF15778	Cation channel complex component UNC80
 PF07168	Ureide permease
 PF03253	Urea transporter
 PF05008	Vesicle transport v-SNARE protein N-terminus
 PF09783	Vacuolar import and degradation protein
 PF11319	Type VI secretion system VasI, EvfG, VC_A0118
 PF12486	Type VI secretion system, EvfB, or VasL
+PF08473	Neuronal voltage-dependent calcium channel alpha 2acd
+PF12052	Voltage gated calcium channel subunit beta domain 4Aa N terminal
+PF16799	C-terminal membrane-localisation domain of ion-channel, VCN1
 PF05943	Type VI secretion protein, EvpB/VC_A0108, tail sheath
 PF05101	Type IV secretory pathway, VirB3-like protein
+PF00654	Voltage gated chloride channel
 PF02592	Putative vitamin uptake transporter
-PF00860	Permease family
-PF08389	Exportin 1-like protein
 PF05658	Head domain of trimeric autotransporter adhesin
 PF05662	Coiled stalk of trimeric autotransporter adhesin
 PF03739	Predicted permease YjgP/YjgQ family
-PF01514	Secretory protein of YscJ/FliF family
 PF07321	Type III secretion protein YscO
 PF09619	Type III secretion system lipoprotein chaperone (YscW)
 PF10140	WXG100 protein secretion system (Wss), protein YukC
 PF08817	WXG100 protein secretion system (Wss), protein YukD
+PF15803	Zinc-finger of sodium channel modifier 1
 PF02535	ZIP Zinc transporter
 PF01297	Zinc-uptake complex component A periplasmic
-PF16916	Dimerisation domain of Zinc Transporter

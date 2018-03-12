@@ -1,6 +1,7 @@
 TIGR00025	Mtu_efflux: ABC transporter efflux protein, DrrB family
 TIGR00056	TIGR00056: ABC transport permease subunit
 TIGR00210	gltS: sodium/glutamate symporter
+TIGR00220	mscL: large conductance mechanosensitive channel protein
 TIGR00345	GET3_arsA_TRC40: transport-energizing ATPase, TRC40/GET3/ArsA family
 TIGR00383	corA: magnesium and cobalt transport protein CorA
 TIGR00400	mgtE: magnesium transporter
@@ -64,7 +65,12 @@ TIGR00843	benE: benzoate transporter
 TIGR00844	c_cpa1: sodium/hydrogen antiporter
 TIGR00859	ENaC: sodium channel transporter
 TIGR00860	LIC: cation transporter family protein
+TIGR00861	MIP: MIP family channel proteins
+TIGR00862	O-ClC: intracellular chloride channel protein
 TIGR00863	P2X: cation transporter protein
+TIGR00864	PCC: polycystin cation channel protein
+TIGR00868	hCaCC: calcium-activated chloride channel protein 1
+TIGR00870	trp: transient-receptor-potential calcium channel protein
 TIGR00879	SP: MFS transporter, sugar porter (SP) family
 TIGR00881	2A0104: phosphoglycerate transporter family protein
 TIGR00882	2A0105: oligosaccharide:H+ symporter
@@ -83,7 +89,6 @@ TIGR00896	CynX: cyanate transporter
 TIGR00897	2A0118: polyol permease
 TIGR00898	2A0119: cation transport protein
 TIGR00899	2A0120: sugar efflux transporter
-TIGR00900	2A0121: H+ Antiporter protein
 TIGR00901	2A0125: AmpG-like permease
 TIGR00902	2A0127: MFS transporter, phenyl propionate permease (PPP) family
 TIGR00905	2A0302: transporter, basic amino acid/polyamine antiporter (APA) family
@@ -109,7 +114,6 @@ TIGR00933	2a38: potassium uptake protein, TrkH family
 TIGR00934	2a38euk: potassium uptake protein, Trk family
 TIGR00935	2a45: arsenite/antimonite efflux pump membrane protein
 TIGR00937	2A51: chromate efflux transporter
-TIGR00939	2a57: nucleoside Transporter
 TIGR00940	2a6301s01: monovalent cation:proton antiporter
 TIGR00941	2a6301s03: multicomponent Na+:H+ antiporter, MnhC subunit
 TIGR00942	2a6301s05: multicomponent Na+:H+ antiporter
@@ -120,7 +124,6 @@ TIGR00947	2A73: putative bicarbonate transporter, IctB family
 TIGR00948	2a75: L-lysine exporter
 TIGR00949	2A76: homoserine/Threonine efflux protein
 TIGR00950	2A78: carboxylate/amino acid/amine transporter
-TIGR00951	2A43: lysosomal Cystine Transporter
 TIGR00954	3a01203: peroxysomal long chain fatty acyl transporter
 TIGR00955	3a01204: pigment precursor permease
 TIGR00958	3a01208: antigen peptide transporter 2
@@ -143,10 +146,12 @@ TIGR00994	3a0901s05TIC20: chloroplast protein import component, Tic20 family
 TIGR00995	3a0901s06TIC22: chloroplast protein import component, Tic22 family
 TIGR00998	8a0101: efflux pump membrane protein
 TIGR01000	bacteriocin_acc: bacteriocin secretion accessory protein
+TIGR01002	hlyII: beta-channel forming cytolysin
 TIGR01005	eps_transp_fam: exopolysaccharide transport protein family
 TIGR01006	polys_exp_MPA1: polysaccharide export protein, MPA1 family
 TIGR01010	BexC_CtrB_KpsE: polysaccharide export inner-membrane protein, BexC/CtrB/KpsE family
 TIGR01013	2a58: sodium-dependent inorganic phosphate (Pi) transporter
+TIGR01065	hlyIII: channel protein, hemolysin III family
 TIGR01097	PhnE: phosphonate ABC transporter, permease protein PhnE
 TIGR01098	3A0109s03R: phosphate/phosphite/phosphonate ABC transporter, periplasmic binding protein
 TIGR01102	yscR: type III secretion apparatus protein, YscR/HrcR family
@@ -177,6 +182,7 @@ TIGR01276	thiB: thiamin/thiamin pyrophosphate ABC transporter, thiamin/thiamin p
 TIGR01277	thiQ: thiamine ABC transporter, ATP-binding protein
 TIGR01288	nodI: nodulation ABC transporter NodI
 TIGR01291	nodJ: ABC-2 type transporter, NodJ family
+TIGR01293	Kv_beta: voltage-dependent potassium channel beta subunit
 TIGR01295	PedC_BrcD: putative bacteriocin transport accessory protein
 TIGR01297	CDF: cation diffusion facilitator family transporter
 TIGR01300	CPA3_mnhG_phaG: monovalent cation/proton antiporter, MnhG/PhaG subunit
@@ -234,7 +240,6 @@ TIGR02120	GspF: type II secretion system protein F
 TIGR02121	Na_Pro_sym: sodium/proline symporter
 TIGR02122	TRAP_TAXI: TRAP transporter solute receptor, TAXI family
 TIGR02123	TRAP_fused: TRAP transporter, 4TM/12TM fusion protein
-TIGR02135	phoU_full: phosphate transport system regulatory protein PhoU
 TIGR02137	HSK-PSP: phosphoserine phosphatase/homoserine phosphotransferase bifunctional protein
 TIGR02138	phosphate_pstC: phosphate ABC transporter, permease protein PstC
 TIGR02139	permease_CysT: sulfate ABC transporter, permease protein CysT
@@ -242,8 +247,6 @@ TIGR02140	permease_CysW: sulfate ABC transporter, permease protein CysW
 TIGR02141	modB_ABC: molybdate ABC transporter, permease protein
 TIGR02142	modC_ABC: molybdate ABC transporter, ATP-binding protein
 TIGR02185	Trep_Strep: putative ECF transporter S component, Trep_Strep family
-TIGR02203	MsbA_lipidA: lipid A export permease/ATP-binding protein MsbA
-TIGR02204	MsbA_rel: ABC transporter, permease/ATP-binding protein
 TIGR02222	chap_CsaA: export-related chaperone protein CsaA
 TIGR02294	nickel_nikA: nickel ABC transporter, nickel/metallophore periplasmic binding protein
 TIGR02314	ABC_MetN: D-methionine ABC transporter, ATP-binding protein
@@ -384,7 +387,6 @@ TIGR03661	T1SS_VCA0849: type I secretion C-terminal target domain (VC_A0849 subc
 TIGR03669	urea_ABC_arch: urea ABC transporter, substrate-binding protein
 TIGR03679	arCOG00187: arCOG00187 universal archaeal metal-binding-domain/4Fe-4S-binding-domain containing ABC transporter, ATP-binding protein
 TIGR03708	poly_P_AMP_trns: polyphosphate:AMP phosphotransferase
-TIGR03709	PPK2_rel_1: polyphosphate:nucleotide phosphotransferase, PPK2 family
 TIGR03727	urea_t_UrtC_arc: urea ABC transporter, permease protein UrtC
 TIGR03730	tungstate_WtpA: tungstate ABC transporter binding protein WtpA
 TIGR03732	lanti_perm_MutE: lantibiotic protection ABC transporter permease subunit, MutE/EpiE family
