@@ -56,4 +56,4 @@ T312	phosphonate	3a	phn2: phosphonate ABC transporter	PO
 T1013	phosphonate	3a	phosphate/phosphite/phosphonate transporter	PO
 T317	Rare nutr	1b	TonB-Xanth-Caul: TonB-dependent receptor	RN
 T457	Urea	3a	urea_arch: urea ABC transporter	NO
-T248	Urea	3a	urea_urt: urea ABC transporter	NO
+T287	Urea	3a	urea_urt: urea ABC transporter	NO
