@@ -38,8 +38,8 @@ T1059	Cations	1b	OMP_RagA_SusC: TonB-linked SusC/RagA	CAT
 T46	Cations	2a	potassium uptake	CAT
 T59	Cations	2c	TonB family	CAT
 T58	Cations	2a	ZIP zinc/iron transport	CAT
-T245	CO3	2a	putative bicarbonate transporter, IctB family	OT
-T15	N-FIX	3d	rnf: electron transport complex	N-FIX
+T245	Other	2a	putative bicarbonate transporter, IctB family	OT
+T15	Other	3d	rnf: electron transport complex	N-FIX
 T133	NH3 Nitrate	1a	amt: ammonium transporter	NI
 T48	AA peptide	2a	bcct: betaine/carnitine/choline transporter	AA-PEP
 T31	NH3 Nitrate	3a	ntr: nitrate ABC transporter	NI
@@ -54,6 +54,6 @@ T3	phosphate	3a	pst: phosphate ABC transporter	PI
 T115	phosphonate	3a	phn: phosphonate ABC transporter	PO
 T312	phosphonate	3a	phn2: phosphonate ABC transporter	PO
 T1013	phosphonate	3a	phosphate/phosphite/phosphonate transporter	PO
-T317	Rare nutr	1b	TonB-Xanth-Caul: TonB-dependent receptor	RN
+T317	Other	1b	TonB-Xanth-Caul: TonB-dependent receptor	RN
 T457	Urea	3a	urea_arch: urea ABC transporter	NO
 T287	Urea	3a	urea_urt: urea ABC transporter	NO
