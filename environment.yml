@@ -1,0 +1,16 @@
+name: transporters
+channels:
+  - conda-forge
+  - biocore
+  - bioconda
+dependencies:
+  - python=3.6
+  - networkx=2.3
+  - pandas=0.22.0
+  - goatools=0.9.5
+  - seaborn=0.8.1
+  - pandas=0.22.0
+  - jupyter=1.0.0
+  - scikit-learn=0.19.1
+  - bioconductor-deseq2=1.18.1
+  - scikit-bio=0.4.2
