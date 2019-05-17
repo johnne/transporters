@@ -11,16 +11,16 @@ T56	Anions	2a	dass: divalent anion:Na+ symporter	ANI
 T72	Anions	3a	mod: molybdate ABC transporter	ANI
 T18	Anions	3a	sulfate ABC transporter	ANI
 T54	Anions	2a	sulP: sulfate permease	ANI
-T5	carbohydrate	2a	dctM: TRAP transporter	CARB
-T652	carbohydrate	2a	fucP: L-fucose:H+ symporter	CARB
-T660	carbohydrate	2a	gluP: glucose/galactose transporter	CARB
-T61	carbohydrate	2a	gntP: transporter, gluconate:H+ symporter	CARB
-T112	carbohydrate	2a	gph: sugar transporter	CARB
-T320	carbohydrate	2a	malonate_mad: malonate transporter	CARB
-T67	carbohydrate	2a	NhaA: Na+/H+ antiporter	CARB
-T40	carbohydrate	4a	PEP-protein phosphotransferase	CARB
-T388	carbohydrate	2a	TRAP_fused: TRAP transporter	CARB
-T761	carbohydrate	2a	TRAP_TAXI: TRAP transporter	CARB
+T5	Carbohydrate	2a	dctM: TRAP transporter	CARB
+T652	Carbohydrate	2a	fucP: L-fucose:H+ symporter	CARB
+T660	Carbohydrate	2a	gluP: glucose/galactose transporter	CARB
+T61	Carbohydrate	2a	gntP: transporter, gluconate:H+ symporter	CARB
+T112	Carbohydrate	2a	gph: sugar transporter	CARB
+T320	Carbohydrate	2a	malonate_mad: malonate transporter	CARB
+T67	Carbohydrate	2a	NhaA: Na+/H+ antiporter	CARB
+T40	Carbohydrate	4a	PEP-protein phosphotransferase	CARB
+T388	Carbohydrate	2a	TRAP_fused: TRAP transporter	CARB
+T761	Carbohydrate	2a	TRAP_TAXI: TRAP transporter	CARB
 T12	Cations	2a	cation transport protein	CAT
 T84	Cations	2a	cation:proton antiporter-2	CAT
 T758	Cations	3a	cbiO: cobalt ABC transporter	CAT
@@ -44,16 +44,16 @@ T133	NH3 Nitrate	1a	amt: ammonium transporter	NI
 T48	AA peptide	2a	bcct: betaine/carnitine/choline transporter	AA-PEP
 T31	NH3 Nitrate	3a	ntr: nitrate ABC transporter	NI
 T843	Anions	3a	sulfate ABC transporter	ANI
-T738	nucleoside	2a	ncs1: nucleoside transporter	NUC
-T94	nucleoside	2a	ncs2: uracil-xanthine permease	NUC
-T1020	nucleoside	4b	nicotinamide mononucleotide transporter PnuC	NUC
-T28	nucleoside	2a	nupC: nucleoside transporter	NUC
+T738	Nucleoside	2a	ncs1: nucleoside transporter	NUC
+T94	Nucleoside	2a	ncs2: uracil-xanthine permease	NUC
+T1020	Nucleoside	4b	nicotinamide mononucleotide transporter PnuC	NUC
+T28	Nucleoside	2a	nupC: nucleoside transporter	NUC
 T154	Other	2a	fbt: folate/biopterin transporter	OT
 T109	Other	3a	TIGR00056: ABC transport	OT
-T3	phosphate	3a	pst: phosphate ABC transporter	PI
-T115	phosphonate	3a	phn: phosphonate ABC transporter	PO
-T312	phosphonate	3a	phn2: phosphonate ABC transporter	PO
-T1013	phosphonate	3a	phosphate/phosphite/phosphonate transporter	PO
+T3	Phosphate	3a	pst: phosphate ABC transporter	PI
+T115	Phosphonate	3a	phn: phosphonate ABC transporter	PO
+T312	Phosphonate	3a	phn2: phosphonate ABC transporter	PO
+T1013	Phosphonate	3a	phosphate/phosphite/phosphonate transporter	PO
 T317	Other	1b	TonB-Xanth-Caul: TonB-dependent receptor	RN
 T457	Urea	3a	urea_arch: urea ABC transporter	NO
 T287	Urea	3a	urea_urt: urea ABC transporter	NO
