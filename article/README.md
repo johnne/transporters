@@ -37,3 +37,6 @@ the notebooks in this repository. They were executed in the following order:
 6. [06.plot_deseq2.ipynb](06.plot_deseq2.ipynb)
 7. [07.environmental_correlations.ipynb](07.environmental_correlations.ipynb)
 8. [08.environmental_plot.ipynb](08.environmental_plot.ipynb)
+
+The [model.ipynb](model.ipynb) notebook contains specific analyses related
+to work with the BALTSEM model.
