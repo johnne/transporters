@@ -6,7 +6,7 @@ This repository contains scripts and data files for the analysis of transporters
 ## Install required software
 Use the supplied conda environment file:
 
-`conda env create -f env/environment.yml `
+`conda env create -f environment.yml `
 
 See the [Wiki](https://github.com/johnne/transporters/wiki) for details and usage.
 
