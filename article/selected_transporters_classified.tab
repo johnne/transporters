@@ -30,7 +30,7 @@ T68	Cations	1a	corA: magnesium and cobalt transport	CAT
 T27	Cations	9a	feoB: ferrous iron transport	CAT
 T724	Cations	1a	mgtE: magnesium transporter	CAT
 T19	Cations	2a	multicomponent Na+:H+ antiporter	CAT
-T901	phosphate	2a	Na/Pi-cotransporter	PI
+T901	Phosphate	2a	Na/Pi-cotransporter	PI
 T728	Cations	2a	NhaC: Na+/H+ antiporter	CAT
 T60	Cations	3a	nickel_nikE: nickel import	CAT
 T107	Cations	2a	nramp: metal ion transporter	CAT
