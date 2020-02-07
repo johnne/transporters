@@ -1,6 +1,6 @@
-	MG	MT
-Selected transporter genes	16320 (0.35%)	7949 (0.17%)
+	mg_select	mt_select
+Selected transporter genes	16320 (0.35%)	8009 (0.17%)
 Selected transporter max	0.57%	0.51%
-Selected transporter mean	0.4%	0.3%
-Selected transporter min	0.21%	0.03%
+Selected transporter mean	0.4%	0.29%
+Selected transporter min	0.21%	0.04%
 Selected transporter std	0.09%	0.11%
